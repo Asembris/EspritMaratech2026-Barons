@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { useUser } from '@/context/UserContext';
 import { useAudio } from '@/contexts/AudioContext';
+import { useAccessibility } from '@/context/AccessibilityContext';
 import { chatWithAssistant, transcribeAudio } from '@/lib/api';
 import { useAudioRecorder } from '@/hooks/useAudioRecorder';
 import { MessageCircle, X, Send, Mic, Sparkles, Bot, Minimize2, Maximize2, Loader2, StopCircle } from 'lucide-react';
@@ -21,10 +22,12 @@ export default function AssistantChat() {
     const [input, setInput] = useState("");
     const [isLoading, setIsLoading] = useState(false);
     const [isTranscribing, setIsTranscribing] = useState(false);
+    const [pendingAutoSend, setPendingAutoSend] = useState(false);
 
     const messagesEndRef = useRef<HTMLDivElement>(null);
     const { speak, stop, isSpeaking, audioEnabled } = useAudio();
     const { user } = useUser();
+    const { autoListenMode } = useAccessibility();
 
     // Audio Recorder Integration (Whisper Fallback)
     const { isRecording, startRecording, stopRecording } = useAudioRecorder();
@@ -37,6 +40,10 @@ export default function AssistantChat() {
                 const result = await transcribeAudio(blob, 'general'); // Gentle Mode
                 if (result.text) {
                     setInput(prev => (prev + " " + result.text).trim());
+                    // In autoListenMode, auto-send after transcription
+                    if (autoListenMode) {
+                        setPendingAutoSend(true);
+                    }
                 }
             } catch (error) {
                 console.error("Transcription failed", error);
@@ -69,6 +76,58 @@ export default function AssistantChat() {
         window.addEventListener('openArcAssistant', handleOpenAssistant);
         return () => window.removeEventListener('openArcAssistant', handleOpenAssistant);
     }, []);
+
+    // Auto-start recording when chat opens in autoListenMode
+    useEffect(() => {
+        if (!isOpen || !autoListenMode || isRecording || isLoading || isTranscribing) return;
+
+        // Wait for any speech to finish, then start recording
+        const timer = setTimeout(() => {
+            if (!isSpeaking) {
+                startRecording();
+            }
+        }, 1500);
+
+        return () => clearTimeout(timer);
+    }, [isOpen, autoListenMode, isRecording, isLoading, isTranscribing, isSpeaking, startRecording]);
+
+    // Auto-stop recording after 5 seconds in autoListenMode
+    useEffect(() => {
+        if (!autoListenMode || !isRecording) return;
+
+        const timer = setTimeout(async () => {
+            const blob = await stopRecording();
+            setIsTranscribing(true);
+            try {
+                const result = await transcribeAudio(blob, 'general');
+                if (result.text) {
+                    setInput(result.text.trim());
+                    setPendingAutoSend(true);
+                }
+            } catch (error) {
+                console.error("Transcription failed", error);
+            } finally {
+                setIsTranscribing(false);
+            }
+        }, 5000);
+
+        return () => clearTimeout(timer);
+    }, [autoListenMode, isRecording, stopRecording]);
+
+    // Auto-send when transcription is complete (pendingAutoSend)
+    useEffect(() => {
+        if (!pendingAutoSend || !input.trim() || isLoading) return;
+
+        setPendingAutoSend(false);
+        // Small delay to ensure state is updated
+        const timer = setTimeout(() => {
+            handleSendRef.current();
+        }, 100);
+
+        return () => clearTimeout(timer);
+    }, [pendingAutoSend, input, isLoading]);
+
+    const handleSendRef = useRef<() => Promise<void>>(() => Promise.resolve());
 
     const handleSend = async () => {
         if (!input.trim() || isLoading) return;
@@ -131,6 +190,9 @@ export default function AssistantChat() {
             setIsLoading(false);
         }
     };
+
+    // Keep handleSendRef updated
+    handleSendRef.current = handleSend;
 
     const handleKeyPress = (e: React.KeyboardEvent) => {
         if (e.key === 'Enter' && !e.shiftKey) {

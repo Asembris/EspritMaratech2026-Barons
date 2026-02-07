@@ -50,7 +50,7 @@ async def process_voice_command(request: CommandRequest):
 
     OUTPUT FORMAT (JSON ONLY):
     {
-        "type": "NAVIGATE" | "SCROLL" | "GO_BACK" | "CHECK_BALANCE" | "CHECK_HISTORY" | "LOGOUT" | "OPEN_CHAT" | "CLEAR_CART" | "CONFIRM_CART" | "ADD_TO_CART" | "UNKNOWN",
+        "type": "NAVIGATE" | "SCROLL" | "GO_BACK" | "CHECK_BALANCE" | "CHECK_HISTORY" | "LOGOUT" | "OPEN_CHAT" | "CLEAR_CART" | "CONFIRM_CART" | "ADD_TO_CART" | "PAUSE_LISTEN" | "RESUME_LISTEN" | "UNKNOWN",
         "payload": "/path" | "direction" | {"product": "name", "quantity": 1} | null,
         "message": "Short confirmation message to speak aloud (in French)."
     }
@@ -74,6 +74,10 @@ async def process_voice_command(request: CommandRequest):
        - "Payer", "Confirmer" -> "CONFIRM_CART"
        - "Ajouter Harissa" -> "ADD_TO_CART" {"product": "Harissa", "quantity": 1}
        - "Ajouter Thon" -> "ADD_TO_CART" {"product": "Thon", "quantity": 1}
+    
+    8. VOICE CONTROL:
+       - "Stop", "Pause", "Arrête", "Silence" -> "PAUSE_LISTEN"
+       - "Écoute", "Reprends", "Continue", "Réveille" -> "RESUME_LISTEN"
        
     EXAMPLES:
     - "Solde" -> {"type": "CHECK_BALANCE", "payload": null, "message": "Je vérifie votre solde."}
@@ -89,6 +93,8 @@ async def process_voice_command(request: CommandRequest):
     - "Payer" -> {"type": "CONFIRM_CART", "payload": null, "message": "Je confirme votre commande."}
     - "Commander" -> {"type": "CONFIRM_CART", "payload": null, "message": "Je valide votre achat."}
     - "Déconnexion" -> {"type": "LOGOUT", "payload": null, "message": "Je vous déconnecte."}
+    - "Stop" -> {"type": "PAUSE_LISTEN", "payload": null, "message": "Je me mets en pause."}
+    - "Écoute" -> {"type": "RESUME_LISTEN", "payload": null, "message": "Je vous écoute."}
     """
     
     try:

@@ -30,35 +30,31 @@ L'application dispose maintenant d'un **Agent de Navigation Vocale** permettant 
 - **Reconnaissance Phonétique** : "Bonk" → "Banque", "Salah" → "Panier" (Correction automatique IA).
 - **Multi-langue** : Compréhension du Darija, Français et Anglais.
 
-#### 📋 Guide d'Utilisation Étape par Étape :
+#### 🔊 Mode Mains-Libres (Nouveau - v3.0)
+Conçu pour les personnes **aveugles ou malvoyantes** : **ZERO clic requis**.
 
-**Étape 1 : Activer la Navigation Vocale**
-1. Cliquez sur le bouton **microphone gris** en bas au centre de l'écran.
-2. Le bouton devient **bleu** = Navigation vocale activée ✅
-3. L'assistant dit : *"Navigation vocale activée"*.
+**Activation Automatique :**
+1. À la question *"Pouvez-vous voir cet écran ?"*, répondez **"Non"**
+2. L'application passe directement en **mode mains-libres**
+3. Le micro s'active **automatiquement** - parlez directement !
 
-**Étape 2 : Donner une Commande**
-1. **Maintenez** le bouton micro (ou la touche **Espace** sur PC).
-2. Parlez clairement : ex. *"Banque"* ou *"Solde"*.
-3. **Relâchez** le bouton.
-4. L'assistant répond vocalement et exécute l'action.
+**Commandes de Contrôle :**
+| Commande | Action |
+|:---|:---|
+| **"Stop"** / **"Pause"** | Met l'écoute en pause |
+| **"Écoute"** / **"Reprends"** | Reprend l'écoute |
+| **"Assistant"** | Ouvre le chat IA (mains-libres aussi) |
 
-**Étape 3 : Commandes Disponibles**
-```
-🎯 Navigation : "Banque", "Magasin", "Accueil", "Traducteur"
-💰 Solde     : "Solde", "Combien j'ai ?"
-📜 Historique: "Historique", "Derniers achats"
-🛒 Panier    : "Ajoute Harissa", "Ajouter du Thon"
-🗑️ Vider     : "Vider le panier"
-💳 Payer     : "Payer", "Commander"
-🤖 Assistant : "Assistant", "Aide"
-🚪 Sortir    : "Déconnexion"
-```
+**Fonctionnement :**
+- 🎤 L'écoute démarre automatiquement après chaque réponse
+- ⏱️ Enregistrement automatique pendant 5 secondes max
+- 📤 Envoi automatique après silence détecté
+- 🔄 Cycle continu : Écoute → Action → Réponse → Écoute
 
-**Étape 4 : Auto-Résumé des Pages**
-- Quand vous naviguez, l'agent annonce automatiquement la page :
-  - *"Banque. Dites Solde ou Historique."*
-  - *"Magasin. Dites Ajouter Harissa ou Vider panier."*
+#### 📋 Mode Manuel (Utilisateurs Voyants)
+**Étape 1 :** Cliquez sur le bouton **microphone gris** en bas au centre.
+**Étape 2 :** **Maintenez** le bouton micro (ou touche **Espace**) pour parler.
+**Étape 3 :** **Relâchez** pour envoyer la commande.
 
 ### 3. 🤟 Accessibilité LSF (Langue des Signes)
 - Conversion de texte en vidéo LSF via Avatar.

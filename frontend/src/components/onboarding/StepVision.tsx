@@ -5,15 +5,17 @@ import { useAccessibility } from '@/context/AccessibilityContext';
 import { useAudio } from '@/contexts/AudioContext';
 import { useWhisper } from '@/hooks/useWhisper';
 import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
 
 interface Props {
     onNext: () => void;
 }
 
 export function StepVision({ onNext }: Props) {
-    const { setVoiceNavEnabled } = useAccessibility();
+    const { setVoiceNavEnabled, setAutoListenMode, completeOnboarding } = useAccessibility();
     const { speak } = useAudio();
     const { isRecording, isTranscribing, transcript, start, stop, error } = useWhisper();
+    const router = useRouter();
 
     // Auto-announce question on mount
     useEffect(() => {
@@ -32,26 +34,37 @@ export function StepVision({ onNext }: Props) {
 
         // Agent Interpretation Logic
         if (lowerText.includes('non') || lowerText.includes('pas') || lowerText.includes('mal') || lowerText.includes('no')) {
-            // User cannot see -> Agent enables Voice Nav
+            // User cannot see -> Agent enables Voice Nav + Auto-Listen + Skip all questions
             setVoiceNavEnabled(true);
-            speak("D'accord. J'active la navigation vocale pour vous aider.");
-            setTimeout(onNext, 3000);
+            setAutoListenMode(true); // Enable hands-free mode
+            speak("D'accord. J'active le mode mains-libres. Vous pouvez contrôler l'application entièrement à la voix.");
+            setTimeout(() => {
+                completeOnboarding();
+                router.push('/'); // Skip all other questions, go straight to app
+            }, 4000);
         } else if (lowerText.includes('oui') || lowerText.includes('bien') || lowerText.includes('voir') || lowerText.includes('yes') || lowerText.includes('we')) {
-            // User can see -> Agent disables Voice Nav
+            // User can see -> Agent disables Voice Nav, continue normal flow
             setVoiceNavEnabled(false);
+            setAutoListenMode(false);
             speak("Parfait. Continuons.");
             setTimeout(onNext, 2000);
         } else {
             speak("Je n'ai pas compris. Veuillez répéter Oui ou Non.");
         }
-    }, [transcript, setVoiceNavEnabled, speak, onNext]);
+    }, [transcript, setVoiceNavEnabled, setAutoListenMode, speak, onNext, completeOnboarding, router]);
 
     const handleAnswer = (canSee: boolean) => {
         setVoiceNavEnabled(!canSee);
         if (!canSee) {
-            speak("Activation de la navigation vocale. Je vais vous guider.");
+            setAutoListenMode(true); // Enable hands-free
+            speak("Activation du mode mains-libres. Je vais vous guider.");
+            setTimeout(() => {
+                completeOnboarding();
+                router.push('/'); // Skip all other questions
+            }, 3000);
+        } else {
+            onNext();
         }
-        onNext();
     };
 
     return (

@@ -15,6 +15,9 @@ interface AccessibilityContextType {
     setSoundEnabled: (enabled: boolean) => void;
     hasCompletedOnboarding: boolean;
     completeOnboarding: () => void;
+    // Hands-free mode: auto-listen without clicks
+    autoListenMode: boolean;
+    setAutoListenMode: (enabled: boolean) => void;
 }
 
 const AccessibilityContext = createContext<AccessibilityContextType | undefined>(undefined);
@@ -25,6 +28,7 @@ export function AccessibilityProvider({ children }: { children: ReactNode }) {
     const [isSignLanguageEnabled, setSignLanguageEnabled] = useState(false);
     const [isSoundEnabled, setSoundEnabled] = useState(true);
     const [hasCompletedOnboarding, setHasCompletedOnboarding] = useState(false);
+    const [autoListenMode, setAutoListenMode] = useState(false);
 
     // Load settings from localStorage on mount
     useEffect(() => {
@@ -79,7 +83,12 @@ export function AccessibilityProvider({ children }: { children: ReactNode }) {
         isSoundEnabled,
         setSoundEnabled,
         hasCompletedOnboarding,
-        completeOnboarding
+        completeOnboarding,
+        autoListenMode,
+        setAutoListenMode: (val: boolean) => {
+            setAutoListenMode(val);
+            localStorage.setItem('access_autoListen', String(val));
+        }
     };
 
     return (

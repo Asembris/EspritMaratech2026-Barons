@@ -10,7 +10,7 @@ import { sendVoiceCommand } from '@/lib/api';
 import { Mic, Loader2, Navigation } from 'lucide-react';
 
 export default function VoiceControlManager() {
-    const { isVoiceNavEnabled, setVoiceNavEnabled } = useAccessibility();
+    const { isVoiceNavEnabled, setVoiceNavEnabled, autoListenMode, setAutoListenMode } = useAccessibility();
     const { speak, cancel } = useAudio();
     const { start, stop, transcript, isRecording, isTranscribing, clearTranscript } = useWhisper('command'); // Strict Mode
     const router = useRouter();
@@ -18,6 +18,7 @@ export default function VoiceControlManager() {
 
     const [isProcessing, setIsProcessing] = useState(false);
     const [lastAction, setLastAction] = useState<string | null>(null);
+    const [isPaused, setIsPaused] = useState(false); // Temporary pause
 
     // Stop speaking when user wants to record
     const handleStart = () => {
@@ -81,6 +82,33 @@ export default function VoiceControlManager() {
         return () => clearTimeout(timer);
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [pathname, isVoiceNavEnabled]);
+
+    // Auto-Listen Mode: Auto-start recording when idle and not paused
+    useEffect(() => {
+        if (!autoListenMode || !isVoiceNavEnabled || isPaused) return;
+        if (isRecording || isTranscribing || isProcessing) return;
+        if (pathname?.startsWith('/onboarding') || pathname === '/login') return;
+
+        // Wait a bit after processing before starting to listen again
+        const timer = setTimeout(() => {
+            console.log("Auto-listen: Starting recording...");
+            start();
+        }, 2000); // 2s delay to let user hear response
+
+        return () => clearTimeout(timer);
+    }, [autoListenMode, isVoiceNavEnabled, isPaused, isRecording, isTranscribing, isProcessing, pathname, start]);
+
+    // Auto-stop recording after 5 seconds in auto-listen mode
+    useEffect(() => {
+        if (!autoListenMode || !isRecording) return;
+
+        const timer = setTimeout(() => {
+            console.log("Auto-listen: Auto-stopping after 5s...");
+            stop();
+        }, 5000); // Max 5 seconds recording
+
+        return () => clearTimeout(timer);
+    }, [autoListenMode, isRecording, stop]);
 
     // Process Transcript when ready
     const processedRef = useRef<string>('');
@@ -185,6 +213,14 @@ export default function VoiceControlManager() {
                                 speak("Erreur lors de la confirmation de la commande.");
                             }
                         }
+                        break;
+                    case 'PAUSE_LISTEN':
+                        setIsPaused(true);
+                        speak("Je me mets en pause. Dites 'Écoute' pour reprendre.");
+                        break;
+                    case 'RESUME_LISTEN':
+                        setIsPaused(false);
+                        speak("Je vous écoute à nouveau.");
                         break;
                 }
 
