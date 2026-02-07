@@ -30,6 +30,36 @@ L'application dispose maintenant d'un **Agent de Navigation Vocale** permettant 
 - **Reconnaissance Phonétique** : "Bonk" → "Banque", "Salah" → "Panier" (Correction automatique IA).
 - **Multi-langue** : Compréhension du Darija, Français et Anglais.
 
+#### 📋 Guide d'Utilisation Étape par Étape :
+
+**Étape 1 : Activer la Navigation Vocale**
+1. Cliquez sur le bouton **microphone gris** en bas au centre de l'écran.
+2. Le bouton devient **bleu** = Navigation vocale activée ✅
+3. L'assistant dit : *"Navigation vocale activée"*.
+
+**Étape 2 : Donner une Commande**
+1. **Maintenez** le bouton micro (ou la touche **Espace** sur PC).
+2. Parlez clairement : ex. *"Banque"* ou *"Solde"*.
+3. **Relâchez** le bouton.
+4. L'assistant répond vocalement et exécute l'action.
+
+**Étape 3 : Commandes Disponibles**
+```
+🎯 Navigation : "Banque", "Magasin", "Accueil", "Traducteur"
+💰 Solde     : "Solde", "Combien j'ai ?"
+📜 Historique: "Historique", "Derniers achats"
+🛒 Panier    : "Ajoute Harissa", "Ajouter du Thon"
+🗑️ Vider     : "Vider le panier"
+💳 Payer     : "Payer", "Commander"
+🤖 Assistant : "Assistant", "Aide"
+🚪 Sortir    : "Déconnexion"
+```
+
+**Étape 4 : Auto-Résumé des Pages**
+- Quand vous naviguez, l'agent annonce automatiquement la page :
+  - *"Banque. Dites Solde ou Historique."*
+  - *"Magasin. Dites Ajouter Harissa ou Vider panier."*
+
 ### 3. 🤟 Accessibilité LSF (Langue des Signes)
 - Conversion de texte en vidéo LSF via Avatar.
 - Dictionnaire de signes intégré.
