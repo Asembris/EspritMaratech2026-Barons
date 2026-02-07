@@ -1,0 +1,41 @@
+{
+  "letters": {
+    "A": "signs/letter_a.png",
+    "B": "signs/letter_b.png",
+    "C": "signs/letter_c.png",
+    "D": "signs/letter_d.png",
+    "E": "signs/letter_e.png",
+    "F": "signs/letter_f.png",
+    "G": "signs/letter_g.png",
+    "H": "signs/letter_h.png",
+    "I": "signs/letter_i.png",
+    "J": "signs/letter_j.png",
+    "K": "signs/letter_k.png",
+    "L": "signs/letter_l.png",
+    "M": "signs/letter_m.png",
+    "N": "signs/letter_n.png",
+    "O": "signs/letter_o.png",
+    "P": "signs/letter_p.png",
+    "Q": "signs/letter_q.png",
+    "R": "signs/letter_r.png",
+    "S": "signs/letter_s.png",
+    "T": "signs/letter_t.png",
+    "U": "signs/letter_u.png",
+    "V": "signs/letter_v.png",
+    "W": "signs/letter_w.png",
+    "X": "signs/letter_x.png",
+    "Y": "signs/letter_y.png",
+    "Z": "signs/letter_z.png"
+  },
+  "numbers": {
+    "1": "signs/num_1.png",
+    "2": "signs/num_2.png",
+    "3": "signs/num_3.png",
+    "4": "signs/num_4.png",
+    "5": "signs/num_5.png",
+    "6": "signs/num_6.png",
+    "7": "signs/num_7.png",
+    "8": "signs/num_8.png",
+    "9": "signs/num_9.png"
+  }
+}

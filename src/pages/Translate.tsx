@@ -1,10 +1,23 @@
-import { useState, useRef, useEffect, useCallback } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { PageLayout } from "@/components/PageLayout";
 import { Section } from "@/components/Section";
 import { AccessibleButton } from "@/components/AccessibleButton";
 import { LiveRegion } from "@/components/LiveRegion";
 import { useSpeech } from "@/hooks/use-speech";
 import { convertToGloss, ConvertResponse } from "@/lib/omarApi";
+import { GestureDetector } from "@/components/GestureDetector";
+
+// Get sign image path for a character
+const getSignImagePath = (char: string): string | null => {
+    const c = char.toLowerCase();
+    if (c >= 'a' && c <= 'z') {
+        return `/signs/letter_${c}.png`;
+    }
+    if (c >= '1' && c <= '9') {
+        return `/signs/num_${c}.png`;
+    }
+    return null;
+};
 
 /**
  * Translate Page - LSF (French Sign Language) Converter
@@ -12,7 +25,8 @@ import { convertToGloss, ConvertResponse } from "@/lib/omarApi";
  * Converts French text to LSF notation with:
  * - Text input
  * - Gloss notation output
- * - Fingerspelling visualization
+ * - Fingerspelling visualization with sign images
+ * - Camera gesture detection
  * - Keyboard navigation
  * - Voice feedback
  */
@@ -62,6 +76,8 @@ const TranslatePage = () => {
         }
     };
 
+    const allChars = result?.fingerspelling || [];
+
     // Keyboard navigation
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
@@ -101,8 +117,6 @@ const TranslatePage = () => {
         return () => document.removeEventListener("keydown", handleKeyDown);
     }, [result, isPlaying, announce]);
 
-    const allChars = result?.fingerspelling || [];
-
     const playAnimation = () => {
         if (allChars.length === 0) return;
         setIsPlaying(true);
@@ -125,12 +139,32 @@ const TranslatePage = () => {
         }, 600);
     };
 
+    // Handle gesture detection
+    const handleGesture = (gesture: string, action: string) => {
+        announce(`Geste: ${gesture} - ${action}`);
+
+        // Handle navigation with gestures
+        if (action === "Suivant" && allChars.length > 0) {
+            setCurrentIndex((prev) => Math.min(allChars.length - 1, prev + 1));
+        } else if (action === "Précédent" && allChars.length > 0) {
+            setCurrentIndex((prev) => Math.max(0, prev - 1));
+        } else if (action === "Confirmer" && !isPlaying && allChars.length > 0) {
+            playAnimation();
+        }
+    };
+
+    const currentChar = allChars[currentIndex];
+    const currentSignImage = currentChar && currentChar.type !== "space"
+        ? getSignImagePath(currentChar.character)
+        : null;
+
     return (
         <PageLayout>
             <Section title="Traduction en Langue des Signes" headingLevel="h1" id="translate">
                 <p className="text-foreground mb-6 max-w-2xl">
                     Convertissez du texte français en notation LSF (Langue des Signes
-                    Française). Utilisez les flèches ← → pour naviguer, Espace pour animer.
+                    Française). Utilisez les flèches ← → pour naviguer, Espace pour animer,
+                    ou utilisez la détection de gestes par caméra.
                 </p>
 
                 {/* Input form */}
@@ -186,6 +220,14 @@ const TranslatePage = () => {
                 </LiveRegion>
             </Section>
 
+            {/* Gesture Detection */}
+            <Section title="Détection de Gestes" id="gesture-detection">
+                <p className="text-muted-foreground mb-4">
+                    Utilisez votre caméra pour contrôler la navigation avec des gestes de la main.
+                </p>
+                <GestureDetector onGestureDetected={handleGesture} />
+            </Section>
+
             {/* Results */}
             {result && (
                 <>
@@ -210,24 +252,42 @@ const TranslatePage = () => {
 
                     {/* Fingerspelling Display */}
                     <Section title="Épellation" id="spelling">
-                        {/* Current character */}
+                        {/* Current character with sign image */}
                         <div
                             className="flex flex-col items-center mb-6"
                             role="region"
                             aria-label="Caractère actuel"
                             aria-live="polite"
                         >
-                            <div
-                                className={[
-                                    "w-32 h-32 rounded-xl flex items-center justify-center text-6xl font-bold",
-                                    allChars[currentIndex]?.type === "space"
-                                        ? "bg-muted text-muted-foreground"
-                                        : "bg-gradient-to-br from-purple-500 to-pink-500 text-white",
-                                ].join(" ")}
-                            >
-                                {allChars[currentIndex]?.type === "space"
-                                    ? "⎵"
-                                    : allChars[currentIndex]?.character || "-"}
+                            <div className="flex items-center gap-6">
+                                {/* Sign image */}
+                                {currentSignImage ? (
+                                    <div className="w-40 h-40 rounded-xl bg-card border-2 border-border overflow-hidden flex items-center justify-center">
+                                        <img
+                                            src={currentSignImage}
+                                            alt={`Signe LSF pour ${currentChar?.character}`}
+                                            className="w-full h-full object-contain"
+                                        />
+                                    </div>
+                                ) : (
+                                    <div className="w-40 h-40 rounded-xl bg-muted border-2 border-border flex items-center justify-center text-muted-foreground">
+                                        {currentChar?.type === "space" ? "Espace" : ""}
+                                    </div>
+                                )}
+
+                                {/* Character display */}
+                                <div
+                                    className={[
+                                        "w-32 h-32 rounded-xl flex items-center justify-center text-6xl font-bold",
+                                        currentChar?.type === "space"
+                                            ? "bg-muted text-muted-foreground"
+                                            : "bg-gradient-to-br from-purple-500 to-pink-500 text-white",
+                                    ].join(" ")}
+                                >
+                                    {currentChar?.type === "space"
+                                        ? "⎵"
+                                        : currentChar?.character || "-"}
+                                </div>
                             </div>
                             <p className="mt-2 text-muted-foreground">
                                 {currentIndex + 1} / {allChars.length}
@@ -300,7 +360,7 @@ const TranslatePage = () => {
                         </div>
 
                         <p className="text-center text-muted-foreground text-sm mt-4">
-                            💡 Utilisez les touches ← → pour naviguer, Espace pour animer
+                            💡 Utilisez les touches ← → pour naviguer, Espace pour animer, ou les gestes de main
                         </p>
                     </Section>
                 </>
@@ -310,3 +370,4 @@ const TranslatePage = () => {
 };
 
 export default TranslatePage;
+
