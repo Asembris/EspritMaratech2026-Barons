@@ -39,6 +39,8 @@ const LoginPage = () => {
         try {
             const user = await loginUser(email);
             localStorage.setItem("clearpath_user", JSON.stringify(user));
+            // Dispatch storage event to update Navigation
+            window.dispatchEvent(new Event("storage"));
             const msg = `Bienvenue ${user.full_name || user.username}!`;
             setAnnouncement(msg);
             speak(msg);
