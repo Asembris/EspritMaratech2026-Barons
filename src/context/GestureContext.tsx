@@ -150,17 +150,28 @@ export const GestureProvider = ({ children }: { children: React.ReactNode }) => 
             case 'victory': navigatePage('home'); break;
             case 'point_right': navigatePage('next'); break;
             case 'point_left': navigatePage('prev'); break;
-            case 'closed_fist':
-                stopTTS();
-                setTtsEnabled(false);
-                window.speechSynthesis.speak(new SpeechSynthesisUtterance("Voix OFF"));
-                break;
-            case 'open_hand':
-                setTtsEnabled(true);
-                speak("Voix ON");
-                break;
+
             case 'thumbs_up':
-                if (ttsEnabled) speak("OK");
+                // Toggle Voice
+                const newState = !ttsEnabled;
+                setTtsEnabled(newState);
+                if (newState) {
+                    speak("Voix activée");
+                } else {
+                    stopTTS();
+                    window.speechSynthesis.speak(new SpeechSynthesisUtterance("Voix désactivée"));
+                }
+                break;
+
+            case 'open_hand':
+                // Scroll Down / Read more
+                window.scrollBy({ top: 300, behavior: 'smooth' });
+                // Optional: speak current section if using focus logic, but for simple scroll:
+                break;
+
+            case 'closed_fist':
+                // Scroll Up
+                window.scrollBy({ top: -300, behavior: 'smooth' });
                 break;
         }
     }, [navigatePage, speak, stopTTS, ttsEnabled]);

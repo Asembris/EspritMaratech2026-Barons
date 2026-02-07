@@ -11,12 +11,12 @@ interface GestureInfo {
 }
 
 const gesturesConfig = [
-    { id: 'open_hand', emoji: '🖐️', name: 'Main Ouverte', action: 'Voix ON' },
-    { id: 'closed_fist', emoji: '✊', name: 'Poing Fermé', action: 'Voix OFF' },
+    { id: 'thumbs_up', emoji: '👍', name: 'Pouce Levé', action: 'Voix ON/OFF' },
+    { id: 'open_hand', emoji: '🖐️', name: 'Main Ouverte', action: 'Défiler Bas' },
+    { id: 'closed_fist', emoji: '✊', name: 'Poing Fermé', action: 'Défiler Haut' },
     { id: 'point_right', emoji: '👉', name: 'Pointer Droite', action: 'Page Suivante' },
     { id: 'point_left', emoji: '👈', name: 'Pointer Gauche', action: 'Page Précédente' },
     { id: 'victory', emoji: '✌️', name: 'V de la Victoire', action: 'Accueil' },
-    { id: 'thumbs_up', emoji: '👍', name: 'Pouce Levé', action: 'Confirmer' },
 ];
 
 export function GestureDetector() {
