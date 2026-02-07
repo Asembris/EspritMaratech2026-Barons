@@ -204,7 +204,7 @@ export default function VoiceControlManager() {
                                 const { clearCart } = await import('@/lib/api');
                                 await clearCart(user.id);
                                 speak("Le panier a été vidé.");
-                                window.dispatchEvent(new Event('cart-updated'));
+                                window.dispatchEvent(new Event('cartUpdated'));
                             } catch (e) {
                                 speak("Erreur lors de la suppression du panier.");
                             }
@@ -216,7 +216,7 @@ export default function VoiceControlManager() {
                                 const { addToCart } = await import('@/lib/api');
                                 await addToCart(user.id, action.payload.product, action.payload.quantity || 1);
                                 speak(`J'ai ajouté ${action.payload.product} au panier.`);
-                                window.dispatchEvent(new Event('cart-updated'));
+                                window.dispatchEvent(new Event('cartUpdated'));
                             } catch (e) {
                                 speak("Erreur lors de l'ajout au panier.");
                             }
@@ -228,6 +228,8 @@ export default function VoiceControlManager() {
                                 const { checkoutCart } = await import('@/lib/api');
                                 await checkoutCart(user.id);
                                 speak("Commande confirmée! Merci pour votre achat.");
+                                window.dispatchEvent(new Event('cartUpdated'));
+                                window.dispatchEvent(new Event('balanceUpdated'));
                                 router.push('/store');
                             } catch (e) {
                                 speak("Erreur lors de la confirmation de la commande.");

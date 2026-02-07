@@ -182,6 +182,7 @@ export default function AssistantChat() {
             };
             setMessages(prev => [...prev, assistantMsg]);
             window.dispatchEvent(new Event('cartUpdated'));
+            window.dispatchEvent(new Event('balanceUpdated'));
             if (audioEnabled) {
                 speak(data.response);
             }

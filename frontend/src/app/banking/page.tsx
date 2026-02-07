@@ -42,7 +42,12 @@ export default function BankingPage() {
                 setLoading(false);
             }
         }
+
         fetchData();
+
+        // Listen for balance updates from Assistant/Voice Agent
+        window.addEventListener('balanceUpdated', fetchData);
+        return () => window.removeEventListener('balanceUpdated', fetchData);
     }, [user]);
 
     return (
