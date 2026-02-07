@@ -1,105 +1,130 @@
-# 🌐 ClearPath Access — Plateforme d'Assistance Cognitive & Sensorielle
+# ClearPath Access
 
-**Une révolution dans l'accessibilité numérique.** ClearPath Access n'est pas simplement une application web, c'est un **écosystème d'assistance multimodal** conçu pour briser les barrières numériques. En combinant **l'Intelligence Artificielle Générative**, la **Vision par Ordinateur** en temps réel et le **Traitement du Langage Naturel**, nous offrons une expérience utilisateur sans précédent pour les personnes malvoyantes, à mobilité réduite ou âgées.
-
----
-
-## 🚀 Fonctionnalités Révolutionnaires
-
-### 🧠 Cerveau IA Contextuel (Neural Guidance)
-Notre moteur d'IA ne se contente pas de lire l'écran, il le **comprend**.
-- **Analyse Sémantique de Page** : L'IA scanne le DOM en temps réel pour comprendre le contexte exact (Banque, Shopping, Traduction).
-- **Assistant Proactif** : "Je vois que vous êtes sur votre solde, voulez-vous faire un virement ?"
-- **Cuisine & Lifestyle** : Un chef IA intégré capable de générer des recettes étape par étape avec lecture vocale.
-
-### 👁️ Navigation Gestuelle par Vision (GestureControl™)
-Oubliez la souris. Contrôlez l'interface par de simples mouvements de la main, capturés en **temps réel par notre moteur de vision embarqué**.
-- **Technologie Zero-Latency** : Traitement local (Edge Computing) via MediaPipe pour une latence nulle.
-- **Persistance Globale** : La caméra vous suit intelligemment à travers toute l'application.
-- **Grammaire Gestuelle Intuitive** :
-  - 👍 **Pouce Levé** : Activer/Couper la Voix instantanément.
-  - 🖐️ **Main Ouverte** : Scroll Fluide vers le bas (lecture continue).
-  - ✊ **Poing Fermé** : Scroll vers le haut (retour arrière).
-  - 👉 **Pointage Directionnel** : Navigation fluide entre les modules.
-  - ✌️ **Victoire** : Retour immédiat à l'Accueil (Home Jump).
-
-### 🗣️ Interface Vocale Bidirectionnelle
-- **Traitement du Langage Naturel (NLP)** : Parlez naturellement, le système comprend vos intentions ("Je veux acheter du lait" -> Ajout au panier).
-- **Synthèse Vocale Neuronale** : Retours vocaux naturels et empathiques pour chaque action.
-- **Commandes Universelles** : Contrôle total de l'interface par la voix.
+**ClearPath Access** is a comprehensive accessible web platform designed to eliminate digital barriers for users with visual, motor, or cognitive impairments. It integrates multimodal interaction paradigms—Voice, Gesture, and AI—into a unified React application.
 
 ---
 
-## ⚡ Architecture Technique (State-of-the-Art)
+## 🏗️ System Architecture
 
-ClearPath Access repose sur une stack technologique moderne, robuste et sécurisée.
+The project is built on a modern stack focusing on performance, accessibility (a11y), and local processing privacy.
 
-| Couche | Technologies |
-|--------|--------------|
-| **Frontend Core** | **React 18** (Concurrent Mode), **TypeScript** (Strict Mode), **Vite** (Build optimisé) |
-| **Vision Engine** | **MediaPipe Hands** (Google) accéléré par WebGL pour le tracking squelettique 3D |
-| **Logic Layer** | **Ollama** (LLM Local phi3/mistral) + **FastAPI** (Python High-Performance) |
-| **State Management** | **Context API** avec persistance de session et gestion d'états complexes |
-| **Accessibilité** | **WCAG 2.1 AA Compliant**, Semantic HTML5, ARIA Live Regions dynamiques |
-| **Styling** | **Tailwind CSS** (JIT Engine) + **Shadcn/UI** (Radix Primitives) pour une UI adaptative |
-
----
-
-## 🔒 Sécurité & Confidentialité par Design
-
-- **Traitement Local (Privacy-First)** : L'analyse vidéo et la reconnaissance vocale peuvent fonctionner en local.
-- **Sanitisation Git** : Protection avancée des secrets et variables d'environnement.
-- **Aucun stockage biométrique** : Les flux vidéo sont traités en mémoire volatile et jamais enregistrés.
+| Component | Technology | Description |
+|-----------|------------|-------------|
+| **Frontend** | React 18, TypeScript, Vite | Core application logic with concurrent rendering. |
+| **UI System** | Tailwind CSS, Shadcn/UI | Responsive, accessible components (Radix Primitives). |
+| **State** | React Context API | Global state management for Auth, Cart, Voice, and Gestures. |
+| **Computer Vision** | MediaPipe Hands | Client-side real-time hand tracking and gesture recognition. |
+| **Voice Engine** | Web Speech API | Native browser Speech-to-Text (STT) and Text-to-Speech (TTS). |
+| **AI Assistant** | Ollama (Phi-3/Mistral) | Local LLM for contextual guidance and task assistance. |
+| **Backend** | FastAPI (Python) | optional backend for banking simulation and advanced processing. |
 
 ---
 
-## 🛠️ Guide de Déploiement
+## 📦 Core Modules & Features
 
-### Prérequis Système
-- **Runtime** : Node.js v18+ & Python 3.10+
-- **IA Engine** : Ollama (Service local)
-- **Matériel** : Webcam standard (suffisant grâce à notre optimisation)
+### 1. Global Gesture Navigation (Computer Vision)
+Implemented via a persistent `GestureContext` that maintains a MediaPipe video stream across all routes. The system processes video frames locally to detect specific hand signs for navigation.
 
-### 1. Installation du Cœur
-```bash
-git clone https://github.com/Asembris/MaraTech.git
-cd MaraTech
-npm install
-```
+- **Status**: Global & Persistent (Works on all pages).
+- **Latency**: Real-time (<50ms processing).
+- **Gesture Map**:
+  - `✌️ Victory` : **Navigate to Home** (Global shortcut).
+  - `👉 Point Right` : **Next Page** (Cyclic navigation).
+  - `👈 Point Left` : **Previous Page** (Cyclic navigation).
+  - `👍 Thumbs Up` : **Toggle Voice Feedback** (On/Off).
+  - `🖐️ Open Hand` : **Scroll Down** (Page interaction).
+  - `✊ Closed Fist` : **Scroll Up** (Page interaction).
 
-### 2. Démarrage de l'Écosystème
-```bash
-# Lance le frontend, le proxy vocal et connecte l'IA
-npm run dev
-```
+### 2. Intelligent Voice Guidance
+A dual-layer voice system providing both deterministic control and AI-driven assistance.
 
-### 3. Connexion du Serveur d'IA (Optionnel pour fonctionnalités avancées)
-```bash
-# Dans un nouveau terminal
-cd backend
-pip install -r requirements.txt
-python -m uvicorn app.main:app --reload
-```
+- **Navigation Commands**: "Aller à la banque", "Ouvrir courses", "Retour accueil".
+- **Contextual Awareness**: The AI analyzes the current DOM state to answer questions like "Where am I?" or "What can I do here?".
+- **Feedback**: All user actions (clicks, navigation, errors) generate spoken feedback via `window.speechSynthesis`.
+
+### 3. AI Assistant (Omar)
+A floating chat interface powered by a local Ollama instance (Phi-3 Instruct).
+- **Role**: Assists with complex tasks (e.g., generating recipes, summarizing transaction history).
+- **Context Injection**: The current page state (e.g., cart contents, bank balance) is injected into the prompt context for relevant answers.
+
+### 4. Functional Modules
+
+#### 🏦 Banking (Simulated)
+- **Features**: View Balance, Transaction History, Make Transfers.
+- **Accessibility**: High-contrast numbers, voice confirmation of transactions.
+
+#### 🛒 Shopping & Cart
+- **Features**: Product catalog, dynamic cart management.
+- **Voice Integration**: "Ajoute du lait au panier", "Vide le panier".
+
+#### 🤟 Sign Language Translator (Translate)
+- **Input**: Text-to-Gloss conversion logic.
+- **Output**: Visualizes French Sign Language (LSF) via fingerspelling images.
+- **Interaction**: Keyboard navigation (Arrows) / Gesture navigation integration.
 
 ---
 
-## 🌟 Modules Intégrés
+## 🔒 Security Implementation
 
-### 🏦 Banque Accessible
-Interface financière simplifiée avec gros caractères, contrastes élevés et validation vocale des transactions.
-
-### 🛒 Shopping Assistant
-Liste de courses intelligente qui mémorise vos habitudes et suggère des produits. Commandez par la voix : *"Ajoute 6 œufs"*.
-
-### 🤟 Traducteur LSF (Langue des Signes)
-Module éducatif convertissant le texte en **Langue des Signes Française** avec avatar virtuel et reconnaissance de signes via caméra.
+- **Environment Isolation**: `.env` files are strictly excluded from version control (`.gitignore`).
+- **Data Privacy**:
+  - **Camera**: Stream is processed in volatile memory (Client-side) and never transmitted to a server.
+  - **Voice**: STT processed by browser vendor (Web Speech API) or locally depending on browser config.
 
 ---
 
-## 🤝 Contribution & Communauté
+## � Setup & Installation
 
-Ce projet est Open Source. Nous croyons en un web ouvert et accessible à tous.
-Rejoignez-nous pour construire le futur de l'accessibilité.
+### Prerequisites
+- Node.js v18+
+- Python 3.10+ (for Backend)
+- Ollama (for AI features) running locally on port `11434`.
 
-**Licence** : MIT
-**Développé avec ❤️ par l'équipe MaraTech**
+### Installation
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/Asembris/MaraTech.git
+   cd MaraTech
+   ```
+
+2. **Frontend Setup**
+   ```bash
+   npm install
+   npm run dev
+   # Accessible at http://localhost:5173
+   ```
+
+3. **Backend Setup (Optional)**
+   ```bash
+   cd backend
+   # Create virtual env recommended
+   pip install -r requirements.txt
+   python -m uvicorn app.main:app --reload
+   # Accessible at http://localhost:8000
+   ```
+
+4. **AI Configuration**
+   Ensure Ollama is running with CORS allowed:
+   ```bash
+   # Windows Env Var
+   set OLLAMA_ORIGINS="*"
+   set OLLAMA_HOST="0.0.0.0:11434"
+   ollama serve
+   ```
+
+---
+
+## � Contributing
+
+Strict adherence to WCAG 2.1 AA guidelines is required for all UI contributions.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'feat: Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+---
+
+**License**: MIT
