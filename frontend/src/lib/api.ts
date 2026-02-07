@@ -16,6 +16,7 @@ export const API = {
     cart: `${API_BASE_URL}/api/store/cart`,
     chat: `${API_BASE_URL}/api/assistant/chat`,
     transcribe: `${API_BASE_URL}/api/transcribe`,
+    agentCommand: `${API_BASE_URL}/api/agent/command`,
 };
 
 // Types
@@ -154,15 +155,53 @@ export async function removeFromCart(userId: number, productName: string) {
     return res.json();
 }
 
-export async function transcribeAudio(audioBlob: Blob) {
+export async function clearCart(userId: number) {
+    const res = await fetch(`${API_BASE_URL}/api/store/clear`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ user_id: userId })
+    });
+    if (!res.ok) throw new Error("Failed to clear cart");
+    return res.json();
+}
+
+export async function checkoutCart(userId: number) {
+    const res = await fetch(`${API_BASE_URL}/api/store/checkout`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ user_id: userId })
+    });
+    if (!res.ok) throw new Error("Failed to checkout");
+    return res.json();
+}
+
+export async function transcribeAudio(audioBlob: Blob, mode: 'general' | 'command' = 'general') {
     const formData = new FormData();
+    // Use .webm extension but ensure backend handles it. 
+    // OpenAI Whisper supports webm.
     formData.append("file", audioBlob, "recording.webm");
+    formData.append("mode", mode);
 
     const res = await fetch(API.transcribe, {
         method: 'POST',
         body: formData,
     });
 
-    if (!res.ok) throw new Error("Transcription failed");
+    if (!res.ok) {
+        const errorData = await res.json().catch(() => ({ detail: res.statusText }));
+        console.error("Transcription API Error:", errorData);
+        throw new Error(errorData.detail || "Transcription failed");
+    }
+    return res.json();
+}
+
+export async function sendVoiceCommand(command: string, currentPage: string = "/") {
+    const res = await fetch(API.agentCommand, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ command, current_page: currentPage })
+    });
+
+    if (!res.ok) throw new Error("Agent command failed");
     return res.json();
 }

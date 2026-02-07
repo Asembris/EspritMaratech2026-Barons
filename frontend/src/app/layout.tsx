@@ -7,6 +7,10 @@ import GlobalAudioToggle from "@/components/GlobalAudioToggle";
 import AssistantChat from "@/components/AssistantChat";
 import NavBar from "@/components/NavBar";
 import { UserProvider } from "@/context/UserContext";
+import { AccessibilityProvider } from "@/context/AccessibilityContext";
+import { OnboardingCheck } from "@/components/OnboardingCheck";
+import SignLanguageSummary from "@/components/SignLanguageSummary";
+import VoiceControlManager from "@/components/VoiceControlManager";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -56,12 +60,17 @@ export default function RootLayout({
           <a href="#main-content" className="skip-link">Aller au contenu principal</a>
           {/* Client-side providers */}
           <Providers>
-            <UserProvider>
-              <NavBar />
-              {children}
-              <GlobalAudioToggle />
-              <AssistantChat />
-            </UserProvider>
+            <AccessibilityProvider>
+              <UserProvider>
+                <OnboardingCheck />
+                <NavBar />
+                {children}
+                <GlobalAudioToggle />
+                <AssistantChat />
+                <SignLanguageSummary />
+                <VoiceControlManager />
+              </UserProvider>
+            </AccessibilityProvider>
           </Providers>
         </div>
       </body>

@@ -9,23 +9,44 @@ Une plateforme innovante combinant **Intelligence Artificielle**, **Accessibilit
 - **Auto-Correction IA** : L'assistant (GPT-4o-mini) traduit et reformule automatiquement votre demande en Français formel.
 - **Synthèse Vocale** : Réponse audio naturelle.
 
-### 2. 🤟 Accessibilité LSF (Langue des Signes)
+### 2. 🎙️ Agent Vocal Global (Nouveau - v2.0)
+L'application dispose maintenant d'un **Agent de Navigation Vocale** permettant de contrôler entièrement l'application à la voix, sans utiliser la souris.
+
+#### Commandes Vocales Supportées :
+| Commande | Action | Exemple |
+|:---|:---|:---|
+| **Navigation** | Aller à une page | *"Banque"*, *"Magasin"*, *"Accueil"* |
+| **Solde** | Consulter le solde | *"Quel est mon solde ?"*, *"Combien j'ai ?"* |
+| **Historique** | Voir les transactions | *"Historique"*, *"Derniers achats"* |
+| **Panier** | Ajouter des produits | *"Ajoute Harissa"*, *"Ajouter du Thon"* |
+| **Vider Panier** | Supprimer tout le panier | *"Vider le panier"*, *"Supprimer tout"* |
+| **Payer** | Confirmer la commande | *"Payer"*, *"Commander"*, *"Confirmer"* |
+| **Assistant** | Ouvrir le chat IA | *"Assistant"*, *"Aide"*, *"Ouvre l'aide"* |
+| **Déconnexion** | Se déconnecter | *"Déconnexion"*, *"Sortir"* |
+| **Scroll** | Défiler la page | *"Descends"*, *"Monte"* |
+
+#### Fonctionnalités Avancées :
+- **Auto-Résumé** : Quand vous naviguez vers une page, l'agent annonce automatiquement où vous êtes et ce que vous pouvez faire.
+- **Reconnaissance Phonétique** : "Bonk" → "Banque", "Salah" → "Panier" (Correction automatique IA).
+- **Multi-langue** : Compréhension du Darija, Français et Anglais.
+
+### 3. 🤟 Accessibilité LSF (Langue des Signes)
 - Conversion de texte en vidéo LSF via Avatar.
 - Dictionnaire de signes intégré.
 - Support pour les malentendants.
 
-### 3. 👨‍🍳 Assistant Chef Tunisien
+### 4. 👨‍🍳 Assistant Chef Tunisien
 - **Recettes Locales** : *"Comment faire un Couscous ?"*, *"Recette Ojja"*.
 - **Gestion d'Ingrédients** : Liste intelligente des produits nécessaires.
 
-### 4. 🛒 E-Commerce & Budget (TND)
+### 5. 🛒 E-Commerce & Budget (TND)
 - **Produits Locaux** : Catalogue incluant des marques tunisiennes (Sicam, El Manar, etc.).
 - **Assistant Shopping** : 
   - *"Ajoute 2kg de couscous"* -> Action automatique.
   - *"Est-ce que j'ai assez d'argent ?"* -> Vérification du solde bancaire.
 - **Devise** : Dinar Tunisien (TND).
 
-### 5. 🔐 Sécurité & Multi-Utilisateurs (Renforcé)
+### 6. 🔐 Sécurité & Multi-Utilisateurs (Renforcé)
 - **Isolation Stricte des Données** : Architecture backend refondue pour empêcher tout accès croisé aux données.
 - **Session Unique** : Chaque requête API est validée par l'ID utilisateur actif.
 - **Protection par Défaut** : L'assistant et le panier refusent toute opération sans authentification explicite.
@@ -65,18 +86,30 @@ Le cœur du système repose sur un **Orchestrateur Intelligent** (LangChain + GP
 - **Sécurité** : Injection automatique du `user_id` dans chaque outil (Closure Pattern).
 
 ### 🛠️ Agents & Outils Spécialisés
-1.  **Agent Bancaire (`BankingService`)**
+
+1. **🎙️ Agent Vocal (`VoiceControlManager` + `agent_listener.py`)**
+   - **Frontend** : Écoute les commandes via Spacebar PTT ou bouton micro.
+   - **Backend** : Interprète les commandes avec GPT-4o-mini.
+   - **Intents Supportés** :
+     - `NAVIGATE` : Navigation entre pages.
+     - `CHECK_BALANCE`, `CHECK_HISTORY` : Actions bancaires.
+     - `ADD_TO_CART`, `CLEAR_CART`, `CONFIRM_CART` : Gestion panier.
+     - `OPEN_CHAT`, `LOGOUT`, `SCROLL` : Contrôle UI.
+   - **Pipeline** : Audio → Whisper → Correction IA → Agent → Action Frontend.
+
+2.  **Agent Bancaire (`BankingService`)**
     - `check_balance` : Consultation solde sécurisée.
     - `get_transaction_history` : Analyse des dépenses.
     - `transfer_money` : Virements internes (Omar <-> Alice).
 
-2.  **Agent Commercial (`StoreService`)**
+3.  **Agent Commercial (`StoreService`)**
     - `search_product` : Recherche floue (ex: "Harrissa" -> "Harissa Sicam").
     - `check_product_stock_price` : Vérification temps réel.
     - `manage_cart` : Ajout/Suppression, Calcul total.
     - `checkout_cart` : Validation et paiement.
+    - `clear_cart` : Vider le panier (Nouveau).
 
-3.  **Agent de Recommandation**
+4.  **Agent de Recommandation**
     - `recommend_products` : Analyse l'historique d'achat pour suggérer des produits pertinents (ex: Si achat de pâtes -> Suggère Tomate/Fromage).
 
 ---

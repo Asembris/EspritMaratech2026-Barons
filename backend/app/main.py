@@ -8,7 +8,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 import os
 
-from app.routers import signs, convert, health, assistant, banking, store, auth, transcribe
+from app.routers import signs, convert, health, assistant, banking, store, auth, transcribe, agent_listener
 
 # Créer l'application FastAPI
 app = FastAPI(
@@ -48,6 +48,7 @@ app.include_router(banking.router)
 app.include_router(store.router)
 app.include_router(auth.router)
 app.include_router(transcribe.router)
+app.include_router(agent_listener.router)
 
 @app.get("/")
 async def root():

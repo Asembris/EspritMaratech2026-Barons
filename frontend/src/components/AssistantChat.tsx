@@ -34,7 +34,7 @@ export default function AssistantChat() {
             const blob = await stopRecording();
             setIsTranscribing(true);
             try {
-                const result = await transcribeAudio(blob);
+                const result = await transcribeAudio(blob, 'general'); // Gentle Mode
                 if (result.text) {
                     setInput(prev => (prev + " " + result.text).trim());
                 }
@@ -59,6 +59,16 @@ export default function AssistantChat() {
     useEffect(() => {
         scrollToBottom();
     }, [messages, isOpen]);
+
+    // Listen for voice command to open assistant
+    useEffect(() => {
+        const handleOpenAssistant = () => {
+            setIsOpen(true);
+            setIsMinimized(false);
+        };
+        window.addEventListener('openArcAssistant', handleOpenAssistant);
+        return () => window.removeEventListener('openArcAssistant', handleOpenAssistant);
+    }, []);
 
     const handleSend = async () => {
         if (!input.trim() || isLoading) return;

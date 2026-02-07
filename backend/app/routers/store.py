@@ -63,3 +63,23 @@ def remove_from_cart(request: RemoveFromCartRequest, db: Session = Depends(get_d
     if not success:
         raise HTTPException(status_code=404, detail="Item not found in cart")
     return {"message": "Removed from cart"}
+
+class UserIdRequest(BaseModel):
+    user_id: int
+
+@router.post("/clear")
+def clear_cart(request: UserIdRequest, db: Session = Depends(get_db)):
+    """Clear all items from user's cart"""
+    service = StoreService(db)
+    service.clear_cart(request.user_id)
+    return {"message": "Cart cleared"}
+
+@router.post("/checkout")
+def checkout_cart(request: UserIdRequest, db: Session = Depends(get_db)):
+    """Checkout and pay for cart items"""
+    service = StoreService(db)
+    result = service.checkout(request.user_id)
+    if not result:
+        raise HTTPException(status_code=400, detail="Checkout failed - cart empty or insufficient balance")
+    return {"message": "Checkout successful", "total": result.get("total", 0)}
+

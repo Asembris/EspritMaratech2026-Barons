@@ -68,25 +68,33 @@ class StoreService:
         cart = self.get_cart(user_id)
         return sum(item["total"] for item in cart)
 
-    def checkout(self, user_id: int, banking_service) -> str:
+    def checkout(self, user_id: int, banking_service=None) -> dict:
+        """
+        Checkout cart. If banking_service provided, process payment.
+        Otherwise just clear cart (for voice demo).
+        """
         # 1. Calculate Total
         total_amount = self.calculate_cart_total(user_id)
         if total_amount <= 0:
-            return "Votre panier est vide."
+            return None  # Empty cart
 
-        # 2. Process Payment
-        # Description: "Achat magasin (X articles)"
         cart_items = self.get_cart(user_id)
         item_count = sum(item['quantity'] for item in cart_items)
-        description = f"Achat magasin ({item_count} articles)"
         
-        success = banking_service.process_payment(user_id, total_amount, description)
-        
-        if not success:
-            return f"Paiement refusé. Solde insuffisant ({total_amount} TND requis)."
+        # 2. Process Payment (if banking service available)
+        if banking_service:
+            description = f"Achat magasin ({item_count} articles)"
+            success = banking_service.process_payment(user_id, total_amount, description)
+            if not success:
+                return None
 
         # 3. Clear Cart
+        self.clear_cart(user_id)
+        
+        return {"total": total_amount, "items": item_count}
+
+    def clear_cart(self, user_id: int):
+        """Remove all items from user's cart"""
         self.db.query(ShoppingList).filter(ShoppingList.user_id == user_id).delete()
         self.db.commit()
-        
-        return f"Paiement de {total_amount} TND accepté. Merci pour votre achat !"
+

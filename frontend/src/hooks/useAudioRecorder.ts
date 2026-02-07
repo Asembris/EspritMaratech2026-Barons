@@ -30,7 +30,12 @@ export function useAudioRecorder() {
             if (!mediaRecorderRef.current) return;
 
             mediaRecorderRef.current.onstop = () => {
-                const blob = new Blob(chunksRef.current, { type: "audio/webm" });
+                // Add MIME type check for better compatibility
+                const mimeType = MediaRecorder.isTypeSupported("audio/webm;codecs=opus")
+                    ? "audio/webm;codecs=opus"
+                    : "audio/webm";
+
+                const blob = new Blob(chunksRef.current, { type: mimeType });
                 chunksRef.current = [];
                 setIsRecording(false);
                 resolve(blob);
