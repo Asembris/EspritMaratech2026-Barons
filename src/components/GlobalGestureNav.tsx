@@ -82,6 +82,35 @@ const detectGestureFromLandmarks = (landmarks: Landmark[]): string => {
     return 'none';
 };
 
+const drawLandmarks = (ctx: CanvasRenderingContext2D, landmarks: Landmark[], w: number, h: number) => {
+    ctx.fillStyle = '#00ff88';
+    landmarks.forEach(point => {
+        ctx.beginPath();
+        ctx.arc(point.x * w, point.y * h, 4, 0, 2 * Math.PI);
+        ctx.fill();
+    });
+};
+
+const drawConnections = (ctx: CanvasRenderingContext2D, landmarks: Landmark[], w: number, h: number) => {
+    const connections = [
+        [0, 1], [1, 2], [2, 3], [3, 4],
+        [0, 5], [5, 6], [6, 7], [7, 8],
+        [0, 9], [9, 10], [10, 11], [11, 12],
+        [0, 13], [13, 14], [14, 15], [15, 16],
+        [0, 17], [17, 18], [18, 19], [19, 20],
+        [5, 9], [9, 13], [13, 17]
+    ];
+
+    ctx.strokeStyle = '#00ff88';
+    ctx.lineWidth = 2;
+    connections.forEach(([start, end]) => {
+        ctx.beginPath();
+        ctx.moveTo(landmarks[start].x * w, landmarks[start].y * h);
+        ctx.lineTo(landmarks[end].x * w, landmarks[end].y * h);
+        ctx.stroke();
+    });
+};
+
 declare global {
     interface Window {
         Hands: any;
@@ -91,6 +120,13 @@ declare global {
 
 // Page order for navigation
 const PAGES = ['/', '/banking', '/shopping', '/translate', '/accessibility'];
+const PAGE_NAMES: Record<string, string> = {
+    '/': 'Accueil',
+    '/banking': 'Banque',
+    '/shopping': 'Shopping',
+    '/translate': 'Traduction',
+    '/accessibility': 'Accessibilité'
+};
 
 export function GlobalGestureNav() {
     const navigate = useNavigate();
@@ -100,7 +136,6 @@ export function GlobalGestureNav() {
     const videoRef = useRef<HTMLVideoElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const [isActive, setIsActive] = useState(false);
-    const [isMinimized, setIsMinimized] = useState(true);
     const [currentGesture, setCurrentGesture] = useState<string>('none');
     const [ttsEnabled, setTtsEnabled] = useState(true);
     const [loading, setLoading] = useState(false);
@@ -110,34 +145,34 @@ export function GlobalGestureNav() {
     const handsRef = useRef<any>(null);
     const cameraRef = useRef<any>(null);
     const gestureHistoryRef = useRef<string[]>([]);
-    const lastGestureRef = useRef<string>('none');
-    const lastGestureTimeRef = useRef<number>(0);
+    const lastActionTimeRef = useRef<number>(0);
 
     // Navigate to next/previous page
     const navigatePage = useCallback((direction: 'next' | 'prev') => {
         const currentIndex = PAGES.indexOf(location.pathname);
-        if (currentIndex === -1) return;
-
         let newIndex: number;
-        if (direction === 'next') {
+
+        if (currentIndex === -1) {
+            newIndex = 0;
+        } else if (direction === 'next') {
             newIndex = (currentIndex + 1) % PAGES.length;
         } else {
             newIndex = (currentIndex - 1 + PAGES.length) % PAGES.length;
         }
 
-        const pageName = PAGES[newIndex].replace('/', '') || 'Accueil';
-        if (ttsEnabled) speak(`Navigation vers ${pageName}`);
+        const pageName = PAGE_NAMES[PAGES[newIndex]] || PAGES[newIndex];
+        if (ttsEnabled) speak(`${pageName}`);
         navigate(PAGES[newIndex]);
     }, [location.pathname, navigate, speak, ttsEnabled]);
 
-    // Handle gesture actions
+    // Handle gesture actions - NO TIMERS, immediate action
     const handleGestureAction = useCallback((gesture: string) => {
         const now = Date.now();
-        if (gesture === lastGestureRef.current && now - lastGestureTimeRef.current < 1500) {
-            return; // Debounce same gesture
+        // Debounce: 1.5 seconds between actions
+        if (now - lastActionTimeRef.current < 1500) {
+            return;
         }
-        lastGestureRef.current = gesture;
-        lastGestureTimeRef.current = now;
+        lastActionTimeRef.current = now;
 
         switch (gesture) {
             case 'point_right':
@@ -149,39 +184,42 @@ export function GlobalGestureNav() {
             case 'closed_fist':
                 stopTTS();
                 setTtsEnabled(false);
-                // Still speak this one so user knows
-                window.speechSynthesis.cancel();
-                const offUtterance = new SpeechSynthesisUtterance('Synthèse vocale désactivée');
+                // Still announce this
+                const offUtterance = new SpeechSynthesisUtterance('Voix désactivée');
                 offUtterance.lang = 'fr-FR';
                 window.speechSynthesis.speak(offUtterance);
                 break;
             case 'open_hand':
                 setTtsEnabled(true);
-                speak('Synthèse vocale activée');
+                speak('Voix activée');
                 break;
             case 'thumbs_up':
-                if (ttsEnabled) speak('Confirmé');
+                if (ttsEnabled) speak('OK');
                 break;
         }
     }, [navigatePage, speak, stopTTS, ttsEnabled]);
 
-    // Process gesture with stabilization
+    // Process gesture with stabilization (same as GestureDetector)
     const processGesture = useCallback((detected: string) => {
+        const historySize = 5;
+
         gestureHistoryRef.current.push(detected);
-        if (gestureHistoryRef.current.length > 5) {
+        if (gestureHistoryRef.current.length > historySize) {
             gestureHistoryRef.current.shift();
         }
 
-        const isStable = gestureHistoryRef.current.length >= 5 &&
+        const isStable = gestureHistoryRef.current.length >= historySize &&
             gestureHistoryRef.current.every(g => g === detected);
 
         if (isStable && detected !== 'none') {
-            setCurrentGesture(detected);
-            handleGestureAction(detected);
+            if (currentGesture !== detected) {
+                setCurrentGesture(detected);
+                handleGestureAction(detected);
+            }
         } else if (detected === 'none' && gestureHistoryRef.current.every(g => g === 'none')) {
             setCurrentGesture('none');
         }
-    }, [handleGestureAction]);
+    }, [currentGesture, handleGestureAction]);
 
     // MediaPipe results callback
     const onResults = useCallback((results: any) => {
@@ -189,19 +227,16 @@ export function GlobalGestureNav() {
         const ctx = canvas?.getContext('2d');
         if (!canvas || !ctx) return;
 
+        ctx.save();
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
         if (results.multiHandLandmarks && results.multiHandLandmarks.length > 0) {
             setHandDetected(true);
             const landmarks = results.multiHandLandmarks[0];
 
-            // Draw landmarks
-            ctx.fillStyle = '#00ff88';
-            landmarks.forEach((point: Landmark) => {
-                ctx.beginPath();
-                ctx.arc(point.x * canvas.width, point.y * canvas.height, 3, 0, 2 * Math.PI);
-                ctx.fill();
-            });
+            // Draw hand
+            drawConnections(ctx, landmarks, canvas.width, canvas.height);
+            drawLandmarks(ctx, landmarks, canvas.width, canvas.height);
 
             const detected = detectGestureFromLandmarks(landmarks);
             processGesture(detected);
@@ -209,6 +244,8 @@ export function GlobalGestureNav() {
             setHandDetected(false);
             processGesture('none');
         }
+
+        ctx.restore();
     }, [processGesture]);
 
     const loadMediaPipe = (): Promise<void> => {
@@ -253,7 +290,7 @@ export function GlobalGestureNav() {
             }
 
             const stream = await navigator.mediaDevices.getUserMedia({
-                video: { facingMode: 'user', width: 320, height: 240 }
+                video: { facingMode: 'user', width: 640, height: 480 }
             });
 
             if (videoRef.current) {
@@ -266,7 +303,7 @@ export function GlobalGestureNav() {
 
                 handsRef.current.setOptions({
                     maxNumHands: 1,
-                    modelComplexity: 0, // Faster
+                    modelComplexity: 1,
                     minDetectionConfidence: 0.7,
                     minTrackingConfidence: 0.5
                 });
@@ -280,14 +317,13 @@ export function GlobalGestureNav() {
                                 await handsRef.current.send({ image: videoRef.current });
                             }
                         },
-                        width: 320,
-                        height: 240
+                        width: 640,
+                        height: 480
                     });
                     cameraRef.current.start();
                 }
 
                 setIsActive(true);
-                setIsMinimized(false);
                 if (ttsEnabled) speak('Navigation par gestes activée');
             }
         } catch (err) {
@@ -312,7 +348,8 @@ export function GlobalGestureNav() {
         setIsActive(false);
         setCurrentGesture('none');
         setHandDetected(false);
-        if (ttsEnabled) speak('Navigation par gestes désactivée');
+        gestureHistoryRef.current = [];
+        if (ttsEnabled) speak('Navigation désactivée');
     }, [speak, ttsEnabled]);
 
     useEffect(() => {
@@ -321,18 +358,20 @@ export function GlobalGestureNav() {
         };
     }, [isActive, stopCamera]);
 
-    const gestureEmoji: Record<string, string> = {
-        'point_right': '👉',
-        'point_left': '👈',
-        'open_hand': '🖐️',
-        'closed_fist': '✊',
-        'thumbs_up': '👍',
-        'none': '👀'
+    const gestureInfo: Record<string, { emoji: string; name: string }> = {
+        'point_right': { emoji: '👉', name: 'Suivant' },
+        'point_left': { emoji: '👈', name: 'Précédent' },
+        'open_hand': { emoji: '🖐️', name: 'Voix ON' },
+        'closed_fist': { emoji: '✊', name: 'Voix OFF' },
+        'thumbs_up': { emoji: '👍', name: 'OK' },
+        'none': { emoji: '👀', name: 'En attente' }
     };
+
+    const currentPage = PAGE_NAMES[location.pathname] || location.pathname;
 
     return (
         <div className="fixed bottom-24 left-4 z-50">
-            {/* Floating toggle button */}
+            {/* Floating toggle button when camera is OFF */}
             {!isActive && (
                 <button
                     onClick={startCamera}
@@ -351,82 +390,74 @@ export function GlobalGestureNav() {
                 </button>
             )}
 
-            {/* Camera panel */}
+            {/* Camera panel when active */}
             {isActive && (
-                <div className={[
-                    "bg-card rounded-xl border-2 border-border shadow-2xl overflow-hidden transition-all",
-                    isMinimized ? "w-20 h-20" : "w-72"
-                ].join(" ")}>
-                    {/* Header */}
-                    <div className="flex items-center justify-between p-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white">
+                <div className="bg-card rounded-xl border-2 border-border shadow-2xl overflow-hidden w-80">
+                    {/* Header with close button */}
+                    <div className="flex items-center justify-between px-3 py-2 bg-gradient-to-r from-purple-500 to-pink-500 text-white">
                         <div className="flex items-center gap-2">
-                            <span className="text-lg">{gestureEmoji[currentGesture]}</span>
-                            {!isMinimized && (
-                                <span className="text-sm font-semibold">
-                                    {ttsEnabled ? '🔊' : '🔇'} Gestes
-                                </span>
-                            )}
+                            <span className="text-xl">{gestureInfo[currentGesture].emoji}</span>
+                            <span className="font-semibold text-sm">{gestureInfo[currentGesture].name}</span>
                         </div>
-                        <div className="flex gap-1">
-                            <button
-                                onClick={() => setIsMinimized(!isMinimized)}
-                                className="w-6 h-6 rounded hover:bg-white/20 flex items-center justify-center"
-                                aria-label={isMinimized ? "Agrandir" : "Réduire"}
-                            >
-                                {isMinimized ? '⬆️' : '⬇️'}
-                            </button>
+                        <div className="flex items-center gap-2">
+                            <span className={`text-xs px-2 py-0.5 rounded ${ttsEnabled ? 'bg-green-500' : 'bg-red-500'}`}>
+                                {ttsEnabled ? '🔊' : '🔇'}
+                            </span>
                             <button
                                 onClick={stopCamera}
-                                className="w-6 h-6 rounded hover:bg-white/20 flex items-center justify-center"
-                                aria-label="Fermer"
+                                className="w-7 h-7 rounded-full hover:bg-white/20 flex items-center justify-center text-lg"
+                                aria-label="Fermer la navigation par gestes"
                             >
                                 ✕
                             </button>
                         </div>
                     </div>
 
-                    {/* Camera feed */}
-                    {!isMinimized && (
-                        <div className="relative">
-                            <div className="aspect-video bg-muted">
-                                <video
-                                    ref={videoRef}
-                                    autoPlay
-                                    playsInline
-                                    muted
-                                    className="w-full h-full object-cover transform scale-x-[-1]"
-                                />
-                                <canvas
-                                    ref={canvasRef}
-                                    width={320}
-                                    height={240}
-                                    className="absolute inset-0 w-full h-full pointer-events-none transform scale-x-[-1]"
-                                />
-                            </div>
+                    {/* Camera feed - same as GestureDetector */}
+                    <div className="relative aspect-video bg-muted">
+                        <video
+                            ref={videoRef}
+                            autoPlay
+                            playsInline
+                            muted
+                            className="w-full h-full object-cover transform scale-x-[-1]"
+                        />
+                        <canvas
+                            ref={canvasRef}
+                            width={640}
+                            height={480}
+                            className="absolute inset-0 w-full h-full pointer-events-none transform scale-x-[-1]"
+                        />
 
-                            {/* Status bar */}
-                            <div className="p-2 bg-muted/50 text-xs flex items-center justify-between">
-                                <span className={handDetected ? 'text-green-500' : 'text-muted-foreground'}>
-                                    {handDetected ? '✋ Main' : '👀 Aucune'}
-                                </span>
-                                <span className="text-muted-foreground">
-                                    {location.pathname === '/' ? 'Accueil' : location.pathname.slice(1)}
-                                </span>
-                            </div>
-
-                            {/* Gesture guide */}
-                            <div className="p-2 text-xs space-y-1">
-                                <div className="flex justify-between">
-                                    <span>👈 Précédent</span>
-                                    <span>👉 Suivant</span>
-                                </div>
-                                <div className="flex justify-between">
-                                    <span>✊ Muter</span>
-                                    <span>🖐️ Son</span>
-                                </div>
-                            </div>
+                        {/* Hand detection indicator */}
+                        <div className={`absolute top-2 right-2 px-2 py-1 rounded-full text-xs font-semibold ${handDetected ? 'bg-green-500 text-white' : 'bg-muted text-muted-foreground'
+                            }`}>
+                            {handDetected ? '✋ Main' : '👀 Aucune'}
                         </div>
-                    )}
+
+                        {/* Current gesture overlay */}
+                        {currentGesture !== 'none' && (
+                            <div className="absolute bottom-2 left-2 right-2 bg-card/90 backdrop-blur-sm rounded-lg px-3 py-2 border border-border">
+                                <div className="flex items-center justify-center gap-2">
+                                    <span className="text-2xl">{gestureInfo[currentGesture].emoji}</span>
+                                    <span className="font-bold text-primary">{gestureInfo[currentGesture].name}</span>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+
+                    {/* Footer with current page and gesture guide */}
+                    <div className="p-3 bg-muted/50 space-y-2">
+                        <div className="text-center text-sm font-medium text-foreground">
+                            📍 {currentPage}
+                        </div>
+                        <div className="grid grid-cols-2 gap-1 text-xs text-muted-foreground">
+                            <span>👈 Précédent</span>
+                            <span className="text-right">👉 Suivant</span>
+                            <span>✊ Muter</span>
+                            <span className="text-right">🖐️ Son</span>
+                        </div>
+                    </div>
                 </div>
             )}
         </div>
