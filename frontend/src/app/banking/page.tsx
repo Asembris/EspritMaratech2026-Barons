@@ -60,8 +60,11 @@ export default function BankingPage() {
             <div className="max-w-4xl mx-auto space-y-8">
                 {/* Balance Card */}
                 <div
-                    className="bg-gradient-to-br from-blue-600 to-blue-900 rounded-2xl p-8 shadow-2xl transform transition hover:scale-[1.01]"
+                    className="bg-gradient-to-br from-blue-600 to-blue-900 rounded-2xl p-8 shadow-2xl transform transition hover:scale-[1.01] focus-visible-ring"
                     onMouseEnter={() => onHover(`Votre solde actuel est de ${balance} dinars`)}
+                    tabIndex={0}
+                    role="region"
+                    aria-label={`Solde actuel : ${balance.toFixed(3)} dinars`}
                 >
                     <div className="flex justify-between items-start mb-8">
                         <div>
@@ -92,8 +95,11 @@ export default function BankingPage() {
                         {transactions.map((tx) => (
                             <div
                                 key={tx.id}
-                                className="bg-gray-700/30 p-4 rounded-xl flex items-center justify-between hover:bg-gray-700 transition-colors group"
+                                className="bg-gray-700/30 p-4 rounded-xl flex items-center justify-between hover:bg-gray-700 transition-colors group focus-visible-ring"
                                 onMouseEnter={() => onHover(`Transaction : ${tx.description}, ${tx.amount} euros`)}
+                                tabIndex={0}
+                                role="article"
+                                aria-label={`Transaction : ${tx.description}, montant ${tx.amount} dinars, le ${new Date(tx.date).toLocaleDateString()}`}
                             >
                                 <div className="flex items-center gap-4">
                                     <div className={`p-3 rounded-xl ${tx.amount > 0 ? 'bg-green-500/10 text-green-400' : 'bg-red-500/10 text-red-400'}`}>

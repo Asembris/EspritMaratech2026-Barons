@@ -107,8 +107,11 @@ export default function StorePage() {
 
                 {/* Cart Summary Widget */}
                 <div
-                    className="bg-purple-900/30 border border-purple-500/30 rounded-xl p-4 flex items-center gap-6"
+                    className="bg-purple-900/30 border border-purple-500/30 rounded-xl p-4 flex items-center gap-6 focus-visible-ring cursor-pointer"
                     onMouseEnter={() => onHover(`Panier : ${cart.length} articles, total ${cartTotal.toFixed(3)} dinars`)}
+                    tabIndex={0}
+                    role="button"
+                    aria-label={`Résumé du panier : ${cart.length} articles, total ${cartTotal.toFixed(3)} dinars`}
                 >
                     <div className="flex items-center gap-3">
                         <div className="bg-purple-500/20 p-2 rounded-lg">
@@ -130,8 +133,10 @@ export default function StorePage() {
                     {products.map((product) => (
                         <div
                             key={product.id}
-                            className="bg-gray-800 rounded-2xl p-5 border border-gray-700 shadow-xl hover:border-purple-500/50 transition-all group flex flex-col"
+                            className="bg-gray-800 rounded-2xl p-5 border border-gray-700 shadow-xl hover:border-purple-500/50 transition-all group flex flex-col focus-visible-ring"
                             onMouseEnter={() => onHover(`Produit : ${product.name}, ${product.price} dinars. ${product.description}`)}
+                            tabIndex={0}
+                            aria-label={`Produit : ${product.name}, ${product.price} dinars. ${product.description}`}
                         >
                             <div className="flex justify-between items-start mb-4">
                                 <div className="bg-gray-700/50 p-2 rounded-lg">

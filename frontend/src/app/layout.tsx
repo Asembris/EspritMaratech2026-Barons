@@ -53,6 +53,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="providers-wrapper">
+          <a href="#main-content" className="skip-link">Aller au contenu principal</a>
           {/* Client-side providers */}
           <Providers>
             <UserProvider>

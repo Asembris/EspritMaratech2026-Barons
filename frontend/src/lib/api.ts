@@ -1,5 +1,6 @@
 // API configuration
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+// API configuration
+export const API_BASE_URL = 'http://192.168.1.131:8000'; // Hardcoded for Mobile Testing
 
 // API endpoints
 export const API = {

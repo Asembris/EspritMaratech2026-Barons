@@ -131,6 +131,23 @@ Le marché contient des produits locaux réels avec gestion de stock :
 
 ---
 
+### 6. 📱 Test Mobile (Réseau Local)
+Un script dédié permet de tester l'application sur smartphone via le Wi-Fi local :
+```powershell
+.\start_mobile.ps1
+```
+Il configure automatiquement :
+- L'IP locale.
+- Les ports pare-feu (3003/8000).
+- Le lien API pour le téléphone.
+
+### 7. 📊 Observabilité (LangSmith)
+Traçage complet des requêtes LLM via LangSmith.
+- **Projet** : `MaraTech`
+- **Métriques** : Latence, Coût, Input/Output.
+
+---
+
 ## 👥 Auteurs
 - **Omar** : Développeur Fullstack & IA.
 - **MaraTech Team**.

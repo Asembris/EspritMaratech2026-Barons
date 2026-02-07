@@ -148,6 +148,7 @@ export default function AssistantChat() {
                         <button
                             onClick={() => setIsOpen(false)}
                             className="text-white/80 hover:text-white transition-colors"
+                            aria-label="Fermer la fenêtre de discussion"
                         >
                             <X size={20} />
                         </button>
@@ -202,6 +203,7 @@ export default function AssistantChat() {
                                     ? 'bg-red-500 text-white animate-pulse'
                                     : 'text-gray-400 hover:text-white hover:bg-gray-800'}`}
                                 title={isRecording ? "Arrêter l'enregistrement" : "Activer le micro"}
+                                aria-label={isRecording ? "Arrêter l'enregistrement" : "Activer le micro"}
                             >
                                 {isRecording ? <StopCircle size={18} /> : (isTranscribing ? <Loader2 size={18} className="animate-spin" /> : <Mic size={18} />)}
                             </button>
@@ -214,11 +216,13 @@ export default function AssistantChat() {
                                 placeholder={isRecording ? "Enregistrement en cours..." : "Posez une question..."}
                                 className="flex-1 bg-transparent border-none text-white focus:ring-0 text-sm px-2"
                                 disabled={isLoading || isTranscribing}
+                                aria-label="Zone de saisie du message"
                             />
                             <button
                                 onClick={handleSend}
                                 disabled={!input.trim() || isLoading || isRecording}
                                 className="p-2 bg-blue-600 hover:bg-blue-700 rounded-lg text-white disabled:opacity-50 disabled:cursor-not-allowed transition-all"
+                                aria-label="Envoyer le message"
                             >
                                 <Send size={16} />
                             </button>
