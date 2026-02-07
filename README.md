@@ -56,6 +56,31 @@ Le projet repose sur une architecture moderne micro-services :
 
 ---
 
+## 🤖 Architecture Multi-Agents (SignLink Brain)
+Le cœur du système repose sur un **Orchestrateur Intelligent** (LangChain + GPT-4o-mini) qui sélectionne dynamiquement les outils nécessaires selon la demande de l'utilisateur.
+
+### 🧠 Cerveau Central (`AgentService`)
+- **Modèle** : GPT-4o-mini (Optimisé pour la latence et le coût).
+- **Mémoire** : Maintient le contexte de la conversation (ex: "Combien ça coûte ?" -> Sait de quel produit on parle).
+- **Sécurité** : Injection automatique du `user_id` dans chaque outil (Closure Pattern).
+
+### 🛠️ Agents & Outils Spécialisés
+1.  **Agent Bancaire (`BankingService`)**
+    - `check_balance` : Consultation solde sécurisée.
+    - `get_transaction_history` : Analyse des dépenses.
+    - `transfer_money` : Virements internes (Omar <-> Alice).
+
+2.  **Agent Commercial (`StoreService`)**
+    - `search_product` : Recherche floue (ex: "Harrissa" -> "Harissa Sicam").
+    - `check_product_stock_price` : Vérification temps réel.
+    - `manage_cart` : Ajout/Suppression, Calcul total.
+    - `checkout_cart` : Validation et paiement.
+
+3.  **Agent de Recommandation**
+    - `recommend_products` : Analyse l'historique d'achat pour suggérer des produits pertinents (ex: Si achat de pâtes -> Suggère Tomate/Fromage).
+
+---
+
 ## 🚀 Installation & Démarrage
 
 ### Prérequis
