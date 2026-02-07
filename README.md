@@ -14,6 +14,12 @@ Application React conçue pour l'accessibilité universelle — utilisable par l
 - **Guide intelligent** : "où suis-je ?", "que puis-je faire ici ?", "explique cette page"
 - **Aide** : "aide", "commandes"
 
+### 🤖 Assistant IA (Omar)
+- **Chat intelligent** : Bouton flottant en bas à droite
+- **Recettes** : "Comment faire un couscous ?", "une Ojja"
+- **Gestion panier** : "Ajoute du lait", "Retire le thon"
+- **Requiert** : Backend FastAPI (voir section Backend)
+
 ### 📱 Pages
 | Page | Description |
 |------|-------------|
@@ -38,6 +44,7 @@ Application React conçue pour l'accessibilité universelle — utilisable par l
 - **Routing** : React Router DOM
 - **Voice** : Web Speech API (STT/TTS)
 - **AI Guide** : Ollama (phi3:instruct) pour le guidage contextuel
+- **Backend** : FastAPI + OpenAI GPT-4o (optionnel, pour Assistant IA)
 
 ---
 
