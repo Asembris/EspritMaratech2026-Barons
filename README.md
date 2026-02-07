@@ -41,22 +41,98 @@ Application React conçue pour l'accessibilité universelle — utilisable par l
 
 ---
 
-## 🚀 Installation
+## 🚀 Pour les Membres de l'Équipe : Installation & Contribution
+
+### Prérequis
+- **Node.js** v18+ (vérifier : `node -v`)
+- **npm** v9+ (vérifier : `npm -v`)
+- **Git** installé (vérifier : `git --version`)
+
+---
+
+### Étape 1 : Cloner le Repo
 
 ```bash
-# Cloner le repo
 git clone https://github.com/Asembris/MaraTech.git
 cd MaraTech
+```
+
+---
+
+### Étape 2 : Basculer sur la Branche `yassine`
+
+```bash
 git checkout yassine
+git pull origin yassine
+```
 
-# Installer les dépendances
+---
+
+### Étape 3 : Installer les Dépendances
+
+```bash
 npm install
+```
 
-# Lancer le serveur de développement
+> ⏱️ Cela peut prendre 1-2 minutes la première fois.
+
+---
+
+### Étape 4 : Créer le Fichier `.env`
+
+Créer un fichier `.env` à la racine du projet :
+
+```env
+VITE_OLLAMA_URL=http://localhost:11434
+```
+
+> ⚠️ Ce fichier n'est PAS commité (il est dans `.gitignore`).
+
+---
+
+### Étape 5 : Lancer le Serveur
+
+```bash
 npm run dev
 ```
 
 L'application sera disponible sur `http://localhost:8080`
+
+---
+
+### Étape 6 : Faire des Modifications
+
+1. Modifier les fichiers dans `src/`
+2. Le serveur recharge automatiquement (HMR)
+
+---
+
+### Étape 7 : Committer et Pusher
+
+```bash
+# Voir les fichiers modifiés
+git status
+
+# Ajouter tous les fichiers modifiés
+git add .
+
+# Créer un commit avec un message descriptif
+git commit -m "feat: description de votre modification"
+
+# Pusher vers GitHub
+git push origin yassine
+```
+
+---
+
+### Commandes Utiles
+
+| Commande | Description |
+|----------|-------------|
+| `npm run dev` | Lancer le serveur de développement |
+| `npm run build` | Construire pour production |
+| `npm run test` | Lancer les tests |
+| `npm run lint` | Vérifier le code |
 
 ---
 
