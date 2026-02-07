@@ -5,7 +5,7 @@ import { AccessibleButton } from "@/components/AccessibleButton";
 import { LiveRegion } from "@/components/LiveRegion";
 import { useSpeech } from "@/hooks/use-speech";
 import { convertToGloss, ConvertResponse } from "@/lib/omarApi";
-// GestureDetector removed - now using global FloatingGestureCamera
+import { GestureDetector } from "@/components/GestureDetector";
 
 // Get sign image path for a character
 const getSignImagePath = (char: string): string | null => {
@@ -139,19 +139,7 @@ const TranslatePage = () => {
         }, 600);
     };
 
-    // Handle gesture detection
-    const handleGesture = (gesture: string, action: string) => {
-        announce(`Geste: ${gesture} - ${action}`);
-
-        // Handle navigation with gestures
-        if (action === "Suivant" && allChars.length > 0) {
-            setCurrentIndex((prev) => Math.min(allChars.length - 1, prev + 1));
-        } else if (action === "Précédent" && allChars.length > 0) {
-            setCurrentIndex((prev) => Math.max(0, prev - 1));
-        } else if (action === "Confirmer" && !isPlaying && allChars.length > 0) {
-            playAnimation();
-        }
-    };
+    // Gesture navigation is now handled globally by GestureProvider
 
     const currentChar = allChars[currentIndex];
     const currentSignImage = currentChar && currentChar.type !== "space"
@@ -220,7 +208,13 @@ const TranslatePage = () => {
                 </LiveRegion>
             </Section>
 
-            {/* Note: Gesture detection now available via floating camera button (bottom left) */}
+            {/* Gesture Detection */}
+            <Section title="Détection de Gestes" id="gesture-detection">
+                <p className="text-muted-foreground mb-4">
+                    Utilisez votre caméra pour contrôler la navigation avec des gestes de la main.
+                </p>
+                <GestureDetector />
+            </Section>
 
             {/* Results */}
             {result && (
