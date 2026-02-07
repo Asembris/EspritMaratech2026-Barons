@@ -62,6 +62,25 @@ export default function VoiceControlManager() {
         };
     }, [isVoiceNavEnabled, isRecording, isProcessing, start, stop, cancel]);
 
+    // Listen for pause/resume events from AssistantChat
+    useEffect(() => {
+        const handlePause = () => {
+            console.log("Voice Agent: Paused by assistant");
+            setIsPaused(true);
+            if (isRecording) stop();
+        };
+        const handleResume = () => {
+            console.log("Voice Agent: Resumed");
+            setIsPaused(false);
+        };
+        window.addEventListener('pauseVoiceAgent', handlePause);
+        window.addEventListener('resumeVoiceAgent', handleResume);
+        return () => {
+            window.removeEventListener('pauseVoiceAgent', handlePause);
+            window.removeEventListener('resumeVoiceAgent', handleResume);
+        };
+    }, [isRecording, stop]);
+
     const { user, logout } = useUser();
 
     // Auto-Summary on Navigation
@@ -221,6 +240,10 @@ export default function VoiceControlManager() {
                     case 'RESUME_LISTEN':
                         setIsPaused(false);
                         speak("Je vous écoute à nouveau.");
+                        break;
+                    case 'CLOSE_CHAT':
+                        window.dispatchEvent(new Event('closeArcAssistant'));
+                        speak("Je ferme l'assistant.");
                         break;
                 }
 

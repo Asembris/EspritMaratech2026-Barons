@@ -17,13 +17,35 @@ export function StepVision({ onNext }: Props) {
     const { isRecording, isTranscribing, transcript, start, stop, error } = useWhisper();
     const router = useRouter();
 
-    // Auto-announce question on mount
+    // Auto-announce question on mount and AUTO-START recording
     useEffect(() => {
-        const timer = setTimeout(() => {
-            speak("Bonjour. Pouvez-vous voir clairement cet écran ? Maintenez le bouton micro pour répondre Oui ou Non.");
+        const speakTimer = setTimeout(() => {
+            speak("Bonjour. Pouvez-vous voir clairement cet écran ? Répondez Oui ou Non.");
         }, 1000);
+
+        // Auto-start recording after announcement
+        const recordTimer = setTimeout(() => {
+            console.log("Auto-starting recording for onboarding...");
+            start();
+        }, 4500); // Wait for speech to finish
+
+        return () => {
+            clearTimeout(speakTimer);
+            clearTimeout(recordTimer);
+        };
+    }, [speak, start]);
+
+    // Auto-stop recording after 5 seconds
+    useEffect(() => {
+        if (!isRecording) return;
+
+        const timer = setTimeout(() => {
+            console.log("Auto-stopping recording...");
+            stop();
+        }, 5000);
+
         return () => clearTimeout(timer);
-    }, [speak]);
+    }, [isRecording, stop]);
 
     // Process Whisper Answer (The "Agent" Logic)
     useEffect(() => {

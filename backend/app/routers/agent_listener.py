@@ -50,7 +50,7 @@ async def process_voice_command(request: CommandRequest):
 
     OUTPUT FORMAT (JSON ONLY):
     {
-        "type": "NAVIGATE" | "SCROLL" | "GO_BACK" | "CHECK_BALANCE" | "CHECK_HISTORY" | "LOGOUT" | "OPEN_CHAT" | "CLEAR_CART" | "CONFIRM_CART" | "ADD_TO_CART" | "PAUSE_LISTEN" | "RESUME_LISTEN" | "UNKNOWN",
+        "type": "NAVIGATE" | "SCROLL" | "GO_BACK" | "CHECK_BALANCE" | "CHECK_HISTORY" | "LOGOUT" | "OPEN_CHAT" | "CLOSE_CHAT" | "CLEAR_CART" | "CONFIRM_CART" | "ADD_TO_CART" | "PAUSE_LISTEN" | "RESUME_LISTEN" | "UNKNOWN",
         "payload": "/path" | "direction" | {"product": "name", "quantity": 1} | null,
         "message": "Short confirmation message to speak aloud (in French)."
     }
@@ -78,6 +78,7 @@ async def process_voice_command(request: CommandRequest):
     8. VOICE CONTROL:
        - "Stop", "Pause", "Arrête", "Silence" -> "PAUSE_LISTEN"
        - "Écoute", "Reprends", "Continue", "Réveille" -> "RESUME_LISTEN"
+       - "Ferme", "Ferme l'assistant", "Quitte" -> "CLOSE_CHAT"
        
     EXAMPLES:
     - "Solde" -> {"type": "CHECK_BALANCE", "payload": null, "message": "Je vérifie votre solde."}
@@ -95,6 +96,7 @@ async def process_voice_command(request: CommandRequest):
     - "Déconnexion" -> {"type": "LOGOUT", "payload": null, "message": "Je vous déconnecte."}
     - "Stop" -> {"type": "PAUSE_LISTEN", "payload": null, "message": "Je me mets en pause."}
     - "Écoute" -> {"type": "RESUME_LISTEN", "payload": null, "message": "Je vous écoute."}
+    - "Ferme" -> {"type": "CLOSE_CHAT", "payload": null, "message": "Je ferme l'assistant."}
     """
     
     try:

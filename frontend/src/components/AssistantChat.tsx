@@ -25,6 +25,7 @@ export default function AssistantChat() {
     const [pendingAutoSend, setPendingAutoSend] = useState(false);
 
     const messagesEndRef = useRef<HTMLDivElement>(null);
+    const handleSendRef = useRef<() => Promise<void>>(() => Promise.resolve());
     const { speak, stop, isSpeaking, audioEnabled } = useAudio();
     const { user } = useUser();
     const { autoListenMode } = useAccessibility();
@@ -39,7 +40,7 @@ export default function AssistantChat() {
             try {
                 const result = await transcribeAudio(blob, 'general'); // Gentle Mode
                 if (result.text) {
-                    setInput(prev => (prev + " " + result.text).trim());
+                    setInput(result.text.trim()); // Replace instead of append
                     // In autoListenMode, auto-send after transcription
                     if (autoListenMode) {
                         setPendingAutoSend(true);
@@ -67,14 +68,30 @@ export default function AssistantChat() {
         scrollToBottom();
     }, [messages, isOpen]);
 
-    // Listen for voice command to open assistant
+    // Pause/Resume Voice Agent when assistant opens/closes
+    useEffect(() => {
+        if (isOpen) {
+            window.dispatchEvent(new Event('pauseVoiceAgent'));
+        } else {
+            window.dispatchEvent(new Event('resumeVoiceAgent'));
+        }
+    }, [isOpen]);
+
+    // Listen for voice command to open/close assistant
     useEffect(() => {
         const handleOpenAssistant = () => {
             setIsOpen(true);
             setIsMinimized(false);
         };
+        const handleCloseAssistant = () => {
+            setIsOpen(false);
+        };
         window.addEventListener('openArcAssistant', handleOpenAssistant);
-        return () => window.removeEventListener('openArcAssistant', handleOpenAssistant);
+        window.addEventListener('closeArcAssistant', handleCloseAssistant);
+        return () => {
+            window.removeEventListener('openArcAssistant', handleOpenAssistant);
+            window.removeEventListener('closeArcAssistant', handleCloseAssistant);
+        };
     }, []);
 
     // Auto-start recording when chat opens in autoListenMode
@@ -126,8 +143,6 @@ export default function AssistantChat() {
 
         return () => clearTimeout(timer);
     }, [pendingAutoSend, input, isLoading]);
-
-    const handleSendRef = useRef<() => Promise<void>>(() => Promise.resolve());
 
     const handleSend = async () => {
         if (!input.trim() || isLoading) return;
