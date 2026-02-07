@@ -112,18 +112,46 @@ class AgentService:
 
         @tool
         def transfer_money(amount: float, recipient_email: str) -> str:
-            """Effectuer un virement bancaire. Nécessite le montant et l'email du destinataire."""
+            """Effectuer un virement bancaire. Nécessite le montant et l'email du destinataire. 
+            L'email peut être dicté comme 'alice arobase example point com'."""
             global logging
             import logging
+            import re
             logging.basicConfig(filename='backend_debug.log', level=logging.INFO)
             
+            def normalize_spoken_email(text: str) -> str:
+                """Convert spoken email to proper format."""
+                email = text.lower().strip()
+                # Replace spoken @ symbols
+                email = re.sub(r'\s*(arobase|arrobase|at|@|a commercial)\s*', '@', email)
+                # Replace spoken dots
+                email = re.sub(r'\s*(point|dot|\.)\s*', '.', email)
+                # Remove extra spaces
+                email = email.replace(' ', '')
+                # Common domain fixes
+                email = email.replace('gmail', 'gmail')
+                email = email.replace('example', 'example')
+                email = email.replace('exemple', 'example')
+                return email
+            
             try:
-                if recipient_email.lower() == "alice":
-                    recipient_email = "alice@example.com"
-                if recipient_email.lower() == "omar":
-                    recipient_email = "omar@example.com"
+                # Normalize the email first
+                normalized_email = normalize_spoken_email(recipient_email)
+                logging.info(f"transfer_money: original='{recipient_email}' normalized='{normalized_email}'")
+                
+                # Known user shortcuts
+                if normalized_email.lower() in ["alice", "alice."]:
+                    normalized_email = "alice@example.com"
+                elif normalized_email.lower() in ["omar", "omar."]:
+                    normalized_email = "omar@example.com"
+                elif normalized_email.lower() in ["bob", "bob."]:
+                    normalized_email = "bob@example.com"
                     
-                result = self.banking_service.transfer_to_user(current_user_id, recipient_email, amount)
+                # Validate email format
+                if '@' not in normalized_email or '.' not in normalized_email:
+                    return f"Format d'email invalide: '{normalized_email}'. Dites par exemple 'alice arobase example point com'."
+                    
+                result = self.banking_service.transfer_to_user(current_user_id, normalized_email, amount)
                 return result
             except Exception as e:
                 logging.error(f"Tool Error transfer_money: {e}")
@@ -169,6 +197,8 @@ class AgentService:
             ("system", f"Tu es un assistant intelligent expert en courses et finances. ID Utilisateur actuel: {user_id}. "
                        "Tu as accès à des outils pour gérer le panier, le solde et les virements. "
                        "Les outils sont automatiquement sécurisés pour cet utilisateur. "
+                       "VIREMENTS: L'utilisateur peut dicter un email vocalement comme 'alice arobase example point com'. "
+                       "Tu dois passer l'email tel que dicté au tool transfer_money, il sera normalisé automatiquement. "
                        "Tu es aussi un Chef Cuisinier : Si l'utilisateur veut cuisiner un plat (ex: Couscous), propose les ingrédients "
                        "et demande si tu dois les ajouter au panier. Utilize search_product pour trouver les ingrédients exacts. "
                        "Réponds toujours en français, avec des prix en TND."),
