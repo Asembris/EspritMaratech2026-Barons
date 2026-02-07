@@ -67,3 +67,12 @@ class StoreService:
     def calculate_cart_total(self, user_id: int) -> float:
         cart = self.get_cart(user_id)
         return sum(item["total"] for item in cart)
+
+    def clear_cart(self, user_id: int) -> bool:
+        """Remove all items from user's cart"""
+        items = self.db.query(ShoppingList).filter(ShoppingList.user_id == user_id).all()
+        for item in items:
+            self.db.delete(item)
+        self.db.commit()
+        return True
+

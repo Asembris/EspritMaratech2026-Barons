@@ -99,6 +99,26 @@ export async function getTransactions() {
     return res.json();
 }
 
+export interface TransferResponse {
+    message: string;
+    amount: number;
+    new_balance: number;
+    recipient: string;
+}
+
+export async function transfer(userId: number, amount: number, recipient: string): Promise<TransferResponse> {
+    const res = await fetch(`${API_BASE}/banking/transfer`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ user_id: userId, amount, recipient }),
+    });
+    if (!res.ok) {
+        const error = await res.json();
+        throw new Error(error.detail || "Transfer failed");
+    }
+    return res.json();
+}
+
 export async function getProducts(query: string = "") {
     const res = await fetch(`${API.products}?query=${query}`);
     if (!res.ok) throw new Error("Failed to fetch products");
@@ -162,3 +182,24 @@ export async function removeFromCart(userId: number, productName: string) {
     if (!res.ok) throw new Error("Failed to remove from cart");
     return res.json();
 }
+
+export interface CheckoutResponse {
+    message: string;
+    total_paid: number;
+    new_balance: number;
+    items_count: number;
+}
+
+export async function checkout(userId: number): Promise<CheckoutResponse> {
+    const res = await fetch(`${API_BASE}/store/checkout`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ user_id: userId }),
+    });
+    if (!res.ok) {
+        const error = await res.json();
+        throw new Error(error.detail || "Checkout failed");
+    }
+    return res.json();
+}
+

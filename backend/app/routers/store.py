@@ -63,3 +63,44 @@ def remove_from_cart(request: RemoveFromCartRequest, db: Session = Depends(get_d
     if not success:
         raise HTTPException(status_code=404, detail="Item not found in cart")
     return {"message": "Removed from cart"}
+
+class CheckoutRequest(BaseModel):
+    user_id: int
+
+@router.post("/checkout")
+def checkout(request: CheckoutRequest, db: Session = Depends(get_db)):
+    """Process payment: deduct balance and clear cart"""
+    from app.services.banking_service import BankingService
+    
+    store_service = StoreService(db)
+    banking_service = BankingService(db)
+    
+    # Get cart total
+    cart = store_service.get_cart(request.user_id)
+    if not cart:
+        raise HTTPException(status_code=400, detail="Votre panier est vide")
+    
+    total = store_service.calculate_cart_total(request.user_id)
+    
+    # Check balance
+    balance = banking_service.get_balance(request.user_id)
+    if balance < total:
+        raise HTTPException(status_code=400, detail=f"Solde insuffisant. Vous avez {balance:.3f} TND mais le total est {total:.3f} TND")
+    
+    # Process payment
+    success = banking_service.process_payment(request.user_id, total, "Achat en magasin")
+    if not success:
+        raise HTTPException(status_code=500, detail="Erreur lors du paiement")
+    
+    # Clear cart
+    store_service.clear_cart(request.user_id)
+    
+    new_balance = banking_service.get_balance(request.user_id)
+    
+    return {
+        "message": f"Commande de {total:.3f} TND effectuée avec succès!",
+        "total_paid": total,
+        "new_balance": new_balance,
+        "items_count": len(cart)
+    }
+

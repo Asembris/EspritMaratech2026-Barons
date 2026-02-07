@@ -9,6 +9,7 @@ import {
   getCart,
   addToCart,
   removeFromCart,
+  checkout,
 } from "@/lib/omarApi";
 import {
   Plus,
@@ -61,6 +62,7 @@ const ShoppingPage = () => {
   const [loading, setLoading] = useState(true);
   const [announcement, setAnnouncement] = useState("");
   const [inputValue, setInputValue] = useState("");
+  const [checkingOut, setCheckingOut] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -396,13 +398,28 @@ const ShoppingPage = () => {
               <AccessibleButton
                 variant="primary"
                 className="w-full mt-4"
-                onClick={() => {
-                  const msg = `Commande de ${cartTotal.toFixed(3)} dinars confirmée.`;
-                  setAnnouncement(msg);
-                  speak(msg);
+                disabled={checkingOut}
+                onClick={async () => {
+                  setCheckingOut(true);
+                  try {
+                    const result = await checkout(1);
+                    const msg = `${result.message} Nouveau solde: ${result.new_balance.toFixed(3)} TND.`;
+                    setAnnouncement(msg);
+                    speak(msg);
+                    // Clear cart in state and refetch
+                    setCart([]);
+                    // Dispatch event for Banking page to refresh
+                    window.dispatchEvent(new CustomEvent("balanceUpdated"));
+                  } catch (error) {
+                    const errMsg = error instanceof Error ? error.message : "Erreur lors du paiement";
+                    setAnnouncement(errMsg);
+                    speak(errMsg);
+                  } finally {
+                    setCheckingOut(false);
+                  }
                 }}
               >
-                Commander
+                {checkingOut ? "Paiement en cours..." : "Commander"}
               </AccessibleButton>
             </div>
           </div>

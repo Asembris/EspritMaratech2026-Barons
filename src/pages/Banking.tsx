@@ -5,7 +5,7 @@ import { AccessibleButton } from "@/components/AccessibleButton";
 import { LiveRegion } from "@/components/LiveRegion";
 import { useSpeech } from "@/hooks/use-speech";
 import { useSpeechRecognition } from "@/hooks/use-speech-recognition";
-import { getBalance, getTransactions } from "@/lib/omarApi";
+import { getBalance, getTransactions, transfer } from "@/lib/omarApi";
 import {
   Volume2,
   Mic,
@@ -58,25 +58,31 @@ const BankingPage = () => {
   }, []);
 
   // Fetch data from API
-  useEffect(() => {
-    async function fetchData() {
-      try {
-        const [balData, txData] = await Promise.all([
-          getBalance(),
-          getTransactions(),
-        ]);
-        setBalance(balData.balance);
-        setTransactions(txData);
-      } catch (error) {
-        console.error("Error fetching banking data:", error);
-        // Fallback to demo data if API not available
-        setBalance(2347.85);
-        setTransactions([]);
-      } finally {
-        setLoading(false);
-      }
+  const fetchData = async () => {
+    try {
+      const [balData, txData] = await Promise.all([
+        getBalance(),
+        getTransactions(),
+      ]);
+      setBalance(balData.balance);
+      setTransactions(txData);
+    } catch (error) {
+      console.error("Error fetching banking data:", error);
+      // Fallback to demo data if API not available
+      setBalance(2347.85);
+      setTransactions([]);
+    } finally {
+      setLoading(false);
     }
+  };
+
+  useEffect(() => {
     fetchData();
+
+    // Listen for balance updates from Shopping checkout
+    const handleBalanceUpdate = () => fetchData();
+    window.addEventListener("balanceUpdated", handleBalanceUpdate);
+    return () => window.removeEventListener("balanceUpdated", handleBalanceUpdate);
   }, []);
 
   // Process voice commands
@@ -105,8 +111,11 @@ const BankingPage = () => {
     speak(msg);
   }, [balance, speak]);
 
+  const [transferring, setTransferring] = useState(false);
+  const [recipient, setRecipient] = useState("Mohamed Ben Ali");
+
   const handleTransfer = useCallback(
-    (e: React.FormEvent) => {
+    async (e: React.FormEvent) => {
       e.preventDefault();
       const amount = parseFloat(transferAmount);
       if (isNaN(amount) || amount <= 0) {
@@ -121,12 +130,26 @@ const BankingPage = () => {
         speak(err);
         return;
       }
-      const msg = `Virement simulé de ${amount.toFixed(3)} TND effectué avec succès.`;
-      setTransferMessage(msg);
-      speak(msg);
-      setTransferAmount("");
+
+      setTransferring(true);
+      try {
+        const result = await transfer(1, amount, recipient);
+        const msg = `${result.message} Nouveau solde: ${result.new_balance.toFixed(3)} TND.`;
+        setTransferMessage(msg);
+        speak(msg);
+        setTransferAmount("");
+        setBalance(result.new_balance);
+        // Refresh transactions
+        fetchData();
+      } catch (error) {
+        const errMsg = error instanceof Error ? error.message : "Erreur lors du virement";
+        setTransferMessage(errMsg);
+        speak(errMsg);
+      } finally {
+        setTransferring(false);
+      }
     },
-    [transferAmount, balance, speak]
+    [transferAmount, balance, recipient, speak]
   );
 
   if (loading) {
@@ -231,8 +254,8 @@ const BankingPage = () => {
                 <div className="flex items-center gap-4">
                   <div
                     className={`p-3 rounded-xl ${tx.amount > 0
-                        ? "bg-green-500/10 text-green-600"
-                        : "bg-red-500/10 text-red-600"
+                      ? "bg-green-500/10 text-green-600"
+                      : "bg-red-500/10 text-red-600"
                       }`}
                   >
                     {tx.amount > 0 ? (
@@ -272,6 +295,28 @@ const BankingPage = () => {
         <form onSubmit={handleTransfer} className="max-w-md space-y-4">
           <div>
             <label
+              htmlFor="transfer-recipient"
+              className="block text-foreground font-semibold mb-2"
+            >
+              Bénéficiaire
+            </label>
+            <input
+              type="text"
+              id="transfer-recipient"
+              value={recipient}
+              onChange={(e) => setRecipient(e.target.value)}
+              className={[
+                "w-full px-4 py-3 rounded-lg border-2 border-input",
+                "bg-card text-foreground text-lg",
+                "focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-ring focus-visible:outline-offset-2",
+                "min-h-target",
+              ].join(" ")}
+              placeholder="Nom du bénéficiaire"
+              required
+            />
+          </div>
+          <div>
+            <label
               htmlFor="transfer-amount"
               className="block text-foreground font-semibold mb-2"
             >
@@ -292,15 +337,16 @@ const BankingPage = () => {
               ].join(" ")}
               placeholder="Ex : 50.000"
               aria-describedby="transfer-help"
+              required
             />
             <p id="transfer-help" className="mt-1 text-muted-foreground">
               Entrez le montant que vous souhaitez transférer.
             </p>
           </div>
 
-          <AccessibleButton type="submit" variant="primary">
+          <AccessibleButton type="submit" variant="primary" disabled={transferring}>
             <Send className="w-5 h-5" aria-hidden="true" />
-            Effectuer le virement
+            {transferring ? "Virement en cours..." : "Effectuer le virement"}
           </AccessibleButton>
         </form>
 
