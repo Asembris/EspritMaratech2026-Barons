@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef, useEffect, useState, useCallback } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useSpeech } from '@/hooks/use-speech';
 
 interface GestureInfo {
@@ -8,9 +9,7 @@ interface GestureInfo {
     emoji: string;
     name: string;
     action: string;
-    holdTime?: number;
     detected: boolean;
-    progress: number;
 }
 
 interface Landmark {
@@ -24,7 +23,6 @@ interface Props {
 }
 
 // Landmark indices for MediaPipe Hands
-const WRIST = 0;
 const THUMB_TIP = 4;
 const THUMB_IP = 3;
 const THUMB_MCP = 2;
@@ -38,11 +36,9 @@ const RING_PIP = 14;
 const PINKY_TIP = 20;
 const PINKY_PIP = 18;
 
-// Move helper functions OUTSIDE component to avoid stale closures
+// Pure helper functions outside component
 const isFingerExtended = (landmarks: Landmark[], tipIdx: number, pipIdx: number): boolean => {
-    const tip = landmarks[tipIdx];
-    const pip = landmarks[pipIdx];
-    return tip.y < pip.y;
+    return landmarks[tipIdx].y < landmarks[pipIdx].y;
 };
 
 const isThumbExtended = (landmarks: Landmark[]): boolean => {
@@ -60,7 +56,6 @@ const getFingerStates = (landmarks: Landmark[]) => ({
     pinky: isFingerExtended(landmarks, PINKY_TIP, PINKY_PIP),
 });
 
-// Gesture detection function - pure function, no React dependencies
 const detectGestureFromLandmarks = (landmarks: Landmark[]): string => {
     if (!landmarks || landmarks.length < 21) return 'none';
 
@@ -74,7 +69,7 @@ const detectGestureFromLandmarks = (landmarks: Landmark[]): string => {
         return 'open_hand';
     }
 
-    // Thumbs Up or Closed Fist: no fingers extended except maybe thumb
+    // Thumbs Up or Closed Fist
     if (!fingers.index && !fingers.middle && !fingers.ring && !fingers.pinky) {
         const thumbTip = landmarks[THUMB_TIP];
         const thumbMcp = landmarks[THUMB_MCP];
@@ -82,9 +77,7 @@ const detectGestureFromLandmarks = (landmarks: Landmark[]): string => {
         const thumbIsExtended = Math.abs(thumbTip.y - thumbMcp.y) > 0.05 ||
             Math.abs(thumbTip.x - thumbMcp.x) > 0.05;
 
-        if (thumbIsUp && thumbIsExtended) {
-            return 'thumbs_up';
-        }
+        if (thumbIsUp && thumbIsExtended) return 'thumbs_up';
         return 'closed_fist';
     }
 
@@ -92,10 +85,7 @@ const detectGestureFromLandmarks = (landmarks: Landmark[]): string => {
     if (fingers.index && !fingers.middle && !fingers.ring && !fingers.pinky) {
         const dx = indexTip.x - indexMcp.x;
         const dy = Math.abs(indexTip.y - indexMcp.y);
-        const isHorizontal = Math.abs(dx) > dy;
-
-        if (isHorizontal) {
-            // Note: Video is mirrored, so directions are swapped
+        if (Math.abs(dx) > dy) {
             if (dx > 0.05) return 'point_left';
             if (dx < -0.05) return 'point_right';
         }
@@ -140,30 +130,41 @@ declare global {
     }
 }
 
+// Page navigation order
+const PAGES = ['/', '/banking', '/shopping', '/translate', '/accessibility'];
+const PAGE_NAMES: Record<string, string> = {
+    '/': 'Accueil',
+    '/banking': 'Banque',
+    '/shopping': 'Shopping',
+    '/translate': 'Traduction',
+    '/accessibility': 'Accessibilité'
+};
+
+// Gesture config - NO holdTime, all immediate
 const gesturesConfig = [
-    { id: 'open_hand', emoji: '🖐️', name: 'Main Ouverte', action: 'Assistant', spokenAction: 'Assistant', holdTime: 2 },
-    { id: 'closed_fist', emoji: '✊', name: 'Poing Fermé', action: 'Annuler', spokenAction: 'Annuler', holdTime: 2 },
-    { id: 'point_right', emoji: '👉', name: 'Pointer Droite', action: 'Suivant', spokenAction: 'Suivant', holdTime: 0 },
-    { id: 'point_left', emoji: '👈', name: 'Pointer Gauche', action: 'Précédent', spokenAction: 'Précédent', holdTime: 0 },
-    { id: 'thumbs_up', emoji: '👍', name: 'Pouce Levé', action: 'Confirmer', spokenAction: 'Confirmer', holdTime: 0 },
+    { id: 'open_hand', emoji: '🖐️', name: 'Main Ouverte', action: 'Voix ON' },
+    { id: 'closed_fist', emoji: '✊', name: 'Poing Fermé', action: 'Voix OFF' },
+    { id: 'point_right', emoji: '👉', name: 'Pointer Droite', action: 'Page Suivante' },
+    { id: 'point_left', emoji: '👈', name: 'Pointer Gauche', action: 'Page Précédente' },
+    { id: 'thumbs_up', emoji: '👍', name: 'Pouce Levé', action: 'Confirmer' },
 ];
 
 export function GestureDetector({ onGestureDetected }: Props) {
+    const navigate = useNavigate();
+    const location = useLocation();
     const videoRef = useRef<HTMLVideoElement>(null);
     const canvasRef = useRef<HTMLCanvasElement>(null);
     const [isActive, setIsActive] = useState(false);
     const [currentGesture, setCurrentGesture] = useState<string>('none');
-    const { speak } = useSpeech();
-    const [gestureProgress, setGestureProgress] = useState<Record<string, number>>({});
+    const { speak, stop: stopTTS } = useSpeech();
     const [error, setError] = useState<string | null>(null);
     const [handDetected, setHandDetected] = useState(false);
     const [loading, setLoading] = useState(false);
+    const [ttsEnabled, setTtsEnabled] = useState(true);
 
     const streamRef = useRef<MediaStream | null>(null);
     const handsRef = useRef<any>(null);
     const cameraRef = useRef<any>(null);
-    const holdTimerRef = useRef<NodeJS.Timeout | null>(null);
-    const progressIntervalRef = useRef<NodeJS.Timeout | null>(null);
     const gestureHistoryRef = useRef<string[]>([]);
     const lastConfirmedGestureRef = useRef<string>('none');
     const lastGestureTimeRef = useRef<number>(0);
@@ -171,37 +172,66 @@ export function GestureDetector({ onGestureDetected }: Props) {
     const gestures: GestureInfo[] = gesturesConfig.map(g => ({
         ...g,
         detected: currentGesture === g.id,
-        progress: gestureProgress[g.id] || 0,
     }));
 
-    const clearHoldTimer = useCallback(() => {
-        if (holdTimerRef.current) clearTimeout(holdTimerRef.current);
-        if (progressIntervalRef.current) clearInterval(progressIntervalRef.current);
-        setGestureProgress({});
-    }, []);
+    // Navigate to next/previous page
+    const navigatePage = useCallback((direction: 'next' | 'prev') => {
+        const currentIndex = PAGES.indexOf(location.pathname);
+        let newIndex: number;
 
-    const startHoldTimer = useCallback((gestureId: string, holdTime: number) => {
-        clearHoldTimer();
-        const holdMs = holdTime * 1000;
-        const startTime = Date.now();
+        if (currentIndex === -1) {
+            newIndex = 0;
+        } else if (direction === 'next') {
+            newIndex = (currentIndex + 1) % PAGES.length;
+        } else {
+            newIndex = (currentIndex - 1 + PAGES.length) % PAGES.length;
+        }
 
-        progressIntervalRef.current = setInterval(() => {
-            const elapsed = Date.now() - startTime;
-            const progress = Math.min((elapsed / holdMs) * 100, 100);
-            setGestureProgress({ [gestureId]: progress });
-        }, 50);
+        const pageName = PAGE_NAMES[PAGES[newIndex]] || PAGES[newIndex];
+        if (ttsEnabled) speak(pageName);
+        navigate(PAGES[newIndex]);
+    }, [location.pathname, navigate, speak, ttsEnabled]);
 
-        holdTimerRef.current = setTimeout(() => {
-            clearInterval(progressIntervalRef.current!);
-            const config = gesturesConfig.find(g => g.id === gestureId);
-            if (config) {
-                onGestureDetected?.(config.name, config.action);
-            }
-            setGestureProgress({ [gestureId]: 100 });
-        }, holdMs);
-    }, [clearHoldTimer, onGestureDetected]);
+    // Handle gesture actions - ALL IMMEDIATE, no delays
+    const handleGestureAction = useCallback((gesture: string) => {
+        const now = Date.now();
+        // Debounce: 1 second between actions
+        if (now - lastGestureTimeRef.current < 1000) {
+            return;
+        }
+        lastGestureTimeRef.current = now;
 
-    // Process gesture with history and debouncing
+        switch (gesture) {
+            case 'point_right':
+                navigatePage('next');
+                onGestureDetected?.('Pointer Droite', 'Page Suivante');
+                break;
+            case 'point_left':
+                navigatePage('prev');
+                onGestureDetected?.('Pointer Gauche', 'Page Précédente');
+                break;
+            case 'closed_fist':
+                stopTTS();
+                setTtsEnabled(false);
+                // Still speak this once
+                const offUtterance = new SpeechSynthesisUtterance('Voix désactivée');
+                offUtterance.lang = 'fr-FR';
+                window.speechSynthesis.speak(offUtterance);
+                onGestureDetected?.('Poing Fermé', 'Voix OFF');
+                break;
+            case 'open_hand':
+                setTtsEnabled(true);
+                speak('Voix activée');
+                onGestureDetected?.('Main Ouverte', 'Voix ON');
+                break;
+            case 'thumbs_up':
+                if (ttsEnabled) speak('OK');
+                onGestureDetected?.('Pouce Levé', 'Confirmer');
+                break;
+        }
+    }, [navigatePage, speak, stopTTS, ttsEnabled, onGestureDetected]);
+
+    // Process gesture with stabilization
     const processGesture = useCallback((detected: string) => {
         const historySize = 5;
         const debounceMs = 500;
@@ -222,31 +252,15 @@ export function GestureDetector({ onGestureDetected }: Props) {
 
                 setCurrentGesture(detected);
                 lastConfirmedGestureRef.current = detected;
-                lastGestureTimeRef.current = now;
-
-                const gestureConfig = gesturesConfig.find(g => g.id === detected);
-                if (gestureConfig) {
-                    // Speak the action name immediately
-                    speak(gestureConfig.spokenAction);
-
-                    // Handle hold gestures
-                    if (gestureConfig.holdTime && gestureConfig.holdTime > 0) {
-                        startHoldTimer(detected, gestureConfig.holdTime);
-                        onGestureDetected?.(gestureConfig.name, gestureConfig.action);
-                    } else {
-                        // Immediate action
-                        onGestureDetected?.(gestureConfig.name, gestureConfig.action);
-                    }
-                }
+                handleGestureAction(detected);
             }
         } else if (detected === 'none' && gestureHistoryRef.current.every(g => g === 'none')) {
             setCurrentGesture('none');
-            clearHoldTimer();
             if (lastConfirmedGestureRef.current !== 'none') {
                 lastConfirmedGestureRef.current = 'none';
             }
         }
-    }, [speak, onGestureDetected, startHoldTimer, clearHoldTimer]);
+    }, [handleGestureAction]);
 
     // MediaPipe results handler
     const onResults = useCallback((results: any) => {
@@ -261,7 +275,6 @@ export function GestureDetector({ onGestureDetected }: Props) {
             setHandDetected(true);
             const landmarks = results.multiHandLandmarks[0];
 
-            // Draw hand landmarks
             drawConnections(ctx, landmarks, canvas.width, canvas.height);
             drawLandmarks(ctx, landmarks, canvas.width, canvas.height);
 
@@ -282,12 +295,10 @@ export function GestureDetector({ onGestureDetected }: Props) {
                 return;
             }
 
-            // Load hands.js
             const handsScript = document.createElement('script');
             handsScript.src = 'https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js';
             handsScript.crossOrigin = 'anonymous';
 
-            // Load camera_utils.js
             const cameraScript = document.createElement('script');
             cameraScript.src = 'https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js';
             cameraScript.crossOrigin = 'anonymous';
@@ -313,7 +324,6 @@ export function GestureDetector({ onGestureDetected }: Props) {
             setError(null);
             setLoading(true);
 
-            // Load MediaPipe scripts
             await loadMediaPipe();
 
             if (!window.Hands) {
@@ -330,7 +340,6 @@ export function GestureDetector({ onGestureDetected }: Props) {
                 videoRef.current.srcObject = stream;
                 streamRef.current = stream;
 
-                // Initialize MediaPipe Hands
                 handsRef.current = new window.Hands({
                     locateFile: (file: string) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`
                 });
@@ -344,7 +353,6 @@ export function GestureDetector({ onGestureDetected }: Props) {
 
                 handsRef.current.onResults(onResults);
 
-                // Start camera loop
                 if (window.Camera) {
                     cameraRef.current = new window.Camera(videoRef.current, {
                         onFrame: async () => {
@@ -384,9 +392,8 @@ export function GestureDetector({ onGestureDetected }: Props) {
         setIsActive(false);
         setCurrentGesture('none');
         setHandDetected(false);
-        clearHoldTimer();
         speak('Caméra désactivée');
-    }, [speak, clearHoldTimer]);
+    }, [speak]);
 
     useEffect(() => {
         return () => {
@@ -395,6 +402,8 @@ export function GestureDetector({ onGestureDetected }: Props) {
             }
         };
     }, [isActive, stopCamera]);
+
+    const currentPage = PAGE_NAMES[location.pathname] || location.pathname;
 
     return (
         <div className="bg-card rounded-xl border-2 border-border overflow-hidden">
@@ -434,36 +443,35 @@ export function GestureDetector({ onGestureDetected }: Props) {
                             </div>
                         )}
 
-                        {isActive && currentGesture !== 'none' && (
-                            <div className="absolute bottom-4 left-4 right-4 bg-card/90 backdrop-blur-sm rounded-lg p-3 border border-border">
-                                <div className="flex items-center justify-between mb-2">
-                                    <span className="text-muted-foreground">Geste:</span>
-                                    <span className="text-xl font-bold text-primary">
-                                        {gestures.find(g => g.detected)?.emoji} {gestures.find(g => g.detected)?.name}
-                                    </span>
-                                </div>
-                                {gestures.find(g => g.detected && g.holdTime && g.holdTime > 0) && (
-                                    <div className="w-full bg-muted rounded-full h-2 overflow-hidden">
-                                        <div
-                                            className="bg-primary h-full transition-all duration-100"
-                                            style={{ width: `${gestureProgress[currentGesture] || 0}%` }}
-                                        />
-                                    </div>
-                                )}
+                        {/* Current page indicator */}
+                        {isActive && (
+                            <div className="absolute top-4 left-4 px-3 py-1 rounded-full text-sm font-semibold bg-primary text-primary-foreground">
+                                📍 {currentPage}
                             </div>
                         )}
 
-                        {/* Hand tracking status for screen readers */}
-                        <div role="status" aria-live="polite" className="sr-only">
-                            {isActive ? (handDetected ? 'Main détectée' : 'Aucune main détectée') : ''}
-                        </div>
+                        {/* TTS status */}
+                        {isActive && (
+                            <div className={`absolute top-12 left-4 px-2 py-1 rounded text-xs ${ttsEnabled ? 'bg-green-500 text-white' : 'bg-red-500 text-white'}`}>
+                                {ttsEnabled ? '🔊 Voix ON' : '🔇 Voix OFF'}
+                            </div>
+                        )}
+
+                        {isActive && currentGesture !== 'none' && (
+                            <div className="absolute bottom-4 left-4 right-4 bg-card/90 backdrop-blur-sm rounded-lg p-3 border border-border">
+                                <div className="flex items-center justify-center gap-3">
+                                    <span className="text-3xl">{gestures.find(g => g.detected)?.emoji}</span>
+                                    <span className="text-xl font-bold text-primary">
+                                        {gestures.find(g => g.detected)?.action}
+                                    </span>
+                                </div>
+                            </div>
+                        )}
                     </div>
 
                     <button
                         onClick={isActive ? stopCamera : startCamera}
                         disabled={loading}
-                        aria-label={isActive ? 'Arrêter la caméra de détection de gestes' : 'Démarrer la caméra de détection de gestes'}
-                        aria-pressed={isActive}
                         className={[
                             "w-full py-4 rounded-xl font-semibold text-lg transition-all flex items-center justify-center gap-3",
                             "focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-offset-2 focus-visible:outline-ring",
@@ -474,17 +482,12 @@ export function GestureDetector({ onGestureDetected }: Props) {
                                 : "bg-primary text-primary-foreground hover:bg-primary/90"
                         ].join(" ")}
                     >
-                        <span className="text-xl" aria-hidden="true">📷</span>
+                        <span className="text-xl">📷</span>
                         {loading ? 'Chargement...' : isActive ? 'Arrêter la Caméra' : 'Démarrer la Caméra'}
                     </button>
 
                     {error && (
-                        <div
-                            role="alert"
-                            aria-live="assertive"
-                            className="mt-3 bg-destructive/10 border-2 border-destructive text-destructive p-3 rounded-lg text-center"
-                        >
-                            <span className="sr-only">Erreur: </span>
+                        <div className="mt-3 bg-destructive/10 border-2 border-destructive text-destructive p-3 rounded-lg text-center">
                             {error}
                         </div>
                     )}
@@ -492,7 +495,7 @@ export function GestureDetector({ onGestureDetected }: Props) {
 
                 {/* Right side - Gestures */}
                 <div className="p-6">
-                    <h3 className="text-xl font-bold text-primary mb-4">Gestes Disponibles</h3>
+                    <h3 className="text-xl font-bold text-primary mb-4">Navigation par Gestes</h3>
 
                     <div className="space-y-3">
                         {gestures.map((gesture) => (
@@ -501,36 +504,19 @@ export function GestureDetector({ onGestureDetected }: Props) {
                                 className={`relative p-4 rounded-xl transition-all overflow-hidden ${gesture.detected ? 'bg-primary/20 border-2 border-primary' : 'bg-muted border-2 border-transparent'
                                     }`}
                             >
-                                {gesture.holdTime && gesture.holdTime > 0 && gesture.detected && (
-                                    <div
-                                        className="absolute inset-0 bg-primary/20 transition-all"
-                                        style={{ width: `${gesture.progress}%` }}
-                                    />
-                                )}
-
                                 <div className="relative flex items-center justify-between">
                                     <div className="flex items-center gap-4">
                                         <span className="text-3xl">{gesture.emoji}</span>
                                         <div>
-                                            <div className="font-semibold text-foreground flex items-center gap-2">
-                                                {gesture.name}
-                                                {gesture.holdTime && gesture.holdTime > 0 && (
-                                                    <span className="text-xs bg-accent text-accent-foreground px-2 py-0.5 rounded-full">
-                                                        ⏱️ {gesture.holdTime}s
-                                                    </span>
-                                                )}
-                                            </div>
+                                            <div className="font-semibold text-foreground">{gesture.name}</div>
                                             <div className="text-sm text-muted-foreground">{gesture.action}</div>
                                         </div>
                                     </div>
                                     <div className={`w-5 h-5 rounded-full border-2 flex items-center justify-center ${gesture.detected
-                                        ? gesture.progress >= 100 ? 'bg-green-500 border-green-500' : 'bg-primary border-primary'
+                                        ? 'bg-primary border-primary'
                                         : 'border-muted-foreground'
                                         }`}>
-                                        {gesture.detected && gesture.progress >= 100 && <span className="text-white text-xs">✓</span>}
-                                        {gesture.detected && gesture.progress < 100 && gesture.holdTime && (
-                                            <span className="text-white text-xs animate-pulse">●</span>
-                                        )}
+                                        {gesture.detected && <span className="text-white text-xs">✓</span>}
                                     </div>
                                 </div>
                             </div>
@@ -538,7 +524,8 @@ export function GestureDetector({ onGestureDetected }: Props) {
                     </div>
 
                     <div className="mt-4 p-3 bg-muted rounded-lg text-sm text-muted-foreground">
-                        <p>💡 Gestes avec <span className="text-accent-foreground">⏱️</span> = maintenir la position</p>
+                        <p>💡 Tous les gestes sont immédiats - pas besoin de maintenir!</p>
+                        <p className="mt-1">🔄 Navigation: Accueil → Banque → Shopping → Traduction → Accessibilité</p>
                     </div>
                 </div>
             </div>
