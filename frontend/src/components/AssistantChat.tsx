@@ -94,16 +94,16 @@ export default function AssistantChat() {
         };
     }, []);
 
-    // Auto-start recording when chat opens in autoListenMode
+    // Auto-start recording when chat opens in autoListenMode (wait for TTS)
     useEffect(() => {
         if (!isOpen || !autoListenMode || isRecording || isLoading || isTranscribing) return;
+        if (isSpeaking) return; // Wait for TTS to finish
 
-        // Wait for any speech to finish, then start recording
+        // Wait a bit after TTS finishes to start recording
         const timer = setTimeout(() => {
-            if (!isSpeaking) {
-                startRecording();
-            }
-        }, 1500);
+            console.log("AssistantChat: Auto-starting recording...");
+            startRecording();
+        }, 2000);
 
         return () => clearTimeout(timer);
     }, [isOpen, autoListenMode, isRecording, isLoading, isTranscribing, isSpeaking, startRecording]);
@@ -118,8 +118,28 @@ export default function AssistantChat() {
             try {
                 const result = await transcribeAudio(blob, 'general');
                 if (result.text) {
-                    setInput(result.text.trim());
-                    setPendingAutoSend(true);
+                    let text = result.text.trim().toLowerCase();
+
+                    // Check for "ferme" command first
+                    if (text.includes('ferme') || text.includes('fermer') || text.includes('quitte') || text.includes('quitter')) {
+                        console.log("AssistantChat: 'Ferme' detected, closing...");
+                        setIsOpen(false);
+                        speak("Je ferme l'assistant.");
+                        return;
+                    }
+
+                    // Clean up command words from the message
+                    let cleanText = result.text.trim();
+                    const commandWords = ['envoie', 'envoyer', 'envoi', 'send', 'valide', 'valider'];
+                    for (const word of commandWords) {
+                        const regex = new RegExp(`\\b${word}\\b`, 'gi');
+                        cleanText = cleanText.replace(regex, '').trim();
+                    }
+
+                    if (cleanText) {
+                        setInput(cleanText);
+                        setPendingAutoSend(true);
+                    }
                 }
             } catch (error) {
                 console.error("Transcription failed", error);
@@ -129,7 +149,7 @@ export default function AssistantChat() {
         }, 5000);
 
         return () => clearTimeout(timer);
-    }, [autoListenMode, isRecording, stopRecording]);
+    }, [autoListenMode, isRecording, stopRecording, speak]);
 
     // Auto-send when transcription is complete (pendingAutoSend)
     useEffect(() => {

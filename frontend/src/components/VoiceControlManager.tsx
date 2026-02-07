@@ -11,7 +11,7 @@ import { Mic, Loader2, Navigation } from 'lucide-react';
 
 export default function VoiceControlManager() {
     const { isVoiceNavEnabled, setVoiceNavEnabled, autoListenMode, setAutoListenMode } = useAccessibility();
-    const { speak, cancel } = useAudio();
+    const { speak, cancel, isSpeaking } = useAudio();
     const { start, stop, transcript, isRecording, isTranscribing, clearTranscript } = useWhisper('command'); // Strict Mode
     const router = useRouter();
     const pathname = usePathname();
@@ -102,20 +102,21 @@ export default function VoiceControlManager() {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [pathname, isVoiceNavEnabled]);
 
-    // Auto-Listen Mode: Auto-start recording when idle and not paused
+    // Auto-Listen Mode: Auto-start recording when idle and not paused (wait for TTS)
     useEffect(() => {
         if (!autoListenMode || !isVoiceNavEnabled || isPaused) return;
         if (isRecording || isTranscribing || isProcessing) return;
+        if (isSpeaking) return; // Wait for TTS to finish
         if (pathname?.startsWith('/onboarding') || pathname === '/login') return;
 
-        // Wait a bit after processing before starting to listen again
+        // Wait a bit after TTS finishes before starting to listen
         const timer = setTimeout(() => {
             console.log("Auto-listen: Starting recording...");
             start();
         }, 2000); // 2s delay to let user hear response
 
         return () => clearTimeout(timer);
-    }, [autoListenMode, isVoiceNavEnabled, isPaused, isRecording, isTranscribing, isProcessing, pathname, start]);
+    }, [autoListenMode, isVoiceNavEnabled, isPaused, isRecording, isTranscribing, isProcessing, isSpeaking, pathname, start]);
 
     // Auto-stop recording after 5 seconds in auto-listen mode
     useEffect(() => {
