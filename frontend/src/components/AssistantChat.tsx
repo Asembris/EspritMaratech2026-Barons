@@ -137,8 +137,9 @@ export default function AssistantChat() {
                     }
 
                     if (cleanText) {
-                        setInput(cleanText);
-                        setPendingAutoSend(true);
+                        console.log("AssistantChat: Auto-sending message:", cleanText);
+                        // Directly call sendMessage with the text
+                        sendMessageDirect(cleanText);
                     }
                 }
             } catch (error) {
@@ -151,12 +152,57 @@ export default function AssistantChat() {
         return () => clearTimeout(timer);
     }, [autoListenMode, isRecording, stopRecording, speak]);
 
-    // Auto-send when transcription is complete (pendingAutoSend)
+    // Direct send function that doesn't depend on input state
+    const sendMessageDirect = async (text: string) => {
+        if (!text.trim() || isLoading || !user) return;
+
+        const userMsg: Message = {
+            id: Date.now().toString(),
+            text: text,
+            sender: 'user',
+            timestamp: new Date()
+        };
+
+        setMessages(prev => [...prev, userMsg]);
+        setInput(""); // Clear any input
+        setIsLoading(true);
+
+        try {
+            const history = messages.map(m => ({
+                role: m.sender,
+                content: m.text
+            }));
+
+            const data = await chatWithAssistant(text, user.id, history);
+            const assistantMsg: Message = {
+                id: (Date.now() + 1).toString(),
+                text: data.response,
+                sender: 'assistant',
+                timestamp: new Date()
+            };
+            setMessages(prev => [...prev, assistantMsg]);
+            window.dispatchEvent(new Event('cartUpdated'));
+            if (audioEnabled) {
+                speak(data.response);
+            }
+        } catch (error) {
+            console.error(error);
+            setMessages(prev => [...prev, {
+                id: Date.now().toString(),
+                text: "Désolé, une erreur est survenue.",
+                sender: 'assistant',
+                timestamp: new Date()
+            }]);
+        } finally {
+            setIsLoading(false);
+        }
+    };
+
+    // Keep pendingAutoSend for manual recording case
     useEffect(() => {
         if (!pendingAutoSend || !input.trim() || isLoading) return;
 
         setPendingAutoSend(false);
-        // Small delay to ensure state is updated
         const timer = setTimeout(() => {
             handleSendRef.current();
         }, 100);
