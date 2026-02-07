@@ -41,166 +41,155 @@ Application React conçue pour l'accessibilité universelle — utilisable par l
 
 ---
 
-## 🚀 Pour les Membres de l'Équipe : Installation & Contribution
+## 🚀 Installation Complète (Premier Lancement)
+
+> ⚠️ **SUIVEZ CES ÉTAPES DANS L'ORDRE** pour éviter les problèmes de configuration.
 
 ### Prérequis
-- **Node.js** v18+ (vérifier : `node -v`)
-- **npm** v9+ (vérifier : `npm -v`)
-- **Git** installé (vérifier : `git --version`)
+- **Node.js** v18+ (`node -v`)
+- **npm** v9+ (`npm -v`)
+- **Git** (`git --version`)
+- **Ollama** installé ([ollama.ai](https://ollama.ai))
 
 ---
 
-### Étape 1 : Cloner le Repo
+### Étape 1 : Configurer Ollama (IMPORTANT !)
+
+**Avant de lancer l'app**, configurez Ollama pour accepter les connexions réseau :
+
+#### Windows (Variables d'environnement système)
+
+1. `Win + R` → taper `sysdm.cpl` → **Entrée**
+2. Onglet **Avancé** → **Variables d'environnement**
+3. Dans **Variables système**, cliquer **Nouveau** et ajouter :
+
+| Nom de la variable | Valeur |
+|-------------------|--------|
+| `OLLAMA_HOST` | `0.0.0.0:11434` |
+| `OLLAMA_ORIGINS` | `*` |
+
+4. **OK** pour tout fermer
+5. **Redémarrer Ollama** (quitter depuis la barre système, puis relancer)
+
+#### Vérifier que Ollama fonctionne
+
+```bash
+# Télécharger le modèle (une seule fois)
+ollama pull phi3:instruct
+
+# Vérifier que le serveur répond
+curl http://localhost:11434/api/tags
+# Doit afficher du JSON avec "phi3:instruct"
+```
+
+---
+
+### Étape 2 : Cloner et Installer
 
 ```bash
 git clone https://github.com/Asembris/MaraTech.git
 cd MaraTech
-```
-
----
-
-### Étape 2 : Basculer sur la Branche `yassine`
-
-```bash
 git checkout yassine
 git pull origin yassine
-```
-
----
-
-### Étape 3 : Installer les Dépendances
-
-```bash
 npm install
 ```
 
-> ⏱️ Cela peut prendre 1-2 minutes la première fois.
-
 ---
 
-### Étape 4 : Créer le Fichier `.env`
-
-Créer un fichier `.env` à la racine du projet :
-
-```env
-VITE_OLLAMA_URL=http://localhost:11434
-```
-
-> ⚠️ Ce fichier n'est PAS commité (il est dans `.gitignore`).
-
----
-
-### Étape 5 : Lancer le Serveur
+### Étape 3 : Lancer le Serveur
 
 ```bash
 npm run dev
 ```
 
-L'application sera disponible sur `http://localhost:8080`
+L'application sera disponible sur `http://localhost:8080` (ou le port affiché).
 
 ---
 
-### Étape 6 : Faire des Modifications
+### Étape 4 : Tester le Guide Vocal
 
-1. Modifier les fichiers dans `src/`
-2. Le serveur recharge automatiquement (HMR)
-
----
-
-### Étape 7 : Committer et Pusher
-
-```bash
-# Voir les fichiers modifiés
-git status
-
-# Ajouter tous les fichiers modifiés
-git add .
-
-# Créer un commit avec un message descriptif
-git commit -m "feat: description de votre modification"
-
-# Pusher vers GitHub
-git push origin yassine
-```
-
----
-
-### Commandes Utiles
-
-| Commande | Description |
-|----------|-------------|
-| `npm run dev` | Lancer le serveur de développement |
-| `npm run build` | Construire pour production |
-| `npm run test` | Lancer les tests |
-| `npm run lint` | Vérifier le code |
+1. Ouvrir l'app dans Chrome/Edge
+2. Taper dans la zone de texte : `où suis-je`
+3. Cliquer **"Tester"**
+4. Le guide devrait répondre avec une description de la page
 
 ---
 
 ## 📱 Test sur Mobile
 
-Pour tester sur mobile avec les commandes vocales (nécessite HTTPS) :
+### Option A : Même WiFi (Simple)
+
+Si votre téléphone et PC sont sur le **même réseau WiFi** :
+
+1. Trouver l'IP du PC :
+```bash
+ipconfig | findstr "IPv4"
+# Exemple: 192.168.1.73
+```
+
+2. Ouvrir sur le téléphone : `http://192.168.1.73:8080`
+
+3. **Si ça ne charge pas**, ouvrir le pare-feu (PowerShell Admin) :
+```powershell
+netsh advfirewall firewall add rule name="Vite Dev" dir=in action=allow protocol=tcp localport=8080
+netsh advfirewall firewall add rule name="Ollama" dir=in action=allow protocol=tcp localport=11434
+```
+
+### Option B : Hotspot Mobile (Si WiFi bloque)
+
+Certains réseaux WiFi (campus, entreprise) bloquent la communication entre appareils.
+
+1. **Activer le Hotspot Mobile** sur le PC :
+   - `Win + I` → Réseau → Point d'accès mobile → **Activer**
+
+2. **Connecter le téléphone** au hotspot du PC
+
+3. **Trouver l'IP du hotspot** (généralement `192.168.137.1`) :
+```bash
+ipconfig | findstr "192.168.137"
+```
+
+4. Ouvrir sur le téléphone : `http://192.168.137.1:8080`
+
+### Option C : ngrok (HTTPS pour micro)
+
+Le micro sur mobile **nécessite HTTPS**. Pour tester la reconnaissance vocale :
 
 ```bash
-# Installer ngrok
 npm install -g ngrok
-
-# Configurer (une seule fois)
-ngrok config add-authtoken VOTRE_TOKEN
-
-# Lancer le tunnel
+ngrok config add-authtoken VOTRE_TOKEN  # Créer compte sur ngrok.com
 ngrok http 8080
 ```
 
-Utilisez l'URL `https://` fournie par ngrok sur votre mobile.
+Utiliser l'URL `https://` fournie par ngrok.
+
+> ⚠️ Avec ngrok, le guide Ollama ne fonctionnera pas (HTTPS → HTTP bloqué). Utilisez l'option A ou B pour tester Ollama.
 
 ---
 
-## 🤖 Configuration Ollama (Guide Intelligent)
+## 🔧 Dépannage
 
-Le guide vocal utilise Ollama pour répondre aux questions contextuelles.
+### "Ollama failed" dans l'app
 
-### Installation
-1. Installer [Ollama](https://ollama.ai)
-2. Télécharger le modèle : `ollama pull phi3:instruct`
-3. Créer un fichier `.env` :
+1. **Vérifier qu'Ollama tourne** : `curl http://localhost:11434/api/tags`
+2. **Vérifier les variables d'environnement** : `OLLAMA_HOST=0.0.0.0:11434` et `OLLAMA_ORIGINS=*`
+3. **Redémarrer Ollama** après avoir changé les variables
 
-```env
-VITE_OLLAMA_URL=http://localhost:11434
-```
+### "403 Forbidden" sur Ollama
 
-### Pour accès depuis mobile
-```env
-VITE_OLLAMA_URL=http://VOTRE_IP_PC:11434
-```
+→ `OLLAMA_ORIGINS` n'est pas configuré. Voir Étape 1.
 
-Et lancer Ollama avec :
-```powershell
-$env:OLLAMA_HOST="0.0.0.0:11434"; ollama serve
-```
+### Téléphone ne peut pas accéder au PC
 
----
+→ Pare-feu Windows bloque. Ouvrir les ports 8080 et 11434 (voir section Mobile).
 
-## 📋 Travaux en Cours
+### Timeout sur le guide
 
-### 🔴 En Progression
-- [ ] **Intégration Ollama complète** — Le modèle phi3:instruct fonctionne localement, mais l'accès réseau (depuis mobile) nécessite configuration manuelle de `OLLAMA_HOST`
-- [ ] **Tests mobiles** — Les commandes vocales requièrent HTTPS (via ngrok)
-- [ ] **Persistence des données** — Liste de courses et paramètres stockés en localStorage (pas de backend)
+→ Le modèle phi3 peut être lent au premier appel. Attendre jusqu'à 30 secondes.
 
-### ✅ Terminé
-- [x] Navigation vocale complète (français)
-- [x] Détection d'intentions par mots-clés
-- [x] Lecture de page à voix haute
-- [x] Guide contextuel avec prompts structurés
-- [x] Panneau de debug pour diagnostic STT/TTS
-- [x] Paramètres d'accessibilité (taille texte, contraste)
-- [x] UI accessible WCAG 2.1 AA
+### Micro ne fonctionne pas sur mobile
 
-### 🔜 À Venir
-- [ ] Support multilingue
-- [ ] Intégration API bancaire réelle
-- [ ] Mode hors-ligne (Service Worker)
-- [ ] Tests automatisés complets
+→ Le micro **nécessite HTTPS**. Utiliser ngrok ou tester sur PC.
 
 ---
 
@@ -210,42 +199,33 @@ $env:OLLAMA_HOST="0.0.0.0:11434"; ollama serve
 src/
 ├── components/         # Composants UI réutilisables
 │   ├── VoiceCommandButton.tsx  # Bouton vocal + panneau debug
-│   ├── AccessibleButton.tsx    # Bouton accessible
 │   └── ui/                     # shadcn/ui components
 ├── hooks/              # Hooks React
 │   ├── use-speech-recognition.ts  # Web Speech STT
-│   ├── use-speech.ts              # Web Speech TTS
-│   └── use-accessibility.tsx      # Contexte accessibilité
+│   └── use-speech.ts              # Web Speech TTS
 ├── pages/              # Pages de l'application
-│   ├── Index.tsx       # Accueil
-│   ├── Banking.tsx     # Banque
-│   ├── Shopping.tsx    # Courses
-│   └── Accessibility.tsx  # Paramètres
 └── voice/              # Système vocal
     ├── detectIntent.ts     # Détection d'intention
     ├── voiceController.ts  # Exécution des commandes
-    ├── ollamaGuide.ts      # Appel API Ollama
-    ├── pageContexts.ts     # Contexte par page
-    └── guideSystemPrompt.ts  # Prompt système LLM
+    ├── ollamaGuide.ts      # Appel API Ollama (via proxy)
+    └── pageContexts.ts     # Contexte par page
 ```
 
 ---
 
-## 🧪 Tests
+## 👥 Contribution
 
 ```bash
-# Tests unitaires
-npm run test
+# Voir les fichiers modifiés
+git status
 
-# Tests en mode watch
-npm run test:watch
+# Ajouter et committer
+git add .
+git commit -m "feat: description"
+
+# Pusher
+git push origin yassine
 ```
-
----
-
-## 👥 Équipe
-
-Projet développé dans le cadre d'un hackathon accessibilité.
 
 ---
 
