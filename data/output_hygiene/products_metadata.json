@@ -1,0 +1,1714 @@
+[
+  {
+    "product_id": "146366",
+    "name": "Sauce algérienne",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 0,
+    "class_name": "GUSTO",
+    "image_file": "product_146366.jpg",
+    "label_file": "product_146366.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.40425531914893614,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "146367",
+    "name": "Sauce barbecue",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 0,
+    "class_name": "GUSTO",
+    "image_file": "product_146367.jpg",
+    "label_file": "product_146367.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.39361702127659576,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "65090",
+    "name": "Hommos tahina",
+    "brand": "Promotion",
+    "price": "4,090 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_65090.jpg",
+    "label_file": "product_65090.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.624113475177305,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "41340",
+    "name": "Sauce à l'ail",
+    "brand": "Promotion",
+    "price": "4,390 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_41340.jpg",
+    "label_file": "product_41340.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135977",
+    "name": "Sauce barbecue",
+    "brand": "SOLIA",
+    "price": "4,400 DT",
+    "class_id": 2,
+    "class_name": "SOLIA",
+    "image_file": "product_135977.jpg",
+    "label_file": "product_135977.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.48226950354609927,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148300",
+    "name": "Sauce tunisienne",
+    "brand": "JADIDA",
+    "price": "4,690 DT",
+    "class_id": 3,
+    "class_name": "JADIDA",
+    "image_file": "product_148300.jpg",
+    "label_file": "product_148300.txt",
+    "bbox": [
+      0.5,
+      0.4967741935483871,
+      0.4326241134751773,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "135978",
+    "name": "Sauce cheese",
+    "brand": "SOLIA",
+    "price": "4,690 DT",
+    "class_id": 2,
+    "class_name": "SOLIA",
+    "image_file": "product_135978.jpg",
+    "label_file": "product_135978.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5016129032258064,
+      0.4858156028368794,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41341",
+    "name": "Sauce algérienne",
+    "brand": "JADIDA",
+    "price": "4,730 DT",
+    "class_id": 3,
+    "class_name": "JADIDA",
+    "image_file": "product_41341.jpg",
+    "label_file": "product_41341.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41342",
+    "name": "Sauce césar",
+    "brand": "JADIDA",
+    "price": "4,840 DT",
+    "class_id": 3,
+    "class_name": "JADIDA",
+    "image_file": "product_41342.jpg",
+    "label_file": "product_41342.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41660",
+    "name": "Sauce à l'ail",
+    "brand": "DORELLA",
+    "price": "4,890 DT",
+    "class_id": 4,
+    "class_name": "DORELLA",
+    "image_file": "product_41660.jpg",
+    "label_file": "product_41660.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6773049645390071,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "134570",
+    "name": "Sauce algérienne",
+    "brand": "SOLIA",
+    "price": "4,890 DT",
+    "class_id": 2,
+    "class_name": "SOLIA",
+    "image_file": "product_134570.jpg",
+    "label_file": "product_134570.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.4574468085106383,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "61383",
+    "name": "Houmous tahina",
+    "brand": "DURRA",
+    "price": "5,060 DT",
+    "class_id": 5,
+    "class_name": "DURRA",
+    "image_file": "product_61383.jpg",
+    "label_file": "product_61383.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.624113475177305,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "144571",
+    "name": "Sauce aux poivres",
+    "brand": "JADIDA",
+    "price": "5,190 DT",
+    "class_id": 3,
+    "class_name": "JADIDA",
+    "image_file": "product_144571.jpg",
+    "label_file": "product_144571.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.39361702127659576,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "123560",
+    "name": "Sauce salade",
+    "brand": "BONNA",
+    "price": "5,340 DT",
+    "class_id": 6,
+    "class_name": "BONNA",
+    "image_file": "product_123560.jpg",
+    "label_file": "product_123560.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "146705",
+    "name": "Sauce tartare",
+    "brand": "JADIDA",
+    "price": "5,390 DT",
+    "class_id": 3,
+    "class_name": "JADIDA",
+    "image_file": "product_146705.jpg",
+    "label_file": "product_146705.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3900709219858156,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "135054",
+    "name": "Sauce barbecue",
+    "brand": "TIFANNY",
+    "price": "5,390 DT",
+    "class_id": 7,
+    "class_name": "TIFANNY",
+    "image_file": "product_135054.jpg",
+    "label_file": "product_135054.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.4326241134751773,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "111798",
+    "name": "Sauce barbecue",
+    "brand": "Promotion",
+    "price": "5,690 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_111798.jpg",
+    "label_file": "product_111798.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "66607",
+    "name": "Baba ghanouj",
+    "brand": "MAMI GARDEN",
+    "price": "5,790 DT",
+    "class_id": 8,
+    "class_name": "MAMI GARDEN",
+    "image_file": "product_66607.jpg",
+    "label_file": "product_66607.txt",
+    "bbox": [
+      0.5,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "36252",
+    "name": "Sauce barbecue",
+    "brand": "FURKETTA",
+    "price": "5,900 DT",
+    "class_id": 9,
+    "class_name": "FURKETTA",
+    "image_file": "product_36252.jpg",
+    "label_file": "product_36252.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.4967741935483871,
+      0.5212765957446809,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "41664",
+    "name": "Sauce à l'ail",
+    "brand": "DORELLA",
+    "price": "6,390 DT",
+    "class_id": 4,
+    "class_name": "DORELLA",
+    "image_file": "product_41664.jpg",
+    "label_file": "product_41664.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.5425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25249",
+    "name": "Sauce barbecue",
+    "brand": "BONNA",
+    "price": "6,390 DT",
+    "class_id": 6,
+    "class_name": "BONNA",
+    "image_file": "product_25249.jpg",
+    "label_file": "product_25249.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5141843971631206,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25247",
+    "name": "Sauce à l'ail",
+    "brand": "BONNA",
+    "price": "6,550 DT",
+    "class_id": 6,
+    "class_name": "BONNA",
+    "image_file": "product_25247.jpg",
+    "label_file": "product_25247.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "88973",
+    "name": "Sauce barbecue",
+    "brand": "HEINZ",
+    "price": "6,690 DT",
+    "class_id": 10,
+    "class_name": "HEINZ",
+    "image_file": "product_88973.jpg",
+    "label_file": "product_88973.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8
+    ]
+  },
+  {
+    "product_id": "21907",
+    "name": "Sauce burger",
+    "brand": "BONNA",
+    "price": "6,760 DT",
+    "class_id": 6,
+    "class_name": "BONNA",
+    "image_file": "product_21907.jpg",
+    "label_file": "product_21907.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.425531914893617,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "148267",
+    "name": "Sauce island",
+    "brand": "DELICIO",
+    "price": "6,790 DT",
+    "class_id": 11,
+    "class_name": "DELICIO",
+    "image_file": "product_148267.jpg",
+    "label_file": "product_148267.txt",
+    "bbox": [
+      0.526595744680851,
+      0.49516129032258066,
+      0.4219858156028369,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "148265",
+    "name": "Sauce ranch",
+    "brand": "DELICIO",
+    "price": "6,790 DT",
+    "class_id": 11,
+    "class_name": "DELICIO",
+    "image_file": "product_148265.jpg",
+    "label_file": "product_148265.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49838709677419357,
+      0.3900709219858156,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "148268",
+    "name": "Sauce italian",
+    "brand": "DELICIO",
+    "price": "6,790 DT",
+    "class_id": 11,
+    "class_name": "DELICIO",
+    "image_file": "product_148268.jpg",
+    "label_file": "product_148268.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.42907801418439717,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148266",
+    "name": "Sauce french",
+    "brand": "DELICIO",
+    "price": "6,790 DT",
+    "class_id": 11,
+    "class_name": "DELICIO",
+    "image_file": "product_148266.jpg",
+    "label_file": "product_148266.txt",
+    "bbox": [
+      0.5035460992907801,
+      0.5,
+      0.3900709219858156,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "135995",
+    "name": "Sauce algérienne",
+    "brand": "TIFFANNY",
+    "price": "7,290 DT",
+    "class_id": 12,
+    "class_name": "TIFFANNY",
+    "image_file": "product_135995.jpg",
+    "label_file": "product_135995.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.40425531914893614,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "135996",
+    "name": "Sauce dynamite",
+    "brand": "TIFFANNY",
+    "price": "7,290 DT",
+    "class_id": 12,
+    "class_name": "TIFFANNY",
+    "image_file": "product_135996.jpg",
+    "label_file": "product_135996.txt",
+    "bbox": [
+      0.4875886524822695,
+      0.5,
+      0.4078014184397163,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "41670",
+    "name": "Sauce à l'ail",
+    "brand": "DORELLA",
+    "price": "7,290 DT",
+    "class_id": 4,
+    "class_name": "DORELLA",
+    "image_file": "product_41670.jpg",
+    "label_file": "product_41670.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41859",
+    "name": "Sauce salade",
+    "brand": "BONNA",
+    "price": "7,410 DT",
+    "class_id": 6,
+    "class_name": "BONNA",
+    "image_file": "product_41859.jpg",
+    "label_file": "product_41859.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.28368794326241137,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41861",
+    "name": "Vinaigrette raunch",
+    "brand": "BONNA",
+    "price": "7,410 DT",
+    "class_id": 6,
+    "class_name": "BONNA",
+    "image_file": "product_41861.jpg",
+    "label_file": "product_41861.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41862",
+    "name": "Vinaigrette cesar",
+    "brand": "BONNA",
+    "price": "7,410 DT",
+    "class_id": 6,
+    "class_name": "BONNA",
+    "image_file": "product_41862.jpg",
+    "label_file": "product_41862.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "96395",
+    "name": "Sauce thym romarin",
+    "brand": "DIJA",
+    "price": "7,450 DT",
+    "class_id": 13,
+    "class_name": "DIJA",
+    "image_file": "product_96395.jpg",
+    "label_file": "product_96395.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25250",
+    "name": "Sauce à l'ail",
+    "brand": "MOKA",
+    "price": "7,590 DT",
+    "class_id": 14,
+    "class_name": "MOKA",
+    "image_file": "product_25250.jpg",
+    "label_file": "product_25250.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.4326241134751773,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "23080",
+    "name": "Sauce barbecue",
+    "brand": "MOKA",
+    "price": "7,590 DT",
+    "class_id": 14,
+    "class_name": "MOKA",
+    "image_file": "product_23080.jpg",
+    "label_file": "product_23080.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.4574468085106383,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "30785",
+    "name": "Sauce garlic",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_30785.jpg",
+    "label_file": "product_30785.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.3723404255319149,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "30636",
+    "name": "Sauce salade italienne",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_30636.jpg",
+    "label_file": "product_30636.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.2872340425531915,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25243",
+    "name": "Sauce salade",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_25243.jpg",
+    "label_file": "product_25243.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "23081",
+    "name": "Sauce Salade",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_23081.jpg",
+    "label_file": "product_23081.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "30784",
+    "name": "Sauce barbecue",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_30784.jpg",
+    "label_file": "product_30784.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.36879432624113473,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "29509",
+    "name": "Sauce Balsamic",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_29509.jpg",
+    "label_file": "product_29509.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25248",
+    "name": "Sauce chili",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_25248.jpg",
+    "label_file": "product_25248.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.36879432624113473,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "32849",
+    "name": "Sauce salade blue cheese",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_32849.jpg",
+    "label_file": "product_32849.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.2907801418439716,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "23079",
+    "name": "Sauce salade garlic",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_23079.jpg",
+    "label_file": "product_23079.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.2907801418439716,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "23082",
+    "name": "Sauce Salade",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_23082.jpg",
+    "label_file": "product_23082.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "95777",
+    "name": "Sauce méxicaine",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 15,
+    "class_name": "REMIA",
+    "image_file": "product_95777.jpg",
+    "label_file": "product_95777.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5,
+      0.3723404255319149,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "148239",
+    "name": "Sauce blanche pour pâtes",
+    "brand": "Promotion",
+    "price": "8,390 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_148239.jpg",
+    "label_file": "product_148239.txt",
+    "bbox": [
+      0.5053191489361702,
+      0.5,
+      0.4787234042553192,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "148241",
+    "name": "Sauce blanche universelle",
+    "brand": "Promotion",
+    "price": "8,390 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_148241.jpg",
+    "label_file": "product_148241.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.5,
+      0.4645390070921986,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148240",
+    "name": "Sauce pour frites",
+    "brand": "Promotion",
+    "price": "8,390 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_148240.jpg",
+    "label_file": "product_148240.txt",
+    "bbox": [
+      0.5053191489361702,
+      0.5,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "96394",
+    "name": "Sauce basilic",
+    "brand": "DIJA",
+    "price": "8,390 DT",
+    "class_id": 13,
+    "class_name": "DIJA",
+    "image_file": "product_96394.jpg",
+    "label_file": "product_96394.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25240",
+    "name": "Vinaigrette",
+    "brand": "COVINOR",
+    "price": "8,500 DT",
+    "class_id": 16,
+    "class_name": "COVINOR",
+    "image_file": "product_25240.jpg",
+    "label_file": "product_25240.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25239",
+    "name": "Vinaigrette",
+    "brand": "COVINOR",
+    "price": "8,500 DT",
+    "class_id": 16,
+    "class_name": "COVINOR",
+    "image_file": "product_25239.jpg",
+    "label_file": "product_25239.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.33687943262411346,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26610",
+    "name": "Vinaigrette",
+    "brand": "COVINOR",
+    "price": "8,500 DT",
+    "class_id": 16,
+    "class_name": "COVINOR",
+    "image_file": "product_26610.jpg",
+    "label_file": "product_26610.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "126783",
+    "name": "Sauce piquante",
+    "brand": "DERONI",
+    "price": "8,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_126783.jpg",
+    "label_file": "product_126783.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116516",
+    "name": "Sauce tartare",
+    "brand": "Promotion",
+    "price": "8,990 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_116516.jpg",
+    "label_file": "product_116516.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116515",
+    "name": "Sauce à l'ail",
+    "brand": "Promotion",
+    "price": "8,990 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_116515.jpg",
+    "label_file": "product_116515.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3191489361702128,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "80964",
+    "name": "Sauce rustique",
+    "brand": "DIJA",
+    "price": "9,090 DT",
+    "class_id": 13,
+    "class_name": "DIJA",
+    "image_file": "product_80964.jpg",
+    "label_file": "product_80964.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.45390070921985815,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "116513",
+    "name": "Sauce",
+    "brand": "DERONI",
+    "price": "9,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116513.jpg",
+    "label_file": "product_116513.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116587",
+    "name": "Sauce barbecue",
+    "brand": "DERONI",
+    "price": "9,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116587.jpg",
+    "label_file": "product_116587.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148243",
+    "name": "Sauce samouraï",
+    "brand": "Promotion",
+    "price": "9,990 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_148243.jpg",
+    "label_file": "product_148243.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.475177304964539,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "148242",
+    "name": "Sauce kebab",
+    "brand": "Promotion",
+    "price": "9,990 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_148242.jpg",
+    "label_file": "product_148242.txt",
+    "bbox": [
+      0.5053191489361702,
+      0.5,
+      0.4645390070921986,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "116514",
+    "name": "Sauce épicée grillade",
+    "brand": "DERONI",
+    "price": "9,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116514.jpg",
+    "label_file": "product_116514.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "118108",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_118108.jpg",
+    "label_file": "product_118108.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "118106",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_118106.jpg",
+    "label_file": "product_118106.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "118107",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_118107.jpg",
+    "label_file": "product_118107.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.40425531914893614,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "118109",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_118109.jpg",
+    "label_file": "product_118109.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "118105",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_118105.jpg",
+    "label_file": "product_118105.txt",
+    "bbox": [
+      0.4397163120567376,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116505",
+    "name": "Sauce pasta",
+    "brand": "DERONI",
+    "price": "10,590 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116505.jpg",
+    "label_file": "product_116505.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.4787234042553192,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116506",
+    "name": "Sauce pasta",
+    "brand": "DERONI",
+    "price": "10,590 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116506.jpg",
+    "label_file": "product_116506.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.49032258064516127,
+      0.4574468085106383,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116507",
+    "name": "Sauce pasta",
+    "brand": "DERONI",
+    "price": "10,590 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116507.jpg",
+    "label_file": "product_116507.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.48226950354609927,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116508",
+    "name": "Sauce pasta",
+    "brand": "DERONI",
+    "price": "10,590 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116508.jpg",
+    "label_file": "product_116508.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.48226950354609927,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116509",
+    "name": "Sauce viande",
+    "brand": "DERONI",
+    "price": "10,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116509.jpg",
+    "label_file": "product_116509.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41870",
+    "name": "Crème balsamique",
+    "brand": "Promotion",
+    "price": "10,990 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_41870.jpg",
+    "label_file": "product_41870.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.30851063829787234,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116511",
+    "name": "Sauce viande",
+    "brand": "DERONI",
+    "price": "10,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116511.jpg",
+    "label_file": "product_116511.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116510",
+    "name": "Sauce viande",
+    "brand": "DERONI",
+    "price": "10,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116510.jpg",
+    "label_file": "product_116510.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3191489361702128,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "116512",
+    "name": "Sauce viande",
+    "brand": "DERONI",
+    "price": "10,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116512.jpg",
+    "label_file": "product_116512.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "74163",
+    "name": "Sauce fish",
+    "brand": "Promotion",
+    "price": "11,900 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_74163.jpg",
+    "label_file": "product_74163.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.2907801418439716,
+      0.8612903225806452
+    ]
+  },
+  {
+    "product_id": "148312",
+    "name": "Sauce sweet chili",
+    "brand": "EXOTIC FOOD",
+    "price": "11,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148312.jpg",
+    "label_file": "product_148312.txt",
+    "bbox": [
+      0.5177304964539007,
+      0.49838709677419357,
+      0.3404255319148936,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "116586",
+    "name": "Sauce teryaki",
+    "brand": "DERONI",
+    "price": "11,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116586.jpg",
+    "label_file": "product_116586.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116585",
+    "name": "Sauce sauja",
+    "brand": "DERONI",
+    "price": "11,990 DT",
+    "class_id": 17,
+    "class_name": "DERONI",
+    "image_file": "product_116585.jpg",
+    "label_file": "product_116585.txt",
+    "bbox": [
+      0.5,
+      0.4967741935483871,
+      0.2765957446808511,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "148269",
+    "name": "Sauce barbecue spicy",
+    "brand": "DELICIO",
+    "price": "12,000 DT",
+    "class_id": 11,
+    "class_name": "DELICIO",
+    "image_file": "product_148269.jpg",
+    "label_file": "product_148269.txt",
+    "bbox": [
+      0.524822695035461,
+      0.4967741935483871,
+      0.46099290780141844,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "21904",
+    "name": "Sauce knoblauch",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 19,
+    "class_name": "KÜHNE",
+    "image_file": "product_21904.jpg",
+    "label_file": "product_21904.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.3971631205673759,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "30783",
+    "name": "Sauce curry",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 19,
+    "class_name": "KÜHNE",
+    "image_file": "product_30783.jpg",
+    "label_file": "product_30783.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "29560",
+    "name": "Sauce salade",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 19,
+    "class_name": "KÜHNE",
+    "image_file": "product_29560.jpg",
+    "label_file": "product_29560.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.4774193548387097,
+      0.39361702127659576,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "30782",
+    "name": "Sauce tartare",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 19,
+    "class_name": "KÜHNE",
+    "image_file": "product_30782.jpg",
+    "label_file": "product_30782.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.3191489361702128,
+      0.8032258064516129
+    ]
+  },
+  {
+    "product_id": "77969",
+    "name": "Sauce salade balsamic",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 19,
+    "class_name": "KÜHNE",
+    "image_file": "product_77969.jpg",
+    "label_file": "product_77969.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5161290322580645,
+      0.4326241134751773,
+      0.9612903225806452
+    ]
+  },
+  {
+    "product_id": "142830",
+    "name": "Sauce oyster",
+    "brand": "MAMI",
+    "price": "14,390 DT",
+    "class_id": 20,
+    "class_name": "MAMI",
+    "image_file": "product_142830.jpg",
+    "label_file": "product_142830.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.2978723404255319,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "43895",
+    "name": "Huile de sésame",
+    "brand": "LOTUS",
+    "price": "15,490 DT",
+    "class_id": 21,
+    "class_name": "LOTUS",
+    "image_file": "product_43895.jpg",
+    "label_file": "product_43895.txt",
+    "bbox": [
+      0.524822695035461,
+      0.49032258064516127,
+      0.23404255319148937,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "142832",
+    "name": "Sauce sweet chili",
+    "brand": "MAMI",
+    "price": "15,690 DT",
+    "class_id": 20,
+    "class_name": "MAMI",
+    "image_file": "product_142832.jpg",
+    "label_file": "product_142832.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3049645390070922,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148317",
+    "name": "Sauce fish",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148317.jpg",
+    "label_file": "product_148317.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.28368794326241137,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148310",
+    "name": "Sauce teriyaki",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148310.jpg",
+    "label_file": "product_148310.txt",
+    "bbox": [
+      0.5177304964539007,
+      0.49838709677419357,
+      0.3333333333333333,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "148314",
+    "name": "Sauce suprême soy sauce",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148314.jpg",
+    "label_file": "product_148314.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.28368794326241137,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148315",
+    "name": "Sauce suprême oyster",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148315.jpg",
+    "label_file": "product_148315.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.28368794326241137,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "148316",
+    "name": "Sauce spring roll",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148316.jpg",
+    "label_file": "product_148316.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.2907801418439716,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148291",
+    "name": "Sauce hoisin",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148291.jpg",
+    "label_file": "product_148291.txt",
+    "bbox": [
+      0.5124113475177305,
+      0.49838709677419357,
+      0.3723404255319149,
+      0.8419354838709677
+    ]
+  },
+  {
+    "product_id": "139259",
+    "name": "Sauce à l'ail",
+    "brand": "SOLIA",
+    "price": "17,690 DT",
+    "class_id": 2,
+    "class_name": "SOLIA",
+    "image_file": "product_139259.jpg",
+    "label_file": "product_139259.txt",
+    "bbox": [
+      0.5,
+      0.4806451612903226,
+      0.6595744680851063,
+      0.6387096774193548
+    ]
+  },
+  {
+    "product_id": "148309",
+    "name": "Sauce chili sriracha",
+    "brand": "EXOTIC FOOD",
+    "price": "17,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148309.jpg",
+    "label_file": "product_148309.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.4967741935483871,
+      0.33687943262411346,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "148311",
+    "name": "Sauce sweet sour",
+    "brand": "EXOTIC FOOD",
+    "price": "17,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148311.jpg",
+    "label_file": "product_148311.txt",
+    "bbox": [
+      0.5195035460992907,
+      0.4967741935483871,
+      0.33687943262411346,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "142877",
+    "name": "Sauce algérienne",
+    "brand": "SOLIA",
+    "price": "19,290 DT",
+    "class_id": 2,
+    "class_name": "SOLIA",
+    "image_file": "product_142877.jpg",
+    "label_file": "product_142877.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.6702127659574468,
+      0.6451612903225806
+    ]
+  },
+  {
+    "product_id": "139260",
+    "name": "Sauce à l'ail",
+    "brand": "SOLIA",
+    "price": "20,900 DT",
+    "class_id": 2,
+    "class_name": "SOLIA",
+    "image_file": "product_139260.jpg",
+    "label_file": "product_139260.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5661290322580645,
+      0.6631205673758865,
+      0.6548387096774193
+    ]
+  },
+  {
+    "product_id": "139263",
+    "name": "Sauce cheese",
+    "brand": "SOLIA",
+    "price": "20,900 DT",
+    "class_id": 2,
+    "class_name": "SOLIA",
+    "image_file": "product_139263.jpg",
+    "label_file": "product_139263.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5403225806451613,
+      0.6631205673758865,
+      0.667741935483871
+    ]
+  },
+  {
+    "product_id": "139264",
+    "name": "Sauce samurai",
+    "brand": "SOLIA",
+    "price": "21,900 DT",
+    "class_id": 2,
+    "class_name": "SOLIA",
+    "image_file": "product_139264.jpg",
+    "label_file": "product_139264.txt",
+    "bbox": [
+      0.5,
+      0.532258064516129,
+      0.6595744680851063,
+      0.6580645161290323
+    ]
+  },
+  {
+    "product_id": "148313",
+    "name": "Sauce sweet chili",
+    "brand": "EXOTIC FOOD",
+    "price": "23,990 DT",
+    "class_id": 18,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148313.jpg",
+    "label_file": "product_148313.txt",
+    "bbox": [
+      0.48936170212765956,
+      0.49838709677419357,
+      0.2978723404255319,
+      0.8354838709677419
+    ]
+  },
+  {
+    "product_id": "144398",
+    "name": "Sauce au piment doux",
+    "brand": "MAMI",
+    "price": "24,990 DT",
+    "class_id": 20,
+    "class_name": "MAMI",
+    "image_file": "product_144398.jpg",
+    "label_file": "product_144398.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.30851063829787234,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "142831",
+    "name": "Sauce sriracha",
+    "brand": "MAMI",
+    "price": "28,090 DT",
+    "class_id": 20,
+    "class_name": "MAMI",
+    "image_file": "product_142831.jpg",
+    "label_file": "product_142831.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3120567375886525,
+      0.8387096774193549
+    ]
+  }
+]

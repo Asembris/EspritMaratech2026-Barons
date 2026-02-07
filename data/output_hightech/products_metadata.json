@@ -1,0 +1,274 @@
+[
+  {
+    "product_id": "135982",
+    "name": "Moutarde",
+    "brand": "SOLIA",
+    "price": "5,850 DT",
+    "class_id": 0,
+    "class_name": "SOLIA",
+    "image_file": "product_135982.jpg",
+    "label_file": "product_135982.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148319",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "5,890 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_148319.jpg",
+    "label_file": "product_148319.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.425531914893617,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "25195",
+    "name": "Moutarde de dijon",
+    "brand": "DIJONA",
+    "price": "5,900 DT",
+    "class_id": 2,
+    "class_name": "DIJONA",
+    "image_file": "product_25195.jpg",
+    "label_file": "product_25195.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135981",
+    "name": "Moutarde",
+    "brand": "SOLIA",
+    "price": "5,990 DT",
+    "class_id": 0,
+    "class_name": "SOLIA",
+    "image_file": "product_135981.jpg",
+    "label_file": "product_135981.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.5673758865248227,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25198",
+    "name": "Moutarde de dijon",
+    "brand": "Promotion",
+    "price": "6,890 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_25198.jpg",
+    "label_file": "product_25198.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.49645390070921985,
+      0.8129032258064516
+    ]
+  },
+  {
+    "product_id": "72785",
+    "name": "Moutarde",
+    "brand": "COVINOR",
+    "price": "9,080 DT",
+    "class_id": 3,
+    "class_name": "COVINOR",
+    "image_file": "product_72785.jpg",
+    "label_file": "product_72785.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5638297872340425,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116502",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_116502.jpg",
+    "label_file": "product_116502.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "131492",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_131492.jpg",
+    "label_file": "product_131492.txt",
+    "bbox": [
+      0.4858156028368794,
+      0.49032258064516127,
+      0.6524822695035462,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116504",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_116504.jpg",
+    "label_file": "product_116504.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116503",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_116503.jpg",
+    "label_file": "product_116503.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.6524822695035462,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "67557",
+    "name": "Moutarde",
+    "brand": "REMIA",
+    "price": "9,990 DT",
+    "class_id": 4,
+    "class_name": "REMIA",
+    "image_file": "product_67557.jpg",
+    "label_file": "product_67557.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5016129032258064,
+      0.425531914893617,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25197",
+    "name": "Moutarde de dijon",
+    "brand": "REMIA",
+    "price": "10,580 DT",
+    "class_id": 4,
+    "class_name": "REMIA",
+    "image_file": "product_25197.jpg",
+    "label_file": "product_25197.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.49645390070921985,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "41669",
+    "name": "Moutarde",
+    "brand": "DORELLA",
+    "price": "10,790 DT",
+    "class_id": 5,
+    "class_name": "DORELLA",
+    "image_file": "product_41669.jpg",
+    "label_file": "product_41669.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.5390070921985816,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135983",
+    "name": "Moutarde",
+    "brand": "SOLIA",
+    "price": "12,600 DT",
+    "class_id": 0,
+    "class_name": "SOLIA",
+    "image_file": "product_135983.jpg",
+    "label_file": "product_135983.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5141843971631206,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "46349",
+    "name": "Moutarde de dijon",
+    "brand": "DIJONA",
+    "price": "15,990 DT",
+    "class_id": 2,
+    "class_name": "DIJONA",
+    "image_file": "product_46349.jpg",
+    "label_file": "product_46349.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.5141843971631206,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41674",
+    "name": "Moutarde",
+    "brand": "DORELLA",
+    "price": "16,290 DT",
+    "class_id": 5,
+    "class_name": "DORELLA",
+    "image_file": "product_41674.jpg",
+    "label_file": "product_41674.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.5390070921985816,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "139250",
+    "name": "Moutarde",
+    "brand": "SOLIA",
+    "price": "24,900 DT",
+    "class_id": 0,
+    "class_name": "SOLIA",
+    "image_file": "product_139250.jpg",
+    "label_file": "product_139250.txt",
+    "bbox": [
+      0.5,
+      0.49516129032258066,
+      0.6312056737588653,
+      0.6161290322580645
+    ]
+  }
+]

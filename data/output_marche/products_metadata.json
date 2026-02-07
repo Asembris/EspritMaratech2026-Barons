@@ -1,0 +1,946 @@
+[
+  {
+    "product_id": "56406",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "4,490 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_56406.jpg",
+    "label_file": "product_56406.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "23067",
+    "name": "Huile végétale",
+    "brand": "CHEF SAFI",
+    "price": "4,590 DT",
+    "class_id": 1,
+    "class_name": "CHEF SAFI",
+    "image_file": "product_23067.jpg",
+    "label_file": "product_23067.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3404255319148936,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "61013",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "4,590 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_61013.jpg",
+    "label_file": "product_61013.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "143834",
+    "name": "Huile végétale",
+    "brand": "AL JAZIRA",
+    "price": "4,660 DT",
+    "class_id": 2,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143834.jpg",
+    "label_file": "product_143834.txt",
+    "bbox": [
+      0.5195035460992907,
+      0.4967741935483871,
+      0.33687943262411346,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "104594",
+    "name": "Huile végétale",
+    "brand": "CRISTAL",
+    "price": "4,840 DT",
+    "class_id": 3,
+    "class_name": "CRISTAL",
+    "image_file": "product_104594.jpg",
+    "label_file": "product_104594.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8
+    ]
+  },
+  {
+    "product_id": "95911",
+    "name": "Huile de tournesol",
+    "brand": "SAFI",
+    "price": "4,910 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_95911.jpg",
+    "label_file": "product_95911.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "86206",
+    "name": "Huile de colza",
+    "brand": "SAFI",
+    "price": "5,090 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_86206.jpg",
+    "label_file": "product_86206.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "142840",
+    "name": "Huile de maïs",
+    "brand": "OLITTA",
+    "price": "5,090 DT",
+    "class_id": 5,
+    "class_name": "OLITTA",
+    "image_file": "product_142840.jpg",
+    "label_file": "product_142840.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3049645390070922,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "118110",
+    "name": "Huile végétale",
+    "brand": "LESIEUR",
+    "price": "5,120 DT",
+    "class_id": 6,
+    "class_name": "LESIEUR",
+    "image_file": "product_118110.jpg",
+    "label_file": "product_118110.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "86205",
+    "name": "Huile de maïs",
+    "brand": "SAFI",
+    "price": "5,140 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_86205.jpg",
+    "label_file": "product_86205.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "26563",
+    "name": "Huile végétale",
+    "brand": "JADIDA",
+    "price": "5,180 DT",
+    "class_id": 7,
+    "class_name": "JADIDA",
+    "image_file": "product_26563.jpg",
+    "label_file": "product_26563.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "76211",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "5,220 DT",
+    "class_id": 8,
+    "class_name": "GHAZELA",
+    "image_file": "product_76211.jpg",
+    "label_file": "product_76211.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.5145161290322581,
+      0.3120567375886525,
+      0.8032258064516129
+    ]
+  },
+  {
+    "product_id": "144363",
+    "name": "Huile de maïs",
+    "brand": "AL JAZIRA",
+    "price": "5,260 DT",
+    "class_id": 2,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_144363.jpg",
+    "label_file": "product_144363.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.2695035460992908,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "26537",
+    "name": "Huile de maïs",
+    "brand": "Promotion",
+    "price": "5,290 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_26537.jpg",
+    "label_file": "product_26537.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "112727",
+    "name": "Huile de colza",
+    "brand": "OLEO NOUR",
+    "price": "5,640 DT",
+    "class_id": 9,
+    "class_name": "OLEO NOUR",
+    "image_file": "product_112727.jpg",
+    "label_file": "product_112727.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "48742",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "7,930 DT",
+    "class_id": 8,
+    "class_name": "GHAZELA",
+    "image_file": "product_48742.jpg",
+    "label_file": "product_48742.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26521",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "8,490 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_26521.jpg",
+    "label_file": "product_26521.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.3723404255319149,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26558",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "8,490 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_26558.jpg",
+    "label_file": "product_26558.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "143163",
+    "name": "Huile végétale",
+    "brand": "AL JAZIRA",
+    "price": "8,970 DT",
+    "class_id": 2,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143163.jpg",
+    "label_file": "product_143163.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3404255319148936,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "37102",
+    "name": "Huile végétale",
+    "brand": "JADIDA",
+    "price": "8,970 DT",
+    "class_id": 7,
+    "class_name": "JADIDA",
+    "image_file": "product_37102.jpg",
+    "label_file": "product_37102.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26519",
+    "name": "Huile de maïs",
+    "brand": "Promotion",
+    "price": "9,390 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_26519.jpg",
+    "label_file": "product_26519.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "23068",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_23068.jpg",
+    "label_file": "product_23068.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26518",
+    "name": "Huile de tournesol",
+    "brand": "SAFI",
+    "price": "9,620 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_26518.jpg",
+    "label_file": "product_26518.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41252",
+    "name": "Huile d'assaisonement ...",
+    "brand": "SAFI",
+    "price": "9,690 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_41252.jpg",
+    "label_file": "product_41252.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26523",
+    "name": "Huile de colza",
+    "brand": "SAFI",
+    "price": "10,050 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_26523.jpg",
+    "label_file": "product_26523.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "143836",
+    "name": "Huile de maïs",
+    "brand": "AL JAZIRA",
+    "price": "10,230 DT",
+    "class_id": 2,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143836.jpg",
+    "label_file": "product_143836.txt",
+    "bbox": [
+      0.5195035460992907,
+      0.49838709677419357,
+      0.33687943262411346,
+      0.8354838709677419
+    ]
+  },
+  {
+    "product_id": "90845",
+    "name": "Huile végétale",
+    "brand": "TRIO D'OR",
+    "price": "12,180 DT",
+    "class_id": 10,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_90845.jpg",
+    "label_file": "product_90845.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4870967741935484,
+      0.3971631205673759,
+      0.7870967741935484
+    ]
+  },
+  {
+    "product_id": "48111",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "15,410 DT",
+    "class_id": 8,
+    "class_name": "GHAZELA",
+    "image_file": "product_48111.jpg",
+    "label_file": "product_48111.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.5141843971631206,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "131574",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "15,990 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_131574.jpg",
+    "label_file": "product_131574.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.3475177304964539,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "142828",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "15,990 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_142828.jpg",
+    "label_file": "product_142828.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.36524822695035464,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "112728",
+    "name": "Huile de colza",
+    "brand": "Promotion",
+    "price": "17,150 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_112728.jpg",
+    "label_file": "product_112728.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "95907",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "17,690 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_95907.jpg",
+    "label_file": "product_95907.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26532",
+    "name": "Huile de maïs",
+    "brand": "OLINA",
+    "price": "18,040 DT",
+    "class_id": 11,
+    "class_name": "OLINA",
+    "image_file": "product_26532.jpg",
+    "label_file": "product_26532.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "76212",
+    "name": "Huile de colza",
+    "brand": "Promotion",
+    "price": "18,390 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_76212.jpg",
+    "label_file": "product_76212.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.36879432624113473,
+      0.8
+    ]
+  },
+  {
+    "product_id": "68636",
+    "name": "Huile de tournesol",
+    "brand": "SAFI",
+    "price": "19,780 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_68636.jpg",
+    "label_file": "product_68636.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3971631205673759,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "60441",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "20,660 DT",
+    "class_id": 8,
+    "class_name": "GHAZELA",
+    "image_file": "product_60441.jpg",
+    "label_file": "product_60441.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26564",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "20,690 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_26564.jpg",
+    "label_file": "product_26564.txt",
+    "bbox": [
+      0.4787234042553192,
+      0.4967741935483871,
+      0.425531914893617,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "70461",
+    "name": "Huile de maïs",
+    "brand": "SAFI",
+    "price": "20,880 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_70461.jpg",
+    "label_file": "product_70461.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "104964",
+    "name": "Huile végétale",
+    "brand": "TRIO D'OR",
+    "price": "21,400 DT",
+    "class_id": 10,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_104964.jpg",
+    "label_file": "product_104964.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5177304964539007,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "29236",
+    "name": "Huile de maïs",
+    "brand": "Promotion",
+    "price": "23,490 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_29236.jpg",
+    "label_file": "product_29236.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26565",
+    "name": "Huile de friture",
+    "brand": "FRIT'SS",
+    "price": "23,550 DT",
+    "class_id": 12,
+    "class_name": "FRIT'SS",
+    "image_file": "product_26565.jpg",
+    "label_file": "product_26565.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "143837",
+    "name": "Huile de friture",
+    "brand": "AL JAZIRA",
+    "price": "23,600 DT",
+    "class_id": 2,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143837.jpg",
+    "label_file": "product_143837.txt",
+    "bbox": [
+      0.4804964539007092,
+      0.4967741935483871,
+      0.42907801418439717,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "26571",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "20,990 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_26571.jpg",
+    "label_file": "product_26571.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.45390070921985815,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "143162",
+    "name": "Huile végétale",
+    "brand": "AL JAZIRA",
+    "price": "23,700 DT",
+    "class_id": 2,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143162.jpg",
+    "label_file": "product_143162.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3971631205673759,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "26568",
+    "name": "Huile végétale",
+    "brand": "JADIDA",
+    "price": "23,800 DT",
+    "class_id": 7,
+    "class_name": "JADIDA",
+    "image_file": "product_26568.jpg",
+    "label_file": "product_26568.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49032258064516127,
+      0.425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "33660",
+    "name": "Huile de friture",
+    "brand": "FRIDEAL OLINA",
+    "price": "23,900 DT",
+    "class_id": 13,
+    "class_name": "FRIDEAL OLINA",
+    "image_file": "product_33660.jpg",
+    "label_file": "product_33660.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26557",
+    "name": "Huile végétale",
+    "brand": "CRISTAL",
+    "price": "24,590 DT",
+    "class_id": 3,
+    "class_name": "CRISTAL",
+    "image_file": "product_26557.jpg",
+    "label_file": "product_26557.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26524",
+    "name": "Huile végétale",
+    "brand": "NEJMA",
+    "price": "24,700 DT",
+    "class_id": 14,
+    "class_name": "NEJMA",
+    "image_file": "product_26524.jpg",
+    "label_file": "product_26524.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.41134751773049644,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "142842",
+    "name": "Huile végétale",
+    "brand": "OLITTA",
+    "price": "24,800 DT",
+    "class_id": 5,
+    "class_name": "OLITTA",
+    "image_file": "product_142842.jpg",
+    "label_file": "product_142842.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.41134751773049644,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "29242",
+    "name": "Huile de tournesol",
+    "brand": "SAFI",
+    "price": "25,200 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_29242.jpg",
+    "label_file": "product_29242.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "36739",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "25,210 DT",
+    "class_id": 8,
+    "class_name": "GHAZELA",
+    "image_file": "product_36739.jpg",
+    "label_file": "product_36739.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "112729",
+    "name": "Huile de colza",
+    "brand": "Promotion",
+    "price": "25,490 DT",
+    "class_id": 0,
+    "class_name": "Promotion",
+    "image_file": "product_112729.jpg",
+    "label_file": "product_112729.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.46099290780141844,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "148292",
+    "name": "Huile de friture",
+    "brand": "JADIDA",
+    "price": "25,500 DT",
+    "class_id": 7,
+    "class_name": "JADIDA",
+    "image_file": "product_148292.jpg",
+    "label_file": "product_148292.txt",
+    "bbox": [
+      0.5124113475177305,
+      0.4967741935483871,
+      0.4148936170212766,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "26556",
+    "name": "Huile de colza",
+    "brand": "SAFI",
+    "price": "26,400 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_26556.jpg",
+    "label_file": "product_26556.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "143835",
+    "name": "Huile de maïs",
+    "brand": "AL JAZIRA",
+    "price": "26,400 DT",
+    "class_id": 2,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143835.jpg",
+    "label_file": "product_143835.txt",
+    "bbox": [
+      0.49113475177304966,
+      0.49838709677419357,
+      0.38652482269503546,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "29239",
+    "name": "Huile de maïs",
+    "brand": "SAFI",
+    "price": "26,650 DT",
+    "class_id": 4,
+    "class_name": "SAFI",
+    "image_file": "product_29239.jpg",
+    "label_file": "product_29239.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "142838",
+    "name": "Huile de maïs",
+    "brand": "OLITTA",
+    "price": "26,700 DT",
+    "class_id": 5,
+    "class_name": "OLITTA",
+    "image_file": "product_142838.jpg",
+    "label_file": "product_142838.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3900709219858156,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "26528",
+    "name": "Huile de maïs",
+    "brand": "CRISTAL",
+    "price": "26,750 DT",
+    "class_id": 3,
+    "class_name": "CRISTAL",
+    "image_file": "product_26528.jpg",
+    "label_file": "product_26528.txt",
+    "bbox": [
+      0.46099290780141844,
+      0.5,
+      0.41134751773049644,
+      0.967741935483871
+    ]
+  },
+  {
+    "product_id": "51820",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "29,900 DT",
+    "class_id": 8,
+    "class_name": "GHAZELA",
+    "image_file": "product_51820.jpg",
+    "label_file": "product_51820.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8483870967741935
+    ]
+  }
+]

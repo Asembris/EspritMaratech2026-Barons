@@ -1,0 +1,55 @@
+# Python
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+.next/
+out/
+build/
+dist/
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database
+*.db
+*.sqlite3
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# SSL Keys
+*.pem
+*.key
+*.crt
+
+# Agent Artifacts
+.agent/
+.gemini/
+
+# Legacy Files (Not needed for new architecture)
+/app.js
+/audio-feedback.js
+/clean-signs.js
+/cwasa-avatar.js
+/dico-elix.js
+/gesture-detector.js
+/gloss-converter.js
+/index.html
+/local-signs.js
+/sign-display.js
+/styles.css

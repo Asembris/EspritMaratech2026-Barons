@@ -1,0 +1,7970 @@
+[
+  {
+    "product_id": "33043",
+    "name": "Pâtes chorba",
+    "brand": "SPIGA",
+    "price": "0,225 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_33043.jpg",
+    "label_file": "product_33043.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7645161290322581
+    ]
+  },
+  {
+    "product_id": "25597",
+    "name": "Pâte millet",
+    "brand": "L'EPI D'OR",
+    "price": "0,225 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25597.jpg",
+    "label_file": "product_25597.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.648936170212766,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25587",
+    "name": "Pâte chorba Millet",
+    "brand": "SPIGA",
+    "price": "0,225 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_25587.jpg",
+    "label_file": "product_25587.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.5673758865248227,
+      0.7935483870967742
+    ]
+  },
+  {
+    "product_id": "88377",
+    "name": "Gâteau",
+    "brand": "BREAK KIDS",
+    "price": "0,270 DT",
+    "class_id": 2,
+    "class_name": "BREAK KIDS",
+    "image_file": "product_88377.jpg",
+    "label_file": "product_88377.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4935483870967742,
+      0.6773049645390071,
+      0.33548387096774196
+    ]
+  },
+  {
+    "product_id": "88378",
+    "name": "Gâteau",
+    "brand": "BREAK KIDS",
+    "price": "0,270 DT",
+    "class_id": 2,
+    "class_name": "BREAK KIDS",
+    "image_file": "product_88378.jpg",
+    "label_file": "product_88378.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6737588652482269,
+      0.43548387096774194
+    ]
+  },
+  {
+    "product_id": "28138",
+    "name": "Chocolat",
+    "brand": "BABY SAID",
+    "price": "0,290 DT",
+    "class_id": 3,
+    "class_name": "BABY SAID",
+    "image_file": "product_28138.jpg",
+    "label_file": "product_28138.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4629032258064516,
+      0.6843971631205674,
+      0.34516129032258064
+    ]
+  },
+  {
+    "product_id": "57100",
+    "name": "Gaufrettes",
+    "brand": "GAUCHO",
+    "price": "0,300 DT",
+    "class_id": 4,
+    "class_name": "GAUCHO",
+    "image_file": "product_57100.jpg",
+    "label_file": "product_57100.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.46774193548387094,
+      0.6843971631205674,
+      0.27741935483870966
+    ]
+  },
+  {
+    "product_id": "29074",
+    "name": "Gaufrette",
+    "brand": "GAUCHO",
+    "price": "0,300 DT",
+    "class_id": 4,
+    "class_name": "GAUCHO",
+    "image_file": "product_29074.jpg",
+    "label_file": "product_29074.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6524822695035462,
+      0.33548387096774196
+    ]
+  },
+  {
+    "product_id": "29076",
+    "name": "Gaufrette",
+    "brand": "SWING",
+    "price": "0,300 DT",
+    "class_id": 5,
+    "class_name": "SWING",
+    "image_file": "product_29076.jpg",
+    "label_file": "product_29076.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6773049645390071,
+      0.3870967741935484
+    ]
+  },
+  {
+    "product_id": "98903",
+    "name": "Bonbon gélifié",
+    "brand": "Promotion",
+    "price": "0,300 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_98903.jpg",
+    "label_file": "product_98903.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.567741935483871
+    ]
+  },
+  {
+    "product_id": "28112",
+    "name": "Chocolat fourré",
+    "brand": "KROSS",
+    "price": "0,310 DT",
+    "class_id": 7,
+    "class_name": "KROSS",
+    "image_file": "product_28112.jpg",
+    "label_file": "product_28112.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.3709677419354839
+    ]
+  },
+  {
+    "product_id": "30525",
+    "name": "Chocolat fourré",
+    "brand": "KROSS",
+    "price": "0,310 DT",
+    "class_id": 7,
+    "class_name": "KROSS",
+    "image_file": "product_30525.jpg",
+    "label_file": "product_30525.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.26129032258064516
+    ]
+  },
+  {
+    "product_id": "28113",
+    "name": "Chocolat fourré",
+    "brand": "KROSS",
+    "price": "0,310 DT",
+    "class_id": 7,
+    "class_name": "KROSS",
+    "image_file": "product_28113.jpg",
+    "label_file": "product_28113.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.45806451612903226
+    ]
+  },
+  {
+    "product_id": "28120",
+    "name": "Chocolat fourré",
+    "brand": "KROSS",
+    "price": "0,310 DT",
+    "class_id": 7,
+    "class_name": "KROSS",
+    "image_file": "product_28120.jpg",
+    "label_file": "product_28120.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.3548387096774194
+    ]
+  },
+  {
+    "product_id": "33893",
+    "name": "Bonbon gélifié",
+    "brand": "HAPPY FULL",
+    "price": "0,340 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_33893.jpg",
+    "label_file": "product_33893.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "33894",
+    "name": "Bonbon gélifié",
+    "brand": "HAPPY FULL",
+    "price": "0,340 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_33894.jpg",
+    "label_file": "product_33894.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6843971631205674,
+      0.7483870967741936
+    ]
+  },
+  {
+    "product_id": "29019",
+    "name": "Bonbon gélifié",
+    "brand": "FALFOUL",
+    "price": "0,390 DT",
+    "class_id": 9,
+    "class_name": "FALFOUL",
+    "image_file": "product_29019.jpg",
+    "label_file": "product_29019.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.6741935483870968
+    ]
+  },
+  {
+    "product_id": "29020",
+    "name": "Bonbon gélifié",
+    "brand": "FALFOUL",
+    "price": "0,390 DT",
+    "class_id": 9,
+    "class_name": "FALFOUL",
+    "image_file": "product_29020.jpg",
+    "label_file": "product_29020.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.6709677419354839
+    ]
+  },
+  {
+    "product_id": "30365",
+    "name": "Poudre instantanée cho...",
+    "brand": "O'PPA",
+    "price": "0,390 DT",
+    "class_id": 10,
+    "class_name": "O'PPA",
+    "image_file": "product_30365.jpg",
+    "label_file": "product_30365.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "121706",
+    "name": "Barre biscuitée",
+    "brand": "FIDJI",
+    "price": "0,390 DT",
+    "class_id": 11,
+    "class_name": "FIDJI",
+    "image_file": "product_121706.jpg",
+    "label_file": "product_121706.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49516129032258066,
+      0.6524822695035462,
+      0.35161290322580646
+    ]
+  },
+  {
+    "product_id": "121705",
+    "name": "Barre biscuitée",
+    "brand": "FIDJI",
+    "price": "0,390 DT",
+    "class_id": 11,
+    "class_name": "FIDJI",
+    "image_file": "product_121705.jpg",
+    "label_file": "product_121705.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.3870967741935484
+    ]
+  },
+  {
+    "product_id": "123871",
+    "name": "Bonbon",
+    "brand": "Promotion",
+    "price": "0,400 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_123871.jpg",
+    "label_file": "product_123871.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.5032258064516129,
+      0.7340425531914894,
+      0.5161290322580645
+    ]
+  },
+  {
+    "product_id": "80038",
+    "name": "Couscous moyen",
+    "brand": "DIARI",
+    "price": "0,400 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_80038.jpg",
+    "label_file": "product_80038.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.5709219858156028,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "123879",
+    "name": "Pâte langue d'oiseau",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_123879.jpg",
+    "label_file": "product_123879.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.8191489361702128,
+      0.9032258064516129
+    ]
+  },
+  {
+    "product_id": "25560",
+    "name": "Pâte escargots",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25560.jpg",
+    "label_file": "product_25560.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.4661290322580645,
+      0.6595744680851063,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25559",
+    "name": "Pâte coupée fell",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25559.jpg",
+    "label_file": "product_25559.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.5,
+      0.6773049645390071,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25556",
+    "name": "Pâte fell",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25556.jpg",
+    "label_file": "product_25556.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4645161290322581,
+      0.7411347517730497,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25555",
+    "name": "Pâte coude",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25555.jpg",
+    "label_file": "product_25555.txt",
+    "bbox": [
+      0.46631205673758863,
+      0.5,
+      0.6205673758865248,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25554",
+    "name": "Pâte coupée ressort",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25554.jpg",
+    "label_file": "product_25554.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.482258064516129,
+      0.6595744680851063,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25553",
+    "name": "Pâte fell rigati",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25553.jpg",
+    "label_file": "product_25553.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.7375886524822695,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25552",
+    "name": "Pâte twist",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25552.jpg",
+    "label_file": "product_25552.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "25567",
+    "name": "Pâte nouille",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25567.jpg",
+    "label_file": "product_25567.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3404255319148936,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25551",
+    "name": "Pâte plume courte",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25551.jpg",
+    "label_file": "product_25551.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5016129032258064,
+      0.7659574468085106,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "30546",
+    "name": "Mhamsa",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30546.jpg",
+    "label_file": "product_30546.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.7193548387096774
+    ]
+  },
+  {
+    "product_id": "30549",
+    "name": "Spaghetti",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30549.jpg",
+    "label_file": "product_30549.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3475177304964539,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "30567",
+    "name": "Pâte fell",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30567.jpg",
+    "label_file": "product_30567.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6524822695035462,
+      0.8
+    ]
+  },
+  {
+    "product_id": "119284",
+    "name": "Pâte nouille",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_119284.jpg",
+    "label_file": "product_119284.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "133494",
+    "name": "Chorba millet",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_133494.jpg",
+    "label_file": "product_133494.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5129032258064516,
+      0.6560283687943262,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "133518",
+    "name": "Chorba millet",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_133518.jpg",
+    "label_file": "product_133518.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "30576",
+    "name": "Pâtes coquillettes",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30576.jpg",
+    "label_file": "product_30576.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "30574",
+    "name": "Pâte escargot",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30574.jpg",
+    "label_file": "product_30574.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "30571",
+    "name": "Pâte plume",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30571.jpg",
+    "label_file": "product_30571.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.7483870967741936
+    ]
+  },
+  {
+    "product_id": "33041",
+    "name": "Pâtes coude",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_33041.jpg",
+    "label_file": "product_33041.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8193548387096774
+    ]
+  },
+  {
+    "product_id": "30570",
+    "name": "Pâtes coude",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30570.jpg",
+    "label_file": "product_30570.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6843971631205674,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "33051",
+    "name": "Pâtes coude",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_33051.jpg",
+    "label_file": "product_33051.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.7677419354838709
+    ]
+  },
+  {
+    "product_id": "33052",
+    "name": "Pâte ressort",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_33052.jpg",
+    "label_file": "product_33052.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49193548387096775,
+      0.6524822695035462,
+      0.7967741935483871
+    ]
+  },
+  {
+    "product_id": "30547",
+    "name": "Mhamsa",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30547.jpg",
+    "label_file": "product_30547.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "25565",
+    "name": "Pâte nouille",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25565.jpg",
+    "label_file": "product_25565.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.3829787234042553,
+      1.0
+    ]
+  },
+  {
+    "product_id": "25561",
+    "name": "Pâte fell",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25561.jpg",
+    "label_file": "product_25561.txt",
+    "bbox": [
+      0.5,
+      0.49032258064516127,
+      0.5035460992907801,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25579",
+    "name": "Pâte coude",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25579.jpg",
+    "label_file": "product_25579.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49193548387096775,
+      0.7056737588652482,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25566",
+    "name": "Pâte vermicelle",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25566.jpg",
+    "label_file": "product_25566.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.28368794326241137,
+      0.8193548387096774
+    ]
+  },
+  {
+    "product_id": "25573",
+    "name": "Pâte fell",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25573.jpg",
+    "label_file": "product_25573.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49032258064516127,
+      0.7375886524822695,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "48538",
+    "name": "Pâte fell rayée",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_48538.jpg",
+    "label_file": "product_48538.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "40641",
+    "name": "Pâte vermicelle",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_40641.jpg",
+    "label_file": "product_40641.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3333333333333333,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "40629",
+    "name": "Spaghetti bucatini",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_40629.jpg",
+    "label_file": "product_40629.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "88491",
+    "name": "Pâte langue d'oiseau",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_88491.jpg",
+    "label_file": "product_88491.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "40631",
+    "name": "Pâte vermicelle",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_40631.jpg",
+    "label_file": "product_40631.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "108634",
+    "name": "Chorba millet",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_108634.jpg",
+    "label_file": "product_108634.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.5048387096774194,
+      0.6595744680851063,
+      0.8354838709677419
+    ]
+  },
+  {
+    "product_id": "40638",
+    "name": "Pâte plomb",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_40638.jpg",
+    "label_file": "product_40638.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.6967741935483871
+    ]
+  },
+  {
+    "product_id": "40632",
+    "name": "Spaghetti",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_40632.jpg",
+    "label_file": "product_40632.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "40633",
+    "name": "Pâte fell",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_40633.jpg",
+    "label_file": "product_40633.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7193548387096774
+    ]
+  },
+  {
+    "product_id": "40635",
+    "name": "Pâtes coude",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_40635.jpg",
+    "label_file": "product_40635.txt",
+    "bbox": [
+      0.5,
+      0.49193548387096775,
+      0.6737588652482269,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "40630",
+    "name": "Pâte nouille",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_40630.jpg",
+    "label_file": "product_40630.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.33687943262411346,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25558",
+    "name": "Pâte coupée fell",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25558.jpg",
+    "label_file": "product_25558.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.8838709677419355
+    ]
+  },
+  {
+    "product_id": "25568",
+    "name": "Pâte coupée fell",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25568.jpg",
+    "label_file": "product_25568.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25582",
+    "name": "Pâte plume courte",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25582.jpg",
+    "label_file": "product_25582.txt",
+    "bbox": [
+      0.5,
+      0.49193548387096775,
+      0.7304964539007093,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25580",
+    "name": "Pâte coude",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25580.jpg",
+    "label_file": "product_25580.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6205673758865248,
+      0.7483870967741936
+    ]
+  },
+  {
+    "product_id": "33057",
+    "name": "Pâte mhammas",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_33057.jpg",
+    "label_file": "product_33057.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.7677419354838709
+    ]
+  },
+  {
+    "product_id": "25578",
+    "name": "Pâte coude",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25578.jpg",
+    "label_file": "product_25578.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5161290322580645,
+      0.74822695035461,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25577",
+    "name": "Pâte flamingo",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25577.jpg",
+    "label_file": "product_25577.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.624113475177305,
+      0.7935483870967742
+    ]
+  },
+  {
+    "product_id": "25576",
+    "name": "Pâte fell",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25576.jpg",
+    "label_file": "product_25576.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6205673758865248,
+      0.6935483870967742
+    ]
+  },
+  {
+    "product_id": "25575",
+    "name": "Pâte fell",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25575.jpg",
+    "label_file": "product_25575.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.7056737588652482,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25574",
+    "name": "Pâte fell",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25574.jpg",
+    "label_file": "product_25574.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.624113475177305,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25571",
+    "name": "Pâte plume",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25571.jpg",
+    "label_file": "product_25571.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.7340425531914894,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25570",
+    "name": "Pâte coquillettes",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25570.jpg",
+    "label_file": "product_25570.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.7340425531914894,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25569",
+    "name": "Pâte coude",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25569.jpg",
+    "label_file": "product_25569.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.4645161290322581,
+      0.6595744680851063,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25590",
+    "name": "Pâte chorba langue oiseau",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_25590.jpg",
+    "label_file": "product_25590.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.7304964539007093,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "30566",
+    "name": "Pâte fell",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30566.jpg",
+    "label_file": "product_30566.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "71271",
+    "name": "Pâte plomb",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_71271.jpg",
+    "label_file": "product_71271.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "25532",
+    "name": "Pâte fell",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_25532.jpg",
+    "label_file": "product_25532.txt",
+    "bbox": [
+      0.45390070921985815,
+      0.5016129032258064,
+      0.6524822695035462,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "28806",
+    "name": "Pâte spaghetti",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_28806.jpg",
+    "label_file": "product_28806.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.32978723404255317,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "30377",
+    "name": "Pâte maglietta",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_30377.jpg",
+    "label_file": "product_30377.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "25508",
+    "name": "Pâte longue nouille",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25508.jpg",
+    "label_file": "product_25508.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.2872340425531915,
+      0.7967741935483871
+    ]
+  },
+  {
+    "product_id": "28807",
+    "name": "Pâte spaghetti",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_28807.jpg",
+    "label_file": "product_28807.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.2872340425531915,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25533",
+    "name": "Pâte bugattini",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25533.jpg",
+    "label_file": "product_25533.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "25537",
+    "name": "Pâte cavatoni",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25537.jpg",
+    "label_file": "product_25537.txt",
+    "bbox": [
+      0.4804964539007092,
+      0.49032258064516127,
+      0.6063829787234043,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25540",
+    "name": "Pâte Mini Penne",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25540.jpg",
+    "label_file": "product_25540.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49838709677419357,
+      0.624113475177305,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "25536",
+    "name": "Pâte malita",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25536.jpg",
+    "label_file": "product_25536.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25535",
+    "name": "Pâte escargot",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25535.jpg",
+    "label_file": "product_25535.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6312056737588653,
+      0.7870967741935484
+    ]
+  },
+  {
+    "product_id": "25534",
+    "name": "Pâte coquillette",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25534.jpg",
+    "label_file": "product_25534.txt",
+    "bbox": [
+      0.45390070921985815,
+      0.49193548387096775,
+      0.7092198581560284,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25509",
+    "name": "Pâte spaghetti",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25509.jpg",
+    "label_file": "product_25509.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.30851063829787234,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25531",
+    "name": "Pâte fell",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25531.jpg",
+    "label_file": "product_25531.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.7446808510638298,
+      0.8806451612903226
+    ]
+  },
+  {
+    "product_id": "56514",
+    "name": "Pâte langue d'oiseau",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_56514.jpg",
+    "label_file": "product_56514.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.624113475177305,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25530",
+    "name": "Pâte coquillage",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25530.jpg",
+    "label_file": "product_25530.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5,
+      0.8226950354609929,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25526",
+    "name": "Pâte coude",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25526.jpg",
+    "label_file": "product_25526.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.5032258064516129,
+      0.6524822695035462,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "28808",
+    "name": "Pâte spaghetti troué",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_28808.jpg",
+    "label_file": "product_28808.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.3404255319148936,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25525",
+    "name": "Pâte coude",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25525.jpg",
+    "label_file": "product_25525.txt",
+    "bbox": [
+      0.46631205673758863,
+      0.4774193548387097,
+      0.6702127659574468,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25541",
+    "name": "Pâte Mini Fusilli",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25541.jpg",
+    "label_file": "product_25541.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6276595744680851,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25522",
+    "name": "Pâte fell",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25522.jpg",
+    "label_file": "product_25522.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.49193548387096775,
+      0.6205673758865248,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25513",
+    "name": "Pâte spaghetti",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25513.jpg",
+    "label_file": "product_25513.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25512",
+    "name": "Pâte spaghetti",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25512.jpg",
+    "label_file": "product_25512.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.29432624113475175,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25543",
+    "name": "Pâte plomb fin",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25543.jpg",
+    "label_file": "product_25543.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25544",
+    "name": "Pâte escargot",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25544.jpg",
+    "label_file": "product_25544.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6170212765957447,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25510",
+    "name": "Pâte spaghetti",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25510.jpg",
+    "label_file": "product_25510.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.33687943262411346,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25523",
+    "name": "Pâte Mini Escargot",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25523.jpg",
+    "label_file": "product_25523.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6276595744680851,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "33115",
+    "name": "Pâte ressort",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_33115.jpg",
+    "label_file": "product_33115.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "28804",
+    "name": "Pâte spaghetti super",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_28804.jpg",
+    "label_file": "product_28804.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4790322580645161,
+      0.2907801418439716,
+      0.8806451612903226
+    ]
+  },
+  {
+    "product_id": "28802",
+    "name": "Pâte spaghetti super",
+    "brand": "RANDA",
+    "price": "0,410 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_28802.jpg",
+    "label_file": "product_28802.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.29432624113475175,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "30395",
+    "name": "Pâtes coupée cavatoni",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_30395.jpg",
+    "label_file": "product_30395.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7258064516129032
+    ]
+  },
+  {
+    "product_id": "33116",
+    "name": "Pâte nouille",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_33116.jpg",
+    "label_file": "product_33116.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.39361702127659576,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "33117",
+    "name": "Pâte nouille",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_33117.jpg",
+    "label_file": "product_33117.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.450354609929078,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "30564",
+    "name": "Pâte fell",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30564.jpg",
+    "label_file": "product_30564.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "30552",
+    "name": "Spaghetti",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30552.jpg",
+    "label_file": "product_30552.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.36524822695035464,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "30551",
+    "name": "Spaghetti",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30551.jpg",
+    "label_file": "product_30551.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.3475177304964539,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "30550",
+    "name": "Spaghetti",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30550.jpg",
+    "label_file": "product_30550.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "33053",
+    "name": "Pâte mhammas",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_33053.jpg",
+    "label_file": "product_33053.txt",
+    "bbox": [
+      0.5,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.6709677419354839
+    ]
+  },
+  {
+    "product_id": "25549",
+    "name": "Pâte ressort",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25549.jpg",
+    "label_file": "product_25549.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25521",
+    "name": "Pâte coude",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25521.jpg",
+    "label_file": "product_25521.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49838709677419357,
+      0.7375886524822695,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "25546",
+    "name": "Pâte coupée maglietta",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25546.jpg",
+    "label_file": "product_25546.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "28799",
+    "name": "Pâte spaghetti",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_28799.jpg",
+    "label_file": "product_28799.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.5016129032258064,
+      0.3049645390070922,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "25548",
+    "name": "Pâte flamengo",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25548.jpg",
+    "label_file": "product_25548.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6312056737588653,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "30402",
+    "name": "Pâte mhammas",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,410 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_30402.jpg",
+    "label_file": "product_30402.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "30393",
+    "name": "Pâte plume",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_30393.jpg",
+    "label_file": "product_30393.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.6806451612903226
+    ]
+  },
+  {
+    "product_id": "37297",
+    "name": "Pâte ressorts",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_37297.jpg",
+    "label_file": "product_37297.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "56685",
+    "name": "Spaghetti",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_56685.jpg",
+    "label_file": "product_56685.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3475177304964539,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "56894",
+    "name": "Pâte chorba langue oiseau",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_56894.jpg",
+    "label_file": "product_56894.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "25539",
+    "name": "Pâte escargots",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25539.jpg",
+    "label_file": "product_25539.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.7411347517730497,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "30392",
+    "name": "Pâtes coquillages",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_30392.jpg",
+    "label_file": "product_30392.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "30376",
+    "name": "Pâte plomb",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_30376.jpg",
+    "label_file": "product_30376.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.6709677419354839
+    ]
+  },
+  {
+    "product_id": "30378",
+    "name": "Pâte maglietta",
+    "brand": "L'EPI D'OR",
+    "price": "0,410 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_30378.jpg",
+    "label_file": "product_30378.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6737588652482269,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "139265",
+    "name": "Millet",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,410 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_139265.jpg",
+    "label_file": "product_139265.txt",
+    "bbox": [
+      0.5,
+      0.5112903225806451,
+      0.6595744680851063,
+      0.7387096774193549
+    ]
+  },
+  {
+    "product_id": "30383",
+    "name": "Spaghetti",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_30383.jpg",
+    "label_file": "product_30383.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.3475177304964539,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "30384",
+    "name": "Pâte fell",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_30384.jpg",
+    "label_file": "product_30384.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49838709677419357,
+      0.6879432624113475,
+      0.8419354838709677
+    ]
+  },
+  {
+    "product_id": "30386",
+    "name": "Pâte maglietta",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_30386.jpg",
+    "label_file": "product_30386.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6205673758865248,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "30391",
+    "name": "Pâtes cavatoni",
+    "brand": "SPIGA",
+    "price": "0,410 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_30391.jpg",
+    "label_file": "product_30391.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "25528",
+    "name": "Pâte escargot",
+    "brand": "RANDA",
+    "price": "0,430 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25528.jpg",
+    "label_file": "product_25528.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6843971631205674,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "30400",
+    "name": "Pâte escargot",
+    "brand": "SPIGA",
+    "price": "0,430 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_30400.jpg",
+    "label_file": "product_30400.txt",
+    "bbox": [
+      0.5,
+      0.5048387096774194,
+      0.6737588652482269,
+      0.7645161290322581
+    ]
+  },
+  {
+    "product_id": "30399",
+    "name": "Pâte plume",
+    "brand": "SPIGA",
+    "price": "0,430 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_30399.jpg",
+    "label_file": "product_30399.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.7161290322580646
+    ]
+  },
+  {
+    "product_id": "25601",
+    "name": "Pâte cheveux d'ange",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,430 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25601.jpg",
+    "label_file": "product_25601.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49032258064516127,
+      0.6879432624113475,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "30572",
+    "name": "Pâte plume",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,430 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30572.jpg",
+    "label_file": "product_30572.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6808510638297872,
+      0.8
+    ]
+  },
+  {
+    "product_id": "25545",
+    "name": "Pâte escargot",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,430 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25545.jpg",
+    "label_file": "product_25545.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6205673758865248,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "25591",
+    "name": "Pâte cheveux d'ange",
+    "brand": "L'EPI D'OR",
+    "price": "0,430 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25591.jpg",
+    "label_file": "product_25591.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.5016129032258064,
+      0.6276595744680851,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25588",
+    "name": "Pâte cheveux d'ange",
+    "brand": "RANDA",
+    "price": "0,430 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25588.jpg",
+    "label_file": "product_25588.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.5032258064516129,
+      0.6312056737588653,
+      0.8838709677419355
+    ]
+  },
+  {
+    "product_id": "56686",
+    "name": "Pâte cheveux d'ange",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,430 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_56686.jpg",
+    "label_file": "product_56686.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6808510638297872,
+      0.8
+    ]
+  },
+  {
+    "product_id": "25581",
+    "name": "Pâte plume",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,430 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25581.jpg",
+    "label_file": "product_25581.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.5048387096774194,
+      0.7340425531914894,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "25599",
+    "name": "Pâte cheveux d'ange",
+    "brand": "SPIGA",
+    "price": "0,430 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_25599.jpg",
+    "label_file": "product_25599.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.5,
+      0.6879432624113475,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "25562",
+    "name": "Pâte escargots",
+    "brand": "L'EPI D'OR",
+    "price": "0,430 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25562.jpg",
+    "label_file": "product_25562.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.6524822695035462,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25550",
+    "name": "Pâte plume longue",
+    "brand": "RANDA",
+    "price": "0,430 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25550.jpg",
+    "label_file": "product_25550.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4645161290322581,
+      0.7375886524822695,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25572",
+    "name": "Pâte plume",
+    "brand": "L'EPI D'OR",
+    "price": "0,430 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25572.jpg",
+    "label_file": "product_25572.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6843971631205674,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "30575",
+    "name": "Pâte escargot",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,430 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30575.jpg",
+    "label_file": "product_30575.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "30081",
+    "name": "Chocolat instantané",
+    "brand": "SAID",
+    "price": "0,450 DT",
+    "class_id": 16,
+    "class_name": "SAID",
+    "image_file": "product_30081.jpg",
+    "label_file": "product_30081.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "121726",
+    "name": "Sucette",
+    "brand": "PAPILLON",
+    "price": "0,450 DT",
+    "class_id": 17,
+    "class_name": "PAPILLON",
+    "image_file": "product_121726.jpg",
+    "label_file": "product_121726.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5,
+      0.3191489361702128,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "104523",
+    "name": "Gaufrettes mini",
+    "brand": "LINGOT",
+    "price": "0,450 DT",
+    "class_id": 18,
+    "class_name": "LINGOT",
+    "image_file": "product_104523.jpg",
+    "label_file": "product_104523.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.4935483870967742,
+      0.624113475177305,
+      0.38064516129032255
+    ]
+  },
+  {
+    "product_id": "23199",
+    "name": "Mini cake",
+    "brand": "MOULIN D'OR",
+    "price": "0,500 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23199.jpg",
+    "label_file": "product_23199.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6879432624113475,
+      0.3870967741935484
+    ]
+  },
+  {
+    "product_id": "107165",
+    "name": "Mini cake",
+    "brand": "LBM",
+    "price": "0,520 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_107165.jpg",
+    "label_file": "product_107165.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.31290322580645163
+    ]
+  },
+  {
+    "product_id": "123885",
+    "name": "Muffin",
+    "brand": "LBM",
+    "price": "0,520 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_123885.jpg",
+    "label_file": "product_123885.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.9645390070921985,
+      0.567741935483871
+    ]
+  },
+  {
+    "product_id": "118086",
+    "name": "Muffin",
+    "brand": "LBM",
+    "price": "0,520 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_118086.jpg",
+    "label_file": "product_118086.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.4096774193548387
+    ]
+  },
+  {
+    "product_id": "118087",
+    "name": "Muffin",
+    "brand": "LBM",
+    "price": "0,520 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_118087.jpg",
+    "label_file": "product_118087.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.45483870967741935
+    ]
+  },
+  {
+    "product_id": "118083",
+    "name": "Muffin",
+    "brand": "LBM",
+    "price": "0,520 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_118083.jpg",
+    "label_file": "product_118083.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.3709677419354839
+    ]
+  },
+  {
+    "product_id": "38492",
+    "name": "Cake plum",
+    "brand": "SAIDA",
+    "price": "0,520 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_38492.jpg",
+    "label_file": "product_38492.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.5403225806451613,
+      0.6773049645390071,
+      0.4806451612903226
+    ]
+  },
+  {
+    "product_id": "123884",
+    "name": "Muffin",
+    "brand": "LBM",
+    "price": "0,520 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_123884.jpg",
+    "label_file": "product_123884.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.9078014184397163,
+      0.5612903225806452
+    ]
+  },
+  {
+    "product_id": "107166",
+    "name": "Mini cake",
+    "brand": "LBM",
+    "price": "0,520 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_107166.jpg",
+    "label_file": "product_107166.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.3161290322580645
+    ]
+  },
+  {
+    "product_id": "28003",
+    "name": "Cake",
+    "brand": "TOM",
+    "price": "0,540 DT",
+    "class_id": 22,
+    "class_name": "TOM",
+    "image_file": "product_28003.jpg",
+    "label_file": "product_28003.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.43870967741935485
+    ]
+  },
+  {
+    "product_id": "28984",
+    "name": "Gaufrette",
+    "brand": "CROUSTINA",
+    "price": "0,550 DT",
+    "class_id": 23,
+    "class_name": "CROUSTINA",
+    "image_file": "product_28984.jpg",
+    "label_file": "product_28984.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.5161290322580645
+    ]
+  },
+  {
+    "product_id": "45764",
+    "name": "Gaufrettes",
+    "brand": "CROUSTINA",
+    "price": "0,550 DT",
+    "class_id": 23,
+    "class_name": "CROUSTINA",
+    "image_file": "product_45764.jpg",
+    "label_file": "product_45764.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6879432624113475,
+      0.5806451612903226
+    ]
+  },
+  {
+    "product_id": "28996",
+    "name": "Gaufrette",
+    "brand": "CROUSTINA",
+    "price": "0,550 DT",
+    "class_id": 23,
+    "class_name": "CROUSTINA",
+    "image_file": "product_28996.jpg",
+    "label_file": "product_28996.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6312056737588653,
+      0.5161290322580645
+    ]
+  },
+  {
+    "product_id": "28999",
+    "name": "Gaufrette",
+    "brand": "CROUSTINA",
+    "price": "0,550 DT",
+    "class_id": 23,
+    "class_name": "CROUSTINA",
+    "image_file": "product_28999.jpg",
+    "label_file": "product_28999.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.6737588652482269,
+      0.5612903225806452
+    ]
+  },
+  {
+    "product_id": "29077",
+    "name": "Gaufrette",
+    "brand": "CROUSTINA",
+    "price": "0,550 DT",
+    "class_id": 23,
+    "class_name": "CROUSTINA",
+    "image_file": "product_29077.jpg",
+    "label_file": "product_29077.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.4935483870967742,
+      0.6524822695035462,
+      0.49032258064516127
+    ]
+  },
+  {
+    "product_id": "146367",
+    "name": "Sauce barbecue",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 24,
+    "class_name": "GUSTO",
+    "image_file": "product_146367.jpg",
+    "label_file": "product_146367.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.39361702127659576,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "146365",
+    "name": "Ketchup",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 24,
+    "class_name": "GUSTO",
+    "image_file": "product_146365.jpg",
+    "label_file": "product_146365.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.41843971631205673,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "146364",
+    "name": "Mayonnaise",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 24,
+    "class_name": "GUSTO",
+    "image_file": "product_146364.jpg",
+    "label_file": "product_146364.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.49838709677419357,
+      0.4148936170212766,
+      0.8419354838709677
+    ]
+  },
+  {
+    "product_id": "29078",
+    "name": "Gaufrette",
+    "brand": "CROUSTINA",
+    "price": "0,550 DT",
+    "class_id": 23,
+    "class_name": "CROUSTINA",
+    "image_file": "product_29078.jpg",
+    "label_file": "product_29078.txt",
+    "bbox": [
+      0.5,
+      0.5016129032258064,
+      0.6737588652482269,
+      0.5129032258064516
+    ]
+  },
+  {
+    "product_id": "146366",
+    "name": "Sauce algérienne",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 24,
+    "class_name": "GUSTO",
+    "image_file": "product_146366.jpg",
+    "label_file": "product_146366.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.40425531914893614,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "143087",
+    "name": "Barre de chamia",
+    "brand": "PAPILLON",
+    "price": "0,550 DT",
+    "class_id": 17,
+    "class_name": "PAPILLON",
+    "image_file": "product_143087.jpg",
+    "label_file": "product_143087.txt",
+    "bbox": [
+      0.5,
+      0.49032258064516127,
+      0.6595744680851063,
+      0.3161290322580645
+    ]
+  },
+  {
+    "product_id": "108181",
+    "name": "Fritos",
+    "brand": "MAHBOUL",
+    "price": "0,560 DT",
+    "class_id": 25,
+    "class_name": "MAHBOUL",
+    "image_file": "product_108181.jpg",
+    "label_file": "product_108181.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6773049645390071,
+      0.7483870967741936
+    ]
+  },
+  {
+    "product_id": "38460",
+    "name": "Gaufrette enrobé",
+    "brand": "LINGOT",
+    "price": "0,560 DT",
+    "class_id": 18,
+    "class_name": "LINGOT",
+    "image_file": "product_38460.jpg",
+    "label_file": "product_38460.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6524822695035462,
+      0.23870967741935484
+    ]
+  },
+  {
+    "product_id": "108183",
+    "name": "Fritos",
+    "brand": "MAHBOUL",
+    "price": "0,560 DT",
+    "class_id": 25,
+    "class_name": "MAHBOUL",
+    "image_file": "product_108183.jpg",
+    "label_file": "product_108183.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "108180",
+    "name": "Fritos",
+    "brand": "MAHBOUL",
+    "price": "0,560 DT",
+    "class_id": 25,
+    "class_name": "MAHBOUL",
+    "image_file": "product_108180.jpg",
+    "label_file": "product_108180.txt",
+    "bbox": [
+      0.5,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.7161290322580646
+    ]
+  },
+  {
+    "product_id": "108185",
+    "name": "Pop snax",
+    "brand": "MAHBOUL",
+    "price": "0,560 DT",
+    "class_id": 25,
+    "class_name": "MAHBOUL",
+    "image_file": "product_108185.jpg",
+    "label_file": "product_108185.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6843971631205674,
+      0.5967741935483871
+    ]
+  },
+  {
+    "product_id": "38461",
+    "name": "Gaufrette enrobé",
+    "brand": "LINGOT",
+    "price": "0,560 DT",
+    "class_id": 18,
+    "class_name": "LINGOT",
+    "image_file": "product_38461.jpg",
+    "label_file": "product_38461.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.25806451612903225
+    ]
+  },
+  {
+    "product_id": "36250",
+    "name": "Adoro classic",
+    "brand": "MOULIN D'OR",
+    "price": "0,560 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_36250.jpg",
+    "label_file": "product_36250.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.33225806451612905
+    ]
+  },
+  {
+    "product_id": "38462",
+    "name": "Gaufrette enrobé",
+    "brand": "LINGOT",
+    "price": "0,560 DT",
+    "class_id": 18,
+    "class_name": "LINGOT",
+    "image_file": "product_38462.jpg",
+    "label_file": "product_38462.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.25806451612903225
+    ]
+  },
+  {
+    "product_id": "108184",
+    "name": "Pop snax",
+    "brand": "MAHBOUL",
+    "price": "0,560 DT",
+    "class_id": 25,
+    "class_name": "MAHBOUL",
+    "image_file": "product_108184.jpg",
+    "label_file": "product_108184.txt",
+    "bbox": [
+      0.5,
+      0.4935483870967742,
+      0.6453900709219859,
+      0.6
+    ]
+  },
+  {
+    "product_id": "22102",
+    "name": "Snacks",
+    "brand": "CROKIDOS",
+    "price": "0,570 DT",
+    "class_id": 26,
+    "class_name": "CROKIDOS",
+    "image_file": "product_22102.jpg",
+    "label_file": "product_22102.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "22104",
+    "name": "Snacks",
+    "brand": "CROKIDOS",
+    "price": "0,570 DT",
+    "class_id": 26,
+    "class_name": "CROKIDOS",
+    "image_file": "product_22104.jpg",
+    "label_file": "product_22104.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.6967741935483871
+    ]
+  },
+  {
+    "product_id": "148327",
+    "name": "Gaufrettes",
+    "brand": "LOOPI",
+    "price": "0,570 DT",
+    "class_id": 27,
+    "class_name": "LOOPI",
+    "image_file": "product_148327.jpg",
+    "label_file": "product_148327.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.47096774193548385
+    ]
+  },
+  {
+    "product_id": "22103",
+    "name": "Snacks",
+    "brand": "CROKIDOS",
+    "price": "0,570 DT",
+    "class_id": 26,
+    "class_name": "CROKIDOS",
+    "image_file": "product_22103.jpg",
+    "label_file": "product_22103.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "40486",
+    "name": "Bonbon gélifié",
+    "brand": "HAPPY FULL",
+    "price": "0,580 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_40486.jpg",
+    "label_file": "product_40486.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.7258064516129032
+    ]
+  },
+  {
+    "product_id": "72775",
+    "name": "Bonbon gélifié",
+    "brand": "HAPPY FULL",
+    "price": "0,580 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_72775.jpg",
+    "label_file": "product_72775.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6843971631205674,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "33892",
+    "name": "Bonbon gélifié",
+    "brand": "HAPPY FULL",
+    "price": "0,580 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_33892.jpg",
+    "label_file": "product_33892.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6773049645390071,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "40485",
+    "name": "Bonbon gélifié",
+    "brand": "HAPPY FULL",
+    "price": "0,580 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_40485.jpg",
+    "label_file": "product_40485.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "123081",
+    "name": "Bonbon gélifié",
+    "brand": "HAPPY FULL",
+    "price": "0,580 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_123081.jpg",
+    "label_file": "product_123081.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5290322580645161,
+      0.6879432624113475,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "123094",
+    "name": "Biscuit fourré",
+    "brand": "CAMPI PLUS",
+    "price": "0,590 DT",
+    "class_id": 28,
+    "class_name": "CAMPI PLUS",
+    "image_file": "product_123094.jpg",
+    "label_file": "product_123094.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5274193548387097,
+      0.6808510638297872,
+      0.4612903225806452
+    ]
+  },
+  {
+    "product_id": "88841",
+    "name": "Biscuits fourrés",
+    "brand": "TINO",
+    "price": "0,590 DT",
+    "class_id": 29,
+    "class_name": "TINO",
+    "image_file": "product_88841.jpg",
+    "label_file": "product_88841.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.3096774193548387
+    ]
+  },
+  {
+    "product_id": "86036",
+    "name": "Biscuit fourré",
+    "brand": "CAMPI PLUS",
+    "price": "0,590 DT",
+    "class_id": 28,
+    "class_name": "CAMPI PLUS",
+    "image_file": "product_86036.jpg",
+    "label_file": "product_86036.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6276595744680851,
+      0.36774193548387096
+    ]
+  },
+  {
+    "product_id": "129255",
+    "name": "Gaufrettes",
+    "brand": "CHOCOTOM",
+    "price": "0,590 DT",
+    "class_id": 30,
+    "class_name": "CHOCOTOM",
+    "image_file": "product_129255.jpg",
+    "label_file": "product_129255.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.5193548387096775
+    ]
+  },
+  {
+    "product_id": "135991",
+    "name": "Bonbon gélifié acidulé",
+    "brand": "HAPPY FULL",
+    "price": "0,610 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_135991.jpg",
+    "label_file": "product_135991.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "135993",
+    "name": "Bonbon gélifié acidulé",
+    "brand": "HAPPY FULL",
+    "price": "0,610 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_135993.jpg",
+    "label_file": "product_135993.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "135992",
+    "name": "Bonbon gélifié acidulé",
+    "brand": "HAPPY FULL",
+    "price": "0,610 DT",
+    "class_id": 8,
+    "class_name": "HAPPY FULL",
+    "image_file": "product_135992.jpg",
+    "label_file": "product_135992.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "30079",
+    "name": "Pâte à tartiner",
+    "brand": "SAID",
+    "price": "0,620 DT",
+    "class_id": 16,
+    "class_name": "SAID",
+    "image_file": "product_30079.jpg",
+    "label_file": "product_30079.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6773049645390071,
+      0.4612903225806452
+    ]
+  },
+  {
+    "product_id": "30626",
+    "name": "Croquettes mini",
+    "brand": "TOM",
+    "price": "0,620 DT",
+    "class_id": 22,
+    "class_name": "TOM",
+    "image_file": "product_30626.jpg",
+    "label_file": "product_30626.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.4645161290322581
+    ]
+  },
+  {
+    "product_id": "31568",
+    "name": "Muffins fourrés",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_31568.jpg",
+    "label_file": "product_31568.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7967741935483871
+    ]
+  },
+  {
+    "product_id": "27950",
+    "name": "Crème",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27950.jpg",
+    "label_file": "product_27950.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "146392",
+    "name": "Gâteau",
+    "brand": "BREAK",
+    "price": "0,630 DT",
+    "class_id": 31,
+    "class_name": "BREAK",
+    "image_file": "product_146392.jpg",
+    "label_file": "product_146392.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.6524822695035462,
+      0.3225806451612903
+    ]
+  },
+  {
+    "product_id": "88373",
+    "name": "Gâteau",
+    "brand": "BREAK",
+    "price": "0,630 DT",
+    "class_id": 31,
+    "class_name": "BREAK",
+    "image_file": "product_88373.jpg",
+    "label_file": "product_88373.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6808510638297872,
+      0.4064516129032258
+    ]
+  },
+  {
+    "product_id": "27938",
+    "name": "Crème",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27938.jpg",
+    "label_file": "product_27938.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "46834",
+    "name": "Crème pâtissière",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_46834.jpg",
+    "label_file": "product_46834.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "23236",
+    "name": "Muffin's fourré",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_23236.jpg",
+    "label_file": "product_23236.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "32307",
+    "name": "Crème",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_32307.jpg",
+    "label_file": "product_32307.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "31569",
+    "name": "Muffins fourrés",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_31569.jpg",
+    "label_file": "product_31569.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "27937",
+    "name": "Crème",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27937.jpg",
+    "label_file": "product_27937.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "135953",
+    "name": "Crème pâtissière",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_135953.jpg",
+    "label_file": "product_135953.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "118070",
+    "name": "Gâteau",
+    "brand": "BREAK",
+    "price": "0,630 DT",
+    "class_id": 31,
+    "class_name": "BREAK",
+    "image_file": "product_118070.jpg",
+    "label_file": "product_118070.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.35161290322580646
+    ]
+  },
+  {
+    "product_id": "27935",
+    "name": "Crème",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27935.jpg",
+    "label_file": "product_27935.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "33088",
+    "name": "Chapelure",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_33088.jpg",
+    "label_file": "product_33088.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.624113475177305,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "23198",
+    "name": "Milk cake double",
+    "brand": "MOULIN D'OR",
+    "price": "0,630 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23198.jpg",
+    "label_file": "product_23198.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.3387096774193548
+    ]
+  },
+  {
+    "product_id": "27936",
+    "name": "Crème",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27936.jpg",
+    "label_file": "product_27936.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "133313",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,630 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_133313.jpg",
+    "label_file": "product_133313.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "27991",
+    "name": "Beignet crémeux",
+    "brand": "SAIDA",
+    "price": "0,650 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_27991.jpg",
+    "label_file": "product_27991.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.5129032258064516
+    ]
+  },
+  {
+    "product_id": "23232",
+    "name": "Blondiz",
+    "brand": "Promotion",
+    "price": "0,650 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_23232.jpg",
+    "label_file": "product_23232.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.46774193548387094
+    ]
+  },
+  {
+    "product_id": "23202",
+    "name": "Cake marbré en tranche",
+    "brand": "LE PATISSIER",
+    "price": "0,650 DT",
+    "class_id": 32,
+    "class_name": "LE PATISSIER",
+    "image_file": "product_23202.jpg",
+    "label_file": "product_23202.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "23231",
+    "name": "Brownies",
+    "brand": "Promotion",
+    "price": "0,650 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_23231.jpg",
+    "label_file": "product_23231.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.43548387096774194
+    ]
+  },
+  {
+    "product_id": "113234",
+    "name": "Super cake",
+    "brand": "BOLERIO",
+    "price": "0,660 DT",
+    "class_id": 33,
+    "class_name": "BOLERIO",
+    "image_file": "product_113234.jpg",
+    "label_file": "product_113234.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.5225806451612903
+    ]
+  },
+  {
+    "product_id": "37383",
+    "name": "Brownies",
+    "brand": "Promotion",
+    "price": "0,660 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_37383.jpg",
+    "label_file": "product_37383.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6312056737588653,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "57011",
+    "name": "Brownies",
+    "brand": "Promotion",
+    "price": "0,660 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_57011.jpg",
+    "label_file": "product_57011.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6773049645390071,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "23247",
+    "name": "Cake",
+    "brand": "ADORO MOULIN D'OR",
+    "price": "0,660 DT",
+    "class_id": 34,
+    "class_name": "ADORO MOULIN D'OR",
+    "image_file": "product_23247.jpg",
+    "label_file": "product_23247.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.31290322580645163
+    ]
+  },
+  {
+    "product_id": "23218",
+    "name": "Gâteaux moelleux",
+    "brand": "ADORO MOULIN D'OR",
+    "price": "0,680 DT",
+    "class_id": 34,
+    "class_name": "ADORO MOULIN D'OR",
+    "image_file": "product_23218.jpg",
+    "label_file": "product_23218.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.3064516129032258
+    ]
+  },
+  {
+    "product_id": "30543",
+    "name": "Pâte nouasser",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,680 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30543.jpg",
+    "label_file": "product_30543.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "23233",
+    "name": "Muffin fourré",
+    "brand": "MOULIN D'OR",
+    "price": "0,680 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23233.jpg",
+    "label_file": "product_23233.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6808510638297872,
+      0.5161290322580645
+    ]
+  },
+  {
+    "product_id": "23235",
+    "name": "Muffin fourré",
+    "brand": "MOULIN D'OR",
+    "price": "0,680 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23235.jpg",
+    "label_file": "product_23235.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.44193548387096776
+    ]
+  },
+  {
+    "product_id": "27994",
+    "name": "Muffin fourré",
+    "brand": "TOM",
+    "price": "0,680 DT",
+    "class_id": 22,
+    "class_name": "TOM",
+    "image_file": "product_27994.jpg",
+    "label_file": "product_27994.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7967741935483871
+    ]
+  },
+  {
+    "product_id": "57078",
+    "name": "Muffin",
+    "brand": "SAIDA",
+    "price": "0,690 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_57078.jpg",
+    "label_file": "product_57078.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.7677419354838709
+    ]
+  },
+  {
+    "product_id": "123912",
+    "name": "Muffin marbré",
+    "brand": "SAIDA",
+    "price": "0,690 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_123912.jpg",
+    "label_file": "product_123912.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.7163120567375887,
+      0.9096774193548387
+    ]
+  },
+  {
+    "product_id": "31670",
+    "name": "Mini cake",
+    "brand": "LE PATISSIER",
+    "price": "0,690 DT",
+    "class_id": 32,
+    "class_name": "LE PATISSIER",
+    "image_file": "product_31670.jpg",
+    "label_file": "product_31670.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "32293",
+    "name": "Muffins",
+    "brand": "SAIDA",
+    "price": "0,690 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_32293.jpg",
+    "label_file": "product_32293.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "32301",
+    "name": "Muffins",
+    "brand": "SAIDA",
+    "price": "0,690 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_32301.jpg",
+    "label_file": "product_32301.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.7322580645161291
+    ]
+  },
+  {
+    "product_id": "32238",
+    "name": "Muffin",
+    "brand": "SAIDA",
+    "price": "0,690 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_32238.jpg",
+    "label_file": "product_32238.txt",
+    "bbox": [
+      0.5035460992907801,
+      0.5,
+      0.6382978723404256,
+      0.7032258064516129
+    ]
+  },
+  {
+    "product_id": "139239",
+    "name": "Cookies",
+    "brand": "Promotion",
+    "price": "0,690 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_139239.jpg",
+    "label_file": "product_139239.txt",
+    "bbox": [
+      0.5,
+      0.4806451612903226,
+      0.6524822695035462,
+      0.3548387096774194
+    ]
+  },
+  {
+    "product_id": "33558",
+    "name": "Mini cake",
+    "brand": "LE PATISSIER",
+    "price": "0,690 DT",
+    "class_id": 32,
+    "class_name": "LE PATISSIER",
+    "image_file": "product_33558.jpg",
+    "label_file": "product_33558.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6737588652482269,
+      0.3580645161290323
+    ]
+  },
+  {
+    "product_id": "27951",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,700 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27951.jpg",
+    "label_file": "product_27951.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "27992",
+    "name": "Gâteau",
+    "brand": "PRINCE",
+    "price": "0,700 DT",
+    "class_id": 35,
+    "class_name": "PRINCE",
+    "image_file": "product_27992.jpg",
+    "label_file": "product_27992.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.4032258064516129
+    ]
+  },
+  {
+    "product_id": "27941",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,700 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27941.jpg",
+    "label_file": "product_27941.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "31646",
+    "name": "Chips",
+    "brand": "WAVES MAD",
+    "price": "0,700 DT",
+    "class_id": 36,
+    "class_name": "WAVES MAD",
+    "image_file": "product_31646.jpg",
+    "label_file": "product_31646.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6737588652482269,
+      0.7935483870967742
+    ]
+  },
+  {
+    "product_id": "27952",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,700 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27952.jpg",
+    "label_file": "product_27952.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8
+    ]
+  },
+  {
+    "product_id": "27940",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,700 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27940.jpg",
+    "label_file": "product_27940.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7806451612903226
+    ]
+  },
+  {
+    "product_id": "50796",
+    "name": "Chips",
+    "brand": "WAVES MAD",
+    "price": "0,700 DT",
+    "class_id": 36,
+    "class_name": "WAVES MAD",
+    "image_file": "product_50796.jpg",
+    "label_file": "product_50796.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8193548387096774
+    ]
+  },
+  {
+    "product_id": "29287",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,700 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_29287.jpg",
+    "label_file": "product_29287.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "41233",
+    "name": "Chips",
+    "brand": "MAD",
+    "price": "0,700 DT",
+    "class_id": 37,
+    "class_name": "MAD",
+    "image_file": "product_41233.jpg",
+    "label_file": "product_41233.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6879432624113475,
+      0.7870967741935484
+    ]
+  },
+  {
+    "product_id": "25658",
+    "name": "Chips",
+    "brand": "MAD",
+    "price": "0,700 DT",
+    "class_id": 37,
+    "class_name": "MAD",
+    "image_file": "product_25658.jpg",
+    "label_file": "product_25658.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49838709677419357,
+      0.6879432624113475,
+      0.7903225806451613
+    ]
+  },
+  {
+    "product_id": "25657",
+    "name": "Chips",
+    "brand": "MAD",
+    "price": "0,700 DT",
+    "class_id": 37,
+    "class_name": "MAD",
+    "image_file": "product_25657.jpg",
+    "label_file": "product_25657.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "25656",
+    "name": "Chips",
+    "brand": "MAD",
+    "price": "0,700 DT",
+    "class_id": 37,
+    "class_name": "MAD",
+    "image_file": "product_25656.jpg",
+    "label_file": "product_25656.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "27949",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,700 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27949.jpg",
+    "label_file": "product_27949.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "27948",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,700 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27948.jpg",
+    "label_file": "product_27948.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7967741935483871
+    ]
+  },
+  {
+    "product_id": "27953",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,700 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27953.jpg",
+    "label_file": "product_27953.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8
+    ]
+  },
+  {
+    "product_id": "25642",
+    "name": "Chips",
+    "brand": "MAD",
+    "price": "0,700 DT",
+    "class_id": 37,
+    "class_name": "MAD",
+    "image_file": "product_25642.jpg",
+    "label_file": "product_25642.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6737588652482269,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "135958",
+    "name": "Crumble",
+    "brand": "Promotion",
+    "price": "0,720 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_135958.jpg",
+    "label_file": "product_135958.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.49032258064516127
+    ]
+  },
+  {
+    "product_id": "133977",
+    "name": "Muffins fourré",
+    "brand": "PALM D'OR",
+    "price": "0,720 DT",
+    "class_id": 38,
+    "class_name": "PALM D'OR",
+    "image_file": "product_133977.jpg",
+    "label_file": "product_133977.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "109935",
+    "name": "Bonbon dragée",
+    "brand": "DANA",
+    "price": "0,720 DT",
+    "class_id": 39,
+    "class_name": "DANA",
+    "image_file": "product_109935.jpg",
+    "label_file": "product_109935.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.18064516129032257
+    ]
+  },
+  {
+    "product_id": "71174",
+    "name": "Chips",
+    "brand": "GOLDEN TWISTER",
+    "price": "0,720 DT",
+    "class_id": 40,
+    "class_name": "GOLDEN TWISTER",
+    "image_file": "product_71174.jpg",
+    "label_file": "product_71174.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.6843971631205674,
+      0.7419354838709677
+    ]
+  },
+  {
+    "product_id": "23203",
+    "name": "Barre de cake choco glory",
+    "brand": "MOULIN D'OR",
+    "price": "0,720 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23203.jpg",
+    "label_file": "product_23203.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.4645161290322581
+    ]
+  },
+  {
+    "product_id": "50830",
+    "name": "Chips",
+    "brand": "GOLDEN TWISTER",
+    "price": "0,720 DT",
+    "class_id": 40,
+    "class_name": "GOLDEN TWISTER",
+    "image_file": "product_50830.jpg",
+    "label_file": "product_50830.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6737588652482269,
+      0.7129032258064516
+    ]
+  },
+  {
+    "product_id": "25394",
+    "name": "Barre biscuitée",
+    "brand": "DUO",
+    "price": "0,720 DT",
+    "class_id": 41,
+    "class_name": "DUO",
+    "image_file": "product_25394.jpg",
+    "label_file": "product_25394.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4774193548387097,
+      0.6879432624113475,
+      0.41935483870967744
+    ]
+  },
+  {
+    "product_id": "126812",
+    "name": "Gaufrettes",
+    "brand": "SAIDA",
+    "price": "0,720 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_126812.jpg",
+    "label_file": "product_126812.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5161290322580645,
+      0.6808510638297872,
+      0.43870967741935485
+    ]
+  },
+  {
+    "product_id": "126811",
+    "name": "Gaufrettes",
+    "brand": "SAIDA",
+    "price": "0,720 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_126811.jpg",
+    "label_file": "product_126811.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6879432624113475,
+      0.3935483870967742
+    ]
+  },
+  {
+    "product_id": "71173",
+    "name": "Chips",
+    "brand": "GOLDEN TWISTER",
+    "price": "0,720 DT",
+    "class_id": 40,
+    "class_name": "GOLDEN TWISTER",
+    "image_file": "product_71173.jpg",
+    "label_file": "product_71173.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6737588652482269,
+      0.7193548387096774
+    ]
+  },
+  {
+    "product_id": "135959",
+    "name": "Muffins fourré",
+    "brand": "PALM D'OR",
+    "price": "0,720 DT",
+    "class_id": 38,
+    "class_name": "PALM D'OR",
+    "image_file": "product_135959.jpg",
+    "label_file": "product_135959.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.4161290322580645
+    ]
+  },
+  {
+    "product_id": "32389",
+    "name": "Tranche d'or",
+    "brand": "MOULIN D'OR",
+    "price": "0,750 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_32389.jpg",
+    "label_file": "product_32389.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6737588652482269,
+      0.43870967741935485
+    ]
+  },
+  {
+    "product_id": "31722",
+    "name": "Muffins",
+    "brand": "BILINI",
+    "price": "0,750 DT",
+    "class_id": 42,
+    "class_name": "BILINI",
+    "image_file": "product_31722.jpg",
+    "label_file": "product_31722.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.4645161290322581
+    ]
+  },
+  {
+    "product_id": "25906",
+    "name": "Couscous de blé complet",
+    "brand": "RANDA",
+    "price": "0,750 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25906.jpg",
+    "label_file": "product_25906.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.5141843971631206,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "57137",
+    "name": "Biscuits",
+    "brand": "PALETS SAIDA",
+    "price": "0,750 DT",
+    "class_id": 43,
+    "class_name": "PALETS SAIDA",
+    "image_file": "product_57137.jpg",
+    "label_file": "product_57137.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5548387096774193,
+      0.6808510638297872,
+      0.25806451612903225
+    ]
+  },
+  {
+    "product_id": "69079",
+    "name": "Donuts",
+    "brand": "MOULIN D'OR",
+    "price": "0,750 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_69079.jpg",
+    "label_file": "product_69079.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.45483870967741935
+    ]
+  },
+  {
+    "product_id": "23211",
+    "name": "Baked donuts",
+    "brand": "MOULIN D'OR",
+    "price": "0,750 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23211.jpg",
+    "label_file": "product_23211.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.4645161290322581
+    ]
+  },
+  {
+    "product_id": "104666",
+    "name": "Biscuit fourré",
+    "brand": "LBM",
+    "price": "0,750 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_104666.jpg",
+    "label_file": "product_104666.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.36451612903225805
+    ]
+  },
+  {
+    "product_id": "72705",
+    "name": "Biscuits fourrés",
+    "brand": "LBM",
+    "price": "0,750 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_72705.jpg",
+    "label_file": "product_72705.txt",
+    "bbox": [
+      0.5,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.34838709677419355
+    ]
+  },
+  {
+    "product_id": "30560",
+    "name": "Couscous fin de blé co...",
+    "brand": "RANDA",
+    "price": "0,750 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_30560.jpg",
+    "label_file": "product_30560.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.5673758865248227,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "22567",
+    "name": "Bicarbonate",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,750 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_22567.jpg",
+    "label_file": "product_22567.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49193548387096775,
+      0.5957446808510638,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "32434",
+    "name": "Donut",
+    "brand": "MOULIN D'OR",
+    "price": "0,750 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_32434.jpg",
+    "label_file": "product_32434.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.44193548387096776
+    ]
+  },
+  {
+    "product_id": "72707",
+    "name": "Biscuits fourrés",
+    "brand": "LBM",
+    "price": "0,750 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_72707.jpg",
+    "label_file": "product_72707.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.3548387096774194
+    ]
+  },
+  {
+    "product_id": "28796",
+    "name": "Spaghetti trouée",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,750 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_28796.jpg",
+    "label_file": "product_28796.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.5016129032258064,
+      0.36879432624113473,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "23220",
+    "name": "Gâteau crac'n chok",
+    "brand": "BOLERIO",
+    "price": "0,750 DT",
+    "class_id": 33,
+    "class_name": "BOLERIO",
+    "image_file": "product_23220.jpg",
+    "label_file": "product_23220.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "30580",
+    "name": "Spaghetti intégrale",
+    "brand": "L'EPI D'OR",
+    "price": "0,760 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_30580.jpg",
+    "label_file": "product_30580.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3404255319148936,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "108384",
+    "name": "Cake en slice",
+    "brand": "DAILY'N",
+    "price": "0,760 DT",
+    "class_id": 45,
+    "class_name": "DAILY'N",
+    "image_file": "product_108384.jpg",
+    "label_file": "product_108384.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4935483870967742,
+      0.6843971631205674,
+      0.6967741935483871
+    ]
+  },
+  {
+    "product_id": "135952",
+    "name": "Chorba intégrale",
+    "brand": "ORZO",
+    "price": "0,760 DT",
+    "class_id": 46,
+    "class_name": "ORZO",
+    "image_file": "product_135952.jpg",
+    "label_file": "product_135952.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "32335",
+    "name": "Slice Marbré",
+    "brand": "DAILY'N",
+    "price": "0,760 DT",
+    "class_id": 45,
+    "class_name": "DAILY'N",
+    "image_file": "product_32335.jpg",
+    "label_file": "product_32335.txt",
+    "bbox": [
+      0.5,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "31691",
+    "name": "Chips",
+    "brand": "MAXXX",
+    "price": "0,770 DT",
+    "class_id": 47,
+    "class_name": "MAXXX",
+    "image_file": "product_31691.jpg",
+    "label_file": "product_31691.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5032258064516129,
+      0.6524822695035462,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "23207",
+    "name": "Crostatini",
+    "brand": "MOULIN D'OR",
+    "price": "0,770 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23207.jpg",
+    "label_file": "product_23207.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.5129032258064516
+    ]
+  },
+  {
+    "product_id": "26092",
+    "name": "Bouillons",
+    "brand": "KENT",
+    "price": "0,770 DT",
+    "class_id": 48,
+    "class_name": "KENT",
+    "image_file": "product_26092.jpg",
+    "label_file": "product_26092.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5016129032258064,
+      0.7624113475177305,
+      0.5709677419354838
+    ]
+  },
+  {
+    "product_id": "31551",
+    "name": "Crème",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,770 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_31551.jpg",
+    "label_file": "product_31551.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6843971631205674,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "33119",
+    "name": "Pâte fell intégrale",
+    "brand": "L'EPI D'OR",
+    "price": "0,770 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_33119.jpg",
+    "label_file": "product_33119.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "33082",
+    "name": "Bouillon de boeuf",
+    "brand": "KENT",
+    "price": "0,770 DT",
+    "class_id": 48,
+    "class_name": "KENT",
+    "image_file": "product_33082.jpg",
+    "label_file": "product_33082.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6773049645390071,
+      0.4870967741935484
+    ]
+  },
+  {
+    "product_id": "26083",
+    "name": "Bouillons",
+    "brand": "KENT",
+    "price": "0,770 DT",
+    "class_id": 48,
+    "class_name": "KENT",
+    "image_file": "product_26083.jpg",
+    "label_file": "product_26083.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.4645161290322581
+    ]
+  },
+  {
+    "product_id": "31690",
+    "name": "Chips",
+    "brand": "MAXXX",
+    "price": "0,770 DT",
+    "class_id": 47,
+    "class_name": "MAXXX",
+    "image_file": "product_31690.jpg",
+    "label_file": "product_31690.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.7709677419354839
+    ]
+  },
+  {
+    "product_id": "23215",
+    "name": "Tartelette",
+    "brand": "MOULIN D'OR",
+    "price": "0,770 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23215.jpg",
+    "label_file": "product_23215.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.49032258064516127
+    ]
+  },
+  {
+    "product_id": "31689",
+    "name": "Chips",
+    "brand": "MAXXX",
+    "price": "0,770 DT",
+    "class_id": 47,
+    "class_name": "MAXXX",
+    "image_file": "product_31689.jpg",
+    "label_file": "product_31689.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6879432624113475,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "142114",
+    "name": "Chips",
+    "brand": "TITO",
+    "price": "0,770 DT",
+    "class_id": 49,
+    "class_name": "TITO",
+    "image_file": "product_142114.jpg",
+    "label_file": "product_142114.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.6666666666666666,
+      0.7354838709677419
+    ]
+  },
+  {
+    "product_id": "33564",
+    "name": "Chips",
+    "brand": "MAXXX",
+    "price": "0,770 DT",
+    "class_id": 47,
+    "class_name": "MAXXX",
+    "image_file": "product_33564.jpg",
+    "label_file": "product_33564.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.45483870967741935,
+      0.6773049645390071,
+      0.7161290322580646
+    ]
+  },
+  {
+    "product_id": "23209",
+    "name": "Crostatini",
+    "brand": "MOULIN D'OR",
+    "price": "0,770 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23209.jpg",
+    "label_file": "product_23209.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6843971631205674,
+      0.4870967741935484
+    ]
+  },
+  {
+    "product_id": "56931",
+    "name": "Chips",
+    "brand": "MAXXX",
+    "price": "0,770 DT",
+    "class_id": 47,
+    "class_name": "MAXXX",
+    "image_file": "product_56931.jpg",
+    "label_file": "product_56931.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6773049645390071,
+      0.7709677419354839
+    ]
+  },
+  {
+    "product_id": "23214",
+    "name": "Crostatini",
+    "brand": "MOULIN D'OR",
+    "price": "0,770 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23214.jpg",
+    "label_file": "product_23214.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.47419354838709676
+    ]
+  },
+  {
+    "product_id": "33563",
+    "name": "Chips",
+    "brand": "MAXXX",
+    "price": "0,770 DT",
+    "class_id": 47,
+    "class_name": "MAXXX",
+    "image_file": "product_33563.jpg",
+    "label_file": "product_33563.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6737588652482269,
+      0.7193548387096774
+    ]
+  },
+  {
+    "product_id": "23208",
+    "name": "Crostatini",
+    "brand": "MOULIN D'OR",
+    "price": "0,770 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_23208.jpg",
+    "label_file": "product_23208.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.4870967741935484
+    ]
+  },
+  {
+    "product_id": "27946",
+    "name": "Crème",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,780 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_27946.jpg",
+    "label_file": "product_27946.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.6560283687943262,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "135960",
+    "name": "Brownie",
+    "brand": "PALM D'OR",
+    "price": "0,790 DT",
+    "class_id": 38,
+    "class_name": "PALM D'OR",
+    "image_file": "product_135960.jpg",
+    "label_file": "product_135960.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.45806451612903226
+    ]
+  },
+  {
+    "product_id": "25615",
+    "name": "Semoule fine",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,790 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25615.jpg",
+    "label_file": "product_25615.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.5141843971631206,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25614",
+    "name": "Semoule fine",
+    "brand": "DIARI",
+    "price": "0,790 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_25614.jpg",
+    "label_file": "product_25614.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25613",
+    "name": "Semoule fine pasteurise",
+    "brand": "RANDA",
+    "price": "0,790 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25613.jpg",
+    "label_file": "product_25613.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49032258064516127,
+      0.5957446808510638,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "27942",
+    "name": "Crème",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,790 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_27942.jpg",
+    "label_file": "product_27942.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "32219",
+    "name": "Muffins",
+    "brand": "DAILY'N",
+    "price": "0,790 DT",
+    "class_id": 45,
+    "class_name": "DAILY'N",
+    "image_file": "product_32219.jpg",
+    "label_file": "product_32219.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6773049645390071,
+      0.7451612903225806
+    ]
+  },
+  {
+    "product_id": "25611",
+    "name": "Semoule grain fin",
+    "brand": "L'EPI D'OR",
+    "price": "0,790 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25611.jpg",
+    "label_file": "product_25611.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5957446808510638,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "32216",
+    "name": "Muffins",
+    "brand": "DAILY'N",
+    "price": "0,790 DT",
+    "class_id": 45,
+    "class_name": "DAILY'N",
+    "image_file": "product_32216.jpg",
+    "label_file": "product_32216.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.5,
+      0.6773049645390071,
+      0.7677419354838709
+    ]
+  },
+  {
+    "product_id": "25617",
+    "name": "Semoule moyenne pasteu...",
+    "brand": "RANDA",
+    "price": "0,790 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25617.jpg",
+    "label_file": "product_25617.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.4629032258064516,
+      0.5921985815602837,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25620",
+    "name": "Semoule grosse pasteur...",
+    "brand": "RANDA",
+    "price": "0,790 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25620.jpg",
+    "label_file": "product_25620.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4661290322580645,
+      0.5638297872340425,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "135961",
+    "name": "Blondie",
+    "brand": "PALM D'OR",
+    "price": "0,790 DT",
+    "class_id": 38,
+    "class_name": "PALM D'OR",
+    "image_file": "product_135961.jpg",
+    "label_file": "product_135961.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.45806451612903226
+    ]
+  },
+  {
+    "product_id": "32220",
+    "name": "Muffins",
+    "brand": "DAILY'N",
+    "price": "0,790 DT",
+    "class_id": 45,
+    "class_name": "DAILY'N",
+    "image_file": "product_32220.jpg",
+    "label_file": "product_32220.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7967741935483871
+    ]
+  },
+  {
+    "product_id": "88315",
+    "name": "Semoule de grain moyen",
+    "brand": "L'EPI D'OR",
+    "price": "0,790 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_88315.jpg",
+    "label_file": "product_88315.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.45390070921985815,
+      0.7709677419354839
+    ]
+  },
+  {
+    "product_id": "32217",
+    "name": "Muffins",
+    "brand": "DAILY'N",
+    "price": "0,790 DT",
+    "class_id": 45,
+    "class_name": "DAILY'N",
+    "image_file": "product_32217.jpg",
+    "label_file": "product_32217.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7709677419354839
+    ]
+  },
+  {
+    "product_id": "89752",
+    "name": "Semoule gros",
+    "brand": "DIARI",
+    "price": "0,790 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_89752.jpg",
+    "label_file": "product_89752.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8032258064516129
+    ]
+  },
+  {
+    "product_id": "31547",
+    "name": "Crème",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,790 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_31547.jpg",
+    "label_file": "product_31547.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "86602",
+    "name": "Mesfouf",
+    "brand": "RANDA",
+    "price": "0,795 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_86602.jpg",
+    "label_file": "product_86602.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "56856",
+    "name": "Gold cake",
+    "brand": "FLIGHT",
+    "price": "0,800 DT",
+    "class_id": 50,
+    "class_name": "FLIGHT",
+    "image_file": "product_56856.jpg",
+    "label_file": "product_56856.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.5,
+      0.6808510638297872,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "33058",
+    "name": "Couscous moyen",
+    "brand": "L'EPI D'OR",
+    "price": "0,795 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_33058.jpg",
+    "label_file": "product_33058.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "30410",
+    "name": "Couscous gros",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,795 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_30410.jpg",
+    "label_file": "product_30410.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.7838709677419354
+    ]
+  },
+  {
+    "product_id": "30409",
+    "name": "Couscous gros",
+    "brand": "L'EPI D'OR",
+    "price": "0,795 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_30409.jpg",
+    "label_file": "product_30409.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "25918",
+    "name": "Couscous fin",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,795 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25918.jpg",
+    "label_file": "product_25918.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "40640",
+    "name": "Couscous gros",
+    "brand": "DIARI",
+    "price": "0,795 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_40640.jpg",
+    "label_file": "product_40640.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "27939",
+    "name": "Crème Tunisienne",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,800 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_27939.jpg",
+    "label_file": "product_27939.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "30562",
+    "name": "Couscous moyen",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,795 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30562.jpg",
+    "label_file": "product_30562.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "56891",
+    "name": "Amandies",
+    "brand": "GOUTINEL",
+    "price": "0,800 DT",
+    "class_id": 51,
+    "class_name": "GOUTINEL",
+    "image_file": "product_56891.jpg",
+    "label_file": "product_56891.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "25917",
+    "name": "Mesfouf",
+    "brand": "DIARI",
+    "price": "0,795 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_25917.jpg",
+    "label_file": "product_25917.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.4790322580645161,
+      0.6560283687943262,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25923",
+    "name": "Couscous fin",
+    "brand": "DIARI",
+    "price": "0,795 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_25923.jpg",
+    "label_file": "product_25923.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25921",
+    "name": "Couscous moyen",
+    "brand": "DIARI",
+    "price": "0,795 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_25921.jpg",
+    "label_file": "product_25921.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25919",
+    "name": "Couscous moyen",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,795 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25919.jpg",
+    "label_file": "product_25919.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6737588652482269,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "25661",
+    "name": "Chips",
+    "brand": "CHIPS'UP",
+    "price": "0,800 DT",
+    "class_id": 52,
+    "class_name": "CHIPS'UP",
+    "image_file": "product_25661.jpg",
+    "label_file": "product_25661.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6879432624113475,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "25670",
+    "name": "Chips",
+    "brand": "CHIPS'UP",
+    "price": "0,800 DT",
+    "class_id": 52,
+    "class_name": "CHIPS'UP",
+    "image_file": "product_25670.jpg",
+    "label_file": "product_25670.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4935483870967742,
+      0.6843971631205674,
+      0.8
+    ]
+  },
+  {
+    "product_id": "25664",
+    "name": "Chips",
+    "brand": "CHIPS'UP",
+    "price": "0,800 DT",
+    "class_id": 52,
+    "class_name": "CHIPS'UP",
+    "image_file": "product_25664.jpg",
+    "label_file": "product_25664.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7967741935483871
+    ]
+  },
+  {
+    "product_id": "25915",
+    "name": "Couscous fin",
+    "brand": "RANDA",
+    "price": "0,795 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25915.jpg",
+    "label_file": "product_25915.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.5709219858156028,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25916",
+    "name": "Couscous moyen",
+    "brand": "RANDA",
+    "price": "0,795 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25916.jpg",
+    "label_file": "product_25916.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.5673758865248227,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "30561",
+    "name": "Couscous fin",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,795 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_30561.jpg",
+    "label_file": "product_30561.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "56855",
+    "name": "Gold cake",
+    "brand": "FLIGHT",
+    "price": "0,800 DT",
+    "class_id": 50,
+    "class_name": "FLIGHT",
+    "image_file": "product_56855.jpg",
+    "label_file": "product_56855.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.4161290322580645
+    ]
+  },
+  {
+    "product_id": "56664",
+    "name": "Couscous gros",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,795 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_56664.jpg",
+    "label_file": "product_56664.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25911",
+    "name": "Couscous fin",
+    "brand": "L'EPI D'OR",
+    "price": "0,795 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25911.jpg",
+    "label_file": "product_25911.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.648936170212766,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "27954",
+    "name": "Crème",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,800 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_27954.jpg",
+    "label_file": "product_27954.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "27943",
+    "name": "Crème patissière",
+    "brand": "Promotion",
+    "price": "0,800 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27943.jpg",
+    "label_file": "product_27943.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "23230",
+    "name": "Brownies",
+    "brand": "ROMEO",
+    "price": "0,800 DT",
+    "class_id": 53,
+    "class_name": "ROMEO",
+    "image_file": "product_23230.jpg",
+    "label_file": "product_23230.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7967741935483871
+    ]
+  },
+  {
+    "product_id": "27945",
+    "name": "Crème",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,800 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_27945.jpg",
+    "label_file": "product_27945.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.624113475177305,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25669",
+    "name": "Chips",
+    "brand": "CHIPS'UP",
+    "price": "0,800 DT",
+    "class_id": 52,
+    "class_name": "CHIPS'UP",
+    "image_file": "product_25669.jpg",
+    "label_file": "product_25669.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "40627",
+    "name": "Spaghetti",
+    "brand": "SPIGA",
+    "price": "0,805 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_40627.jpg",
+    "label_file": "product_40627.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.40070921985815605,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25516",
+    "name": "Pâte spaghetti",
+    "brand": "L'EPI D'OR",
+    "price": "0,805 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25516.jpg",
+    "label_file": "product_25516.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3971631205673759,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25517",
+    "name": "Pâte spaghetti",
+    "brand": "L'EPI D'OR",
+    "price": "0,805 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25517.jpg",
+    "label_file": "product_25517.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5193548387096775,
+      0.40425531914893614,
+      0.864516129032258
+    ]
+  },
+  {
+    "product_id": "88395",
+    "name": "Tartelettes",
+    "brand": "SAIDA",
+    "price": "0,820 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_88395.jpg",
+    "label_file": "product_88395.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.47096774193548385
+    ]
+  },
+  {
+    "product_id": "25734",
+    "name": "Snack",
+    "brand": "STARSKY",
+    "price": "0,820 DT",
+    "class_id": 54,
+    "class_name": "STARSKY",
+    "image_file": "product_25734.jpg",
+    "label_file": "product_25734.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.7483870967741936
+    ]
+  },
+  {
+    "product_id": "88691",
+    "name": "Tarte amandor",
+    "brand": "SAIDA",
+    "price": "0,820 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_88691.jpg",
+    "label_file": "product_88691.txt",
+    "bbox": [
+      0.524822695035461,
+      0.49032258064516127,
+      0.6879432624113475,
+      0.4967741935483871
+    ]
+  },
+  {
+    "product_id": "25735",
+    "name": "Snack",
+    "brand": "STARSKY",
+    "price": "0,820 DT",
+    "class_id": 54,
+    "class_name": "STARSKY",
+    "image_file": "product_25735.jpg",
+    "label_file": "product_25735.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.7838709677419354
+    ]
+  },
+  {
+    "product_id": "61005",
+    "name": "Tartelettes",
+    "brand": "SAIDA",
+    "price": "0,820 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_61005.jpg",
+    "label_file": "product_61005.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6808510638297872,
+      0.45806451612903226
+    ]
+  },
+  {
+    "product_id": "27947",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,820 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27947.jpg",
+    "label_file": "product_27947.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8
+    ]
+  },
+  {
+    "product_id": "61006",
+    "name": "Tartelettes",
+    "brand": "SAIDA",
+    "price": "0,820 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_61006.jpg",
+    "label_file": "product_61006.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.4645161290322581
+    ]
+  },
+  {
+    "product_id": "32223",
+    "name": "Tarte",
+    "brand": "Promotion",
+    "price": "0,830 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_32223.jpg",
+    "label_file": "product_32223.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "32402",
+    "name": "Tarte",
+    "brand": "Promotion",
+    "price": "0,830 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_32402.jpg",
+    "label_file": "product_32402.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6773049645390071,
+      0.7451612903225806
+    ]
+  },
+  {
+    "product_id": "51310",
+    "name": "Tarte",
+    "brand": "Promotion",
+    "price": "0,830 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_51310.jpg",
+    "label_file": "product_51310.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6773049645390071,
+      0.7709677419354839
+    ]
+  },
+  {
+    "product_id": "126801",
+    "name": "Tarte",
+    "brand": "Promotion",
+    "price": "0,830 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_126801.jpg",
+    "label_file": "product_126801.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "32224",
+    "name": "Tarte",
+    "brand": "Promotion",
+    "price": "0,830 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_32224.jpg",
+    "label_file": "product_32224.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "32225",
+    "name": "Tarte smiley",
+    "brand": "Promotion",
+    "price": "0,830 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_32225.jpg",
+    "label_file": "product_32225.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7193548387096774
+    ]
+  },
+  {
+    "product_id": "32348",
+    "name": "Tarte",
+    "brand": "Promotion",
+    "price": "0,830 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_32348.jpg",
+    "label_file": "product_32348.txt",
+    "bbox": [
+      0.5,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "32226",
+    "name": "Tarte smiley",
+    "brand": "Promotion",
+    "price": "0,830 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_32226.jpg",
+    "label_file": "product_32226.txt",
+    "bbox": [
+      0.5,
+      0.49193548387096775,
+      0.6737588652482269,
+      0.6935483870967742
+    ]
+  },
+  {
+    "product_id": "31834",
+    "name": "Cake zig zag",
+    "brand": "BOLERIO",
+    "price": "0,830 DT",
+    "class_id": 33,
+    "class_name": "BOLERIO",
+    "image_file": "product_31834.jpg",
+    "label_file": "product_31834.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.5673758865248227,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "25929",
+    "name": "Farine patissière",
+    "brand": "LA ROSE BLANCHE",
+    "price": "0,850 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25929.jpg",
+    "label_file": "product_25929.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.5,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "48518",
+    "name": "Muffins",
+    "brand": "LE PATISSIER",
+    "price": "0,850 DT",
+    "class_id": 32,
+    "class_name": "LE PATISSIER",
+    "image_file": "product_48518.jpg",
+    "label_file": "product_48518.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6843971631205674,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "96083",
+    "name": "Brownie",
+    "brand": "LBM",
+    "price": "0,850 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_96083.jpg",
+    "label_file": "product_96083.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5145161290322581,
+      0.6737588652482269,
+      0.43548387096774194
+    ]
+  },
+  {
+    "product_id": "23212",
+    "name": "Crumble",
+    "brand": "BOLERIO",
+    "price": "0,850 DT",
+    "class_id": 33,
+    "class_name": "BOLERIO",
+    "image_file": "product_23212.jpg",
+    "label_file": "product_23212.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5177419354838709,
+      0.6843971631205674,
+      0.8032258064516129
+    ]
+  },
+  {
+    "product_id": "121711",
+    "name": "Biscuit salé",
+    "brand": "LBM",
+    "price": "0,850 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_121711.jpg",
+    "label_file": "product_121711.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.47096774193548385
+    ]
+  },
+  {
+    "product_id": "77465",
+    "name": "Biscuit fourré",
+    "brand": "LBM",
+    "price": "0,850 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_77465.jpg",
+    "label_file": "product_77465.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6808510638297872,
+      0.32903225806451614
+    ]
+  },
+  {
+    "product_id": "25926",
+    "name": "Farine pâtissière",
+    "brand": "L'EPI D'OR",
+    "price": "0,850 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25926.jpg",
+    "label_file": "product_25926.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5141843971631206,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "40487",
+    "name": "Farine",
+    "brand": "SANABEL CARTHAGE",
+    "price": "0,850 DT",
+    "class_id": 13,
+    "class_name": "SANABEL CARTHAGE",
+    "image_file": "product_40487.jpg",
+    "label_file": "product_40487.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5106382978723404,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25641",
+    "name": "Chips",
+    "brand": "GOLDEN CHIPS",
+    "price": "0,850 DT",
+    "class_id": 55,
+    "class_name": "GOLDEN CHIPS",
+    "image_file": "product_25641.jpg",
+    "label_file": "product_25641.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.6967741935483871
+    ]
+  },
+  {
+    "product_id": "25925",
+    "name": "Farine pâtissière",
+    "brand": "RANDA",
+    "price": "0,850 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25925.jpg",
+    "label_file": "product_25925.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5016129032258064,
+      0.4858156028368794,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "23205",
+    "name": "Crumble",
+    "brand": "BOLERIO",
+    "price": "0,850 DT",
+    "class_id": 33,
+    "class_name": "BOLERIO",
+    "image_file": "product_23205.jpg",
+    "label_file": "product_23205.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "23206",
+    "name": "Crumble",
+    "brand": "BOLERIO",
+    "price": "0,850 DT",
+    "class_id": 33,
+    "class_name": "BOLERIO",
+    "image_file": "product_23206.jpg",
+    "label_file": "product_23206.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "115132",
+    "name": "Brownie",
+    "brand": "LBM",
+    "price": "0,850 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_115132.jpg",
+    "label_file": "product_115132.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.4129032258064516
+    ]
+  },
+  {
+    "product_id": "25666",
+    "name": "Chips",
+    "brand": "GOLDEN",
+    "price": "0,850 DT",
+    "class_id": 56,
+    "class_name": "GOLDEN",
+    "image_file": "product_25666.jpg",
+    "label_file": "product_25666.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.7
+    ]
+  },
+  {
+    "product_id": "31707",
+    "name": "Brownies",
+    "brand": "LE PATISSIER",
+    "price": "0,850 DT",
+    "class_id": 32,
+    "class_name": "LE PATISSIER",
+    "image_file": "product_31707.jpg",
+    "label_file": "product_31707.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.42258064516129035
+    ]
+  },
+  {
+    "product_id": "77467",
+    "name": "Biscuit fourré",
+    "brand": "LBM",
+    "price": "0,850 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_77467.jpg",
+    "label_file": "product_77467.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.3064516129032258
+    ]
+  },
+  {
+    "product_id": "25665",
+    "name": "Chips",
+    "brand": "GOLDEN CHIPS",
+    "price": "0,850 DT",
+    "class_id": 55,
+    "class_name": "GOLDEN CHIPS",
+    "image_file": "product_25665.jpg",
+    "label_file": "product_25665.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "25663",
+    "name": "Chips",
+    "brand": "GOLDEN CHIPS",
+    "price": "0,850 DT",
+    "class_id": 55,
+    "class_name": "GOLDEN CHIPS",
+    "image_file": "product_25663.jpg",
+    "label_file": "product_25663.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.7193548387096774
+    ]
+  },
+  {
+    "product_id": "139949",
+    "name": "Biscuit enrobé",
+    "brand": "Promotion",
+    "price": "0,850 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_139949.jpg",
+    "label_file": "product_139949.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.6524822695035462,
+      0.2064516129032258
+    ]
+  },
+  {
+    "product_id": "77464",
+    "name": "Biscuit fourré",
+    "brand": "LBM",
+    "price": "0,850 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_77464.jpg",
+    "label_file": "product_77464.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.3064516129032258
+    ]
+  },
+  {
+    "product_id": "77466",
+    "name": "Biscuit fourré",
+    "brand": "LBM",
+    "price": "0,850 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_77466.jpg",
+    "label_file": "product_77466.txt",
+    "bbox": [
+      0.5,
+      0.49193548387096775,
+      0.6950354609929078,
+      0.3387096774193548
+    ]
+  },
+  {
+    "product_id": "25660",
+    "name": "Chips",
+    "brand": "GOLDEN CHIPS",
+    "price": "0,850 DT",
+    "class_id": 55,
+    "class_name": "GOLDEN CHIPS",
+    "image_file": "product_25660.jpg",
+    "label_file": "product_25660.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.6967741935483871
+    ]
+  },
+  {
+    "product_id": "25741",
+    "name": "Biscuit salé",
+    "brand": "TUC",
+    "price": "0,850 DT",
+    "class_id": 57,
+    "class_name": "TUC",
+    "image_file": "product_25741.jpg",
+    "label_file": "product_25741.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.624113475177305,
+      0.8774193548387097
+    ]
+  },
+  {
+    "product_id": "123588",
+    "name": "Muffins",
+    "brand": "LBM",
+    "price": "0,850 DT",
+    "class_id": 20,
+    "class_name": "LBM",
+    "image_file": "product_123588.jpg",
+    "label_file": "product_123588.txt",
+    "bbox": [
+      0.49113475177304966,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.4064516129032258
+    ]
+  },
+  {
+    "product_id": "25740",
+    "name": "Biscuit salé",
+    "brand": "MINI TUC",
+    "price": "0,850 DT",
+    "class_id": 58,
+    "class_name": "MINI TUC",
+    "image_file": "product_25740.jpg",
+    "label_file": "product_25740.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.6193548387096774
+    ]
+  },
+  {
+    "product_id": "33556",
+    "name": "Muffins",
+    "brand": "LE PATISSIER",
+    "price": "0,850 DT",
+    "class_id": 32,
+    "class_name": "LE PATISSIER",
+    "image_file": "product_33556.jpg",
+    "label_file": "product_33556.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.624113475177305,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "32436",
+    "name": "Brownies",
+    "brand": "FLIGHT",
+    "price": "0,850 DT",
+    "class_id": 50,
+    "class_name": "FLIGHT",
+    "image_file": "product_32436.jpg",
+    "label_file": "product_32436.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6879432624113475,
+      0.29354838709677417
+    ]
+  },
+  {
+    "product_id": "113751",
+    "name": "Mesfouf express",
+    "brand": "DIARI",
+    "price": "0,870 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_113751.jpg",
+    "label_file": "product_113751.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "32631",
+    "name": "Donut",
+    "brand": "FLIGHT",
+    "price": "0,870 DT",
+    "class_id": 50,
+    "class_name": "FLIGHT",
+    "image_file": "product_32631.jpg",
+    "label_file": "product_32631.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.5096774193548387
+    ]
+  },
+  {
+    "product_id": "113404",
+    "name": "Couscous fin express",
+    "brand": "DIARI",
+    "price": "0,870 DT",
+    "class_id": 12,
+    "class_name": "DIARI",
+    "image_file": "product_113404.jpg",
+    "label_file": "product_113404.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6276595744680851,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "31831",
+    "name": "Brownies",
+    "brand": "SAIDA",
+    "price": "0,880 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_31831.jpg",
+    "label_file": "product_31831.txt",
+    "bbox": [
+      0.50177304964539,
+      0.49516129032258066,
+      0.6773049645390071,
+      0.43548387096774194
+    ]
+  },
+  {
+    "product_id": "32633",
+    "name": "Donut",
+    "brand": "FLIGHT",
+    "price": "0,890 DT",
+    "class_id": 50,
+    "class_name": "FLIGHT",
+    "image_file": "product_32633.jpg",
+    "label_file": "product_32633.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.6773049645390071,
+      0.4645161290322581
+    ]
+  },
+  {
+    "product_id": "27993",
+    "name": "Gâteau",
+    "brand": "BREAK BAR",
+    "price": "0,890 DT",
+    "class_id": 59,
+    "class_name": "BREAK BAR",
+    "image_file": "product_27993.jpg",
+    "label_file": "product_27993.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.3064516129032258
+    ]
+  },
+  {
+    "product_id": "32435",
+    "name": "Big cake",
+    "brand": "FLIGHT",
+    "price": "0,890 DT",
+    "class_id": 50,
+    "class_name": "FLIGHT",
+    "image_file": "product_32435.jpg",
+    "label_file": "product_32435.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.4645161290322581,
+      0.6879432624113475,
+      0.2903225806451613
+    ]
+  },
+  {
+    "product_id": "32632",
+    "name": "Donut",
+    "brand": "FLIGHT",
+    "price": "0,890 DT",
+    "class_id": 50,
+    "class_name": "FLIGHT",
+    "image_file": "product_32632.jpg",
+    "label_file": "product_32632.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.4838709677419355
+    ]
+  },
+  {
+    "product_id": "108170",
+    "name": "Chips pomme de terre",
+    "brand": "MAHBOUL",
+    "price": "0,890 DT",
+    "class_id": 25,
+    "class_name": "MAHBOUL",
+    "image_file": "product_108170.jpg",
+    "label_file": "product_108170.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7161290322580646
+    ]
+  },
+  {
+    "product_id": "123914",
+    "name": "Crème dessert",
+    "brand": "Promotion",
+    "price": "0,890 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_123914.jpg",
+    "label_file": "product_123914.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5161290322580645,
+      0.6843971631205674,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25363",
+    "name": "Chocolat monster",
+    "brand": "JUNIOR SAID",
+    "price": "0,890 DT",
+    "class_id": 60,
+    "class_name": "JUNIOR SAID",
+    "image_file": "product_25363.jpg",
+    "label_file": "product_25363.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.3064516129032258
+    ]
+  },
+  {
+    "product_id": "120735",
+    "name": "Gaufrettes",
+    "brand": "TWINZ",
+    "price": "0,900 DT",
+    "class_id": 61,
+    "class_name": "TWINZ",
+    "image_file": "product_120735.jpg",
+    "label_file": "product_120735.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.3548387096774194
+    ]
+  },
+  {
+    "product_id": "120734",
+    "name": "Gaufrettes",
+    "brand": "TWINZ",
+    "price": "0,900 DT",
+    "class_id": 61,
+    "class_name": "TWINZ",
+    "image_file": "product_120734.jpg",
+    "label_file": "product_120734.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "120736",
+    "name": "Gaufrettes",
+    "brand": "TWINZ",
+    "price": "0,900 DT",
+    "class_id": 61,
+    "class_name": "TWINZ",
+    "image_file": "product_120736.jpg",
+    "label_file": "product_120736.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.3548387096774194
+    ]
+  },
+  {
+    "product_id": "30605",
+    "name": "Bonbon",
+    "brand": "Promotion",
+    "price": "0,900 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_30605.jpg",
+    "label_file": "product_30605.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.7193548387096774
+    ]
+  },
+  {
+    "product_id": "30606",
+    "name": "Bonbon assortis",
+    "brand": "Promotion",
+    "price": "0,900 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_30606.jpg",
+    "label_file": "product_30606.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.7193548387096774
+    ]
+  },
+  {
+    "product_id": "32222",
+    "name": "Brownies",
+    "brand": "DAILY'N",
+    "price": "0,920 DT",
+    "class_id": 45,
+    "class_name": "DAILY'N",
+    "image_file": "product_32222.jpg",
+    "label_file": "product_32222.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5032258064516129,
+      0.6524822695035462,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "27963",
+    "name": "Sucre vanille",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,920 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_27963.jpg",
+    "label_file": "product_27963.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.574468085106383,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "104532",
+    "name": "Biscuits fourrés",
+    "brand": "CAMPI PLUS",
+    "price": "0,920 DT",
+    "class_id": 28,
+    "class_name": "CAMPI PLUS",
+    "image_file": "product_104532.jpg",
+    "label_file": "product_104532.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49193548387096775,
+      0.624113475177305,
+      0.3387096774193548
+    ]
+  },
+  {
+    "product_id": "31697",
+    "name": "Cake",
+    "brand": "BOLERIO",
+    "price": "0,930 DT",
+    "class_id": 33,
+    "class_name": "BOLERIO",
+    "image_file": "product_31697.jpg",
+    "label_file": "product_31697.txt",
+    "bbox": [
+      0.5,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "27944",
+    "name": "Crème",
+    "brand": "LA PÂTISSIERE",
+    "price": "0,930 DT",
+    "class_id": 44,
+    "class_name": "LA PÂTISSIERE",
+    "image_file": "product_27944.jpg",
+    "label_file": "product_27944.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.624113475177305,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "113820",
+    "name": "Chocolat en poudre",
+    "brand": "KENT",
+    "price": "0,950 DT",
+    "class_id": 48,
+    "class_name": "KENT",
+    "image_file": "product_113820.jpg",
+    "label_file": "product_113820.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.3723404255319149,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25399",
+    "name": "Barre biscuitée",
+    "brand": "MOMENTO",
+    "price": "0,950 DT",
+    "class_id": 62,
+    "class_name": "MOMENTO",
+    "image_file": "product_25399.jpg",
+    "label_file": "product_25399.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6879432624113475,
+      0.47419354838709676
+    ]
+  },
+  {
+    "product_id": "26180",
+    "name": "Céréales blé",
+    "brand": "GRAIN D'OR",
+    "price": "0,950 DT",
+    "class_id": 63,
+    "class_name": "GRAIN D'OR",
+    "image_file": "product_26180.jpg",
+    "label_file": "product_26180.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.574468085106383,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "26184",
+    "name": "Céréales blé",
+    "brand": "GRAIN D'OR",
+    "price": "0,950 DT",
+    "class_id": 63,
+    "class_name": "GRAIN D'OR",
+    "image_file": "product_26184.jpg",
+    "label_file": "product_26184.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.5673758865248227,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "31026",
+    "name": "Céréales",
+    "brand": "GRAIN D'OR",
+    "price": "0,950 DT",
+    "class_id": 63,
+    "class_name": "GRAIN D'OR",
+    "image_file": "product_31026.jpg",
+    "label_file": "product_31026.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.5673758865248227,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "26170",
+    "name": "Céréales",
+    "brand": "GRAIN D'OR",
+    "price": "0,950 DT",
+    "class_id": 63,
+    "class_name": "GRAIN D'OR",
+    "image_file": "product_26170.jpg",
+    "label_file": "product_26170.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28931",
+    "name": "Biscuit fourré",
+    "brand": "PRINCE",
+    "price": "0,990 DT",
+    "class_id": 35,
+    "class_name": "PRINCE",
+    "image_file": "product_28931.jpg",
+    "label_file": "product_28931.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6737588652482269,
+      0.33225806451612905
+    ]
+  },
+  {
+    "product_id": "28044",
+    "name": "Levure chimique",
+    "brand": "Promotion",
+    "price": "0,990 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_28044.jpg",
+    "label_file": "product_28044.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "27965",
+    "name": "Sucre vanille",
+    "brand": "SMART CHEF",
+    "price": "0,990 DT",
+    "class_id": 64,
+    "class_name": "SMART CHEF",
+    "image_file": "product_27965.jpg",
+    "label_file": "product_27965.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6843971631205674,
+      0.7258064516129032
+    ]
+  },
+  {
+    "product_id": "87557",
+    "name": "Gâteau dessert",
+    "brand": "Promotion",
+    "price": "0,990 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_87557.jpg",
+    "label_file": "product_87557.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "28910",
+    "name": "Biscuit fourré",
+    "brand": "PRINCE",
+    "price": "0,990 DT",
+    "class_id": 35,
+    "class_name": "PRINCE",
+    "image_file": "product_28910.jpg",
+    "label_file": "product_28910.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6808510638297872,
+      0.2838709677419355
+    ]
+  },
+  {
+    "product_id": "28040",
+    "name": "Poudre instantanée cho...",
+    "brand": "Promotion",
+    "price": "0,990 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_28040.jpg",
+    "label_file": "product_28040.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.624113475177305,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116909",
+    "name": "Cake rollo",
+    "brand": "Promotion",
+    "price": "0,990 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_116909.jpg",
+    "label_file": "product_116909.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6737588652482269,
+      0.3870967741935484
+    ]
+  },
+  {
+    "product_id": "28045",
+    "name": "Levure gâteau",
+    "brand": "Promotion",
+    "price": "0,990 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_28045.jpg",
+    "label_file": "product_28045.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6843971631205674,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "28041",
+    "name": "Poudre instantanée cho...",
+    "brand": "Promotion",
+    "price": "0,990 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_28041.jpg",
+    "label_file": "product_28041.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6312056737588653,
+      0.8838709677419355
+    ]
+  },
+  {
+    "product_id": "54260",
+    "name": "Chapelure",
+    "brand": "MAMA MIA",
+    "price": "0,990 DT",
+    "class_id": 65,
+    "class_name": "MAMA MIA",
+    "image_file": "product_54260.jpg",
+    "label_file": "product_54260.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.45161290322580644,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "149085",
+    "name": "Chorba fric",
+    "brand": "Promotion",
+    "price": "0,990 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_149085.jpg",
+    "label_file": "product_149085.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.6595744680851063,
+      0.6096774193548387
+    ]
+  },
+  {
+    "product_id": "72676",
+    "name": "Biscuits fourrés",
+    "brand": "SAIDA",
+    "price": "0,990 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_72676.jpg",
+    "label_file": "product_72676.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6843971631205674,
+      0.36451612903225805
+    ]
+  },
+  {
+    "product_id": "135946",
+    "name": "Cacahuètes enrobés",
+    "brand": "SAVEURS",
+    "price": "1,000 DT",
+    "class_id": 66,
+    "class_name": "SAVEURS",
+    "image_file": "product_135946.jpg",
+    "label_file": "product_135946.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.567741935483871
+    ]
+  },
+  {
+    "product_id": "135945",
+    "name": "Cacahuètes enrorés",
+    "brand": "SAVEURS",
+    "price": "1,000 DT",
+    "class_id": 66,
+    "class_name": "SAVEURS",
+    "image_file": "product_135945.jpg",
+    "label_file": "product_135945.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.5451612903225806
+    ]
+  },
+  {
+    "product_id": "88840",
+    "name": "Biscuits fourrés",
+    "brand": "TINO",
+    "price": "1,000 DT",
+    "class_id": 29,
+    "class_name": "TINO",
+    "image_file": "product_88840.jpg",
+    "label_file": "product_88840.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.22903225806451613
+    ]
+  },
+  {
+    "product_id": "135947",
+    "name": "Cacahuètes enrobés",
+    "brand": "SAVEURS",
+    "price": "1,000 DT",
+    "class_id": 66,
+    "class_name": "SAVEURS",
+    "image_file": "product_135947.jpg",
+    "label_file": "product_135947.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.5903225806451613
+    ]
+  },
+  {
+    "product_id": "56896",
+    "name": "Pâtes noodles",
+    "brand": "INDOMIE",
+    "price": "1,020 DT",
+    "class_id": 67,
+    "class_name": "INDOMIE",
+    "image_file": "product_56896.jpg",
+    "label_file": "product_56896.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6808510638297872,
+      0.432258064516129
+    ]
+  },
+  {
+    "product_id": "26095",
+    "name": "Pâtes noodles",
+    "brand": "INDOMIE",
+    "price": "1,020 DT",
+    "class_id": 67,
+    "class_name": "INDOMIE",
+    "image_file": "product_26095.jpg",
+    "label_file": "product_26095.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.4645161290322581
+    ]
+  },
+  {
+    "product_id": "25628",
+    "name": "Pâte spéciale champignon",
+    "brand": "RANDA",
+    "price": "1,020 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25628.jpg",
+    "label_file": "product_25628.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5048387096774194,
+      0.7056737588652482,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "46096",
+    "name": "Pâtes noodles",
+    "brand": "INDOMIE",
+    "price": "1,020 DT",
+    "class_id": 67,
+    "class_name": "INDOMIE",
+    "image_file": "product_46096.jpg",
+    "label_file": "product_46096.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5403225806451613,
+      0.6879432624113475,
+      0.4935483870967742
+    ]
+  },
+  {
+    "product_id": "116520",
+    "name": "Basilic",
+    "brand": "YOLI",
+    "price": "1,020 DT",
+    "class_id": 68,
+    "class_name": "YOLI",
+    "image_file": "product_116520.jpg",
+    "label_file": "product_116520.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4774193548387097,
+      0.6843971631205674,
+      0.7290322580645161
+    ]
+  },
+  {
+    "product_id": "56895",
+    "name": "Pâtes noodles",
+    "brand": "INDOMIE",
+    "price": "1,020 DT",
+    "class_id": 67,
+    "class_name": "INDOMIE",
+    "image_file": "product_56895.jpg",
+    "label_file": "product_56895.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.5387096774193548
+    ]
+  },
+  {
+    "product_id": "26096",
+    "name": "Pâtes noodeles spécial",
+    "brand": "INDOMIE",
+    "price": "1,020 DT",
+    "class_id": 67,
+    "class_name": "INDOMIE",
+    "image_file": "product_26096.jpg",
+    "label_file": "product_26096.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5161290322580645,
+      0.6808510638297872,
+      0.44516129032258067
+    ]
+  },
+  {
+    "product_id": "89458",
+    "name": "Poudre instantannée ch...",
+    "brand": "SMART CHEF",
+    "price": "1,030 DT",
+    "class_id": 64,
+    "class_name": "SMART CHEF",
+    "image_file": "product_89458.jpg",
+    "label_file": "product_89458.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "70595",
+    "name": "Poudre instantannée ch...",
+    "brand": "SMART CHEF",
+    "price": "1,030 DT",
+    "class_id": 64,
+    "class_name": "SMART CHEF",
+    "image_file": "product_70595.jpg",
+    "label_file": "product_70595.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "30620",
+    "name": "Gaufrette",
+    "brand": "RIMY",
+    "price": "1,030 DT",
+    "class_id": 69,
+    "class_name": "RIMY",
+    "image_file": "product_30620.jpg",
+    "label_file": "product_30620.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "30619",
+    "name": "Gaufrette",
+    "brand": "RIMY",
+    "price": "1,030 DT",
+    "class_id": 69,
+    "class_name": "RIMY",
+    "image_file": "product_30619.jpg",
+    "label_file": "product_30619.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "29081",
+    "name": "Gaufrette",
+    "brand": "RIMY",
+    "price": "1,030 DT",
+    "class_id": 69,
+    "class_name": "RIMY",
+    "image_file": "product_29081.jpg",
+    "label_file": "product_29081.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.3387096774193548
+    ]
+  },
+  {
+    "product_id": "70596",
+    "name": "Poudre instantannée ch...",
+    "brand": "SMART CHEF",
+    "price": "1,030 DT",
+    "class_id": 64,
+    "class_name": "SMART CHEF",
+    "image_file": "product_70596.jpg",
+    "label_file": "product_70596.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "56978",
+    "name": "Snacks",
+    "brand": "MAD",
+    "price": "1,040 DT",
+    "class_id": 37,
+    "class_name": "MAD",
+    "image_file": "product_56978.jpg",
+    "label_file": "product_56978.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.648936170212766,
+      0.8
+    ]
+  },
+  {
+    "product_id": "25630",
+    "name": "Pâte farfalle",
+    "brand": "L'EPI D'OR",
+    "price": "1,040 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25630.jpg",
+    "label_file": "product_25630.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6205673758865248,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "56979",
+    "name": "Snacks",
+    "brand": "MAD",
+    "price": "1,040 DT",
+    "class_id": 37,
+    "class_name": "MAD",
+    "image_file": "product_56979.jpg",
+    "label_file": "product_56979.txt",
+    "bbox": [
+      0.5,
+      0.5129032258064516,
+      0.6737588652482269,
+      0.7483870967741936
+    ]
+  },
+  {
+    "product_id": "25903",
+    "name": "Pâte papillon",
+    "brand": "L'EPI D'OR",
+    "price": "1,040 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25903.jpg",
+    "label_file": "product_25903.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49193548387096775,
+      0.6524822695035462,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25904",
+    "name": "Pâte papillon",
+    "brand": "L'EPI D'OR",
+    "price": "1,040 DT",
+    "class_id": 1,
+    "class_name": "L'EPI D'OR",
+    "image_file": "product_25904.jpg",
+    "label_file": "product_25904.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.7624113475177305,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "22123",
+    "name": "Chips",
+    "brand": "MERRY CHIPS",
+    "price": "1,050 DT",
+    "class_id": 70,
+    "class_name": "MERRY CHIPS",
+    "image_file": "product_22123.jpg",
+    "label_file": "product_22123.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.6709677419354839
+    ]
+  },
+  {
+    "product_id": "22124",
+    "name": "Chips",
+    "brand": "MERRY CHIPS",
+    "price": "1,050 DT",
+    "class_id": 70,
+    "class_name": "MERRY CHIPS",
+    "image_file": "product_22124.jpg",
+    "label_file": "product_22124.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.6645161290322581
+    ]
+  },
+  {
+    "product_id": "27961",
+    "name": "Bicarbonate",
+    "brand": "Promotion",
+    "price": "1,050 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27961.jpg",
+    "label_file": "product_27961.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "71158",
+    "name": "Bicarbonate",
+    "brand": "Promotion",
+    "price": "1,050 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_71158.jpg",
+    "label_file": "product_71158.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "22122",
+    "name": "Chips",
+    "brand": "MERRY CHIPS",
+    "price": "1,050 DT",
+    "class_id": 70,
+    "class_name": "MERRY CHIPS",
+    "image_file": "product_22122.jpg",
+    "label_file": "product_22122.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.6193548387096774
+    ]
+  },
+  {
+    "product_id": "96513",
+    "name": "Vinaigre blanc",
+    "brand": "EL JAWHARA",
+    "price": "1,050 DT",
+    "class_id": 71,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96513.jpg",
+    "label_file": "product_96513.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.48870967741935484,
+      0.40070921985815605,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "118073",
+    "name": "Poudre instantannée ch...",
+    "brand": "SAID",
+    "price": "1,050 DT",
+    "class_id": 16,
+    "class_name": "SAID",
+    "image_file": "product_118073.jpg",
+    "label_file": "product_118073.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25606",
+    "name": "Chorba fric pasteurisée",
+    "brand": "RANDA",
+    "price": "1,070 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25606.jpg",
+    "label_file": "product_25606.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4661290322580645,
+      0.7375886524822695,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "71184",
+    "name": "Eau de fleur",
+    "brand": "JAWHARA",
+    "price": "1,080 DT",
+    "class_id": 72,
+    "class_name": "JAWHARA",
+    "image_file": "product_71184.jpg",
+    "label_file": "product_71184.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "71186",
+    "name": "Eau de rose",
+    "brand": "JAWHARA",
+    "price": "1,080 DT",
+    "class_id": 72,
+    "class_name": "JAWHARA",
+    "image_file": "product_71186.jpg",
+    "label_file": "product_71186.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25400",
+    "name": "Barre biscuitée",
+    "brand": "XPLOSE",
+    "price": "1,090 DT",
+    "class_id": 73,
+    "class_name": "XPLOSE",
+    "image_file": "product_25400.jpg",
+    "label_file": "product_25400.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6879432624113475,
+      0.3225806451612903
+    ]
+  },
+  {
+    "product_id": "139203",
+    "name": "Chips",
+    "brand": "LAYS",
+    "price": "1,090 DT",
+    "class_id": 74,
+    "class_name": "LAYS",
+    "image_file": "product_139203.jpg",
+    "label_file": "product_139203.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6560283687943262,
+      0.7129032258064516
+    ]
+  },
+  {
+    "product_id": "146360",
+    "name": "Cake",
+    "brand": "MOULIN D'OR",
+    "price": "1,090 DT",
+    "class_id": 19,
+    "class_name": "MOULIN D'OR",
+    "image_file": "product_146360.jpg",
+    "label_file": "product_146360.txt",
+    "bbox": [
+      0.5,
+      0.4967741935483871,
+      0.6170212765957447,
+      0.432258064516129
+    ]
+  },
+  {
+    "product_id": "25401",
+    "name": "Barre biscuitée",
+    "brand": "XPLOSE",
+    "price": "1,090 DT",
+    "class_id": 73,
+    "class_name": "XPLOSE",
+    "image_file": "product_25401.jpg",
+    "label_file": "product_25401.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6773049645390071,
+      0.3580645161290323
+    ]
+  },
+  {
+    "product_id": "135936",
+    "name": "Bonbon",
+    "brand": "CHUPA CHUPS",
+    "price": "1,090 DT",
+    "class_id": 75,
+    "class_name": "CHUPA CHUPS",
+    "image_file": "product_135936.jpg",
+    "label_file": "product_135936.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.23404255319148937,
+      0.8838709677419355
+    ]
+  },
+  {
+    "product_id": "28981",
+    "name": "Gaufrette",
+    "brand": "SAIDA",
+    "price": "1,100 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_28981.jpg",
+    "label_file": "product_28981.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5032258064516129,
+      0.6560283687943262,
+      0.3161290322580645
+    ]
+  },
+  {
+    "product_id": "25901",
+    "name": "Pâte speciale papillon",
+    "brand": "RANDA",
+    "price": "1,100 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25901.jpg",
+    "label_file": "product_25901.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.7375886524822695,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25902",
+    "name": "Pâte papillon",
+    "brand": "RANDA",
+    "price": "1,100 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_25902.jpg",
+    "label_file": "product_25902.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.624113475177305,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "26051",
+    "name": "Sel fin séché",
+    "brand": "LE FLAMANT",
+    "price": "1,100 DT",
+    "class_id": 76,
+    "class_name": "LE FLAMANT",
+    "image_file": "product_26051.jpg",
+    "label_file": "product_26051.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.6808510638297872,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "28989",
+    "name": "Gaufrette",
+    "brand": "SAIDA",
+    "price": "1,100 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_28989.jpg",
+    "label_file": "product_28989.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6737588652482269,
+      0.25483870967741934
+    ]
+  },
+  {
+    "product_id": "27964",
+    "name": "Sucre vanille",
+    "brand": "Promotion",
+    "price": "1,100 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_27964.jpg",
+    "label_file": "product_27964.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6312056737588653,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25627",
+    "name": "Pâte farfalle",
+    "brand": "LA ROSE BLANCHE",
+    "price": "1,100 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25627.jpg",
+    "label_file": "product_25627.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.7935483870967742
+    ]
+  },
+  {
+    "product_id": "25896",
+    "name": "Pâte farfalle",
+    "brand": "LA ROSE BLANCHE",
+    "price": "1,100 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25896.jpg",
+    "label_file": "product_25896.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.5,
+      0.6276595744680851,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25895",
+    "name": "Pâte farfalle",
+    "brand": "LA ROSE BLANCHE",
+    "price": "1,100 DT",
+    "class_id": 14,
+    "class_name": "LA ROSE BLANCHE",
+    "image_file": "product_25895.jpg",
+    "label_file": "product_25895.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49838709677419357,
+      0.5957446808510638,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "26052",
+    "name": "Sel De Cuisine",
+    "brand": "LE FLAMANT",
+    "price": "1,100 DT",
+    "class_id": 76,
+    "class_name": "LE FLAMANT",
+    "image_file": "product_26052.jpg",
+    "label_file": "product_26052.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6773049645390071,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "28973",
+    "name": "Gaufrette",
+    "brand": "SAIDA",
+    "price": "1,100 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_28973.jpg",
+    "label_file": "product_28973.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.36129032258064514
+    ]
+  },
+  {
+    "product_id": "28994",
+    "name": "Gaufrette",
+    "brand": "SAIDA",
+    "price": "1,100 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_28994.jpg",
+    "label_file": "product_28994.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.6843971631205674,
+      0.36451612903225805
+    ]
+  },
+  {
+    "product_id": "31556",
+    "name": "Crème",
+    "brand": "Promotion",
+    "price": "1,100 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_31556.jpg",
+    "label_file": "product_31556.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "25489",
+    "name": "Thé vert super",
+    "brand": "OCT",
+    "price": "1,100 DT",
+    "class_id": 77,
+    "class_name": "OCT",
+    "image_file": "product_25489.jpg",
+    "label_file": "product_25489.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.599290780141844,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "118094",
+    "name": "Barre biscuitée",
+    "brand": "MAESTRO",
+    "price": "1,100 DT",
+    "class_id": 78,
+    "class_name": "MAESTRO",
+    "image_file": "product_118094.jpg",
+    "label_file": "product_118094.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6773049645390071,
+      0.25161290322580643
+    ]
+  },
+  {
+    "product_id": "22542",
+    "name": "Sucre fleur d'oranger",
+    "brand": "Promotion",
+    "price": "1,100 DT",
+    "class_id": 6,
+    "class_name": "Promotion",
+    "image_file": "product_22542.jpg",
+    "label_file": "product_22542.txt",
+    "bbox": [
+      0.524822695035461,
+      0.5032258064516129,
+      0.574468085106383,
+      0.8838709677419355
+    ]
+  },
+  {
+    "product_id": "61253",
+    "name": "Pâtes farfalle",
+    "brand": "RANDA",
+    "price": "1,100 DT",
+    "class_id": 15,
+    "class_name": "RANDA",
+    "image_file": "product_61253.jpg",
+    "label_file": "product_61253.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.624113475177305,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "77930",
+    "name": "Gaufrettes",
+    "brand": "SAIDA",
+    "price": "1,100 DT",
+    "class_id": 21,
+    "class_name": "SAIDA",
+    "image_file": "product_77930.jpg",
+    "label_file": "product_77930.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6737588652482269,
+      0.38064516129032255
+    ]
+  },
+  {
+    "product_id": "28119",
+    "name": "Barre chocolatée fourrée",
+    "brand": "YONKERS",
+    "price": "1,110 DT",
+    "class_id": 79,
+    "class_name": "YONKERS",
+    "image_file": "product_28119.jpg",
+    "label_file": "product_28119.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6808510638297872,
+      0.3548387096774194
+    ]
+  },
+  {
+    "product_id": "27989",
+    "name": "Gaufrettes",
+    "brand": "LINGOT",
+    "price": "1,110 DT",
+    "class_id": 18,
+    "class_name": "LINGOT",
+    "image_file": "product_27989.jpg",
+    "label_file": "product_27989.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.36451612903225805
+    ]
+  },
+  {
+    "product_id": "29639",
+    "name": "Gaufrettes",
+    "brand": "LINGOT",
+    "price": "1,110 DT",
+    "class_id": 18,
+    "class_name": "LINGOT",
+    "image_file": "product_29639.jpg",
+    "label_file": "product_29639.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.31290322580645163
+    ]
+  },
+  {
+    "product_id": "27842",
+    "name": "Bonbons",
+    "brand": "JELLINO PAPILLON",
+    "price": "1,110 DT",
+    "class_id": 80,
+    "class_name": "JELLINO PAPILLON",
+    "image_file": "product_27842.jpg",
+    "label_file": "product_27842.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7225806451612903
+    ]
+  },
+  {
+    "product_id": "27985",
+    "name": "Gaufrettes",
+    "brand": "LINGOT",
+    "price": "1,110 DT",
+    "class_id": 18,
+    "class_name": "LINGOT",
+    "image_file": "product_27985.jpg",
+    "label_file": "product_27985.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.36774193548387096
+    ]
+  },
+  {
+    "product_id": "27984",
+    "name": "Gaufrettes",
+    "brand": "LINGOT",
+    "price": "1,110 DT",
+    "class_id": 18,
+    "class_name": "LINGOT",
+    "image_file": "product_27984.jpg",
+    "label_file": "product_27984.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4935483870967742,
+      0.6808510638297872,
+      0.32903225806451614
+    ]
+  },
+  {
+    "product_id": "25626",
+    "name": "Pâte farfalline",
+    "brand": "SPIGA",
+    "price": "1,120 DT",
+    "class_id": 0,
+    "class_name": "SPIGA",
+    "image_file": "product_25626.jpg",
+    "label_file": "product_25626.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5016129032258064,
+      0.7127659574468085,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "28993",
+    "name": "Gaufrette",
+    "brand": "TOM",
+    "price": "1,130 DT",
+    "class_id": 22,
+    "class_name": "TOM",
+    "image_file": "product_28993.jpg",
+    "label_file": "product_28993.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5032258064516129,
+      0.6595744680851063,
+      0.3161290322580645
+    ]
+  },
+  {
+    "product_id": "28990",
+    "name": "Gaufrette",
+    "brand": "TOM",
+    "price": "1,130 DT",
+    "class_id": 22,
+    "class_name": "TOM",
+    "image_file": "product_28990.jpg",
+    "label_file": "product_28990.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6737588652482269,
+      0.3032258064516129
+    ]
+  },
+  {
+    "product_id": "28974",
+    "name": "Gaufrette",
+    "brand": "TOM",
+    "price": "1,130 DT",
+    "class_id": 22,
+    "class_name": "TOM",
+    "image_file": "product_28974.jpg",
+    "label_file": "product_28974.txt",
+    "bbox": [
+      0.5,
+      0.4935483870967742,
+      0.6382978723404256,
+      0.33548387096774196
+    ]
+  },
+  {
+    "product_id": "28982",
+    "name": "Gaufrette",
+    "brand": "TOM",
+    "price": "1,130 DT",
+    "class_id": 22,
+    "class_name": "TOM",
+    "image_file": "product_28982.jpg",
+    "label_file": "product_28982.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.624113475177305,
+      0.3032258064516129
+    ]
+  },
+  {
+    "product_id": "36729",
+    "name": "Barre de céréales",
+    "brand": "CRAKO",
+    "price": "1,140 DT",
+    "class_id": 81,
+    "class_name": "CRAKO",
+    "image_file": "product_36729.jpg",
+    "label_file": "product_36729.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.3971631205673759,
+      0.8258064516129032
+    ]
+  }
+]

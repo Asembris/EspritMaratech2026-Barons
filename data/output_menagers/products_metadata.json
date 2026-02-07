@@ -1,0 +1,626 @@
+[
+  {
+    "product_id": "96513",
+    "name": "Vinaigre blanc",
+    "brand": "EL JAWHARA",
+    "price": "1,050 DT",
+    "class_id": 0,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96513.jpg",
+    "label_file": "product_96513.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.48870967741935484,
+      0.40070921985815605,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "36231",
+    "name": "Vinaigre blanc",
+    "brand": "TOUS LES JOURS",
+    "price": "2,550 DT",
+    "class_id": 1,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_36231.jpg",
+    "label_file": "product_36231.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "36230",
+    "name": "Vinaigre citron",
+    "brand": "TOUS LES JOURS",
+    "price": "2,750 DT",
+    "class_id": 1,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_36230.jpg",
+    "label_file": "product_36230.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "36229",
+    "name": "Vinaigre cristal",
+    "brand": "TOUS LES JOURS",
+    "price": "2,890 DT",
+    "class_id": 1,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_36229.jpg",
+    "label_file": "product_36229.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.2907801418439716,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "31383",
+    "name": "Vinaigre de cidre",
+    "brand": "TOUS LES JOURS",
+    "price": "2,890 DT",
+    "class_id": 1,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_31383.jpg",
+    "label_file": "product_31383.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31331",
+    "name": "Vinaigre blanc",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31331.jpg",
+    "label_file": "product_31331.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31329",
+    "name": "Vinaigre blanc",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31329.jpg",
+    "label_file": "product_31329.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31328",
+    "name": "Vinaigre blanc",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31328.jpg",
+    "label_file": "product_31328.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31330",
+    "name": "Vinaigre blanc",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31330.jpg",
+    "label_file": "product_31330.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25268",
+    "name": "Vinaigre naturel",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25268.jpg",
+    "label_file": "product_25268.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.48870967741935484,
+      0.31560283687943264,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25261",
+    "name": "Vinaigre naturel",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25261.jpg",
+    "label_file": "product_25261.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.47419354838709676,
+      0.31560283687943264,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25267",
+    "name": "Vinaigre naturel",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25267.jpg",
+    "label_file": "product_25267.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.31560283687943264,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "96509",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "2,990 DT",
+    "class_id": 0,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96509.jpg",
+    "label_file": "product_96509.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3191489361702128,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25272",
+    "name": "Vinaigre naturel",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25272.jpg",
+    "label_file": "product_25272.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3191489361702128,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "96508",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "2,990 DT",
+    "class_id": 0,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96508.jpg",
+    "label_file": "product_96508.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.48870967741935484,
+      0.2872340425531915,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "96510",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "2,990 DT",
+    "class_id": 0,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96510.jpg",
+    "label_file": "product_96510.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "96511",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "3,490 DT",
+    "class_id": 0,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96511.jpg",
+    "label_file": "product_96511.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.33687943262411346,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "96512",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "3,490 DT",
+    "class_id": 0,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96512.jpg",
+    "label_file": "product_96512.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.31560283687943264,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25254",
+    "name": "Vinaigre de cidre",
+    "brand": "EDEN FOODS",
+    "price": "3,990 DT",
+    "class_id": 3,
+    "class_name": "EDEN FOODS",
+    "image_file": "product_25254.jpg",
+    "label_file": "product_25254.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.28368794326241137,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41251",
+    "name": "Vinaigre",
+    "brand": "AL JAZIRA",
+    "price": "4,190 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_41251.jpg",
+    "label_file": "product_41251.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.23404255319148937,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "30946",
+    "name": "Vinaigre",
+    "brand": "AL JAZIRA",
+    "price": "4,190 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_30946.jpg",
+    "label_file": "product_30946.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49838709677419357,
+      0.25886524822695034,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "37386",
+    "name": "Vinaigre blanc",
+    "brand": "AL JAZIRA",
+    "price": "4,190 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_37386.jpg",
+    "label_file": "product_37386.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.25886524822695034,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "37385",
+    "name": "Vinaigre",
+    "brand": "AL JAZIRA",
+    "price": "4,190 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_37385.jpg",
+    "label_file": "product_37385.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.25886524822695034,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "109880",
+    "name": "Vinaigre blanc",
+    "brand": "EDEN",
+    "price": "4,200 DT",
+    "class_id": 5,
+    "class_name": "EDEN",
+    "image_file": "product_109880.jpg",
+    "label_file": "product_109880.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.33687943262411346,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "69918",
+    "name": "Vinaigre blanc pour co...",
+    "brand": "EDEN",
+    "price": "4,200 DT",
+    "class_id": 5,
+    "class_name": "EDEN",
+    "image_file": "product_69918.jpg",
+    "label_file": "product_69918.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49193548387096775,
+      0.3191489361702128,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25253",
+    "name": "Vinaigre de cidre",
+    "brand": "Promotion",
+    "price": "4,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25253.jpg",
+    "label_file": "product_25253.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.5106382978723404,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "30947",
+    "name": "Vinaigre",
+    "brand": "AL JAZIRA",
+    "price": "4,990 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_30947.jpg",
+    "label_file": "product_30947.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49838709677419357,
+      0.23049645390070922,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "33000",
+    "name": "Vinaigre blanc",
+    "brand": "AL JAZIRA",
+    "price": "6,140 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_33000.jpg",
+    "label_file": "product_33000.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "31257",
+    "name": "Vinaigre blanc",
+    "brand": "AL JAZIRA",
+    "price": "6,140 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31257.jpg",
+    "label_file": "product_31257.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3404255319148936,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "41280",
+    "name": "Vinaigre blanc",
+    "brand": "AL JAZIRA",
+    "price": "6,140 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_41280.jpg",
+    "label_file": "product_41280.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31259",
+    "name": "Vinaigre",
+    "brand": "Promotion",
+    "price": "6,590 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31259.jpg",
+    "label_file": "product_31259.txt",
+    "bbox": [
+      0.5868794326241135,
+      0.49838709677419357,
+      0.7056737588652482,
+      0.9774193548387097
+    ]
+  },
+  {
+    "product_id": "41869",
+    "name": "Vinaigre balsamique",
+    "brand": "Promotion",
+    "price": "8,290 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_41869.jpg",
+    "label_file": "product_41869.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25251",
+    "name": "Vinaigre balsamique",
+    "brand": "AL JAZIRA",
+    "price": "9,290 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_25251.jpg",
+    "label_file": "product_25251.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.25886524822695034,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "146391",
+    "name": "Vignaigre de riz",
+    "brand": "MAMI",
+    "price": "9,390 DT",
+    "class_id": 6,
+    "class_name": "MAMI",
+    "image_file": "product_146391.jpg",
+    "label_file": "product_146391.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3049645390070922,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "144399",
+    "name": "Vinaigre de riz",
+    "brand": "MAMI",
+    "price": "12,990 DT",
+    "class_id": 6,
+    "class_name": "MAMI",
+    "image_file": "product_144399.jpg",
+    "label_file": "product_144399.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.28368794326241137,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "41378",
+    "name": "Vinaigre balsamique",
+    "brand": "VARVELLO",
+    "price": "13,450 DT",
+    "class_id": 7,
+    "class_name": "VARVELLO",
+    "image_file": "product_41378.jpg",
+    "label_file": "product_41378.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.48870967741935484,
+      0.25886524822695034,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25252",
+    "name": "Vinaigre balsamique",
+    "brand": "AL JAZIRA",
+    "price": "13,740 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_25252.jpg",
+    "label_file": "product_25252.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31260",
+    "name": "Vinaigre balsamique",
+    "brand": "AL JAZIRA",
+    "price": "15,570 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31260.jpg",
+    "label_file": "product_31260.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.48870967741935484,
+      0.25886524822695034,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25257",
+    "name": "Vinaigre balsamique",
+    "brand": "KÜHNE",
+    "price": "17,190 DT",
+    "class_id": 8,
+    "class_name": "KÜHNE",
+    "image_file": "product_25257.jpg",
+    "label_file": "product_25257.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49193548387096775,
+      0.3120567375886525,
+      0.8548387096774194
+    ]
+  }
+]

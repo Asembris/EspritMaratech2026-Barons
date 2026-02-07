@@ -1,0 +1,12 @@
+=== Testing LSF Translation Service ===
+
+Input: 'hello how are you where do you feel pain ?'
+Gloss Mapping: ['salut ca va', 'ou avez vous mal']
+Generated Video: D:\EspritMaratech2026-Barons-omar\backend\app\temp_videos\2764b7cb-6cde-4ae9-9f16-a0a8d04a2fdc.mp4
+Metadata matches: [{'word': 'hello', 'gloss_match': 'salut ca va', 'filename': 'salut_ca_va.mp4'}, {'word': 'where do you feel pain', 'gloss_match': 'ou avez vous mal', 'filename': 'ou_avez_vous_mal.mp4'}]
+--------------------------------------------------
+Input: 'salut caaa va'
+Gloss Mapping: ['salut ca va']
+Generated Video: D:\EspritMaratech2026-Barons-omar\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\8. Les outils de communications\salut ça va .mp4
+Metadata matches: [{'word': 'salut ca va', 'gloss_match': 'salut ca va', 'filename': 'salut_ca_va.mp4'}]
+--------------------------------------------------

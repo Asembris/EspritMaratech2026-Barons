@@ -1,0 +1,6626 @@
+[
+  {
+    "product_id": "146367",
+    "name": "Sauce barbecue",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 0,
+    "class_name": "GUSTO",
+    "image_file": "product_146367.jpg",
+    "label_file": "product_146367.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.39361702127659576,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "146365",
+    "name": "Ketchup",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 0,
+    "class_name": "GUSTO",
+    "image_file": "product_146365.jpg",
+    "label_file": "product_146365.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.41843971631205673,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "146366",
+    "name": "Sauce algérienne",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 0,
+    "class_name": "GUSTO",
+    "image_file": "product_146366.jpg",
+    "label_file": "product_146366.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.40425531914893614,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "146364",
+    "name": "Mayonnaise",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 0,
+    "class_name": "GUSTO",
+    "image_file": "product_146364.jpg",
+    "label_file": "product_146364.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.49838709677419357,
+      0.4148936170212766,
+      0.8419354838709677
+    ]
+  },
+  {
+    "product_id": "96513",
+    "name": "Vinaigre blanc",
+    "brand": "EL JAWHARA",
+    "price": "1,050 DT",
+    "class_id": 1,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96513.jpg",
+    "label_file": "product_96513.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.48870967741935484,
+      0.40070921985815605,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "46362",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "1,350 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_46362.jpg",
+    "label_file": "product_46362.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.624113475177305,
+      0.8774193548387097
+    ]
+  },
+  {
+    "product_id": "26461",
+    "name": "Harissa",
+    "brand": "JOUDA",
+    "price": "1,350 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_26461.jpg",
+    "label_file": "product_26461.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49193548387096775,
+      0.3120567375886525,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "26463",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "1,400 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26463.jpg",
+    "label_file": "product_26463.txt",
+    "bbox": [
+      0.5124113475177305,
+      0.5,
+      0.31560283687943264,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "144376",
+    "name": "Harissa",
+    "brand": "CAP VERT",
+    "price": "1,490 DT",
+    "class_id": 4,
+    "class_name": "CAP VERT",
+    "image_file": "product_144376.jpg",
+    "label_file": "product_144376.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.574468085106383,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "95916",
+    "name": "Harissa",
+    "brand": "SABRA",
+    "price": "1,490 DT",
+    "class_id": 5,
+    "class_name": "SABRA",
+    "image_file": "product_95916.jpg",
+    "label_file": "product_95916.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.5957446808510638,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "144311",
+    "name": "Harissa",
+    "brand": "ZINA",
+    "price": "1,650 DT",
+    "class_id": 6,
+    "class_name": "ZINA",
+    "image_file": "product_144311.jpg",
+    "label_file": "product_144311.txt",
+    "bbox": [
+      0.4929078014184397,
+      0.5,
+      0.5886524822695035,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "28722",
+    "name": "Harissa",
+    "brand": "JOUDA",
+    "price": "1,650 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_28722.jpg",
+    "label_file": "product_28722.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6276595744680851,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28719",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "1,670 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_28719.jpg",
+    "label_file": "product_28719.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.624113475177305,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "71336",
+    "name": "Hrouss",
+    "brand": "NEBLIA",
+    "price": "1,690 DT",
+    "class_id": 7,
+    "class_name": "NEBLIA",
+    "image_file": "product_71336.jpg",
+    "label_file": "product_71336.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4661290322580645,
+      0.6312056737588653,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "28711",
+    "name": "Harissa",
+    "brand": "NEBLIA",
+    "price": "1,690 DT",
+    "class_id": 7,
+    "class_name": "NEBLIA",
+    "image_file": "product_28711.jpg",
+    "label_file": "product_28711.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "95919",
+    "name": "Hrous",
+    "brand": "SABRA",
+    "price": "1,690 DT",
+    "class_id": 5,
+    "class_name": "SABRA",
+    "image_file": "product_95919.jpg",
+    "label_file": "product_95919.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.49032258064516127,
+      0.6205673758865248,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "86301",
+    "name": "Variantes",
+    "brand": "YOLI",
+    "price": "1,690 DT",
+    "class_id": 8,
+    "class_name": "YOLI",
+    "image_file": "product_86301.jpg",
+    "label_file": "product_86301.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6879432624113475,
+      0.5096774193548387
+    ]
+  },
+  {
+    "product_id": "120272",
+    "name": "Hrouss",
+    "brand": "JOUDA",
+    "price": "1,740 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_120272.jpg",
+    "label_file": "product_120272.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.574468085106383,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "108636",
+    "name": "Hrouss",
+    "brand": "CARTHAGE",
+    "price": "1,750 DT",
+    "class_id": 9,
+    "class_name": "CARTHAGE",
+    "image_file": "product_108636.jpg",
+    "label_file": "product_108636.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6276595744680851,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28717",
+    "name": "Harissa",
+    "brand": "THYNA",
+    "price": "1,840 DT",
+    "class_id": 10,
+    "class_name": "THYNA",
+    "image_file": "product_28717.jpg",
+    "label_file": "product_28717.txt",
+    "bbox": [
+      0.524822695035461,
+      0.49032258064516127,
+      0.624113475177305,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28723",
+    "name": "Harissa",
+    "brand": "LE PETIT PARIS",
+    "price": "1,890 DT",
+    "class_id": 11,
+    "class_name": "LE PETIT PARIS",
+    "image_file": "product_28723.jpg",
+    "label_file": "product_28723.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6205673758865248,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148280",
+    "name": "Harissa",
+    "brand": "EL MANAR",
+    "price": "1,990 DT",
+    "class_id": 12,
+    "class_name": "EL MANAR",
+    "image_file": "product_148280.jpg",
+    "label_file": "product_148280.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.5,
+      0.5851063829787234,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "28712",
+    "name": "Harissa",
+    "brand": "STICAP",
+    "price": "1,990 DT",
+    "class_id": 13,
+    "class_name": "STICAP",
+    "image_file": "product_28712.jpg",
+    "label_file": "product_28712.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.624113475177305,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "26465",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "2,050 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26465.jpg",
+    "label_file": "product_26465.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "122638",
+    "name": "Harissa",
+    "brand": "EL MANAR",
+    "price": "2,150 DT",
+    "class_id": 12,
+    "class_name": "EL MANAR",
+    "image_file": "product_122638.jpg",
+    "label_file": "product_122638.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.375886524822695,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "86302",
+    "name": "Variantes",
+    "brand": "YOLI",
+    "price": "2,490 DT",
+    "class_id": 8,
+    "class_name": "YOLI",
+    "image_file": "product_86302.jpg",
+    "label_file": "product_86302.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.7741935483870968
+    ]
+  },
+  {
+    "product_id": "36231",
+    "name": "Vinaigre blanc",
+    "brand": "TOUS LES JOURS",
+    "price": "2,550 DT",
+    "class_id": 14,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_36231.jpg",
+    "label_file": "product_36231.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "43236",
+    "name": "Harissa",
+    "brand": "JOUDA",
+    "price": "2,590 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_43236.jpg",
+    "label_file": "product_43236.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49193548387096775,
+      0.3120567375886525,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "36230",
+    "name": "Vinaigre citron",
+    "brand": "TOUS LES JOURS",
+    "price": "2,750 DT",
+    "class_id": 14,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_36230.jpg",
+    "label_file": "product_36230.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "86303",
+    "name": "Olives vertes en ronde...",
+    "brand": "YOLI",
+    "price": "2,790 DT",
+    "class_id": 8,
+    "class_name": "YOLI",
+    "image_file": "product_86303.jpg",
+    "label_file": "product_86303.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.6843971631205674,
+      0.4870967741935484
+    ]
+  },
+  {
+    "product_id": "31329",
+    "name": "Vinaigre blanc",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31329.jpg",
+    "label_file": "product_31329.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31330",
+    "name": "Vinaigre blanc",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31330.jpg",
+    "label_file": "product_31330.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "46361",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_46361.jpg",
+    "label_file": "product_46361.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4774193548387097,
+      0.6843971631205674,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "31331",
+    "name": "Vinaigre blanc",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31331.jpg",
+    "label_file": "product_31331.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31328",
+    "name": "Vinaigre blanc",
+    "brand": "Promotion",
+    "price": "2,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31328.jpg",
+    "label_file": "product_31328.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "36229",
+    "name": "Vinaigre cristal",
+    "brand": "TOUS LES JOURS",
+    "price": "2,890 DT",
+    "class_id": 14,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_36229.jpg",
+    "label_file": "product_36229.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.2907801418439716,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "31383",
+    "name": "Vinaigre de cidre",
+    "brand": "TOUS LES JOURS",
+    "price": "2,890 DT",
+    "class_id": 14,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_31383.jpg",
+    "label_file": "product_31383.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25268",
+    "name": "Vinaigre naturel",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25268.jpg",
+    "label_file": "product_25268.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.48870967741935484,
+      0.31560283687943264,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "96510",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "2,990 DT",
+    "class_id": 1,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96510.jpg",
+    "label_file": "product_96510.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25216",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25216.jpg",
+    "label_file": "product_25216.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "144375",
+    "name": "Harissa",
+    "brand": "CAP VERT",
+    "price": "2,990 DT",
+    "class_id": 4,
+    "class_name": "CAP VERT",
+    "image_file": "product_144375.jpg",
+    "label_file": "product_144375.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.5638297872340425,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "96509",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "2,990 DT",
+    "class_id": 1,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96509.jpg",
+    "label_file": "product_96509.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3191489361702128,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "96508",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "2,990 DT",
+    "class_id": 1,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96508.jpg",
+    "label_file": "product_96508.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.48870967741935484,
+      0.2872340425531915,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25261",
+    "name": "Vinaigre naturel",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25261.jpg",
+    "label_file": "product_25261.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.47419354838709676,
+      0.31560283687943264,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "25267",
+    "name": "Vinaigre naturel",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25267.jpg",
+    "label_file": "product_25267.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.31560283687943264,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "86299",
+    "name": "Olives vertes",
+    "brand": "YOLI",
+    "price": "2,990 DT",
+    "class_id": 8,
+    "class_name": "YOLI",
+    "image_file": "product_86299.jpg",
+    "label_file": "product_86299.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6808510638297872,
+      0.5161290322580645
+    ]
+  },
+  {
+    "product_id": "25272",
+    "name": "Vinaigre naturel",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25272.jpg",
+    "label_file": "product_25272.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3191489361702128,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "28733",
+    "name": "Harissa",
+    "brand": "SAFIR",
+    "price": "3,100 DT",
+    "class_id": 15,
+    "class_name": "SAFIR",
+    "image_file": "product_28733.jpg",
+    "label_file": "product_28733.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.5709219858156028,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "65300",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "3,120 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_65300.jpg",
+    "label_file": "product_65300.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49193548387096775,
+      0.5957446808510638,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "96269",
+    "name": "Hrouss",
+    "brand": "TOUS LES JOURS",
+    "price": "3,150 DT",
+    "class_id": 14,
+    "class_name": "TOUS LES JOURS",
+    "image_file": "product_96269.jpg",
+    "label_file": "product_96269.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.599290780141844,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "71322",
+    "name": "Olives dénoyautées",
+    "brand": "YOLI",
+    "price": "3,350 DT",
+    "class_id": 8,
+    "class_name": "YOLI",
+    "image_file": "product_71322.jpg",
+    "label_file": "product_71322.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6276595744680851,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "51268",
+    "name": "Olives dénoyautées",
+    "brand": "YOLI",
+    "price": "3,350 DT",
+    "class_id": 8,
+    "class_name": "YOLI",
+    "image_file": "product_51268.jpg",
+    "label_file": "product_51268.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6843971631205674,
+      0.7516129032258064
+    ]
+  },
+  {
+    "product_id": "145530",
+    "name": "Harissa",
+    "brand": "ZEMNIA",
+    "price": "3,390 DT",
+    "class_id": 16,
+    "class_name": "ZEMNIA",
+    "image_file": "product_145530.jpg",
+    "label_file": "product_145530.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.5886524822695035,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "96512",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "3,490 DT",
+    "class_id": 1,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96512.jpg",
+    "label_file": "product_96512.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.31560283687943264,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "96511",
+    "name": "Vinaigre",
+    "brand": "EL JAWHARA",
+    "price": "3,490 DT",
+    "class_id": 1,
+    "class_name": "EL JAWHARA",
+    "image_file": "product_96511.jpg",
+    "label_file": "product_96511.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.33687943262411346,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "25217",
+    "name": "Mayonnaise",
+    "brand": "JADIDA",
+    "price": "3,490 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_25217.jpg",
+    "label_file": "product_25217.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28735",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "3,590 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_28735.jpg",
+    "label_file": "product_28735.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.599290780141844,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "144310",
+    "name": "Harissa",
+    "brand": "ZINA",
+    "price": "3,650 DT",
+    "class_id": 6,
+    "class_name": "ZINA",
+    "image_file": "product_144310.jpg",
+    "label_file": "product_144310.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.5,
+      0.5354609929078015,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "28739",
+    "name": "Harissa",
+    "brand": "JOUDA",
+    "price": "3,690 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_28739.jpg",
+    "label_file": "product_28739.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5548387096774193,
+      0.6312056737588653,
+      0.8838709677419355
+    ]
+  },
+  {
+    "product_id": "40917",
+    "name": "Hrouss",
+    "brand": "NEBLIA",
+    "price": "3,720 DT",
+    "class_id": 7,
+    "class_name": "NEBLIA",
+    "image_file": "product_40917.jpg",
+    "label_file": "product_40917.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49193548387096775,
+      0.6205673758865248,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "135973",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "3,790 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135973.jpg",
+    "label_file": "product_135973.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "122639",
+    "name": "Hrouss",
+    "brand": "JOUDA",
+    "price": "3,790 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_122639.jpg",
+    "label_file": "product_122639.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.5957446808510638,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28726",
+    "name": "Harissa",
+    "brand": "LE PETIT PARIS",
+    "price": "3,830 DT",
+    "class_id": 11,
+    "class_name": "LE PETIT PARIS",
+    "image_file": "product_28726.jpg",
+    "label_file": "product_28726.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5709219858156028,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135972",
+    "name": "Mayonnaise d'or",
+    "brand": "SOLIA",
+    "price": "3,850 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135972.jpg",
+    "label_file": "product_135972.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28725",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "3,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_28725.jpg",
+    "label_file": "product_28725.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6205673758865248,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "95917",
+    "name": "Harissa",
+    "brand": "SABRA",
+    "price": "3,890 DT",
+    "class_id": 5,
+    "class_name": "SABRA",
+    "image_file": "product_95917.jpg",
+    "label_file": "product_95917.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.5957446808510638,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28724",
+    "name": "Harissa",
+    "brand": "NEBLIA",
+    "price": "3,900 DT",
+    "class_id": 7,
+    "class_name": "NEBLIA",
+    "image_file": "product_28724.jpg",
+    "label_file": "product_28724.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.5709219858156028,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "28731",
+    "name": "Harissa",
+    "brand": "STICAP",
+    "price": "3,990 DT",
+    "class_id": 13,
+    "class_name": "STICAP",
+    "image_file": "product_28731.jpg",
+    "label_file": "product_28731.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5709219858156028,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25254",
+    "name": "Vinaigre de cidre",
+    "brand": "EDEN FOODS",
+    "price": "3,990 DT",
+    "class_id": 19,
+    "class_name": "EDEN FOODS",
+    "image_file": "product_25254.jpg",
+    "label_file": "product_25254.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.28368794326241137,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25870",
+    "name": "Ketchup",
+    "brand": "BONNA",
+    "price": "3,990 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_25870.jpg",
+    "label_file": "product_25870.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135979",
+    "name": "Ketchup",
+    "brand": "SOLIA",
+    "price": "3,990 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135979.jpg",
+    "label_file": "product_135979.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "50821",
+    "name": "Hrouss",
+    "brand": "LE PETIT PARIS",
+    "price": "4,080 DT",
+    "class_id": 11,
+    "class_name": "LE PETIT PARIS",
+    "image_file": "product_50821.jpg",
+    "label_file": "product_50821.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.599290780141844,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "65090",
+    "name": "Hommos tahina",
+    "brand": "Promotion",
+    "price": "4,090 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_65090.jpg",
+    "label_file": "product_65090.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.624113475177305,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "37385",
+    "name": "Vinaigre",
+    "brand": "AL JAZIRA",
+    "price": "4,190 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_37385.jpg",
+    "label_file": "product_37385.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.25886524822695034,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "37386",
+    "name": "Vinaigre blanc",
+    "brand": "AL JAZIRA",
+    "price": "4,190 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_37386.jpg",
+    "label_file": "product_37386.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.25886524822695034,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41251",
+    "name": "Vinaigre",
+    "brand": "AL JAZIRA",
+    "price": "4,190 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_41251.jpg",
+    "label_file": "product_41251.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.23404255319148937,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "30946",
+    "name": "Vinaigre",
+    "brand": "AL JAZIRA",
+    "price": "4,190 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_30946.jpg",
+    "label_file": "product_30946.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49838709677419357,
+      0.25886524822695034,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "144380",
+    "name": "Harissa",
+    "brand": "LE PETIT PARIS",
+    "price": "4,190 DT",
+    "class_id": 11,
+    "class_name": "LE PETIT PARIS",
+    "image_file": "product_144380.jpg",
+    "label_file": "product_144380.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.5,
+      0.6347517730496454,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "69918",
+    "name": "Vinaigre blanc pour co...",
+    "brand": "EDEN",
+    "price": "4,200 DT",
+    "class_id": 22,
+    "class_name": "EDEN",
+    "image_file": "product_69918.jpg",
+    "label_file": "product_69918.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49193548387096775,
+      0.3191489361702128,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "109880",
+    "name": "Vinaigre blanc",
+    "brand": "EDEN",
+    "price": "4,200 DT",
+    "class_id": 22,
+    "class_name": "EDEN",
+    "image_file": "product_109880.jpg",
+    "label_file": "product_109880.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.33687943262411346,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "122637",
+    "name": "Harissa",
+    "brand": "EL MANAR",
+    "price": "4,260 DT",
+    "class_id": 12,
+    "class_name": "EL MANAR",
+    "image_file": "product_122637.jpg",
+    "label_file": "product_122637.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135053",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "4,290 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_135053.jpg",
+    "label_file": "product_135053.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49193548387096775,
+      0.42907801418439717,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25212",
+    "name": "Mayonnaise light",
+    "brand": "JADIDA",
+    "price": "4,390 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_25212.jpg",
+    "label_file": "product_25212.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5709219858156028,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41340",
+    "name": "Sauce à l'ail",
+    "brand": "Promotion",
+    "price": "4,390 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_41340.jpg",
+    "label_file": "product_41340.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135977",
+    "name": "Sauce barbecue",
+    "brand": "SOLIA",
+    "price": "4,400 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135977.jpg",
+    "label_file": "product_135977.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.48226950354609927,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25205",
+    "name": "Mayonnaise",
+    "brand": "JADIDA",
+    "price": "4,470 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_25205.jpg",
+    "label_file": "product_25205.txt",
+    "bbox": [
+      0.45567375886524825,
+      0.5,
+      0.5212765957446809,
+      0.9483870967741935
+    ]
+  },
+  {
+    "product_id": "56406",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "4,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_56406.jpg",
+    "label_file": "product_56406.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41659",
+    "name": "Sauce mayonnaise",
+    "brand": "DORELLA",
+    "price": "4,490 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41659.jpg",
+    "label_file": "product_41659.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "86300",
+    "name": "Olives vertes",
+    "brand": "YOLI",
+    "price": "4,490 DT",
+    "class_id": 8,
+    "class_name": "YOLI",
+    "image_file": "product_86300.jpg",
+    "label_file": "product_86300.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6843971631205674,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "95956",
+    "name": "Câpres",
+    "brand": "YOLI",
+    "price": "4,490 DT",
+    "class_id": 8,
+    "class_name": "YOLI",
+    "image_file": "product_95956.jpg",
+    "label_file": "product_95956.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6843971631205674,
+      0.5419354838709678
+    ]
+  },
+  {
+    "product_id": "71166",
+    "name": "Harissa label",
+    "brand": "LE PETIT PARIS",
+    "price": "4,490 DT",
+    "class_id": 11,
+    "class_name": "LE PETIT PARIS",
+    "image_file": "product_71166.jpg",
+    "label_file": "product_71166.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.599290780141844,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "139270",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "4,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_139270.jpg",
+    "label_file": "product_139270.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49838709677419357,
+      0.41134751773049644,
+      0.8354838709677419
+    ]
+  },
+  {
+    "product_id": "23067",
+    "name": "Huile végétale",
+    "brand": "CHEF SAFI",
+    "price": "4,590 DT",
+    "class_id": 24,
+    "class_name": "CHEF SAFI",
+    "image_file": "product_23067.jpg",
+    "label_file": "product_23067.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3404255319148936,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "61013",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "4,590 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_61013.jpg",
+    "label_file": "product_61013.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "143834",
+    "name": "Huile végétale",
+    "brand": "AL JAZIRA",
+    "price": "4,660 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143834.jpg",
+    "label_file": "product_143834.txt",
+    "bbox": [
+      0.5195035460992907,
+      0.4967741935483871,
+      0.33687943262411346,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "35495",
+    "name": "Olives vertes cassées",
+    "brand": "SAPHIR",
+    "price": "4,680 DT",
+    "class_id": 25,
+    "class_name": "SAPHIR",
+    "image_file": "product_35495.jpg",
+    "label_file": "product_35495.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5016129032258064,
+      0.5354609929078015,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "148300",
+    "name": "Sauce tunisienne",
+    "brand": "JADIDA",
+    "price": "4,690 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_148300.jpg",
+    "label_file": "product_148300.txt",
+    "bbox": [
+      0.5,
+      0.4967741935483871,
+      0.4326241134751773,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "135978",
+    "name": "Sauce cheese",
+    "brand": "SOLIA",
+    "price": "4,690 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135978.jpg",
+    "label_file": "product_135978.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5016129032258064,
+      0.4858156028368794,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25207",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "4,730 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_25207.jpg",
+    "label_file": "product_25207.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.5673758865248227,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41341",
+    "name": "Sauce algérienne",
+    "brand": "JADIDA",
+    "price": "4,730 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_41341.jpg",
+    "label_file": "product_41341.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "104594",
+    "name": "Huile végétale",
+    "brand": "CRISTAL",
+    "price": "4,840 DT",
+    "class_id": 26,
+    "class_name": "CRISTAL",
+    "image_file": "product_104594.jpg",
+    "label_file": "product_104594.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8
+    ]
+  },
+  {
+    "product_id": "41342",
+    "name": "Sauce césar",
+    "brand": "JADIDA",
+    "price": "4,840 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_41342.jpg",
+    "label_file": "product_41342.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25209",
+    "name": "Mayonnaise light",
+    "brand": "JADIDA",
+    "price": "4,850 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_25209.jpg",
+    "label_file": "product_25209.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25253",
+    "name": "Vinaigre de cidre",
+    "brand": "Promotion",
+    "price": "4,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25253.jpg",
+    "label_file": "product_25253.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.5106382978723404,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41660",
+    "name": "Sauce à l'ail",
+    "brand": "DORELLA",
+    "price": "4,890 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41660.jpg",
+    "label_file": "product_41660.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.6773049645390071,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "134570",
+    "name": "Sauce algérienne",
+    "brand": "SOLIA",
+    "price": "4,890 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_134570.jpg",
+    "label_file": "product_134570.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.4574468085106383,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "95911",
+    "name": "Huile de tournesol",
+    "brand": "SAFI",
+    "price": "4,910 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_95911.jpg",
+    "label_file": "product_95911.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "59359",
+    "name": "Harissa bérbère",
+    "brand": "FURKITTA",
+    "price": "4,930 DT",
+    "class_id": 28,
+    "class_name": "FURKITTA",
+    "image_file": "product_59359.jpg",
+    "label_file": "product_59359.txt",
+    "bbox": [
+      0.524822695035461,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "59361",
+    "name": "Harissa traditionnelle",
+    "brand": "FURKITTA",
+    "price": "4,950 DT",
+    "class_id": 28,
+    "class_name": "FURKITTA",
+    "image_file": "product_59361.jpg",
+    "label_file": "product_59361.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6808510638297872,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "149088",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "4,950 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_149088.jpg",
+    "label_file": "product_149088.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.6524822695035462,
+      0.4967741935483871
+    ]
+  },
+  {
+    "product_id": "30947",
+    "name": "Vinaigre",
+    "brand": "AL JAZIRA",
+    "price": "4,990 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_30947.jpg",
+    "label_file": "product_30947.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49838709677419357,
+      0.23049645390070922,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "135994",
+    "name": "Ketchup",
+    "brand": "Promotion",
+    "price": "4,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_135994.jpg",
+    "label_file": "product_135994.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5,
+      0.4219858156028369,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "118089",
+    "name": "Ketchup",
+    "brand": "STIFEN",
+    "price": "4,990 DT",
+    "class_id": 29,
+    "class_name": "STIFEN",
+    "image_file": "product_118089.jpg",
+    "label_file": "product_118089.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5177304964539007,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "61383",
+    "name": "Houmous tahina",
+    "brand": "DURRA",
+    "price": "5,060 DT",
+    "class_id": 30,
+    "class_name": "DURRA",
+    "image_file": "product_61383.jpg",
+    "label_file": "product_61383.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.624113475177305,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25201",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "5,080 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_25201.jpg",
+    "label_file": "product_25201.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.5673758865248227,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "21912",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "5,080 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_21912.jpg",
+    "label_file": "product_21912.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25200",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "5,080 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_25200.jpg",
+    "label_file": "product_25200.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "142840",
+    "name": "Huile de maïs",
+    "brand": "OLITTA",
+    "price": "5,090 DT",
+    "class_id": 31,
+    "class_name": "OLITTA",
+    "image_file": "product_142840.jpg",
+    "label_file": "product_142840.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3049645390070922,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "86206",
+    "name": "Huile de colza",
+    "brand": "SAFI",
+    "price": "5,090 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_86206.jpg",
+    "label_file": "product_86206.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "118110",
+    "name": "Huile végétale",
+    "brand": "LESIEUR",
+    "price": "5,120 DT",
+    "class_id": 32,
+    "class_name": "LESIEUR",
+    "image_file": "product_118110.jpg",
+    "label_file": "product_118110.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135971",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "5,130 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135971.jpg",
+    "label_file": "product_135971.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.5106382978723404,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "86205",
+    "name": "Huile de maïs",
+    "brand": "SAFI",
+    "price": "5,140 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_86205.jpg",
+    "label_file": "product_86205.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41663",
+    "name": "Sauce mayonnaise",
+    "brand": "DORELLA",
+    "price": "5,180 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41663.jpg",
+    "label_file": "product_41663.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.5425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26563",
+    "name": "Huile végétale",
+    "brand": "JADIDA",
+    "price": "5,180 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_26563.jpg",
+    "label_file": "product_26563.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "59360",
+    "name": "Hrouss",
+    "brand": "FURKITTA",
+    "price": "5,190 DT",
+    "class_id": 28,
+    "class_name": "FURKITTA",
+    "image_file": "product_59360.jpg",
+    "label_file": "product_59360.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "144571",
+    "name": "Sauce aux poivres",
+    "brand": "JADIDA",
+    "price": "5,190 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_144571.jpg",
+    "label_file": "product_144571.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.39361702127659576,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "21913",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "5,190 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_21913.jpg",
+    "label_file": "product_21913.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.46099290780141844,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "76211",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "5,220 DT",
+    "class_id": 33,
+    "class_name": "GHAZELA",
+    "image_file": "product_76211.jpg",
+    "label_file": "product_76211.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.5145161290322581,
+      0.3120567375886525,
+      0.8032258064516129
+    ]
+  },
+  {
+    "product_id": "144363",
+    "name": "Huile de maïs",
+    "brand": "AL JAZIRA",
+    "price": "5,260 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_144363.jpg",
+    "label_file": "product_144363.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.2695035460992908,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "26537",
+    "name": "Huile de maïs",
+    "brand": "Promotion",
+    "price": "5,290 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26537.jpg",
+    "label_file": "product_26537.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "123560",
+    "name": "Sauce salade",
+    "brand": "BONNA",
+    "price": "5,340 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_123560.jpg",
+    "label_file": "product_123560.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "146705",
+    "name": "Sauce tartare",
+    "brand": "JADIDA",
+    "price": "5,390 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_146705.jpg",
+    "label_file": "product_146705.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3900709219858156,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "135054",
+    "name": "Sauce barbecue",
+    "brand": "TIFANNY",
+    "price": "5,390 DT",
+    "class_id": 34,
+    "class_name": "TIFANNY",
+    "image_file": "product_135054.jpg",
+    "label_file": "product_135054.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.4326241134751773,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "135980",
+    "name": "Ketchup",
+    "brand": "SOLIA",
+    "price": "5,430 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135980.jpg",
+    "label_file": "product_135980.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.45390070921985815,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "89368",
+    "name": "Piments de cayenne",
+    "brand": "REFLET",
+    "price": "5,490 DT",
+    "class_id": 35,
+    "class_name": "REFLET",
+    "image_file": "product_89368.jpg",
+    "label_file": "product_89368.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.6560283687943262,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "40923",
+    "name": "Hrouss",
+    "brand": "NEBLIA",
+    "price": "5,580 DT",
+    "class_id": 7,
+    "class_name": "NEBLIA",
+    "image_file": "product_40923.jpg",
+    "label_file": "product_40923.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.6312056737588653,
+      0.5741935483870968
+    ]
+  },
+  {
+    "product_id": "146725",
+    "name": "Hrouss",
+    "brand": "STICAP",
+    "price": "5,590 DT",
+    "class_id": 13,
+    "class_name": "STICAP",
+    "image_file": "product_146725.jpg",
+    "label_file": "product_146725.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.549645390070922,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "112727",
+    "name": "Huile de colza",
+    "brand": "OLEO NOUR",
+    "price": "5,640 DT",
+    "class_id": 36,
+    "class_name": "OLEO NOUR",
+    "image_file": "product_112727.jpg",
+    "label_file": "product_112727.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28718",
+    "name": "Harissa",
+    "brand": "LE PETIT PARIS",
+    "price": "5,650 DT",
+    "class_id": 11,
+    "class_name": "LE PETIT PARIS",
+    "image_file": "product_28718.jpg",
+    "label_file": "product_28718.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4645161290322581,
+      0.6808510638297872,
+      0.43870967741935485
+    ]
+  },
+  {
+    "product_id": "111798",
+    "name": "Sauce barbecue",
+    "brand": "Promotion",
+    "price": "5,690 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_111798.jpg",
+    "label_file": "product_111798.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "34258",
+    "name": "Hrouss",
+    "brand": "CARTHAGE",
+    "price": "5,710 DT",
+    "class_id": 9,
+    "class_name": "CARTHAGE",
+    "image_file": "product_34258.jpg",
+    "label_file": "product_34258.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5709219858156028,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "66607",
+    "name": "Baba ghanouj",
+    "brand": "MAMI GARDEN",
+    "price": "5,790 DT",
+    "class_id": 37,
+    "class_name": "MAMI GARDEN",
+    "image_file": "product_66607.jpg",
+    "label_file": "product_66607.txt",
+    "bbox": [
+      0.5,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135982",
+    "name": "Moutarde",
+    "brand": "SOLIA",
+    "price": "5,850 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135982.jpg",
+    "label_file": "product_135982.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148319",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "5,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_148319.jpg",
+    "label_file": "product_148319.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.425531914893617,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "36252",
+    "name": "Sauce barbecue",
+    "brand": "FURKETTA",
+    "price": "5,900 DT",
+    "class_id": 38,
+    "class_name": "FURKETTA",
+    "image_file": "product_36252.jpg",
+    "label_file": "product_36252.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.4967741935483871,
+      0.5212765957446809,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "114676",
+    "name": "Variante première",
+    "brand": "SDS",
+    "price": "5,900 DT",
+    "class_id": 39,
+    "class_name": "SDS",
+    "image_file": "product_114676.jpg",
+    "label_file": "product_114676.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.41935483870967744
+    ]
+  },
+  {
+    "product_id": "25195",
+    "name": "Moutarde de dijon",
+    "brand": "DIJONA",
+    "price": "5,900 DT",
+    "class_id": 40,
+    "class_name": "DIJONA",
+    "image_file": "product_25195.jpg",
+    "label_file": "product_25195.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "75819",
+    "name": "Artichauts grillés",
+    "brand": "Promotion",
+    "price": "5,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_75819.jpg",
+    "label_file": "product_75819.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6276595744680851,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "77444",
+    "name": "Caviar d'aubergines",
+    "brand": "Promotion",
+    "price": "5,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_77444.jpg",
+    "label_file": "product_77444.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135981",
+    "name": "Moutarde",
+    "brand": "SOLIA",
+    "price": "5,990 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135981.jpg",
+    "label_file": "product_135981.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.5673758865248227,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "21916",
+    "name": "Mayonaise",
+    "brand": "REMIA",
+    "price": "5,990 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_21916.jpg",
+    "label_file": "product_21916.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148792",
+    "name": "Hrouss",
+    "brand": "Promotion",
+    "price": "5,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_148792.jpg",
+    "label_file": "product_148792.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.6631205673758865,
+      0.567741935483871
+    ]
+  },
+  {
+    "product_id": "34265",
+    "name": "Oignon confit",
+    "brand": "TYPIK",
+    "price": "6,040 DT",
+    "class_id": 42,
+    "class_name": "TYPIK",
+    "image_file": "product_34265.jpg",
+    "label_file": "product_34265.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49032258064516127,
+      0.6524822695035462,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41280",
+    "name": "Vinaigre blanc",
+    "brand": "AL JAZIRA",
+    "price": "6,140 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_41280.jpg",
+    "label_file": "product_41280.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31257",
+    "name": "Vinaigre blanc",
+    "brand": "AL JAZIRA",
+    "price": "6,140 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31257.jpg",
+    "label_file": "product_31257.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3404255319148936,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "41665",
+    "name": "Ketchup",
+    "brand": "DORELLA",
+    "price": "6,190 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41665.jpg",
+    "label_file": "product_41665.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41668",
+    "name": "Sauce mayonnaise",
+    "brand": "DORELLA",
+    "price": "6,190 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41668.jpg",
+    "label_file": "product_41668.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25219",
+    "name": "Mayonnaise",
+    "brand": "REMIA",
+    "price": "6,290 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_25219.jpg",
+    "label_file": "product_25219.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5709219858156028,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "21911",
+    "name": "Mayonnaise",
+    "brand": "MOKA",
+    "price": "6,290 DT",
+    "class_id": 43,
+    "class_name": "MOKA",
+    "image_file": "product_21911.jpg",
+    "label_file": "product_21911.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.45390070921985815,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25249",
+    "name": "Sauce barbecue",
+    "brand": "BONNA",
+    "price": "6,390 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_25249.jpg",
+    "label_file": "product_25249.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5141843971631206,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25228",
+    "name": "Ketchup",
+    "brand": "MOKA",
+    "price": "6,390 DT",
+    "class_id": 43,
+    "class_name": "MOKA",
+    "image_file": "product_25228.jpg",
+    "label_file": "product_25228.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "34261",
+    "name": "Tapenade d'olive noire",
+    "brand": "TYPIK",
+    "price": "6,390 DT",
+    "class_id": 42,
+    "class_name": "TYPIK",
+    "image_file": "product_34261.jpg",
+    "label_file": "product_34261.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5016129032258064,
+      0.648936170212766,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "34262",
+    "name": "Tapenade d'olive verte",
+    "brand": "TYPIK",
+    "price": "6,390 DT",
+    "class_id": 42,
+    "class_name": "TYPIK",
+    "image_file": "product_34262.jpg",
+    "label_file": "product_34262.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5032258064516129,
+      0.648936170212766,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "41664",
+    "name": "Sauce à l'ail",
+    "brand": "DORELLA",
+    "price": "6,390 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41664.jpg",
+    "label_file": "product_41664.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.5425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "133254",
+    "name": "Harissa berbère",
+    "brand": "FLIFLA",
+    "price": "6,500 DT",
+    "class_id": 44,
+    "class_name": "FLIFLA",
+    "image_file": "product_133254.jpg",
+    "label_file": "product_133254.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "25247",
+    "name": "Sauce à l'ail",
+    "brand": "BONNA",
+    "price": "6,550 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_25247.jpg",
+    "label_file": "product_25247.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "31259",
+    "name": "Vinaigre",
+    "brand": "Promotion",
+    "price": "6,590 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_31259.jpg",
+    "label_file": "product_31259.txt",
+    "bbox": [
+      0.5868794326241135,
+      0.49838709677419357,
+      0.7056737588652482,
+      0.9774193548387097
+    ]
+  },
+  {
+    "product_id": "26595",
+    "name": "Huile d'olive extra vi...",
+    "brand": "MARASCA JAZIRA",
+    "price": "6,600 DT",
+    "class_id": 45,
+    "class_name": "MARASCA JAZIRA",
+    "image_file": "product_26595.jpg",
+    "label_file": "product_26595.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.5016129032258064,
+      0.2553191489361702,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "88973",
+    "name": "Sauce barbecue",
+    "brand": "HEINZ",
+    "price": "6,690 DT",
+    "class_id": 46,
+    "class_name": "HEINZ",
+    "image_file": "product_88973.jpg",
+    "label_file": "product_88973.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8
+    ]
+  },
+  {
+    "product_id": "129079",
+    "name": "Ketchup",
+    "brand": "HEINZ",
+    "price": "6,690 DT",
+    "class_id": 46,
+    "class_name": "HEINZ",
+    "image_file": "product_129079.jpg",
+    "label_file": "product_129079.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25227",
+    "name": "Ketchup",
+    "brand": "BONNA",
+    "price": "6,700 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_25227.jpg",
+    "label_file": "product_25227.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "21907",
+    "name": "Sauce burger",
+    "brand": "BONNA",
+    "price": "6,760 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_21907.jpg",
+    "label_file": "product_21907.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.425531914893617,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "148268",
+    "name": "Sauce italian",
+    "brand": "DELICIO",
+    "price": "6,790 DT",
+    "class_id": 47,
+    "class_name": "DELICIO",
+    "image_file": "product_148268.jpg",
+    "label_file": "product_148268.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.42907801418439717,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148267",
+    "name": "Sauce island",
+    "brand": "DELICIO",
+    "price": "6,790 DT",
+    "class_id": 47,
+    "class_name": "DELICIO",
+    "image_file": "product_148267.jpg",
+    "label_file": "product_148267.txt",
+    "bbox": [
+      0.526595744680851,
+      0.49516129032258066,
+      0.4219858156028369,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "148266",
+    "name": "Sauce french",
+    "brand": "DELICIO",
+    "price": "6,790 DT",
+    "class_id": 47,
+    "class_name": "DELICIO",
+    "image_file": "product_148266.jpg",
+    "label_file": "product_148266.txt",
+    "bbox": [
+      0.5035460992907801,
+      0.5,
+      0.3900709219858156,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "148265",
+    "name": "Sauce ranch",
+    "brand": "DELICIO",
+    "price": "6,790 DT",
+    "class_id": 47,
+    "class_name": "DELICIO",
+    "image_file": "product_148265.jpg",
+    "label_file": "product_148265.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49838709677419357,
+      0.3900709219858156,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "26599",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "6,840 DT",
+    "class_id": 48,
+    "class_name": "CHAAL",
+    "image_file": "product_26599.jpg",
+    "label_file": "product_26599.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.23404255319148937,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25198",
+    "name": "Moutarde de dijon",
+    "brand": "Promotion",
+    "price": "6,890 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25198.jpg",
+    "label_file": "product_25198.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.49645390070921985,
+      0.8129032258064516
+    ]
+  },
+  {
+    "product_id": "144400",
+    "name": "Harissa",
+    "brand": "LE PETIT PARIS",
+    "price": "6,990 DT",
+    "class_id": 11,
+    "class_name": "LE PETIT PARIS",
+    "image_file": "product_144400.jpg",
+    "label_file": "product_144400.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.6666666666666666,
+      0.8193548387096774
+    ]
+  },
+  {
+    "product_id": "133255",
+    "name": "Harissa traditionnelle",
+    "brand": "FLIFLA",
+    "price": "7,090 DT",
+    "class_id": 44,
+    "class_name": "FLIFLA",
+    "image_file": "product_133255.jpg",
+    "label_file": "product_133255.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6879432624113475,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "25277",
+    "name": "Coeur d'artichaut mariné",
+    "brand": "SAFIR",
+    "price": "7,100 DT",
+    "class_id": 15,
+    "class_name": "SAFIR",
+    "image_file": "product_25277.jpg",
+    "label_file": "product_25277.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.5425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "29554",
+    "name": "Mayonnaise",
+    "brand": "JADIDA",
+    "price": "7,120 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_29554.jpg",
+    "label_file": "product_29554.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5141843971631206,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25204",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "7,190 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25204.jpg",
+    "label_file": "product_25204.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.45390070921985815,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "112391",
+    "name": "Ketchup",
+    "brand": "MAYOR",
+    "price": "7,190 DT",
+    "class_id": 49,
+    "class_name": "MAYOR",
+    "image_file": "product_112391.jpg",
+    "label_file": "product_112391.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.4574468085106383,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135995",
+    "name": "Sauce algérienne",
+    "brand": "TIFFANNY",
+    "price": "7,290 DT",
+    "class_id": 50,
+    "class_name": "TIFFANNY",
+    "image_file": "product_135995.jpg",
+    "label_file": "product_135995.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.40425531914893614,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "135996",
+    "name": "Sauce dynamite",
+    "brand": "TIFFANNY",
+    "price": "7,290 DT",
+    "class_id": 50,
+    "class_name": "TIFFANNY",
+    "image_file": "product_135996.jpg",
+    "label_file": "product_135996.txt",
+    "bbox": [
+      0.4875886524822695,
+      0.5,
+      0.4078014184397163,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "41670",
+    "name": "Sauce à l'ail",
+    "brand": "DORELLA",
+    "price": "7,290 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41670.jpg",
+    "label_file": "product_41670.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "133253",
+    "name": "Harissa berbère",
+    "brand": "FLIFLA",
+    "price": "7,290 DT",
+    "class_id": 44,
+    "class_name": "FLIFLA",
+    "image_file": "product_133253.jpg",
+    "label_file": "product_133253.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.5957446808510638,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "24446",
+    "name": "Harissa",
+    "brand": "Promotion",
+    "price": "7,290 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_24446.jpg",
+    "label_file": "product_24446.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.7340425531914894,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "28709",
+    "name": "Harissa",
+    "brand": "JOUDA",
+    "price": "7,400 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_28709.jpg",
+    "label_file": "product_28709.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6843971631205674,
+      0.7774193548387097
+    ]
+  },
+  {
+    "product_id": "41861",
+    "name": "Vinaigrette raunch",
+    "brand": "BONNA",
+    "price": "7,410 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_41861.jpg",
+    "label_file": "product_41861.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41859",
+    "name": "Sauce salade",
+    "brand": "BONNA",
+    "price": "7,410 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_41859.jpg",
+    "label_file": "product_41859.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.28368794326241137,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41862",
+    "name": "Vinaigrette cesar",
+    "brand": "BONNA",
+    "price": "7,410 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_41862.jpg",
+    "label_file": "product_41862.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "96395",
+    "name": "Sauce thym romarin",
+    "brand": "DIJA",
+    "price": "7,450 DT",
+    "class_id": 51,
+    "class_name": "DIJA",
+    "image_file": "product_96395.jpg",
+    "label_file": "product_96395.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148322",
+    "name": "Mayonnaise chili",
+    "brand": "DELICIO",
+    "price": "7,590 DT",
+    "class_id": 47,
+    "class_name": "DELICIO",
+    "image_file": "product_148322.jpg",
+    "label_file": "product_148322.txt",
+    "bbox": [
+      0.5212765957446809,
+      0.4967741935483871,
+      0.5177304964539007,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "112390",
+    "name": "Mayonnaise",
+    "brand": "MAYOR",
+    "price": "7,590 DT",
+    "class_id": 49,
+    "class_name": "MAYOR",
+    "image_file": "product_112390.jpg",
+    "label_file": "product_112390.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49838709677419357,
+      0.4574468085106383,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "148320",
+    "name": "Mayonnaise",
+    "brand": "DELICIO",
+    "price": "7,590 DT",
+    "class_id": 47,
+    "class_name": "DELICIO",
+    "image_file": "product_148320.jpg",
+    "label_file": "product_148320.txt",
+    "bbox": [
+      0.5336879432624113,
+      0.4967741935483871,
+      0.5212765957446809,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "25250",
+    "name": "Sauce à l'ail",
+    "brand": "MOKA",
+    "price": "7,590 DT",
+    "class_id": 43,
+    "class_name": "MOKA",
+    "image_file": "product_25250.jpg",
+    "label_file": "product_25250.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.4326241134751773,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "23080",
+    "name": "Sauce barbecue",
+    "brand": "MOKA",
+    "price": "7,590 DT",
+    "class_id": 43,
+    "class_name": "MOKA",
+    "image_file": "product_23080.jpg",
+    "label_file": "product_23080.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.4574468085106383,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "48742",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "7,930 DT",
+    "class_id": 33,
+    "class_name": "GHAZELA",
+    "image_file": "product_48742.jpg",
+    "label_file": "product_48742.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "134569",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "8,060 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_134569.jpg",
+    "label_file": "product_134569.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5177304964539007,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "30636",
+    "name": "Sauce salade italienne",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_30636.jpg",
+    "label_file": "product_30636.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.2872340425531915,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "95777",
+    "name": "Sauce méxicaine",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_95777.jpg",
+    "label_file": "product_95777.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5,
+      0.3723404255319149,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "29509",
+    "name": "Sauce Balsamic",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_29509.jpg",
+    "label_file": "product_29509.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "32849",
+    "name": "Sauce salade blue cheese",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_32849.jpg",
+    "label_file": "product_32849.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.2907801418439716,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "23082",
+    "name": "Sauce Salade",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_23082.jpg",
+    "label_file": "product_23082.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "23081",
+    "name": "Sauce Salade",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_23081.jpg",
+    "label_file": "product_23081.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25248",
+    "name": "Sauce chili",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_25248.jpg",
+    "label_file": "product_25248.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.36879432624113473,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "30784",
+    "name": "Sauce barbecue",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_30784.jpg",
+    "label_file": "product_30784.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.36879432624113473,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25243",
+    "name": "Sauce salade",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_25243.jpg",
+    "label_file": "product_25243.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "30785",
+    "name": "Sauce garlic",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_30785.jpg",
+    "label_file": "product_30785.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.3723404255319149,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "23079",
+    "name": "Sauce salade garlic",
+    "brand": "REMIA",
+    "price": "8,250 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_23079.jpg",
+    "label_file": "product_23079.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.2907801418439716,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41869",
+    "name": "Vinaigre balsamique",
+    "brand": "Promotion",
+    "price": "8,290 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_41869.jpg",
+    "label_file": "product_41869.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "122582",
+    "name": "Harissa traditionnelle",
+    "brand": "FLIFLA",
+    "price": "8,300 DT",
+    "class_id": 44,
+    "class_name": "FLIFLA",
+    "image_file": "product_122582.jpg",
+    "label_file": "product_122582.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.5709219858156028,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "34263",
+    "name": "Tomate sèchée",
+    "brand": "TYPIK",
+    "price": "8,380 DT",
+    "class_id": 42,
+    "class_name": "TYPIK",
+    "image_file": "product_34263.jpg",
+    "label_file": "product_34263.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.648936170212766,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148241",
+    "name": "Sauce blanche universelle",
+    "brand": "Promotion",
+    "price": "8,390 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_148241.jpg",
+    "label_file": "product_148241.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.5,
+      0.4645390070921986,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "96394",
+    "name": "Sauce basilic",
+    "brand": "DIJA",
+    "price": "8,390 DT",
+    "class_id": 51,
+    "class_name": "DIJA",
+    "image_file": "product_96394.jpg",
+    "label_file": "product_96394.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "148239",
+    "name": "Sauce blanche pour pâtes",
+    "brand": "Promotion",
+    "price": "8,390 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_148239.jpg",
+    "label_file": "product_148239.txt",
+    "bbox": [
+      0.5053191489361702,
+      0.5,
+      0.4787234042553192,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "148240",
+    "name": "Sauce pour frites",
+    "brand": "Promotion",
+    "price": "8,390 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_148240.jpg",
+    "label_file": "product_148240.txt",
+    "bbox": [
+      0.5053191489361702,
+      0.5,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26558",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "8,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26558.jpg",
+    "label_file": "product_26558.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "26521",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "8,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26521.jpg",
+    "label_file": "product_26521.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.3723404255319149,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26610",
+    "name": "Vinaigrette",
+    "brand": "COVINOR",
+    "price": "8,500 DT",
+    "class_id": 52,
+    "class_name": "COVINOR",
+    "image_file": "product_26610.jpg",
+    "label_file": "product_26610.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25239",
+    "name": "Vinaigrette",
+    "brand": "COVINOR",
+    "price": "8,500 DT",
+    "class_id": 52,
+    "class_name": "COVINOR",
+    "image_file": "product_25239.jpg",
+    "label_file": "product_25239.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.33687943262411346,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25240",
+    "name": "Vinaigrette",
+    "brand": "COVINOR",
+    "price": "8,500 DT",
+    "class_id": 52,
+    "class_name": "COVINOR",
+    "image_file": "product_25240.jpg",
+    "label_file": "product_25240.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49032258064516127,
+      0.3404255319148936,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31510",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "8,890 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_31510.jpg",
+    "label_file": "product_31510.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.5141843971631206,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "88972",
+    "name": "Ketchup",
+    "brand": "HEINZ",
+    "price": "8,890 DT",
+    "class_id": 46,
+    "class_name": "HEINZ",
+    "image_file": "product_88972.jpg",
+    "label_file": "product_88972.txt",
+    "bbox": [
+      0.5372340425531915,
+      0.49032258064516127,
+      0.30851063829787234,
+      0.8
+    ]
+  },
+  {
+    "product_id": "143163",
+    "name": "Huile végétale",
+    "brand": "AL JAZIRA",
+    "price": "8,970 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143163.jpg",
+    "label_file": "product_143163.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3404255319148936,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "37102",
+    "name": "Huile végétale",
+    "brand": "JADIDA",
+    "price": "8,970 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_37102.jpg",
+    "label_file": "product_37102.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116516",
+    "name": "Sauce tartare",
+    "brand": "Promotion",
+    "price": "8,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_116516.jpg",
+    "label_file": "product_116516.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116515",
+    "name": "Sauce à l'ail",
+    "brand": "Promotion",
+    "price": "8,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_116515.jpg",
+    "label_file": "product_116515.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3191489361702128,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "126783",
+    "name": "Sauce piquante",
+    "brand": "DERONI",
+    "price": "8,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_126783.jpg",
+    "label_file": "product_126783.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "72785",
+    "name": "Moutarde",
+    "brand": "COVINOR",
+    "price": "9,080 DT",
+    "class_id": 52,
+    "class_name": "COVINOR",
+    "image_file": "product_72785.jpg",
+    "label_file": "product_72785.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5638297872340425,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "80964",
+    "name": "Sauce rustique",
+    "brand": "DIJA",
+    "price": "9,090 DT",
+    "class_id": 51,
+    "class_name": "DIJA",
+    "image_file": "product_80964.jpg",
+    "label_file": "product_80964.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.45390070921985815,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25251",
+    "name": "Vinaigre balsamique",
+    "brand": "AL JAZIRA",
+    "price": "9,290 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_25251.jpg",
+    "label_file": "product_25251.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.25886524822695034,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "41672",
+    "name": "Sauce mayonnaise",
+    "brand": "DORELLA",
+    "price": "9,390 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41672.jpg",
+    "label_file": "product_41672.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26519",
+    "name": "Huile de maïs",
+    "brand": "Promotion",
+    "price": "9,390 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26519.jpg",
+    "label_file": "product_26519.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "146391",
+    "name": "Vignaigre de riz",
+    "brand": "MAMI",
+    "price": "9,390 DT",
+    "class_id": 54,
+    "class_name": "MAMI",
+    "image_file": "product_146391.jpg",
+    "label_file": "product_146391.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3049645390070922,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "23068",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_23068.jpg",
+    "label_file": "product_23068.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116502",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_116502.jpg",
+    "label_file": "product_116502.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116503",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_116503.jpg",
+    "label_file": "product_116503.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.6524822695035462,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116504",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_116504.jpg",
+    "label_file": "product_116504.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "66935",
+    "name": "Ketchup",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_66935.jpg",
+    "label_file": "product_66935.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.40425531914893614,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "131492",
+    "name": "Moutarde",
+    "brand": "Promotion",
+    "price": "9,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_131492.jpg",
+    "label_file": "product_131492.txt",
+    "bbox": [
+      0.4858156028368794,
+      0.49032258064516127,
+      0.6524822695035462,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26518",
+    "name": "Huile de tournesol",
+    "brand": "SAFI",
+    "price": "9,620 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_26518.jpg",
+    "label_file": "product_26518.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.34397163120567376,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "41252",
+    "name": "Huile d'assaisonement ...",
+    "brand": "SAFI",
+    "price": "9,690 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_41252.jpg",
+    "label_file": "product_41252.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25202",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "9,890 DT",
+    "class_id": 20,
+    "class_name": "BONNA",
+    "image_file": "product_25202.jpg",
+    "label_file": "product_25202.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.5141843971631206,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "116513",
+    "name": "Sauce",
+    "brand": "DERONI",
+    "price": "9,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116513.jpg",
+    "label_file": "product_116513.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148242",
+    "name": "Sauce kebab",
+    "brand": "Promotion",
+    "price": "9,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_148242.jpg",
+    "label_file": "product_148242.txt",
+    "bbox": [
+      0.5053191489361702,
+      0.5,
+      0.4645390070921986,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "148243",
+    "name": "Sauce samouraï",
+    "brand": "Promotion",
+    "price": "9,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_148243.jpg",
+    "label_file": "product_148243.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.475177304964539,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "25221",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "9,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25221.jpg",
+    "label_file": "product_25221.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.4397163120567376,
+      0.8032258064516129
+    ]
+  },
+  {
+    "product_id": "67557",
+    "name": "Moutarde",
+    "brand": "REMIA",
+    "price": "9,990 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_67557.jpg",
+    "label_file": "product_67557.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5016129032258064,
+      0.425531914893617,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "74517",
+    "name": "Mayonnaise",
+    "brand": "REMIA",
+    "price": "9,990 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_74517.jpg",
+    "label_file": "product_74517.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "88397",
+    "name": "Piment jalapeno",
+    "brand": "DURRA",
+    "price": "9,990 DT",
+    "class_id": 30,
+    "class_name": "DURRA",
+    "image_file": "product_88397.jpg",
+    "label_file": "product_88397.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.5390070921985816,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116587",
+    "name": "Sauce barbecue",
+    "brand": "DERONI",
+    "price": "9,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116587.jpg",
+    "label_file": "product_116587.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116514",
+    "name": "Sauce épicée grillade",
+    "brand": "DERONI",
+    "price": "9,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116514.jpg",
+    "label_file": "product_116514.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26523",
+    "name": "Huile de colza",
+    "brand": "SAFI",
+    "price": "10,050 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_26523.jpg",
+    "label_file": "product_26523.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "143836",
+    "name": "Huile de maïs",
+    "brand": "AL JAZIRA",
+    "price": "10,230 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143836.jpg",
+    "label_file": "product_143836.txt",
+    "bbox": [
+      0.5195035460992907,
+      0.49838709677419357,
+      0.33687943262411346,
+      0.8354838709677419
+    ]
+  },
+  {
+    "product_id": "72687",
+    "name": "Cornichons extra fins",
+    "brand": "TYPIK",
+    "price": "10,290 DT",
+    "class_id": 42,
+    "class_name": "TYPIK",
+    "image_file": "product_72687.jpg",
+    "label_file": "product_72687.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.6595744680851063,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "135891",
+    "name": "Huile d'olive extra vi...",
+    "brand": "Promotion",
+    "price": "9,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_135891.jpg",
+    "label_file": "product_135891.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49838709677419357,
+      0.34397163120567376,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "118109",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_118109.jpg",
+    "label_file": "product_118109.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "118106",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_118106.jpg",
+    "label_file": "product_118106.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "118108",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_118108.jpg",
+    "label_file": "product_118108.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "118107",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_118107.jpg",
+    "label_file": "product_118107.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.40425531914893614,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "118105",
+    "name": "Sauce salade",
+    "brand": "Promotion",
+    "price": "10,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_118105.jpg",
+    "label_file": "product_118105.txt",
+    "bbox": [
+      0.4397163120567376,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25197",
+    "name": "Moutarde de dijon",
+    "brand": "REMIA",
+    "price": "10,580 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_25197.jpg",
+    "label_file": "product_25197.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.49645390070921985,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "116508",
+    "name": "Sauce pasta",
+    "brand": "DERONI",
+    "price": "10,590 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116508.jpg",
+    "label_file": "product_116508.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.48226950354609927,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116507",
+    "name": "Sauce pasta",
+    "brand": "DERONI",
+    "price": "10,590 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116507.jpg",
+    "label_file": "product_116507.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.48226950354609927,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116505",
+    "name": "Sauce pasta",
+    "brand": "DERONI",
+    "price": "10,590 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116505.jpg",
+    "label_file": "product_116505.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.4787234042553192,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116506",
+    "name": "Sauce pasta",
+    "brand": "DERONI",
+    "price": "10,590 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116506.jpg",
+    "label_file": "product_116506.txt",
+    "bbox": [
+      0.5230496453900709,
+      0.49032258064516127,
+      0.4574468085106383,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41669",
+    "name": "Moutarde",
+    "brand": "DORELLA",
+    "price": "10,790 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41669.jpg",
+    "label_file": "product_41669.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.5390070921985816,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "45391",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "10,820 DT",
+    "class_id": 55,
+    "class_name": "LAHNEYA",
+    "image_file": "product_45391.jpg",
+    "label_file": "product_45391.txt",
+    "bbox": [
+      0.45390070921985815,
+      0.49193548387096775,
+      0.2624113475177305,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "45399",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "10,820 DT",
+    "class_id": 55,
+    "class_name": "LAHNEYA",
+    "image_file": "product_45399.jpg",
+    "label_file": "product_45399.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.4645161290322581,
+      0.25886524822695034,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "120423",
+    "name": "Piment de cayenne rouge",
+    "brand": "SDS",
+    "price": "10,900 DT",
+    "class_id": 39,
+    "class_name": "SDS",
+    "image_file": "product_120423.jpg",
+    "label_file": "product_120423.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5403225806451613,
+      0.6843971631205674,
+      0.38387096774193546
+    ]
+  },
+  {
+    "product_id": "126781",
+    "name": "Ketchup",
+    "brand": "DERONI",
+    "price": "10,900 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_126781.jpg",
+    "label_file": "product_126781.txt",
+    "bbox": [
+      0.5124113475177305,
+      0.4967741935483871,
+      0.30851063829787234,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "41870",
+    "name": "Crème balsamique",
+    "brand": "Promotion",
+    "price": "10,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_41870.jpg",
+    "label_file": "product_41870.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.30851063829787234,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116509",
+    "name": "Sauce viande",
+    "brand": "DERONI",
+    "price": "10,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116509.jpg",
+    "label_file": "product_116509.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116510",
+    "name": "Sauce viande",
+    "brand": "DERONI",
+    "price": "10,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116510.jpg",
+    "label_file": "product_116510.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3191489361702128,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "116511",
+    "name": "Sauce viande",
+    "brand": "DERONI",
+    "price": "10,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116511.jpg",
+    "label_file": "product_116511.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "116512",
+    "name": "Sauce viande",
+    "brand": "DERONI",
+    "price": "10,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116512.jpg",
+    "label_file": "product_116512.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "23057",
+    "name": "Huile olive extra vierge",
+    "brand": "AL JAZIRA",
+    "price": "11,100 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_23057.jpg",
+    "label_file": "product_23057.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.28368794326241137,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26590",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,100 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_26590.jpg",
+    "label_file": "product_26590.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "80040",
+    "name": "Mayonnaise",
+    "brand": "REMIA",
+    "price": "11,190 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_80040.jpg",
+    "label_file": "product_80040.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.5141843971631206,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "85066",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,200 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_85066.jpg",
+    "label_file": "product_85066.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.22695035460992907,
+      0.8
+    ]
+  },
+  {
+    "product_id": "25211",
+    "name": "Mayonaise",
+    "brand": "REMIA",
+    "price": "11,600 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_25211.jpg",
+    "label_file": "product_25211.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31192",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31192.jpg",
+    "label_file": "product_31192.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31193",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31193.jpg",
+    "label_file": "product_31193.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "32977",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_32977.jpg",
+    "label_file": "product_32977.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.2907801418439716,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "31194",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31194.jpg",
+    "label_file": "product_31194.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.28368794326241137,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41274",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_41274.jpg",
+    "label_file": "product_41274.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "32976",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_32976.jpg",
+    "label_file": "product_32976.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.28368794326241137,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "74163",
+    "name": "Sauce fish",
+    "brand": "Promotion",
+    "price": "11,900 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_74163.jpg",
+    "label_file": "product_74163.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.2907801418439716,
+      0.8612903225806452
+    ]
+  },
+  {
+    "product_id": "29224",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,950 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_29224.jpg",
+    "label_file": "product_29224.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "116585",
+    "name": "Sauce sauja",
+    "brand": "DERONI",
+    "price": "11,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116585.jpg",
+    "label_file": "product_116585.txt",
+    "bbox": [
+      0.5,
+      0.4967741935483871,
+      0.2765957446808511,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "116586",
+    "name": "Sauce teryaki",
+    "brand": "DERONI",
+    "price": "11,990 DT",
+    "class_id": 53,
+    "class_name": "DERONI",
+    "image_file": "product_116586.jpg",
+    "label_file": "product_116586.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148312",
+    "name": "Sauce sweet chili",
+    "brand": "EXOTIC FOOD",
+    "price": "11,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148312.jpg",
+    "label_file": "product_148312.txt",
+    "bbox": [
+      0.5177304964539007,
+      0.49838709677419357,
+      0.3404255319148936,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "148321",
+    "name": "Mayonnaise",
+    "brand": "DELICIO",
+    "price": "12,000 DT",
+    "class_id": 47,
+    "class_name": "DELICIO",
+    "image_file": "product_148321.jpg",
+    "label_file": "product_148321.txt",
+    "bbox": [
+      0.5301418439716312,
+      0.49838709677419357,
+      0.4716312056737589,
+      0.8419354838709677
+    ]
+  },
+  {
+    "product_id": "148269",
+    "name": "Sauce barbecue spicy",
+    "brand": "DELICIO",
+    "price": "12,000 DT",
+    "class_id": 47,
+    "class_name": "DELICIO",
+    "image_file": "product_148269.jpg",
+    "label_file": "product_148269.txt",
+    "bbox": [
+      0.524822695035461,
+      0.4967741935483871,
+      0.46099290780141844,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "90845",
+    "name": "Huile végétale",
+    "brand": "TRIO D'OR",
+    "price": "12,180 DT",
+    "class_id": 57,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_90845.jpg",
+    "label_file": "product_90845.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4870967741935484,
+      0.3971631205673759,
+      0.7870967741935484
+    ]
+  },
+  {
+    "product_id": "26608",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "12,420 DT",
+    "class_id": 48,
+    "class_name": "CHAAL",
+    "image_file": "product_26608.jpg",
+    "label_file": "product_26608.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.23404255319148937,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "139254",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "12,490 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139254.jpg",
+    "label_file": "product_139254.txt",
+    "bbox": [
+      0.5,
+      0.5048387096774194,
+      0.6666666666666666,
+      0.6483870967741936
+    ]
+  },
+  {
+    "product_id": "25226",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "12,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_25226.jpg",
+    "label_file": "product_25226.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "113406",
+    "name": "Huile d'olive extra vi...",
+    "brand": "OFFICE NATIONAL DE L'HUILE",
+    "price": "12,500 DT",
+    "class_id": 58,
+    "class_name": "OFFICE NATIONAL DE L'HUILE",
+    "image_file": "product_113406.jpg",
+    "label_file": "product_113406.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3120567375886525,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "26504",
+    "name": "Huile d'olive pomace",
+    "brand": "AL JAZIRA",
+    "price": "12,590 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_26504.jpg",
+    "label_file": "product_26504.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.450354609929078,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135983",
+    "name": "Moutarde",
+    "brand": "SOLIA",
+    "price": "12,600 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_135983.jpg",
+    "label_file": "product_135983.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5141843971631206,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "115756",
+    "name": "Olive noire grosse",
+    "brand": "SDS",
+    "price": "12,900 DT",
+    "class_id": 39,
+    "class_name": "SDS",
+    "image_file": "product_115756.jpg",
+    "label_file": "product_115756.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5032258064516129,
+      0.6843971631205674,
+      0.41935483870967744
+    ]
+  },
+  {
+    "product_id": "144399",
+    "name": "Vinaigre de riz",
+    "brand": "MAMI",
+    "price": "12,990 DT",
+    "class_id": 54,
+    "class_name": "MAMI",
+    "image_file": "product_144399.jpg",
+    "label_file": "product_144399.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.28368794326241137,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "21904",
+    "name": "Sauce knoblauch",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 59,
+    "class_name": "KÜHNE",
+    "image_file": "product_21904.jpg",
+    "label_file": "product_21904.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.3971631205673759,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "77969",
+    "name": "Sauce salade balsamic",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 59,
+    "class_name": "KÜHNE",
+    "image_file": "product_77969.jpg",
+    "label_file": "product_77969.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.5161290322580645,
+      0.4326241134751773,
+      0.9612903225806452
+    ]
+  },
+  {
+    "product_id": "29560",
+    "name": "Sauce salade",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 59,
+    "class_name": "KÜHNE",
+    "image_file": "product_29560.jpg",
+    "label_file": "product_29560.txt",
+    "bbox": [
+      0.4698581560283688,
+      0.4774193548387097,
+      0.39361702127659576,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "30782",
+    "name": "Sauce tartare",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 59,
+    "class_name": "KÜHNE",
+    "image_file": "product_30782.jpg",
+    "label_file": "product_30782.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.3191489361702128,
+      0.8032258064516129
+    ]
+  },
+  {
+    "product_id": "30783",
+    "name": "Sauce curry",
+    "brand": "KÜHNE",
+    "price": "12,990 DT",
+    "class_id": 59,
+    "class_name": "KÜHNE",
+    "image_file": "product_30783.jpg",
+    "label_file": "product_30783.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25871",
+    "name": "Ketchup",
+    "brand": "REMIA",
+    "price": "13,040 DT",
+    "class_id": 41,
+    "class_name": "REMIA",
+    "image_file": "product_25871.jpg",
+    "label_file": "product_25871.txt",
+    "bbox": [
+      0.46808510638297873,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "51784",
+    "name": "Huile d'olive spéciale...",
+    "brand": "AL JAZIRA",
+    "price": "13,050 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_51784.jpg",
+    "label_file": "product_51784.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "41378",
+    "name": "Vinaigre balsamique",
+    "brand": "VARVELLO",
+    "price": "13,450 DT",
+    "class_id": 60,
+    "class_name": "VARVELLO",
+    "image_file": "product_41378.jpg",
+    "label_file": "product_41378.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.48870967741935484,
+      0.25886524822695034,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "115752",
+    "name": "Olive slice verte",
+    "brand": "SDS",
+    "price": "13,600 DT",
+    "class_id": 39,
+    "class_name": "SDS",
+    "image_file": "product_115752.jpg",
+    "label_file": "product_115752.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.6879432624113475,
+      0.41935483870967744
+    ]
+  },
+  {
+    "product_id": "25252",
+    "name": "Vinaigre balsamique",
+    "brand": "AL JAZIRA",
+    "price": "13,740 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_25252.jpg",
+    "label_file": "product_25252.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "139275",
+    "name": "Harissa",
+    "brand": "JOUDA",
+    "price": "13,990 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_139275.jpg",
+    "label_file": "product_139275.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4806451612903226,
+      0.6631205673758865,
+      0.6645161290322581
+    ]
+  },
+  {
+    "product_id": "139276",
+    "name": "Harissa",
+    "brand": "NEBLIA",
+    "price": "13,990 DT",
+    "class_id": 7,
+    "class_name": "NEBLIA",
+    "image_file": "product_139276.jpg",
+    "label_file": "product_139276.txt",
+    "bbox": [
+      0.5,
+      0.4645161290322581,
+      0.6595744680851063,
+      0.6709677419354839
+    ]
+  },
+  {
+    "product_id": "142830",
+    "name": "Sauce oyster",
+    "brand": "MAMI",
+    "price": "14,390 DT",
+    "class_id": 54,
+    "class_name": "MAMI",
+    "image_file": "product_142830.jpg",
+    "label_file": "product_142830.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.2978723404255319,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "26597",
+    "name": "Huile d'olive extra vi...",
+    "brand": "Promotion",
+    "price": "14,440 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26597.jpg",
+    "label_file": "product_26597.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "139272",
+    "name": "Ketchup",
+    "brand": "JOUDA",
+    "price": "14,990 DT",
+    "class_id": 3,
+    "class_name": "JOUDA",
+    "image_file": "product_139272.jpg",
+    "label_file": "product_139272.txt",
+    "bbox": [
+      0.48936170212765956,
+      0.4967741935483871,
+      0.6453900709219859,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "48111",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "15,410 DT",
+    "class_id": 33,
+    "class_name": "GHAZELA",
+    "image_file": "product_48111.jpg",
+    "label_file": "product_48111.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.5141843971631206,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "139255",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "15,490 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139255.jpg",
+    "label_file": "product_139255.txt",
+    "bbox": [
+      0.5,
+      0.5096774193548387,
+      0.6666666666666666,
+      0.6645161290322581
+    ]
+  },
+  {
+    "product_id": "26505",
+    "name": "Huile d'olive pomace",
+    "brand": "CHAAL",
+    "price": "15,490 DT",
+    "class_id": 48,
+    "class_name": "CHAAL",
+    "image_file": "product_26505.jpg",
+    "label_file": "product_26505.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "43895",
+    "name": "Huile de sésame",
+    "brand": "LOTUS",
+    "price": "15,490 DT",
+    "class_id": 61,
+    "class_name": "LOTUS",
+    "image_file": "product_43895.jpg",
+    "label_file": "product_43895.txt",
+    "bbox": [
+      0.524822695035461,
+      0.49032258064516127,
+      0.23404255319148937,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "31260",
+    "name": "Vinaigre balsamique",
+    "brand": "AL JAZIRA",
+    "price": "15,570 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31260.jpg",
+    "label_file": "product_31260.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.48870967741935484,
+      0.25886524822695034,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "142832",
+    "name": "Sauce sweet chili",
+    "brand": "MAMI",
+    "price": "15,690 DT",
+    "class_id": 54,
+    "class_name": "MAMI",
+    "image_file": "product_142832.jpg",
+    "label_file": "product_142832.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3049645390070922,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "142828",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "15,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_142828.jpg",
+    "label_file": "product_142828.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.36524822695035464,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "131574",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "15,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_131574.jpg",
+    "label_file": "product_131574.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5032258064516129,
+      0.3475177304964539,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "46349",
+    "name": "Moutarde de dijon",
+    "brand": "DIJONA",
+    "price": "15,990 DT",
+    "class_id": 40,
+    "class_name": "DIJONA",
+    "image_file": "product_46349.jpg",
+    "label_file": "product_46349.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.5141843971631206,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "26591",
+    "name": "Huile d'olive extra vi...",
+    "brand": "MARASCA JAZIRA",
+    "price": "16,250 DT",
+    "class_id": 45,
+    "class_name": "MARASCA JAZIRA",
+    "image_file": "product_26591.jpg",
+    "label_file": "product_26591.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "41674",
+    "name": "Moutarde",
+    "brand": "DORELLA",
+    "price": "16,290 DT",
+    "class_id": 23,
+    "class_name": "DORELLA",
+    "image_file": "product_41674.jpg",
+    "label_file": "product_41674.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.5390070921985816,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "40920",
+    "name": "Harissa",
+    "brand": "LE PETIT PARIS",
+    "price": "16,490 DT",
+    "class_id": 11,
+    "class_name": "LE PETIT PARIS",
+    "image_file": "product_40920.jpg",
+    "label_file": "product_40920.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.667741935483871
+    ]
+  },
+  {
+    "product_id": "66618",
+    "name": "Concombres marinés au ...",
+    "brand": "DURRA",
+    "price": "16,590 DT",
+    "class_id": 30,
+    "class_name": "DURRA",
+    "image_file": "product_66618.jpg",
+    "label_file": "product_66618.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49838709677419357,
+      0.5106382978723404,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "148316",
+    "name": "Sauce spring roll",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148316.jpg",
+    "label_file": "product_148316.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.2907801418439716,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148310",
+    "name": "Sauce teriyaki",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148310.jpg",
+    "label_file": "product_148310.txt",
+    "bbox": [
+      0.5177304964539007,
+      0.49838709677419357,
+      0.3333333333333333,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "148291",
+    "name": "Sauce hoisin",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148291.jpg",
+    "label_file": "product_148291.txt",
+    "bbox": [
+      0.5124113475177305,
+      0.49838709677419357,
+      0.3723404255319149,
+      0.8419354838709677
+    ]
+  },
+  {
+    "product_id": "148317",
+    "name": "Sauce fish",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148317.jpg",
+    "label_file": "product_148317.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.28368794326241137,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148314",
+    "name": "Sauce suprême soy sauce",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148314.jpg",
+    "label_file": "product_148314.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.28368794326241137,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "148315",
+    "name": "Sauce suprême oyster",
+    "brand": "EXOTIC FOOD",
+    "price": "16,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148315.jpg",
+    "label_file": "product_148315.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.28368794326241137,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "112728",
+    "name": "Huile de colza",
+    "brand": "Promotion",
+    "price": "17,150 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_112728.jpg",
+    "label_file": "product_112728.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25257",
+    "name": "Vinaigre balsamique",
+    "brand": "KÜHNE",
+    "price": "17,190 DT",
+    "class_id": 59,
+    "class_name": "KÜHNE",
+    "image_file": "product_25257.jpg",
+    "label_file": "product_25257.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49193548387096775,
+      0.3120567375886525,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "139256",
+    "name": "Ketchup",
+    "brand": "SOLIA",
+    "price": "17,290 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139256.jpg",
+    "label_file": "product_139256.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.4967741935483871,
+      0.6170212765957447,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "135892",
+    "name": "Huile d'olive extra vi...",
+    "brand": "TRIO D'OR",
+    "price": "17,390 DT",
+    "class_id": 57,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_135892.jpg",
+    "label_file": "product_135892.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26598",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "17,400 DT",
+    "class_id": 48,
+    "class_name": "CHAAL",
+    "image_file": "product_26598.jpg",
+    "label_file": "product_26598.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.28368794326241137,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "95907",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "17,690 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_95907.jpg",
+    "label_file": "product_95907.txt",
+    "bbox": [
+      0.48226950354609927,
+      0.49032258064516127,
+      0.425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "139259",
+    "name": "Sauce à l'ail",
+    "brand": "SOLIA",
+    "price": "17,690 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139259.jpg",
+    "label_file": "product_139259.txt",
+    "bbox": [
+      0.5,
+      0.4806451612903226,
+      0.6595744680851063,
+      0.6387096774193548
+    ]
+  },
+  {
+    "product_id": "148309",
+    "name": "Sauce chili sriracha",
+    "brand": "EXOTIC FOOD",
+    "price": "17,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148309.jpg",
+    "label_file": "product_148309.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.4967741935483871,
+      0.33687943262411346,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "148311",
+    "name": "Sauce sweet sour",
+    "brand": "EXOTIC FOOD",
+    "price": "17,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148311.jpg",
+    "label_file": "product_148311.txt",
+    "bbox": [
+      0.5195035460992907,
+      0.4967741935483871,
+      0.33687943262411346,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "71194",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "18,000 DT",
+    "class_id": 55,
+    "class_name": "LAHNEYA",
+    "image_file": "product_71194.jpg",
+    "label_file": "product_71194.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "65969",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "18,000 DT",
+    "class_id": 55,
+    "class_name": "LAHNEYA",
+    "image_file": "product_65969.jpg",
+    "label_file": "product_65969.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26532",
+    "name": "Huile de maïs",
+    "brand": "OLINA",
+    "price": "18,040 DT",
+    "class_id": 62,
+    "class_name": "OLINA",
+    "image_file": "product_26532.jpg",
+    "label_file": "product_26532.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "76212",
+    "name": "Huile de colza",
+    "brand": "Promotion",
+    "price": "18,390 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_76212.jpg",
+    "label_file": "product_76212.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49032258064516127,
+      0.36879432624113473,
+      0.8
+    ]
+  },
+  {
+    "product_id": "142877",
+    "name": "Sauce algérienne",
+    "brand": "SOLIA",
+    "price": "19,290 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_142877.jpg",
+    "label_file": "product_142877.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5,
+      0.6702127659574468,
+      0.6451612903225806
+    ]
+  },
+  {
+    "product_id": "25274",
+    "name": "Cornichons",
+    "brand": "KÜHNE",
+    "price": "19,370 DT",
+    "class_id": 59,
+    "class_name": "KÜHNE",
+    "image_file": "product_25274.jpg",
+    "label_file": "product_25274.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26592",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "19,450 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_26592.jpg",
+    "label_file": "product_26592.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "139261",
+    "name": "Sauce barbecue",
+    "brand": "SOLIA",
+    "price": "19,490 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139261.jpg",
+    "label_file": "product_139261.txt",
+    "bbox": [
+      0.5035460992907801,
+      0.49516129032258066,
+      0.6099290780141844,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "41190",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "19,650 DT",
+    "class_id": 48,
+    "class_name": "CHAAL",
+    "image_file": "product_41190.jpg",
+    "label_file": "product_41190.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.48870967741935484,
+      0.31560283687943264,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "68636",
+    "name": "Huile de tournesol",
+    "brand": "SAFI",
+    "price": "19,780 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_68636.jpg",
+    "label_file": "product_68636.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.3971631205673759,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "46364",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "19,860 DT",
+    "class_id": 55,
+    "class_name": "LAHNEYA",
+    "image_file": "product_46364.jpg",
+    "label_file": "product_46364.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.3404255319148936,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "45400",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "19,860 DT",
+    "class_id": 55,
+    "class_name": "LAHNEYA",
+    "image_file": "product_45400.jpg",
+    "label_file": "product_45400.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "139257",
+    "name": "Ketchup",
+    "brand": "SOLIA",
+    "price": "20,290 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139257.jpg",
+    "label_file": "product_139257.txt",
+    "bbox": [
+      0.4769503546099291,
+      0.49838709677419357,
+      0.6560283687943262,
+      0.8354838709677419
+    ]
+  },
+  {
+    "product_id": "139252",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "20,290 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139252.jpg",
+    "label_file": "product_139252.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4967741935483871,
+      0.6595744680851063,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "60441",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "20,660 DT",
+    "class_id": 33,
+    "class_name": "GHAZELA",
+    "image_file": "product_60441.jpg",
+    "label_file": "product_60441.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26564",
+    "name": "Huile de friture",
+    "brand": "Promotion",
+    "price": "20,690 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26564.jpg",
+    "label_file": "product_26564.txt",
+    "bbox": [
+      0.4787234042553192,
+      0.4967741935483871,
+      0.425531914893617,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "70461",
+    "name": "Huile de maïs",
+    "brand": "SAFI",
+    "price": "20,880 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_70461.jpg",
+    "label_file": "product_70461.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "139263",
+    "name": "Sauce cheese",
+    "brand": "SOLIA",
+    "price": "20,900 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139263.jpg",
+    "label_file": "product_139263.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5403225806451613,
+      0.6631205673758865,
+      0.667741935483871
+    ]
+  },
+  {
+    "product_id": "139260",
+    "name": "Sauce à l'ail",
+    "brand": "SOLIA",
+    "price": "20,900 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139260.jpg",
+    "label_file": "product_139260.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5661290322580645,
+      0.6631205673758865,
+      0.6548387096774193
+    ]
+  },
+  {
+    "product_id": "26596",
+    "name": "Huile d'olive extra vi...",
+    "brand": "MARASCA JAZIRA",
+    "price": "21,250 DT",
+    "class_id": 45,
+    "class_name": "MARASCA JAZIRA",
+    "image_file": "product_26596.jpg",
+    "label_file": "product_26596.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5,
+      0.31560283687943264,
+      1.0
+    ]
+  },
+  {
+    "product_id": "104964",
+    "name": "Huile végétale",
+    "brand": "TRIO D'OR",
+    "price": "21,400 DT",
+    "class_id": 57,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_104964.jpg",
+    "label_file": "product_104964.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5177304964539007,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "139264",
+    "name": "Sauce samurai",
+    "brand": "SOLIA",
+    "price": "21,900 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139264.jpg",
+    "label_file": "product_139264.txt",
+    "bbox": [
+      0.5,
+      0.532258064516129,
+      0.6595744680851063,
+      0.6580645161290323
+    ]
+  },
+  {
+    "product_id": "75846",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "22,150 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_75846.jpg",
+    "label_file": "product_75846.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.4078014184397163,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "29222",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "22,350 DT",
+    "class_id": 48,
+    "class_name": "CHAAL",
+    "image_file": "product_29222.jpg",
+    "label_file": "product_29222.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "135893",
+    "name": "Huile d'olive extra vi...",
+    "brand": "Promotion",
+    "price": "20,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_135893.jpg",
+    "label_file": "product_135893.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49838709677419357,
+      0.5354609929078015,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "98273",
+    "name": "Cornichons",
+    "brand": "KÜHNE",
+    "price": "22,600 DT",
+    "class_id": 59,
+    "class_name": "KÜHNE",
+    "image_file": "product_98273.jpg",
+    "label_file": "product_98273.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.648936170212766,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "53229",
+    "name": "Cornichons extra fins",
+    "brand": "AMOUS",
+    "price": "23,200 DT",
+    "class_id": 63,
+    "class_name": "AMOUS",
+    "image_file": "product_53229.jpg",
+    "label_file": "product_53229.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6879432624113475,
+      0.3935483870967742
+    ]
+  },
+  {
+    "product_id": "29236",
+    "name": "Huile de maïs",
+    "brand": "Promotion",
+    "price": "23,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_29236.jpg",
+    "label_file": "product_29236.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26565",
+    "name": "Huile de friture",
+    "brand": "FRIT'SS",
+    "price": "23,550 DT",
+    "class_id": 64,
+    "class_name": "FRIT'SS",
+    "image_file": "product_26565.jpg",
+    "label_file": "product_26565.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "143837",
+    "name": "Huile de friture",
+    "brand": "AL JAZIRA",
+    "price": "23,600 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143837.jpg",
+    "label_file": "product_143837.txt",
+    "bbox": [
+      0.4804964539007092,
+      0.4967741935483871,
+      0.42907801418439717,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "26571",
+    "name": "Huile végétale",
+    "brand": "Promotion",
+    "price": "20,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26571.jpg",
+    "label_file": "product_26571.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.45390070921985815,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "143162",
+    "name": "Huile végétale",
+    "brand": "AL JAZIRA",
+    "price": "23,700 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143162.jpg",
+    "label_file": "product_143162.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3971631205673759,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "26568",
+    "name": "Huile végétale",
+    "brand": "JADIDA",
+    "price": "23,800 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_26568.jpg",
+    "label_file": "product_26568.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.49032258064516127,
+      0.425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "33660",
+    "name": "Huile de friture",
+    "brand": "FRIDEAL OLINA",
+    "price": "23,900 DT",
+    "class_id": 65,
+    "class_name": "FRIDEAL OLINA",
+    "image_file": "product_33660.jpg",
+    "label_file": "product_33660.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148313",
+    "name": "Sauce sweet chili",
+    "brand": "EXOTIC FOOD",
+    "price": "23,990 DT",
+    "class_id": 56,
+    "class_name": "EXOTIC FOOD",
+    "image_file": "product_148313.jpg",
+    "label_file": "product_148313.txt",
+    "bbox": [
+      0.48936170212765956,
+      0.49838709677419357,
+      0.2978723404255319,
+      0.8354838709677419
+    ]
+  },
+  {
+    "product_id": "26557",
+    "name": "Huile végétale",
+    "brand": "CRISTAL",
+    "price": "24,590 DT",
+    "class_id": 26,
+    "class_name": "CRISTAL",
+    "image_file": "product_26557.jpg",
+    "label_file": "product_26557.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26524",
+    "name": "Huile végétale",
+    "brand": "NEJMA",
+    "price": "24,700 DT",
+    "class_id": 66,
+    "class_name": "NEJMA",
+    "image_file": "product_26524.jpg",
+    "label_file": "product_26524.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.41134751773049644,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "142842",
+    "name": "Huile végétale",
+    "brand": "OLITTA",
+    "price": "24,800 DT",
+    "class_id": 31,
+    "class_name": "OLITTA",
+    "image_file": "product_142842.jpg",
+    "label_file": "product_142842.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.41134751773049644,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "139250",
+    "name": "Moutarde",
+    "brand": "SOLIA",
+    "price": "24,900 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139250.jpg",
+    "label_file": "product_139250.txt",
+    "bbox": [
+      0.5,
+      0.49516129032258066,
+      0.6312056737588653,
+      0.6161290322580645
+    ]
+  },
+  {
+    "product_id": "144398",
+    "name": "Sauce au piment doux",
+    "brand": "MAMI",
+    "price": "24,990 DT",
+    "class_id": 54,
+    "class_name": "MAMI",
+    "image_file": "product_144398.jpg",
+    "label_file": "product_144398.txt",
+    "bbox": [
+      0.50177304964539,
+      0.5,
+      0.30851063829787234,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "29242",
+    "name": "Huile de tournesol",
+    "brand": "SAFI",
+    "price": "25,200 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_29242.jpg",
+    "label_file": "product_29242.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "36739",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "25,210 DT",
+    "class_id": 33,
+    "class_name": "GHAZELA",
+    "image_file": "product_36739.jpg",
+    "label_file": "product_36739.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148292",
+    "name": "Huile de friture",
+    "brand": "JADIDA",
+    "price": "25,500 DT",
+    "class_id": 17,
+    "class_name": "JADIDA",
+    "image_file": "product_148292.jpg",
+    "label_file": "product_148292.txt",
+    "bbox": [
+      0.5124113475177305,
+      0.4967741935483871,
+      0.4148936170212766,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "143835",
+    "name": "Huile de maïs",
+    "brand": "AL JAZIRA",
+    "price": "26,400 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_143835.jpg",
+    "label_file": "product_143835.txt",
+    "bbox": [
+      0.49113475177304966,
+      0.49838709677419357,
+      0.38652482269503546,
+      0.8096774193548387
+    ]
+  },
+  {
+    "product_id": "26556",
+    "name": "Huile de colza",
+    "brand": "SAFI",
+    "price": "26,400 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_26556.jpg",
+    "label_file": "product_26556.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "113026",
+    "name": "Harissa berbère",
+    "brand": "EPICES ET SAVEURS",
+    "price": "26,400 DT",
+    "class_id": 67,
+    "class_name": "EPICES ET SAVEURS",
+    "image_file": "product_113026.jpg",
+    "label_file": "product_113026.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.6808510638297872,
+      0.4161290322580645
+    ]
+  },
+  {
+    "product_id": "29239",
+    "name": "Huile de maïs",
+    "brand": "SAFI",
+    "price": "26,650 DT",
+    "class_id": 27,
+    "class_name": "SAFI",
+    "image_file": "product_29239.jpg",
+    "label_file": "product_29239.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "142838",
+    "name": "Huile de maïs",
+    "brand": "OLITTA",
+    "price": "26,700 DT",
+    "class_id": 31,
+    "class_name": "OLITTA",
+    "image_file": "product_142838.jpg",
+    "label_file": "product_142838.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3900709219858156,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "26528",
+    "name": "Huile de maïs",
+    "brand": "CRISTAL",
+    "price": "26,750 DT",
+    "class_id": 26,
+    "class_name": "CRISTAL",
+    "image_file": "product_26528.jpg",
+    "label_file": "product_26528.txt",
+    "bbox": [
+      0.46099290780141844,
+      0.5,
+      0.41134751773049644,
+      0.967741935483871
+    ]
+  },
+  {
+    "product_id": "142831",
+    "name": "Sauce sriracha",
+    "brand": "MAMI",
+    "price": "28,090 DT",
+    "class_id": 54,
+    "class_name": "MAMI",
+    "image_file": "product_142831.jpg",
+    "label_file": "product_142831.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3120567375886525,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "51820",
+    "name": "Huile végétale",
+    "brand": "GHAZELA",
+    "price": "29,900 DT",
+    "class_id": 33,
+    "class_name": "GHAZELA",
+    "image_file": "product_51820.jpg",
+    "label_file": "product_51820.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "139253",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "30,900 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139253.jpg",
+    "label_file": "product_139253.txt",
+    "bbox": [
+      0.5,
+      0.4645161290322581,
+      0.6312056737588653,
+      0.632258064516129
+    ]
+  },
+  {
+    "product_id": "113025",
+    "name": "Câpres fines",
+    "brand": "Le KG",
+    "price": "33,500 DT",
+    "class_id": 68,
+    "class_name": "Le KG",
+    "image_file": "product_113025.jpg",
+    "label_file": "product_113025.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.6808510638297872,
+      0.49032258064516127
+    ]
+  },
+  {
+    "product_id": "130001",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "34,500 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_130001.jpg",
+    "label_file": "product_130001.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26587",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "38,820 DT",
+    "class_id": 48,
+    "class_name": "CHAAL",
+    "image_file": "product_26587.jpg",
+    "label_file": "product_26587.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26481",
+    "name": "Huile d'olive pomace",
+    "brand": "CHAAL",
+    "price": "44,000 DT",
+    "class_id": 48,
+    "class_name": "CHAAL",
+    "image_file": "product_26481.jpg",
+    "label_file": "product_26481.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135894",
+    "name": "Huile d'olive extra vi...",
+    "brand": "TRIO D'OR",
+    "price": "49,350 DT",
+    "class_id": 57,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_135894.jpg",
+    "label_file": "product_135894.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "51821",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "53,690 DT",
+    "class_id": 55,
+    "class_name": "LAHNEYA",
+    "image_file": "product_51821.jpg",
+    "label_file": "product_51821.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "51822",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "53,690 DT",
+    "class_id": 55,
+    "class_name": "LAHNEYA",
+    "image_file": "product_51822.jpg",
+    "label_file": "product_51822.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "37515",
+    "name": "Huile de grignons d'olive",
+    "brand": "AL JAZIRA",
+    "price": "54,150 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_37515.jpg",
+    "label_file": "product_37515.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "129972",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "55,000 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_129972.jpg",
+    "label_file": "product_129972.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26585",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "56,250 DT",
+    "class_id": 21,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_26585.jpg",
+    "label_file": "product_26585.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.5354609929078015,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "135895",
+    "name": "Huile d'olive extra vi...",
+    "brand": "TRIO D'OR",
+    "price": "80,250 DT",
+    "class_id": 57,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_135895.jpg",
+    "label_file": "product_135895.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.450354609929078,
+      0.8451612903225807
+    ]
+  },
+  {
+    "product_id": "139258",
+    "name": "Ketchup",
+    "brand": "SOLIA",
+    "price": "89,900 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139258.jpg",
+    "label_file": "product_139258.txt",
+    "bbox": [
+      0.5,
+      0.5064516129032258,
+      0.6595744680851063,
+      0.4967741935483871
+    ]
+  },
+  {
+    "product_id": "139251",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "89,900 DT",
+    "class_id": 18,
+    "class_name": "SOLIA",
+    "image_file": "product_139251.jpg",
+    "label_file": "product_139251.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4645161290322581,
+      0.6276595744680851,
+      0.4645161290322581
+    ]
+  }
+]

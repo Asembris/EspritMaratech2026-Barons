@@ -1,0 +1,690 @@
+[
+  {
+    "product_id": "146364",
+    "name": "Mayonnaise",
+    "brand": "GUSTO",
+    "price": "0,550 DT",
+    "class_id": 0,
+    "class_name": "GUSTO",
+    "image_file": "product_146364.jpg",
+    "label_file": "product_146364.txt",
+    "bbox": [
+      0.4946808510638298,
+      0.49838709677419357,
+      0.4148936170212766,
+      0.8419354838709677
+    ]
+  },
+  {
+    "product_id": "25216",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "2,990 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_25216.jpg",
+    "label_file": "product_25216.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25217",
+    "name": "Mayonnaise",
+    "brand": "JADIDA",
+    "price": "3,490 DT",
+    "class_id": 2,
+    "class_name": "JADIDA",
+    "image_file": "product_25217.jpg",
+    "label_file": "product_25217.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135973",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "3,790 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_135973.jpg",
+    "label_file": "product_135973.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135972",
+    "name": "Mayonnaise d'or",
+    "brand": "SOLIA",
+    "price": "3,850 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_135972.jpg",
+    "label_file": "product_135972.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135053",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "4,290 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_135053.jpg",
+    "label_file": "product_135053.txt",
+    "bbox": [
+      0.48404255319148937,
+      0.49193548387096775,
+      0.42907801418439717,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25212",
+    "name": "Mayonnaise light",
+    "brand": "JADIDA",
+    "price": "4,390 DT",
+    "class_id": 2,
+    "class_name": "JADIDA",
+    "image_file": "product_25212.jpg",
+    "label_file": "product_25212.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5709219858156028,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25205",
+    "name": "Mayonnaise",
+    "brand": "JADIDA",
+    "price": "4,470 DT",
+    "class_id": 2,
+    "class_name": "JADIDA",
+    "image_file": "product_25205.jpg",
+    "label_file": "product_25205.txt",
+    "bbox": [
+      0.45567375886524825,
+      0.5,
+      0.5212765957446809,
+      0.9483870967741935
+    ]
+  },
+  {
+    "product_id": "139270",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "4,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_139270.jpg",
+    "label_file": "product_139270.txt",
+    "bbox": [
+      0.5106382978723404,
+      0.49838709677419357,
+      0.41134751773049644,
+      0.8354838709677419
+    ]
+  },
+  {
+    "product_id": "41659",
+    "name": "Sauce mayonnaise",
+    "brand": "DORELLA",
+    "price": "4,490 DT",
+    "class_id": 4,
+    "class_name": "DORELLA",
+    "image_file": "product_41659.jpg",
+    "label_file": "product_41659.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25207",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "4,730 DT",
+    "class_id": 5,
+    "class_name": "BONNA",
+    "image_file": "product_25207.jpg",
+    "label_file": "product_25207.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.5673758865248227,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "25209",
+    "name": "Mayonnaise light",
+    "brand": "JADIDA",
+    "price": "4,850 DT",
+    "class_id": 2,
+    "class_name": "JADIDA",
+    "image_file": "product_25209.jpg",
+    "label_file": "product_25209.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.4858156028368794,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "21912",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "5,080 DT",
+    "class_id": 5,
+    "class_name": "BONNA",
+    "image_file": "product_21912.jpg",
+    "label_file": "product_21912.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25201",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "5,080 DT",
+    "class_id": 5,
+    "class_name": "BONNA",
+    "image_file": "product_25201.jpg",
+    "label_file": "product_25201.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.5673758865248227,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25200",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "5,080 DT",
+    "class_id": 5,
+    "class_name": "BONNA",
+    "image_file": "product_25200.jpg",
+    "label_file": "product_25200.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135971",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "5,130 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_135971.jpg",
+    "label_file": "product_135971.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.5106382978723404,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "41663",
+    "name": "Sauce mayonnaise",
+    "brand": "DORELLA",
+    "price": "5,180 DT",
+    "class_id": 4,
+    "class_name": "DORELLA",
+    "image_file": "product_41663.jpg",
+    "label_file": "product_41663.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.5425531914893617,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "21913",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "5,190 DT",
+    "class_id": 5,
+    "class_name": "BONNA",
+    "image_file": "product_21913.jpg",
+    "label_file": "product_21913.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.46099290780141844,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "21916",
+    "name": "Mayonaise",
+    "brand": "REMIA",
+    "price": "5,990 DT",
+    "class_id": 6,
+    "class_name": "REMIA",
+    "image_file": "product_21916.jpg",
+    "label_file": "product_21916.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "41668",
+    "name": "Sauce mayonnaise",
+    "brand": "DORELLA",
+    "price": "6,190 DT",
+    "class_id": 4,
+    "class_name": "DORELLA",
+    "image_file": "product_41668.jpg",
+    "label_file": "product_41668.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3971631205673759,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25219",
+    "name": "Mayonnaise",
+    "brand": "REMIA",
+    "price": "6,290 DT",
+    "class_id": 6,
+    "class_name": "REMIA",
+    "image_file": "product_25219.jpg",
+    "label_file": "product_25219.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5709219858156028,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "21911",
+    "name": "Mayonnaise",
+    "brand": "MOKA",
+    "price": "6,290 DT",
+    "class_id": 7,
+    "class_name": "MOKA",
+    "image_file": "product_21911.jpg",
+    "label_file": "product_21911.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.45390070921985815,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "29554",
+    "name": "Mayonnaise",
+    "brand": "JADIDA",
+    "price": "7,120 DT",
+    "class_id": 2,
+    "class_name": "JADIDA",
+    "image_file": "product_29554.jpg",
+    "label_file": "product_29554.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.5141843971631206,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25204",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "7,190 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_25204.jpg",
+    "label_file": "product_25204.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5,
+      0.45390070921985815,
+      0.8709677419354839
+    ]
+  },
+  {
+    "product_id": "148323",
+    "name": "Mayochup",
+    "brand": "DELICIO",
+    "price": "7,590 DT",
+    "class_id": 8,
+    "class_name": "DELICIO",
+    "image_file": "product_148323.jpg",
+    "label_file": "product_148323.txt",
+    "bbox": [
+      0.4929078014184397,
+      0.4967741935483871,
+      0.48936170212765956,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "148322",
+    "name": "Mayonnaise chili",
+    "brand": "DELICIO",
+    "price": "7,590 DT",
+    "class_id": 8,
+    "class_name": "DELICIO",
+    "image_file": "product_148322.jpg",
+    "label_file": "product_148322.txt",
+    "bbox": [
+      0.5212765957446809,
+      0.4967741935483871,
+      0.5177304964539007,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "148320",
+    "name": "Mayonnaise",
+    "brand": "DELICIO",
+    "price": "7,590 DT",
+    "class_id": 8,
+    "class_name": "DELICIO",
+    "image_file": "product_148320.jpg",
+    "label_file": "product_148320.txt",
+    "bbox": [
+      0.5336879432624113,
+      0.4967741935483871,
+      0.5212765957446809,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "112390",
+    "name": "Mayonnaise",
+    "brand": "MAYOR",
+    "price": "7,590 DT",
+    "class_id": 9,
+    "class_name": "MAYOR",
+    "image_file": "product_112390.jpg",
+    "label_file": "product_112390.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49838709677419357,
+      0.4574468085106383,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "134569",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "8,060 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_134569.jpg",
+    "label_file": "product_134569.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5177304964539007,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "31510",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "8,890 DT",
+    "class_id": 5,
+    "class_name": "BONNA",
+    "image_file": "product_31510.jpg",
+    "label_file": "product_31510.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.5141843971631206,
+      0.8290322580645161
+    ]
+  },
+  {
+    "product_id": "41672",
+    "name": "Sauce mayonnaise",
+    "brand": "DORELLA",
+    "price": "9,390 DT",
+    "class_id": 4,
+    "class_name": "DORELLA",
+    "image_file": "product_41672.jpg",
+    "label_file": "product_41672.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.5673758865248227,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "25202",
+    "name": "Mayonnaise",
+    "brand": "BONNA",
+    "price": "9,890 DT",
+    "class_id": 5,
+    "class_name": "BONNA",
+    "image_file": "product_25202.jpg",
+    "label_file": "product_25202.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.48870967741935484,
+      0.5141843971631206,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "25221",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "9,990 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_25221.jpg",
+    "label_file": "product_25221.txt",
+    "bbox": [
+      0.5,
+      0.49838709677419357,
+      0.4397163120567376,
+      0.8032258064516129
+    ]
+  },
+  {
+    "product_id": "74517",
+    "name": "Mayonnaise",
+    "brand": "REMIA",
+    "price": "9,990 DT",
+    "class_id": 6,
+    "class_name": "REMIA",
+    "image_file": "product_74517.jpg",
+    "label_file": "product_74517.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "80040",
+    "name": "Mayonnaise",
+    "brand": "REMIA",
+    "price": "11,190 DT",
+    "class_id": 6,
+    "class_name": "REMIA",
+    "image_file": "product_80040.jpg",
+    "label_file": "product_80040.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5048387096774194,
+      0.5141843971631206,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "25211",
+    "name": "Mayonaise",
+    "brand": "REMIA",
+    "price": "11,600 DT",
+    "class_id": 6,
+    "class_name": "REMIA",
+    "image_file": "product_25211.jpg",
+    "label_file": "product_25211.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.40425531914893614,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "148321",
+    "name": "Mayonnaise",
+    "brand": "DELICIO",
+    "price": "12,000 DT",
+    "class_id": 8,
+    "class_name": "DELICIO",
+    "image_file": "product_148321.jpg",
+    "label_file": "product_148321.txt",
+    "bbox": [
+      0.5301418439716312,
+      0.49838709677419357,
+      0.4716312056737589,
+      0.8419354838709677
+    ]
+  },
+  {
+    "product_id": "25226",
+    "name": "Mayonnaise",
+    "brand": "Promotion",
+    "price": "12,490 DT",
+    "class_id": 1,
+    "class_name": "Promotion",
+    "image_file": "product_25226.jpg",
+    "label_file": "product_25226.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "139254",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "12,490 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_139254.jpg",
+    "label_file": "product_139254.txt",
+    "bbox": [
+      0.5,
+      0.5048387096774194,
+      0.6666666666666666,
+      0.6483870967741936
+    ]
+  },
+  {
+    "product_id": "139255",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "15,490 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_139255.jpg",
+    "label_file": "product_139255.txt",
+    "bbox": [
+      0.5,
+      0.5096774193548387,
+      0.6666666666666666,
+      0.6645161290322581
+    ]
+  },
+  {
+    "product_id": "139252",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "20,290 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_139252.jpg",
+    "label_file": "product_139252.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.4967741935483871,
+      0.6595744680851063,
+      0.832258064516129
+    ]
+  },
+  {
+    "product_id": "139253",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "30,900 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_139253.jpg",
+    "label_file": "product_139253.txt",
+    "bbox": [
+      0.5,
+      0.4645161290322581,
+      0.6312056737588653,
+      0.632258064516129
+    ]
+  },
+  {
+    "product_id": "139251",
+    "name": "Mayonnaise",
+    "brand": "SOLIA",
+    "price": "89,900 DT",
+    "class_id": 3,
+    "class_name": "SOLIA",
+    "image_file": "product_139251.jpg",
+    "label_file": "product_139251.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.4645161290322581,
+      0.6276595744680851,
+      0.4645161290322581
+    ]
+  }
+]

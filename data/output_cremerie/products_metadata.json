@@ -1,0 +1,706 @@
+[
+  {
+    "product_id": "26595",
+    "name": "Huile d'olive extra vi...",
+    "brand": "MARASCA JAZIRA",
+    "price": "6,600 DT",
+    "class_id": 0,
+    "class_name": "MARASCA JAZIRA",
+    "image_file": "product_26595.jpg",
+    "label_file": "product_26595.txt",
+    "bbox": [
+      0.5070921985815603,
+      0.5016129032258064,
+      0.2553191489361702,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "26599",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "6,840 DT",
+    "class_id": 1,
+    "class_name": "CHAAL",
+    "image_file": "product_26599.jpg",
+    "label_file": "product_26599.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.23404255319148937,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "135891",
+    "name": "Huile d'olive extra vi...",
+    "brand": "Promotion",
+    "price": "9,990 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_135891.jpg",
+    "label_file": "product_135891.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49838709677419357,
+      0.34397163120567376,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "45399",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "10,820 DT",
+    "class_id": 3,
+    "class_name": "LAHNEYA",
+    "image_file": "product_45399.jpg",
+    "label_file": "product_45399.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.4645161290322581,
+      0.25886524822695034,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "45391",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "10,820 DT",
+    "class_id": 3,
+    "class_name": "LAHNEYA",
+    "image_file": "product_45391.jpg",
+    "label_file": "product_45391.txt",
+    "bbox": [
+      0.45390070921985815,
+      0.49193548387096775,
+      0.2624113475177305,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "23057",
+    "name": "Huile olive extra vierge",
+    "brand": "AL JAZIRA",
+    "price": "11,100 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_23057.jpg",
+    "label_file": "product_23057.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.28368794326241137,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26590",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,100 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_26590.jpg",
+    "label_file": "product_26590.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "85066",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,200 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_85066.jpg",
+    "label_file": "product_85066.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.22695035460992907,
+      0.8
+    ]
+  },
+  {
+    "product_id": "32976",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_32976.jpg",
+    "label_file": "product_32976.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.28368794326241137,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "31193",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31193.jpg",
+    "label_file": "product_31193.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31194",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31194.jpg",
+    "label_file": "product_31194.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.28368794326241137,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "32977",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_32977.jpg",
+    "label_file": "product_32977.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.2907801418439716,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "41274",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_41274.jpg",
+    "label_file": "product_41274.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "31192",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,750 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_31192.jpg",
+    "label_file": "product_31192.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.2872340425531915,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "29224",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "11,950 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_29224.jpg",
+    "label_file": "product_29224.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3120567375886525,
+      0.8258064516129032
+    ]
+  },
+  {
+    "product_id": "26608",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "12,420 DT",
+    "class_id": 1,
+    "class_name": "CHAAL",
+    "image_file": "product_26608.jpg",
+    "label_file": "product_26608.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.23404255319148937,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "113406",
+    "name": "Huile d'olive extra vi...",
+    "brand": "OFFICE NATIONAL DE L'HUILE",
+    "price": "12,500 DT",
+    "class_id": 5,
+    "class_name": "OFFICE NATIONAL DE L'HUILE",
+    "image_file": "product_113406.jpg",
+    "label_file": "product_113406.txt",
+    "bbox": [
+      0.5,
+      0.5,
+      0.3120567375886525,
+      0.8387096774193549
+    ]
+  },
+  {
+    "product_id": "26504",
+    "name": "Huile d'olive pomace",
+    "brand": "AL JAZIRA",
+    "price": "12,590 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_26504.jpg",
+    "label_file": "product_26504.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.450354609929078,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "51784",
+    "name": "Huile d'olive spéciale...",
+    "brand": "AL JAZIRA",
+    "price": "13,050 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_51784.jpg",
+    "label_file": "product_51784.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "26597",
+    "name": "Huile d'olive extra vi...",
+    "brand": "Promotion",
+    "price": "14,440 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_26597.jpg",
+    "label_file": "product_26597.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26505",
+    "name": "Huile d'olive pomace",
+    "brand": "CHAAL",
+    "price": "15,490 DT",
+    "class_id": 1,
+    "class_name": "CHAAL",
+    "image_file": "product_26505.jpg",
+    "label_file": "product_26505.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26591",
+    "name": "Huile d'olive extra vi...",
+    "brand": "MARASCA JAZIRA",
+    "price": "16,250 DT",
+    "class_id": 0,
+    "class_name": "MARASCA JAZIRA",
+    "image_file": "product_26591.jpg",
+    "label_file": "product_26591.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.2907801418439716,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "135892",
+    "name": "Huile d'olive extra vi...",
+    "brand": "TRIO D'OR",
+    "price": "17,390 DT",
+    "class_id": 6,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_135892.jpg",
+    "label_file": "product_135892.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26598",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "17,400 DT",
+    "class_id": 1,
+    "class_name": "CHAAL",
+    "image_file": "product_26598.jpg",
+    "label_file": "product_26598.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.28368794326241137,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "71194",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "18,000 DT",
+    "class_id": 3,
+    "class_name": "LAHNEYA",
+    "image_file": "product_71194.jpg",
+    "label_file": "product_71194.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "65969",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "18,000 DT",
+    "class_id": 3,
+    "class_name": "LAHNEYA",
+    "image_file": "product_65969.jpg",
+    "label_file": "product_65969.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.31560283687943264,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26592",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "19,450 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_26592.jpg",
+    "label_file": "product_26592.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.5016129032258064,
+      0.6773049645390071,
+      0.8225806451612904
+    ]
+  },
+  {
+    "product_id": "41190",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "19,650 DT",
+    "class_id": 1,
+    "class_name": "CHAAL",
+    "image_file": "product_41190.jpg",
+    "label_file": "product_41190.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.48870967741935484,
+      0.31560283687943264,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "46364",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "19,860 DT",
+    "class_id": 3,
+    "class_name": "LAHNEYA",
+    "image_file": "product_46364.jpg",
+    "label_file": "product_46364.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.5016129032258064,
+      0.3404255319148936,
+      0.8741935483870967
+    ]
+  },
+  {
+    "product_id": "45400",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "19,860 DT",
+    "class_id": 3,
+    "class_name": "LAHNEYA",
+    "image_file": "product_45400.jpg",
+    "label_file": "product_45400.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.34397163120567376,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26596",
+    "name": "Huile d'olive extra vi...",
+    "brand": "MARASCA JAZIRA",
+    "price": "21,250 DT",
+    "class_id": 0,
+    "class_name": "MARASCA JAZIRA",
+    "image_file": "product_26596.jpg",
+    "label_file": "product_26596.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.5,
+      0.31560283687943264,
+      1.0
+    ]
+  },
+  {
+    "product_id": "75846",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "22,150 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_75846.jpg",
+    "label_file": "product_75846.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.4078014184397163,
+      0.8064516129032258
+    ]
+  },
+  {
+    "product_id": "29222",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "22,350 DT",
+    "class_id": 1,
+    "class_name": "CHAAL",
+    "image_file": "product_29222.jpg",
+    "label_file": "product_29222.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.3475177304964539,
+      0.8580645161290322
+    ]
+  },
+  {
+    "product_id": "135893",
+    "name": "Huile d'olive extra vi...",
+    "brand": "Promotion",
+    "price": "20,490 DT",
+    "class_id": 2,
+    "class_name": "Promotion",
+    "image_file": "product_135893.jpg",
+    "label_file": "product_135893.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49838709677419357,
+      0.5354609929078015,
+      0.867741935483871
+    ]
+  },
+  {
+    "product_id": "130001",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "34,500 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_130001.jpg",
+    "label_file": "product_130001.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26587",
+    "name": "Huile d'olive extra vi...",
+    "brand": "CHAAL",
+    "price": "38,820 DT",
+    "class_id": 1,
+    "class_name": "CHAAL",
+    "image_file": "product_26587.jpg",
+    "label_file": "product_26587.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.40070921985815605,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26481",
+    "name": "Huile d'olive pomace",
+    "brand": "CHAAL",
+    "price": "44,000 DT",
+    "class_id": 1,
+    "class_name": "CHAAL",
+    "image_file": "product_26481.jpg",
+    "label_file": "product_26481.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.6560283687943262,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "135894",
+    "name": "Huile d'olive extra vi...",
+    "brand": "TRIO D'OR",
+    "price": "49,350 DT",
+    "class_id": 6,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_135894.jpg",
+    "label_file": "product_135894.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49193548387096775,
+      0.45390070921985815,
+      0.8483870967741935
+    ]
+  },
+  {
+    "product_id": "51821",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "53,690 DT",
+    "class_id": 3,
+    "class_name": "LAHNEYA",
+    "image_file": "product_51821.jpg",
+    "label_file": "product_51821.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "51822",
+    "name": "Huile d'olive extra vi...",
+    "brand": "LAHNEYA",
+    "price": "53,690 DT",
+    "class_id": 3,
+    "class_name": "LAHNEYA",
+    "image_file": "product_51822.jpg",
+    "label_file": "product_51822.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "37515",
+    "name": "Huile de grignons d'olive",
+    "brand": "AL JAZIRA",
+    "price": "54,150 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_37515.jpg",
+    "label_file": "product_37515.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49032258064516127,
+      0.42907801418439717,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "129972",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "55,000 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_129972.jpg",
+    "label_file": "product_129972.txt",
+    "bbox": [
+      0.49645390070921985,
+      0.49032258064516127,
+      0.45390070921985815,
+      0.8516129032258064
+    ]
+  },
+  {
+    "product_id": "26585",
+    "name": "Huile d'olive extra vi...",
+    "brand": "AL JAZIRA",
+    "price": "56,250 DT",
+    "class_id": 4,
+    "class_name": "AL JAZIRA",
+    "image_file": "product_26585.jpg",
+    "label_file": "product_26585.txt",
+    "bbox": [
+      0.5088652482269503,
+      0.49193548387096775,
+      0.5354609929078015,
+      0.8548387096774194
+    ]
+  },
+  {
+    "product_id": "135895",
+    "name": "Huile d'olive extra vi...",
+    "brand": "TRIO D'OR",
+    "price": "80,250 DT",
+    "class_id": 6,
+    "class_name": "TRIO D'OR",
+    "image_file": "product_135895.jpg",
+    "label_file": "product_135895.txt",
+    "bbox": [
+      0.49822695035460995,
+      0.49032258064516127,
+      0.450354609929078,
+      0.8451612903225807
+    ]
+  }
+]

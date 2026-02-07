@@ -1,0 +1,1274 @@
+{
+  "metadata": {
+    "root_dir": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_",
+    "total_videos": 157,
+    "categories": [
+      "1.L'anatomie du corps humain",
+      "5. les professions administratives",
+      "3.Les differents types de malade et de maladie",
+      "4. Les professionels de la santé",
+      "8. Les outils de communications",
+      "2. Gynéco",
+      "6. Les équipement médicals",
+      "7. l'hopital"
+    ]
+  },
+  "videos": {
+    "aisselle.mp4": {
+      "gloss": "aisselle",
+      "file_name": "aisselle.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\aisselle.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\aisselle.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.871533
+    },
+    "bouche.mp4": {
+      "gloss": "bouche",
+      "file_name": "bouche.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\bouche.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\bouche.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.2032
+    },
+    "bras.mp4": {
+      "gloss": "bras",
+      "file_name": "bras.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\bras.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\bras.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.269933
+    },
+    "cerveau.mp4": {
+      "gloss": "cerveau",
+      "file_name": "cerveau.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\cerveau.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\cerveau.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 5.333333
+    },
+    "cheveux.mp4": {
+      "gloss": "cheveux",
+      "file_name": "cheveux.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\cheveux.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\cheveux.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.671333
+    },
+    "coeur.mp4": {
+      "gloss": "coeur",
+      "file_name": "coeur.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\coeur.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\coeur.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.541667
+    },
+    "cou.mp4": {
+      "gloss": "cou",
+      "file_name": "cou.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\cou.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\cou.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.1041
+    },
+    "coude.mp4": {
+      "gloss": "coude",
+      "file_name": "coude.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\coude.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\coude.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.375
+    },
+    "cuisse.mp4": {
+      "gloss": "cuisse",
+      "file_name": "cuisse.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\cuisse.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\cuisse.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.2
+    },
+    "dents.mp4": {
+      "gloss": "dents",
+      "file_name": "dents.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\dents.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\dents.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 2.875
+    },
+    "doigts.mp4": {
+      "gloss": "doigts",
+      "file_name": "doigts.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\doigts.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\doigts.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.541667
+    },
+    "dos.mp4": {
+      "gloss": "dos",
+      "file_name": "dos.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\dos.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\dos.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.791667
+    },
+    "Fesses.mp4": {
+      "gloss": "fesses",
+      "file_name": "Fesses.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\Fesses.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\Fesses.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.0
+    },
+    "foie.mp4": {
+      "gloss": "foie",
+      "file_name": "foie.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\foie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\foie.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.5
+    },
+    "Gorge.mp4": {
+      "gloss": "gorge",
+      "file_name": "Gorge.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\Gorge.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\Gorge.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.208333
+    },
+    "gros intestin.mp4": {
+      "gloss": "gros intestin",
+      "file_name": "gros intestin.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\gros intestin.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\gros intestin.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.25
+    },
+    "intestin gréle.mp4": {
+      "gloss": "intestin grele",
+      "file_name": "intestin gréle.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\intestin gréle.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\intestin gréle.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.0
+    },
+    "jambe.mp4": {
+      "gloss": "jambe",
+      "file_name": "jambe.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\jambe.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\jambe.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.366667
+    },
+    "langue.mp4": {
+      "gloss": "langue",
+      "file_name": "langue.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\langue.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\langue.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.125
+    },
+    "main.mp4": {
+      "gloss": "main",
+      "file_name": "main.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\main.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\main.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.333333
+    },
+    "nez.mp4": {
+      "gloss": "nez",
+      "file_name": "nez.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\nez.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\nez.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.25
+    },
+    "nombril 1.mp4": {
+      "gloss": "nombril 1",
+      "file_name": "nombril 1.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\nombril 1.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\nombril 1.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 6.0
+    },
+    "nuque.mp4": {
+      "gloss": "nuque",
+      "file_name": "nuque.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\nuque.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\nuque.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.958333
+    },
+    "Oeils.mp4": {
+      "gloss": "oeils",
+      "file_name": "Oeils.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\Oeils.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\Oeils.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.5
+    },
+    "Oreilles.mp4": {
+      "gloss": "oreilles",
+      "file_name": "Oreilles.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\Oreilles.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\Oreilles.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 2.769433
+    },
+    "poitrine.mp4": {
+      "gloss": "poitrine",
+      "file_name": "poitrine.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\poitrine.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\poitrine.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.269933
+    },
+    "poumons.mp4": {
+      "gloss": "poumons",
+      "file_name": "poumons.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\poumons.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\poumons.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.5
+    },
+    "pénis.mp4": {
+      "gloss": "penis",
+      "file_name": "pénis.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\pénis.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\pénis.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.666667
+    },
+    "sourcils.mp4": {
+      "gloss": "sourcils",
+      "file_name": "sourcils.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\sourcils.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\sourcils.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.636967
+    },
+    "thyroide.mp4": {
+      "gloss": "thyroide",
+      "file_name": "thyroide.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\thyroide.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\thyroide.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 4.291667
+    },
+    "téte.mp4": {
+      "gloss": "tete",
+      "file_name": "téte.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\téte.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\téte.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.166667
+    },
+    "ventre.mp4": {
+      "gloss": "ventre",
+      "file_name": "ventre.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\ventre.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\ventre.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.5
+    },
+    "Visage.mp4": {
+      "gloss": "visage",
+      "file_name": "Visage.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\Visage.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\Visage.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 2.936267
+    },
+    "épaule.mp4": {
+      "gloss": "epaule",
+      "file_name": "épaule.mp4",
+      "rel_path": "1.L'anatomie du corps humain\\épaule.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\1.L'anatomie du corps humain\\épaule.mp4",
+      "category": "1.L'anatomie du corps humain",
+      "duration": 3.958333
+    },
+    "accouchement.mp4": {
+      "gloss": "accouchement",
+      "file_name": "accouchement.mp4",
+      "rel_path": "2. Gynéco\\accouchement.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\accouchement.mp4",
+      "category": "2. Gynéco",
+      "duration": 3.208333
+    },
+    "avortement.mp4": {
+      "gloss": "avortement",
+      "file_name": "avortement.mp4",
+      "rel_path": "2. Gynéco\\avortement.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\avortement.mp4",
+      "category": "2. Gynéco",
+      "duration": 3.5
+    },
+    "césarienne.mp4": {
+      "gloss": "cesarienne",
+      "file_name": "césarienne.mp4",
+      "rel_path": "2. Gynéco\\césarienne.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\césarienne.mp4",
+      "category": "2. Gynéco",
+      "duration": 4.5
+    },
+    "grossesse.mp4": {
+      "gloss": "grossesse",
+      "file_name": "grossesse.mp4",
+      "rel_path": "2. Gynéco\\grossesse.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\grossesse.mp4",
+      "category": "2. Gynéco",
+      "duration": 6.125
+    },
+    "gynécologie.mp4": {
+      "gloss": "gynecologie",
+      "file_name": "gynécologie.mp4",
+      "rel_path": "2. Gynéco\\gynécologie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\gynécologie.mp4",
+      "category": "2. Gynéco",
+      "duration": 4.875
+    },
+    "jumeau.mp4": {
+      "gloss": "jumeau",
+      "file_name": "jumeau.mp4",
+      "rel_path": "2. Gynéco\\jumeau.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\jumeau.mp4",
+      "category": "2. Gynéco",
+      "duration": 3.916667
+    },
+    "L'expliquation d'avortement.mp4": {
+      "gloss": "lexpliquation davortement",
+      "file_name": "L'expliquation d'avortement.mp4",
+      "rel_path": "2. Gynéco\\L'expliquation d'avortement.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\L'expliquation d'avortement.mp4",
+      "category": "2. Gynéco",
+      "duration": 12.833333
+    },
+    "mensturation.mp4": {
+      "gloss": "mensturation",
+      "file_name": "mensturation.mp4",
+      "rel_path": "2. Gynéco\\mensturation.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\mensturation.mp4",
+      "category": "2. Gynéco",
+      "duration": 3.4034
+    },
+    "Ovaires.mp4": {
+      "gloss": "ovaires",
+      "file_name": "Ovaires.mp4",
+      "rel_path": "2. Gynéco\\Ovaires.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\Ovaires.mp4",
+      "category": "2. Gynéco",
+      "duration": 4.28
+    },
+    "Seins.mp4": {
+      "gloss": "seins",
+      "file_name": "Seins.mp4",
+      "rel_path": "2. Gynéco\\Seins.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\Seins.mp4",
+      "category": "2. Gynéco",
+      "duration": 3.536867
+    },
+    "utérus.mp4": {
+      "gloss": "uterus",
+      "file_name": "utérus.mp4",
+      "rel_path": "2. Gynéco\\utérus.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\utérus.mp4",
+      "category": "2. Gynéco",
+      "duration": 3.666667
+    },
+    "vagin.mp4": {
+      "gloss": "vagin",
+      "file_name": "vagin.mp4",
+      "rel_path": "2. Gynéco\\vagin.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\vagin.mp4",
+      "category": "2. Gynéco",
+      "duration": 3.291667
+    },
+    "vessie.mp4": {
+      "gloss": "vessie",
+      "file_name": "vessie.mp4",
+      "rel_path": "2. Gynéco\\vessie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\vessie.mp4",
+      "category": "2. Gynéco",
+      "duration": 4.458333
+    },
+    "vulve.mp4": {
+      "gloss": "vulve",
+      "file_name": "vulve.mp4",
+      "rel_path": "2. Gynéco\\vulve.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\2. Gynéco\\vulve.mp4",
+      "category": "2. Gynéco",
+      "duration": 3.291667
+    },
+    "Allergie.mp4": {
+      "gloss": "allergie",
+      "file_name": "Allergie.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\Allergie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\Allergie.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.837167
+    },
+    "bactéries.mp4": {
+      "gloss": "bacteries",
+      "file_name": "bactéries.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\bactéries.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\bactéries.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.770433
+    },
+    "brulure d estomac.mp4": {
+      "gloss": "brulure d estomac",
+      "file_name": "brulure d estomac.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\brulure d estomac.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\brulure d estomac.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.2032
+    },
+    "cancer.mp4": {
+      "gloss": "cancer",
+      "file_name": "cancer.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\cancer.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\cancer.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 4.437767
+    },
+    "coma.mp4": {
+      "gloss": "coma",
+      "file_name": "coma.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\coma.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\coma.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 5.271933
+    },
+    "COVID-19.mp4": {
+      "gloss": "covid 19",
+      "file_name": "COVID-19.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\COVID-19.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\COVID-19.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.583333
+    },
+    "diabète.mp4": {
+      "gloss": "diabete",
+      "file_name": "diabète.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\diabète.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\diabète.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 7.040367
+    },
+    "diarrhée.mp4": {
+      "gloss": "diarrhee",
+      "file_name": "diarrhée.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\diarrhée.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\diarrhée.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.8038
+    },
+    "douleur.mp4": {
+      "gloss": "douleur",
+      "file_name": "douleur.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\douleur.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\douleur.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.770433
+    },
+    "dépression.mp4": {
+      "gloss": "depression",
+      "file_name": "dépression.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\dépression.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\dépression.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.708333
+    },
+    "envanouissement.mp4": {
+      "gloss": "envanouissement",
+      "file_name": "envanouissement.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\envanouissement.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\envanouissement.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 5.271933
+    },
+    "fatigué.mp4": {
+      "gloss": "fatigue",
+      "file_name": "fatigué.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\fatigué.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\fatigué.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 7.073733
+    },
+    "fièvre.mp4": {
+      "gloss": "fievre",
+      "file_name": "fièvre.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\fièvre.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\fièvre.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 4.371033
+    },
+    "grippe.mp4": {
+      "gloss": "grippe",
+      "file_name": "grippe.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\grippe.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\grippe.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 4.371033
+    },
+    "génétique.mp4": {
+      "gloss": "genetique",
+      "file_name": "génétique.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\génétique.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\génétique.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 4.5
+    },
+    "hypertension élevée.mp4": {
+      "gloss": "hypertension elevee",
+      "file_name": "hypertension élevée.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\hypertension élevée.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\hypertension élevée.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 4.958333
+    },
+    "nerveux.mp4": {
+      "gloss": "nerveux",
+      "file_name": "nerveux.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\nerveux.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\nerveux.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.970633
+    },
+    "rougeole.mp4": {
+      "gloss": "rougeole",
+      "file_name": "rougeole.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\rougeole.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\rougeole.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 4.5
+    },
+    "sida.mp4": {
+      "gloss": "sida",
+      "file_name": "sida.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\sida.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\sida.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 4.2042
+    },
+    "vertige.mp4": {
+      "gloss": "vertige",
+      "file_name": "vertige.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\vertige.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\vertige.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 5.071733
+    },
+    "virus.mp4": {
+      "gloss": "virus",
+      "file_name": "virus.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\virus.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\virus.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 3.970633
+    },
+    "vomissement.mp4": {
+      "gloss": "vomissement",
+      "file_name": "vomissement.mp4",
+      "rel_path": "3.Les differents types de malade et de maladie\\vomissement.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\3.Les differents types de malade et de maladie\\vomissement.mp4",
+      "category": "3.Les differents types de malade et de maladie",
+      "duration": 7.240567
+    },
+    "1.professionnels de la santé.mp4": {
+      "gloss": "1professionnels de la sante",
+      "file_name": "1.professionnels de la santé.mp4",
+      "rel_path": "4. Les professionels de la santé\\1.professionnels de la santé.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\1.professionnels de la santé.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 8.174833
+    },
+    "aide soignant.mp4": {
+      "gloss": "aide soignant",
+      "file_name": "aide soignant.mp4",
+      "rel_path": "4. Les professionels de la santé\\aide soignant.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\aide soignant.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.937267
+    },
+    "anesthésie.mp4": {
+      "gloss": "anesthesie",
+      "file_name": "anesthésie.mp4",
+      "rel_path": "4. Les professionels de la santé\\anesthésie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\anesthésie.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 5.071733
+    },
+    "angiologue.mp4": {
+      "gloss": "angiologue",
+      "file_name": "angiologue.mp4",
+      "rel_path": "4. Les professionels de la santé\\angiologue.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\angiologue.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 4.25
+    },
+    "audioprothésiste.mp4": {
+      "gloss": "audioprothesiste",
+      "file_name": "audioprothésiste.mp4",
+      "rel_path": "4. Les professionels de la santé\\audioprothésiste.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\audioprothésiste.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.666667
+    },
+    "Chirurgien.mp4": {
+      "gloss": "chirurgien",
+      "file_name": "Chirurgien.mp4",
+      "rel_path": "4. Les professionels de la santé\\Chirurgien.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\Chirurgien.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.916667
+    },
+    "dentiste.mp4": {
+      "gloss": "dentiste",
+      "file_name": "dentiste.mp4",
+      "rel_path": "4. Les professionels de la santé\\dentiste.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\dentiste.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 4.270933
+    },
+    "dermatologue.mp4": {
+      "gloss": "dermatologue",
+      "file_name": "dermatologue.mp4",
+      "rel_path": "4. Les professionels de la santé\\dermatologue.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\dermatologue.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 4.291667
+    },
+    "infirmier.mp4": {
+      "gloss": "infirmier",
+      "file_name": "infirmier.mp4",
+      "rel_path": "4. Les professionels de la santé\\infirmier.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\infirmier.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.937267
+    },
+    "kinésithérapeute.mp4": {
+      "gloss": "kinesitherapeute",
+      "file_name": "kinésithérapeute.mp4",
+      "rel_path": "4. Les professionels de la santé\\kinésithérapeute.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\kinésithérapeute.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.470133
+    },
+    "médecin généraliste.mp4": {
+      "gloss": "medecin generaliste",
+      "file_name": "médecin généraliste.mp4",
+      "rel_path": "4. Les professionels de la santé\\médecin généraliste.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\médecin généraliste.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 7.8078
+    },
+    "nutritioniste.mp4": {
+      "gloss": "nutritioniste",
+      "file_name": "nutritioniste.mp4",
+      "rel_path": "4. Les professionels de la santé\\nutritioniste.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\nutritioniste.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 5.166667
+    },
+    "oncologue.mp4": {
+      "gloss": "oncologue",
+      "file_name": "oncologue.mp4",
+      "rel_path": "4. Les professionels de la santé\\oncologue.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\oncologue.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 4.666667
+    },
+    "ORL.mp4": {
+      "gloss": "orl",
+      "file_name": "ORL.mp4",
+      "rel_path": "4. Les professionels de la santé\\ORL.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\ORL.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.169833
+    },
+    "orthophoniste.mp4": {
+      "gloss": "orthophoniste",
+      "file_name": "orthophoniste.mp4",
+      "rel_path": "4. Les professionels de la santé\\orthophoniste.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\orthophoniste.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.136467
+    },
+    "pharmacien.mp4": {
+      "gloss": "pharmacien",
+      "file_name": "pharmacien.mp4",
+      "rel_path": "4. Les professionels de la santé\\pharmacien.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\pharmacien.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 4.671333
+    },
+    "préparateur en pharmacie.mp4": {
+      "gloss": "preparateur en pharmacie",
+      "file_name": "préparateur en pharmacie.mp4",
+      "rel_path": "4. Les professionels de la santé\\préparateur en pharmacie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\préparateur en pharmacie.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 4.416667
+    },
+    "psychiatre.mp4": {
+      "gloss": "psychiatre",
+      "file_name": "psychiatre.mp4",
+      "rel_path": "4. Les professionels de la santé\\psychiatre.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\psychiatre.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.4034
+    },
+    "psychologue.mp4": {
+      "gloss": "psychologue",
+      "file_name": "psychologue.mp4",
+      "rel_path": "4. Les professionels de la santé\\psychologue.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\psychologue.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.8038
+    },
+    "pédiatre.mp4": {
+      "gloss": "pediatre",
+      "file_name": "pédiatre.mp4",
+      "rel_path": "4. Les professionels de la santé\\pédiatre.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\pédiatre.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 4.771433
+    },
+    "sage femme.mp4": {
+      "gloss": "sage femme",
+      "file_name": "sage femme.mp4",
+      "rel_path": "4. Les professionels de la santé\\sage femme.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\sage femme.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 3.636967
+    },
+    "technicien de laboratoire.mp4": {
+      "gloss": "technicien de laboratoire",
+      "file_name": "technicien de laboratoire.mp4",
+      "rel_path": "4. Les professionels de la santé\\technicien de laboratoire.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\4. Les professionels de la santé\\technicien de laboratoire.mp4",
+      "category": "4. Les professionels de la santé",
+      "duration": 5.208333
+    },
+    "agent d'accueil.mp4": {
+      "gloss": "agent daccueil",
+      "file_name": "agent d'accueil.mp4",
+      "rel_path": "5. les professions administratives\\agent d'accueil.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\5. les professions administratives\\agent d'accueil.mp4",
+      "category": "5. les professions administratives",
+      "duration": 3.416667
+    },
+    "agent de sécurité.mp4": {
+      "gloss": "agent de securite",
+      "file_name": "agent de sécurité.mp4",
+      "rel_path": "5. les professions administratives\\agent de sécurité.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\5. les professions administratives\\agent de sécurité.mp4",
+      "category": "5. les professions administratives",
+      "duration": 4.666667
+    },
+    "assistant(e) de service social .mp4": {
+      "gloss": "assistante de service social",
+      "file_name": "assistant(e) de service social .mp4",
+      "rel_path": "5. les professions administratives\\assistant(e) de service social .mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\5. les professions administratives\\assistant(e) de service social .mp4",
+      "category": "5. les professions administratives",
+      "duration": 5.1051
+    },
+    "directeur (rice).mp4": {
+      "gloss": "directeur rice",
+      "file_name": "directeur (rice).mp4",
+      "rel_path": "5. les professions administratives\\directeur (rice).mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\5. les professions administratives\\directeur (rice).mp4",
+      "category": "5. les professions administratives",
+      "duration": 3.041667
+    },
+    "profession administrative en santé.mp4": {
+      "gloss": "profession administrative en sante",
+      "file_name": "profession administrative en santé.mp4",
+      "rel_path": "5. les professions administratives\\profession administrative en santé.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\5. les professions administratives\\profession administrative en santé.mp4",
+      "category": "5. les professions administratives",
+      "duration": 6.791667
+    },
+    "secrétaire.mp4": {
+      "gloss": "secretaire",
+      "file_name": "secrétaire.mp4",
+      "rel_path": "5. les professions administratives\\secrétaire.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\5. les professions administratives\\secrétaire.mp4",
+      "category": "5. les professions administratives",
+      "duration": 3.333333
+    },
+    "bandage.mp4": {
+      "gloss": "bandage",
+      "file_name": "bandage.mp4",
+      "rel_path": "6. Les équipement médicals\\bandage.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\bandage.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 3.666667
+    },
+    "béquille.mp4": {
+      "gloss": "bequille",
+      "file_name": "béquille.mp4",
+      "rel_path": "6. Les équipement médicals\\béquille.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\béquille.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 3.5
+    },
+    "equipement de médical'.mp4": {
+      "gloss": "equipement de medical",
+      "file_name": "equipement de médical'.mp4",
+      "rel_path": "6. Les équipement médicals\\equipement de médical'.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\equipement de médical'.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 6.041667
+    },
+    "fauteuil roulant.mp4": {
+      "gloss": "fauteuil roulant",
+      "file_name": "fauteuil roulant.mp4",
+      "rel_path": "6. Les équipement médicals\\fauteuil roulant.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\fauteuil roulant.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 3.636967
+    },
+    "gants médicaux.mp4": {
+      "gloss": "gants medicaux",
+      "file_name": "gants médicaux.mp4",
+      "rel_path": "6. Les équipement médicals\\gants médicaux.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\gants médicaux.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 3.8038
+    },
+    "masque médical.mp4": {
+      "gloss": "masque medical",
+      "file_name": "masque médical.mp4",
+      "rel_path": "6. Les équipement médicals\\masque médical.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\masque médical.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 3.8038
+    },
+    "masque à oxygène.mp4": {
+      "gloss": "masque a oxygene",
+      "file_name": "masque à oxygène.mp4",
+      "rel_path": "6. Les équipement médicals\\masque à oxygène.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\masque à oxygène.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 5.708333
+    },
+    "tensiomètre.mp4": {
+      "gloss": "tensiometre",
+      "file_name": "tensiomètre.mp4",
+      "rel_path": "6. Les équipement médicals\\tensiomètre.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\tensiomètre.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 5.5055
+    },
+    "thermomètre.mp4": {
+      "gloss": "thermometre",
+      "file_name": "thermomètre.mp4",
+      "rel_path": "6. Les équipement médicals\\thermomètre.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\thermomètre.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 4.666667
+    },
+    "tomodensitométrie.mp4": {
+      "gloss": "tomodensitometrie",
+      "file_name": "tomodensitométrie.mp4",
+      "rel_path": "6. Les équipement médicals\\tomodensitométrie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\tomodensitométrie.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 4.070733
+    },
+    "échographie.mp4": {
+      "gloss": "echographie",
+      "file_name": "échographie.mp4",
+      "rel_path": "6. Les équipement médicals\\échographie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\6. Les équipement médicals\\échographie.mp4",
+      "category": "6. Les équipement médicals",
+      "duration": 5.839167
+    },
+    "centre médical.mp4": {
+      "gloss": "centre medical",
+      "file_name": "centre médical.mp4",
+      "rel_path": "7. l'hopital\\centre médical.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\centre médical.mp4",
+      "category": "7. l'hopital",
+      "duration": 4.708333
+    },
+    "hopital.mp4": {
+      "gloss": "hopital",
+      "file_name": "hopital.mp4",
+      "rel_path": "7. l'hopital\\hopital.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\hopital.mp4",
+      "category": "7. l'hopital",
+      "duration": 5.041667
+    },
+    "opération chirurgicale.mp4": {
+      "gloss": "operation chirurgicale",
+      "file_name": "opération chirurgicale.mp4",
+      "rel_path": "7. l'hopital\\opération chirurgicale.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\opération chirurgicale.mp4",
+      "category": "7. l'hopital",
+      "duration": 4.791667
+    },
+    "salle d'accueil.mp4": {
+      "gloss": "salle daccueil",
+      "file_name": "salle d'accueil.mp4",
+      "rel_path": "7. l'hopital\\salle d'accueil.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\salle d'accueil.mp4",
+      "category": "7. l'hopital",
+      "duration": 4.416667
+    },
+    "salle d'attente.mp4": {
+      "gloss": "salle dattente",
+      "file_name": "salle d'attente.mp4",
+      "rel_path": "7. l'hopital\\salle d'attente.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\salle d'attente.mp4",
+      "category": "7. l'hopital",
+      "duration": 4.5
+    },
+    "salle de consultation.mp4": {
+      "gloss": "salle de consultation",
+      "file_name": "salle de consultation.mp4",
+      "rel_path": "7. l'hopital\\salle de consultation.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\salle de consultation.mp4",
+      "category": "7. l'hopital",
+      "duration": 5.005
+    },
+    "salle de laboratoire.mp4": {
+      "gloss": "salle de laboratoire",
+      "file_name": "salle de laboratoire.mp4",
+      "rel_path": "7. l'hopital\\salle de laboratoire.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\salle de laboratoire.mp4",
+      "category": "7. l'hopital",
+      "duration": 4.75
+    },
+    "salle de radiographie.mp4": {
+      "gloss": "salle de radiographie",
+      "file_name": "salle de radiographie.mp4",
+      "rel_path": "7. l'hopital\\salle de radiographie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\salle de radiographie.mp4",
+      "category": "7. l'hopital",
+      "duration": 5.472133
+    },
+    "salle de radiologie.mp4": {
+      "gloss": "salle de radiologie",
+      "file_name": "salle de radiologie.mp4",
+      "rel_path": "7. l'hopital\\salle de radiologie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\salle de radiologie.mp4",
+      "category": "7. l'hopital",
+      "duration": 5.875
+    },
+    "salle prétevement sanguin.mp4": {
+      "gloss": "salle pretevement sanguin",
+      "file_name": "salle prétevement sanguin.mp4",
+      "rel_path": "7. l'hopital\\salle prétevement sanguin.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\7. l'hopital\\salle prétevement sanguin.mp4",
+      "category": "7. l'hopital",
+      "duration": 4.971633
+    },
+    "analyse.mp4": {
+      "gloss": "analyse",
+      "file_name": "analyse.mp4",
+      "rel_path": "8. Les outils de communications\\analyse.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\analyse.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.666667
+    },
+    "attention.mp4": {
+      "gloss": "attention",
+      "file_name": "attention.mp4",
+      "rel_path": "8. Les outils de communications\\attention.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\attention.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.291667
+    },
+    "caisse nationale d'assurance-maladie.mp4": {
+      "gloss": "caisse nationale dassurance maladie",
+      "file_name": "caisse nationale d'assurance-maladie.mp4",
+      "rel_path": "8. Les outils de communications\\caisse nationale d'assurance-maladie.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\caisse nationale d'assurance-maladie.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.25
+    },
+    "CIN.mp4": {
+      "gloss": "cin",
+      "file_name": "CIN.mp4",
+      "rel_path": "8. Les outils de communications\\CIN.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\CIN.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.333333
+    },
+    "date de naissance.mp4": {
+      "gloss": "date de naissance",
+      "file_name": "date de naissance.mp4",
+      "rel_path": "8. Les outils de communications\\date de naissance.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\date de naissance.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 4.125
+    },
+    "en pleine forme.mp4": {
+      "gloss": "en pleine forme",
+      "file_name": "en pleine forme.mp4",
+      "rel_path": "8. Les outils de communications\\en pleine forme.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\en pleine forme.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.625
+    },
+    "gel hydroalcoolique.mp4": {
+      "gloss": "gel hydroalcoolique",
+      "file_name": "gel hydroalcoolique.mp4",
+      "rel_path": "8. Les outils de communications\\gel hydroalcoolique.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\gel hydroalcoolique.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.541667
+    },
+    "handicap.mp4": {
+      "gloss": "handicap",
+      "file_name": "handicap.mp4",
+      "rel_path": "8. Les outils de communications\\handicap.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\handicap.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.208333
+    },
+    "implant cochléaire.mp4": {
+      "gloss": "implant cochleaire",
+      "file_name": "implant cochléaire.mp4",
+      "rel_path": "8. Les outils de communications\\implant cochléaire.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\implant cochléaire.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.083333
+    },
+    "information et .mp4": {
+      "gloss": "information et",
+      "file_name": "information et .mp4",
+      "rel_path": "8. Les outils de communications\\information et .mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\information et .mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.666667
+    },
+    "interprète.mp4": {
+      "gloss": "interprete",
+      "file_name": "interprète.mp4",
+      "rel_path": "8. Les outils de communications\\interprète.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\interprète.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 2.625
+    },
+    "langue des signes.mp4": {
+      "gloss": "langue des signes",
+      "file_name": "langue des signes.mp4",
+      "rel_path": "8. Les outils de communications\\langue des signes.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\langue des signes.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.870533
+    },
+    "malentendant.mp4": {
+      "gloss": "malentendant",
+      "file_name": "malentendant.mp4",
+      "rel_path": "8. Les outils de communications\\malentendant.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\malentendant.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.636967
+    },
+    "médicament.mp4": {
+      "gloss": "medicament",
+      "file_name": "médicament.mp4",
+      "rel_path": "8. Les outils de communications\\médicament.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\médicament.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.0
+    },
+    "ordonnance médical.mp4": {
+      "gloss": "ordonnance medical",
+      "file_name": "ordonnance médical.mp4",
+      "rel_path": "8. Les outils de communications\\ordonnance médical.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\ordonnance médical.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.375
+    },
+    "où avez vous mal.mp4": {
+      "gloss": "ou avez vous mal",
+      "file_name": "où avez vous mal.mp4",
+      "rel_path": "8. Les outils de communications\\où avez vous mal.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\où avez vous mal.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.833333
+    },
+    "poids.mp4": {
+      "gloss": "poids",
+      "file_name": "poids.mp4",
+      "rel_path": "8. Les outils de communications\\poids.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\poids.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.875
+    },
+    "positif - négatif.mp4": {
+      "gloss": "positif negatif",
+      "file_name": "positif - négatif.mp4",
+      "rel_path": "8. Les outils de communications\\positif - négatif.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\positif - négatif.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 4.583333
+    },
+    "problèmes de santé.mp4": {
+      "gloss": "problemes de sante",
+      "file_name": "problèmes de santé.mp4",
+      "rel_path": "8. Les outils de communications\\problèmes de santé.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\problèmes de santé.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.291667
+    },
+    "prénom et nom.mp4": {
+      "gloss": "prenom et nom",
+      "file_name": "prénom et nom.mp4",
+      "rel_path": "8. Les outils de communications\\prénom et nom.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\prénom et nom.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.5
+    },
+    "prévention.mp4": {
+      "gloss": "prevention",
+      "file_name": "prévention.mp4",
+      "rel_path": "8. Les outils de communications\\prévention.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\prévention.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.291667
+    },
+    "qu'est ce qui est passé.mp4": {
+      "gloss": "quest ce qui est passe",
+      "file_name": "qu'est ce qui est passé.mp4",
+      "rel_path": "8. Les outils de communications\\qu'est ce qui est passé.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\qu'est ce qui est passé.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 2.833333
+    },
+    "quand.mp4": {
+      "gloss": "quand",
+      "file_name": "quand.mp4",
+      "rel_path": "8. Les outils de communications\\quand.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\quand.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.083333
+    },
+    "question réponse.mp4": {
+      "gloss": "question reponse",
+      "file_name": "question réponse.mp4",
+      "rel_path": "8. Les outils de communications\\question réponse.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\question réponse.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 5.291667
+    },
+    "RDV.mp4": {
+      "gloss": "rdv",
+      "file_name": "RDV.mp4",
+      "rel_path": "8. Les outils de communications\\RDV.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\RDV.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.5
+    },
+    "relation sexuelle.mp4": {
+      "gloss": "relation sexuelle",
+      "file_name": "relation sexuelle.mp4",
+      "rel_path": "8. Les outils de communications\\relation sexuelle.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\relation sexuelle.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 4.291667
+    },
+    "responsabilité.mp4": {
+      "gloss": "responsabilite",
+      "file_name": "responsabilité.mp4",
+      "rel_path": "8. Les outils de communications\\responsabilité.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\responsabilité.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.333333
+    },
+    "régime amaigrissant.mp4": {
+      "gloss": "regime amaigrissant",
+      "file_name": "régime amaigrissant.mp4",
+      "rel_path": "8. Les outils de communications\\régime amaigrissant.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\régime amaigrissant.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.25
+    },
+    "résultat.mp4": {
+      "gloss": "resultat",
+      "file_name": "résultat.mp4",
+      "rel_path": "8. Les outils de communications\\résultat.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\résultat.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.041667
+    },
+    "salut ça va .mp4": {
+      "gloss": "salut ca va",
+      "file_name": "salut ça va .mp4",
+      "rel_path": "8. Les outils de communications\\salut ça va .mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\salut ça va .mp4",
+      "category": "8. Les outils de communications",
+      "duration": 4.270933
+    },
+    "sante.mp4": {
+      "gloss": "sante",
+      "file_name": "sante.mp4",
+      "rel_path": "8. Les outils de communications\\sante.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\sante.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.291667
+    },
+    "solution.mp4": {
+      "gloss": "solution",
+      "file_name": "solution.mp4",
+      "rel_path": "8. Les outils de communications\\solution.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\solution.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.291667
+    },
+    "sourd.mp4": {
+      "gloss": "sourd",
+      "file_name": "sourd.mp4",
+      "rel_path": "8. Les outils de communications\\sourd.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\sourd.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.036367
+    },
+    "stress.mp4": {
+      "gloss": "stress",
+      "file_name": "stress.mp4",
+      "rel_path": "8. Les outils de communications\\stress.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\stress.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 14.147467
+    },
+    "taille.mp4": {
+      "gloss": "taille",
+      "file_name": "taille.mp4",
+      "rel_path": "8. Les outils de communications\\taille.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\taille.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.416667
+    },
+    "vaccin.mp4": {
+      "gloss": "vaccin",
+      "file_name": "vaccin.mp4",
+      "rel_path": "8. Les outils de communications\\vaccin.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\vaccin.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.75
+    },
+    "vitamine.mp4": {
+      "gloss": "vitamine",
+      "file_name": "vitamine.mp4",
+      "rel_path": "8. Les outils de communications\\vitamine.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\vitamine.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 3.875
+    },
+    "évaluation.mp4": {
+      "gloss": "evaluation",
+      "file_name": "évaluation.mp4",
+      "rel_path": "8. Les outils de communications\\évaluation.mp4",
+      "full_path": "D:\\EspritMaratech2026-Barons-omar\\DICTIONNAIRE MÉDICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_\\8. Les outils de communications\\évaluation.mp4",
+      "category": "8. Les outils de communications",
+      "duration": 4.291667
+    }
+  }
+}
