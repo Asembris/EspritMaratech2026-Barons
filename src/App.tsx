@@ -1,0 +1,40 @@
+import { Toaster } from "@/components/ui/toaster";
+import { Toaster as Sonner } from "@/components/ui/sonner";
+import { TooltipProvider } from "@/components/ui/tooltip";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { AccessibilityProvider } from "@/hooks/use-accessibility";
+import Index from "./pages/Index";
+import BankingPage from "./pages/Banking";
+import ShoppingPage from "./pages/Shopping";
+import AccessibilityPage from "./pages/Accessibility";
+import NotFound from "./pages/NotFound";
+import { VoiceCommandButton } from "@/components/VoiceCommandButton";
+
+
+const queryClient = new QueryClient();
+
+const App = () => (
+  <QueryClientProvider client={queryClient}>
+    <AccessibilityProvider>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <BrowserRouter>
+          {/* 🔊 Global voice command layer (all pages) */}
+          <VoiceCommandButton />
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/banking" element={<BankingPage />} />
+            <Route path="/shopping" element={<ShoppingPage />} />
+            <Route path="/accessibility" element={<AccessibilityPage />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </BrowserRouter>
+      </TooltipProvider>
+    </AccessibilityProvider>
+  </QueryClientProvider>
+);
+
+export default App;
