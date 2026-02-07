@@ -15,6 +15,7 @@ const gesturesConfig = [
     { id: 'closed_fist', emoji: '✊', name: 'Poing Fermé', action: 'Voix OFF' },
     { id: 'point_right', emoji: '👉', name: 'Pointer Droite', action: 'Page Suivante' },
     { id: 'point_left', emoji: '👈', name: 'Pointer Gauche', action: 'Page Précédente' },
+    { id: 'victory', emoji: '✌️', name: 'V de la Victoire', action: 'Accueil' },
     { id: 'thumbs_up', emoji: '👍', name: 'Pouce Levé', action: 'Confirmer' },
 ];
 

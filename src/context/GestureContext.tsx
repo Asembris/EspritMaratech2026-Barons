@@ -24,6 +24,13 @@ interface GestureContextType {
     ttsEnabled: boolean;
 }
 
+declare global {
+    interface Window {
+        Hands: any;
+        Camera: any;
+    }
+}
+
 const GestureContext = createContext<GestureContextType | null>(null);
 
 // Page navigation config
@@ -67,6 +74,9 @@ const detectGestureFromLandmarks = (landmarks: Landmark[]): string => {
     const match = (i: boolean, m: boolean, r: boolean, p: boolean) =>
         indexExtended === i && middleExtended === m && ringExtended === r && pinkyExtended === p;
 
+    // Victory (Index + Middle) -> Home
+    if (match(true, true, false, false)) return 'victory';
+
     // Open Hand
     if (match(true, true, true, true)) return 'open_hand';
 
@@ -109,7 +119,13 @@ export const GestureProvider = ({ children }: { children: React.ReactNode }) => 
     const gestureHistory = useRef<string[]>([]);
 
     // --- Navigation Logic ---
-    const navigatePage = useCallback((direction: 'next' | 'prev') => {
+    const navigatePage = useCallback((direction: 'next' | 'prev' | 'home') => {
+        if (direction === 'home') {
+            if (ttsEnabled) speak("Accueil");
+            navigate('/');
+            return;
+        }
+
         const currentIndex = PAGES.indexOf(location.pathname);
         let newIndex = currentIndex;
 
@@ -131,6 +147,7 @@ export const GestureProvider = ({ children }: { children: React.ReactNode }) => 
         lastActionTime.current = now;
 
         switch (gesture) {
+            case 'victory': navigatePage('home'); break;
             case 'point_right': navigatePage('next'); break;
             case 'point_left': navigatePage('prev'); break;
             case 'closed_fist':
