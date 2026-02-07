@@ -3,10 +3,17 @@ SignLink API - Backend FastAPI
 Application de traduction en Langue des Signes
 """
 
+import os
+from pathlib import Path
+
+# Load .env from backend directory (one level up from app/)
+env_path = Path(__file__).resolve().parent.parent / ".env"
+from dotenv import load_dotenv
+load_dotenv(dotenv_path=env_path)
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
-import os
 
 from app.routers import signs, convert, health, assistant, banking, store, auth
 
