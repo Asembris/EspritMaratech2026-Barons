@@ -9,6 +9,7 @@ import BankingPage from "./pages/Banking";
 import ShoppingPage from "./pages/Shopping";
 import AccessibilityPage from "./pages/Accessibility";
 import TranslatePage from "./pages/Translate";
+import LoginPage from "./pages/Login";
 import NotFound from "./pages/NotFound";
 import { VoiceCommandButton } from "@/components/VoiceCommandButton";
 import AssistantChat from "@/components/omar/AssistantChat";
@@ -29,6 +30,7 @@ const App = () => (
           <AssistantChat />
           <Routes>
             <Route path="/" element={<Index />} />
+            <Route path="/login" element={<LoginPage />} />
             <Route path="/banking" element={<BankingPage />} />
             <Route path="/shopping" element={<ShoppingPage />} />
             <Route path="/accessibility" element={<AccessibilityPage />} />
