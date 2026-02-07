@@ -140,12 +140,19 @@ export function GlobalGestureNav() {
     const [ttsEnabled, setTtsEnabled] = useState(true);
     const [loading, setLoading] = useState(false);
     const [handDetected, setHandDetected] = useState(false);
+    const [error, setError] = useState<string | null>(null);
 
     const streamRef = useRef<MediaStream | null>(null);
     const handsRef = useRef<any>(null);
     const cameraRef = useRef<any>(null);
     const gestureHistoryRef = useRef<string[]>([]);
     const lastActionTimeRef = useRef<number>(0);
+
+    // Debug: verify component mounts
+    useEffect(() => {
+        console.log('[GlobalGestureNav] Component mounted');
+        return () => console.log('[GlobalGestureNav] Component unmounted');
+    }, []);
 
     // Navigate to next/previous page
     const navigatePage = useCallback((direction: 'next' | 'prev') => {
@@ -280,26 +287,34 @@ export function GlobalGestureNav() {
     };
 
     const startCamera = useCallback(async () => {
+        console.log('[GlobalGestureNav] startCamera called');
         try {
             setLoading(true);
+            console.log('[GlobalGestureNav] Loading MediaPipe...');
             await loadMediaPipe();
+            console.log('[GlobalGestureNav] MediaPipe loaded, Hands:', !!window.Hands, 'Camera:', !!window.Camera);
 
             if (!window.Hands) {
+                console.error('[GlobalGestureNav] window.Hands not available');
                 setLoading(false);
                 return;
             }
 
+            console.log('[GlobalGestureNav] Requesting camera access...');
             const stream = await navigator.mediaDevices.getUserMedia({
                 video: { facingMode: 'user', width: 640, height: 480 }
             });
+            console.log('[GlobalGestureNav] Camera stream obtained:', stream.id);
 
             if (videoRef.current) {
                 videoRef.current.srcObject = stream;
                 streamRef.current = stream;
+                console.log('[GlobalGestureNav] Video srcObject set');
 
                 handsRef.current = new window.Hands({
                     locateFile: (file: string) => `https://cdn.jsdelivr.net/npm/@mediapipe/hands/${file}`
                 });
+                console.log('[GlobalGestureNav] Hands instance created');
 
                 handsRef.current.setOptions({
                     maxNumHands: 1,
@@ -309,6 +324,7 @@ export function GlobalGestureNav() {
                 });
 
                 handsRef.current.onResults(onResults);
+                console.log('[GlobalGestureNav] onResults callback set');
 
                 if (window.Camera) {
                     cameraRef.current = new window.Camera(videoRef.current, {
@@ -321,15 +337,23 @@ export function GlobalGestureNav() {
                         height: 480
                     });
                     cameraRef.current.start();
+                    console.log('[GlobalGestureNav] Camera started');
+                } else {
+                    console.error('[GlobalGestureNav] window.Camera not available');
                 }
 
                 setIsActive(true);
+                console.log('[GlobalGestureNav] isActive set to true');
                 if (ttsEnabled) speak('Navigation par gestes activée');
+            } else {
+                console.error('[GlobalGestureNav] videoRef.current is null');
             }
         } catch (err) {
-            console.error('Camera error:', err);
+            console.error('[GlobalGestureNav] Camera error:', err);
+            setError(err instanceof Error ? err.message : 'Erreur caméra');
         } finally {
             setLoading(false);
+            console.log('[GlobalGestureNav] Loading complete');
         }
     }, [onResults, speak, ttsEnabled]);
 
@@ -373,21 +397,32 @@ export function GlobalGestureNav() {
         <div className="fixed bottom-24 left-4 z-50">
             {/* Floating toggle button when camera is OFF */}
             {!isActive && (
-                <button
-                    onClick={startCamera}
-                    disabled={loading}
-                    className={[
-                        "w-14 h-14 rounded-full shadow-lg flex items-center justify-center text-2xl",
-                        "bg-gradient-to-br from-purple-500 to-pink-500 text-white",
-                        "hover:scale-110 transition-transform",
-                        "focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-ring",
-                        loading ? "opacity-50 animate-pulse" : ""
-                    ].join(" ")}
-                    aria-label="Activer navigation par gestes"
-                    title="Navigation par gestes"
-                >
-                    {loading ? '⏳' : '🖐️'}
-                </button>
+                <div className="flex flex-col items-start gap-2">
+                    <button
+                        onClick={() => {
+                            console.log('[GlobalGestureNav] Button clicked');
+                            setError(null);
+                            startCamera();
+                        }}
+                        disabled={loading}
+                        className={[
+                            "w-14 h-14 rounded-full shadow-lg flex items-center justify-center text-2xl",
+                            "bg-gradient-to-br from-purple-500 to-pink-500 text-white",
+                            "hover:scale-110 transition-transform",
+                            "focus-visible:outline focus-visible:outline-[3px] focus-visible:outline-ring",
+                            loading ? "opacity-50 animate-pulse" : ""
+                        ].join(" ")}
+                        aria-label="Activer navigation par gestes"
+                        title="Navigation par gestes"
+                    >
+                        {loading ? '⏳' : '🖐️'}
+                    </button>
+                    {error && (
+                        <div className="bg-destructive/90 text-destructive-foreground text-xs px-3 py-2 rounded-lg max-w-48">
+                            ⚠️ {error}
+                        </div>
+                    )}
+                </div>
             )}
 
             {/* Camera panel when active */}
