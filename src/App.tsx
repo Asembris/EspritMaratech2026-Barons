@@ -13,6 +13,7 @@ import LoginPage from "./pages/Login";
 import NotFound from "./pages/NotFound";
 import { VoiceCommandButton } from "@/components/VoiceCommandButton";
 import AssistantChat from "@/components/omar/AssistantChat";
+import { GlobalGestureNav } from "@/components/GlobalGestureNav";
 
 
 const queryClient = new QueryClient();
@@ -26,6 +27,8 @@ const App = () => (
         <BrowserRouter>
           {/* 🔊 Global voice command layer (all pages) */}
           <VoiceCommandButton />
+          {/* 🖐️ Global gesture navigation (all pages) */}
+          <GlobalGestureNav />
           {/* 🤖 Omar's AI Assistant Chat */}
           <AssistantChat />
           <Routes>
@@ -45,4 +48,5 @@ const App = () => (
 );
 
 export default App;
+
 
