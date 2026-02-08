@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="1-1030x773.png" alt="IBSAR Logo" width="180" />
+  <img src="assets/ibsar-logo.png" alt="IBSAR Logo" width="180" />
 </p>
 
 <h1 align="center">🎙️ IBSAR - Plateforme Web Inclusive</h1>
@@ -58,7 +58,7 @@
 
 <table>
 <tr>
-<td width="120"><img src="1-1030x773.png" alt="IBSAR" width="100"/></td>
+<td width="120"><img src="assets/ibsar-logo.png" alt="IBSAR" width="100"/></td>
 <td>
 
 **Association IBSAR** *(Association pour la Culture et les Loisirs des Non et Malvoyants)*
