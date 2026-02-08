@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Dynamic Font Scaling */
+html[data-fontsize="normal"] {
+  font-size: 16px;
+}
+
+html[data-fontsize="large"] {
+  font-size: 18px;
+}
+
+html[data-fontsize="extra-large"] {
+  font-size: 20px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Accessibility Improvements */
+@layer utilities {
+
+  /* High contrast focus rings for keyboard navigation */
+  .focus-visible-ring {
+    @apply focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-yellow-400 focus:ring-offset-gray-900;
+  }
+
+  /* Skip link styles */
+  .skip-link {
+    @apply sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-white focus:text-black focus:font-bold focus:rounded-lg focus:shadow-lg focus:ring-4 focus:ring-yellow-400;
+  }
+}
+
+/* Reduced Motion preference */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

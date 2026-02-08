@@ -1,0 +1,103 @@
+# ===================================
+# IBSAR Platform - .gitignore
+# ===================================
+
+# ----- Python -----
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ----- Node.js -----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ----- Next.js -----
+.next/
+out/
+build/
+dist/
+
+# ----- Environment Variables (IMPORTANT: Never commit secrets!) -----
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# ----- Database Files -----
+*.db
+*.sqlite
+*.sqlite3
+
+# ----- Logs -----
+*.log
+logs/
+backend_debug.log
+
+# ----- OS Generated Files -----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ----- IDEs & Editors -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ----- SSL/Security Keys -----
+*.pem
+*.key
+*.crt
+*.p12
+
+# ----- AI Agent Artifacts -----
+.agent/
+.gemini/
+
+# ----- Temporary & Cache Files -----
+*.tmp
+*.temp
+*.cache
+.cache/
+temp_videos/
+backend/app/temp_videos/
+
+# ----- Test Coverage -----
+htmlcov/
+.coverage
+.coverage.*
+.pytest_cache/
+coverage.xml
+
+# ----- Build Artifacts -----
+*.egg-info/
+*.egg
+.eggs/
+
+# ----- Jupyter Notebooks -----
+.ipynb_checkpoints/
+
+# ----- PyTorch/ML Model Cache (Large files) -----
+*.pt
+*.pth
+*.onnx
+.cache/huggingface/
