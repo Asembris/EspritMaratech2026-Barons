@@ -103,6 +103,11 @@ class StoreService:
             return True
         return False
 
+    def clear_cart(self, user_id: int) -> bool:
+        self.db.query(ShoppingList).filter(ShoppingList.user_id == user_id).delete()
+        self.db.commit()
+        return True
+
     def get_cart(self, user_id: int) -> List[dict]:
         items = self.db.query(ShoppingList).filter(ShoppingList.user_id == user_id).all()
         result = []

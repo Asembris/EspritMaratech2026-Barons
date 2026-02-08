@@ -153,3 +153,9 @@ def remove_from_cart(request: RemoveFromCartRequest, db: Session = Depends(get_d
     if not success:
         raise HTTPException(status_code=404, detail="Item not found in cart")
     return {"message": "Removed from cart"}
+
+@router.post("/clear")
+def clear_cart(user_id: int = 1, db: Session = Depends(get_db)):
+    service = StoreService(db)
+    service.clear_cart(user_id)
+    return {"message": "Cart cleared"}

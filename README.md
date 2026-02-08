@@ -271,6 +271,31 @@ L'assistant comprend le **langage naturel** en Français, et même en dialecte t
 
 ---
 
+## 🏆 Accessibilité & Inclusion (Preuve WCAG)
+
+Le projet intègre un **Module d'Onboarding Adaptatif** unique qui configure l'interface selon les besoins spécifiques de l'utilisateur dès le premier lancement.
+
+### 🧩 Quiz de Profilage Inclusif
+Au démarrage, l'application pose 3 questions clés pour détecter le type de handicap et adapter l'UX :
+
+1. **Test de Vision** : *"Pouvez-vous voir cet écran ?"*  
+   - ➡️ **Réponse "Non"** : Activation immédiate du **Mode Aveugle** (Lecteur d'écran auto, Navigation vocale stricte, Zéro clic).
+   - ➡️ **Réponse "Oui"** : Passage à l'étape suivante.
+
+2. **Test Auditif** : *"Entendez-vous ce son ?"*  
+   - ➡️ **Réponse "Non"** : Activation des **Sous-titres** et du **Support LSF** (Langue des Signes).
+
+3. **Préférence Typographique** : *"Choisissez la taille du texte"*  
+   - ➡️ Options : **Normal**, **Grand**, **Très Grand** (Adaptation dynamique de la root `html` pour malvoyants).
+
+### ✅ Conformité WCAG 2.1
+- **Perceptible** : Interfaces adaptatives (Audio/Visuel/Tactile).
+- **Utilisable** : Navigation 100% vocale ou clavier.
+- **Compréhensible** : Langage simplifié et feedback constant.
+- **Robuste** : Compatible avec les technologies d'assistance standards.
+
+---
+
 ## 🏗️ Architecture Technique
 
 ```mermaid

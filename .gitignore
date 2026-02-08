@@ -101,3 +101,5 @@ coverage.xml
 *.pth
 *.onnx
 .cache/huggingface/
+
+DICTIONNAIRE M\303\211DICAL EN LANGUE DES SIGNES TUNISIENNE _AVST_/

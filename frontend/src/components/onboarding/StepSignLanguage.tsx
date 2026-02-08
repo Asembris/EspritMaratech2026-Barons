@@ -43,9 +43,18 @@ export function StepSignLanguage({ onNext }: Props) {
 
                 <h2 className="text-3xl font-bold">Comprenez-vous la Langue des Signes ?</h2>
 
-                {/* Placeholder for LSF Video */}
-                <div className="w-full max-w-md aspect-video bg-gray-900 rounded-xl flex items-center justify-center border border-gray-700">
-                    <p className="text-gray-500">Vidéo LSF (Exemple)</p>
+                {/* LSF Video */}
+                <div className="w-full max-w-md aspect-video bg-gray-900 rounded-xl overflow-hidden border border-gray-700 shadow-lg">
+                    <video
+                        src="/videos/salut_ca_va.mp4"
+                        controls
+                        autoPlay
+                        loop
+                        muted
+                        className="w-full h-full object-cover"
+                    >
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
                 </div>
 
                 <div className="flex flex-col sm:flex-row gap-4 w-full max-w-md">
